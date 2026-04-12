@@ -1,0 +1,223 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	10	TIME	0.6778449892997742	au mois de juin eut lieu la bataille de friedland	10	1	1	0	0	1	2	0	5	eut	ROOT	5	VERB	PROP	Not_Assigned	Not_Assigned	3	
+1	4	TIME	0.7342700511217117	au mois de juin	4	1	1	0	1	0	0	1	2	mois	obl:mod	5	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+10	10	GPE	0.8322892189025879	friedland	1	1	1	9	1	0	0	2	10	friedland	nmod	8	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+17	17	GPE	0.7526320219039917	pavlograd	1	2	2	2	0	0	0	3	17	pavlograd	nmod	15	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+31	31	PER	0.9933615922927856	rostow	1	3	4	0	0	0	0	4	31	rostow	nsubj	34	PROPN	PROP	Singular	Not_Assigned	3	4
+38	39	PER	0.9856762886047363	son ami	2	3	4	7	0	1	1	5	39	ami	obl:mod	36	NOUN	NOM	Singular	Male	3	14
+38	38	PER	0.99687659740448	son	1	3	4	7	1	0	0	6	38	son	det	39	DET	PRON	Singular	Ambiguous	3	4
+42	42	PER	0.921235978603363	en	1	3	4	11	0	0	0	7	42	en	iobj	44	PRON	PRON	Ambiguous	Ambiguous	3	14
+47	49	TIME	0.5762349367141724	depuis son départ	3	4	5	2	0	1	1	8	49	départ	obl:mod	48	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+48	48	PER	0.9954925775527954	son	1	4	5	3	1	0	0	9	48	son	det	49	DET	PRON	Singular	Ambiguous	3	4
+59	59	PER	0.9968848824501038	sa	1	5	6	1	0	0	0	10	59	sa	det	60	DET	PRON	Singular	Ambiguous	3	4
+70	71	FAC	0.9261023998260498	l' hôpital	2	5	6	12	0	0	0	11	71	hôpital	obl:arg	68	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+75	77	GPE	0.5484078327814738	un petit bourg	3	6	7	1	0	0	0	12	77	bourg	obl:arg	79	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+83	85	PER	0.5463983714580536	les troupes russes	3	6	7	9	0	0	0	13	84	troupes	obl:agent	81	NOUN	NOM	Plural	Ambiguous	3	20
+91	91	FAC	0.7317196726799011	en	1	7	9	2	0	0	0	14	91	en	iobj	96	PRON	PRON	Not_Assigned	Not_Assigned	3	
+105	106	LOC	0.6933704018592834	les champs	2	8	10	3	0	0	0	15	106	champs	nsubj	107	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+117	119	FAC	0.7785017093022665	ces rues ruinées	3	9	11	1	0	0	0	16	118	rues	obl:mod	124	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+121	123	PER	0.7656931082407633	des habitants déguenillés	3	9	11	5	0	0	0	17	122	habitants	obl:mod	96	NOUN	NOM	Plural	Ambiguous	3	21
+126	127	PER	0.8081677258014679	des soldats	2	9	11	10	0	0	0	18	127	soldats	conj	122	NOUN	NOM	Plural	Ambiguous	3	22
+132	135	FAC	0.8394702970981598	une maison en pierres	4	11	13	0	0	0	0	19	133	maison	nsubj	153	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+137	137	FAC	0.9507833123207092	dont	1	11	13	5	0	0	0	20	137	dont	nmod	139	PRON	PRON	Not_Assigned	Not_Assigned	4	
+157	157	FAC	0.5516093969345093	hôpital	1	12	14	11	0	0	0	21	157	hôpital	nmod	155	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+160	160	PER	0.5689249038696289	soldats	1	13	16	0	0	0	0	22	160	soldats	nsubj	187	NOUN	NOM	Plural	Ambiguous	3	15
+162	162	PER	0.9634029865264893	dont	1	13	16	2	0	0	0	23	162	dont	nmod	164	PRON	PRON	Ambiguous	Ambiguous	4	15
+180	181	LOC	0.8992397487163544	au soleil	2	14	17	6	0	0	0	24	181	soleil	obl:arg	179	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+187	187	PER	0.9989091157913208	rostow	1	15	18	4	0	0	0	25	187	rostow	nsubj:pass	189	PROPN	PROP	Singular	Not_Assigned	3	5
+205	205	FAC	0.8419862389564514	y	1	16	19	6	0	0	0	26	205	y	iobj	206	PRON	PRON	Not_Assigned	Not_Assigned	3	
+208	208	PER	0.999690055847168	il	1	16	20	0	0	0	0	27	208	il	nsubj	209	PRON	PRON	Singular	Male	3	5
+213	216	PER	0.9341816902160645	un médecin militaire russe	4	17	21	2	0	0	0	28	214	médecin	obj	209	NOUN	NOM	Singular	Male	3	0
+226	227	PER	0.9583681523799896	un chirurgien	2	18	22	1	0	0	0	29	227	chirurgien	obl:agent	242	NOUN	NOM	Singular	Male	3	2
+230	230	PER	0.9995214939117432	je	1	19	23	1	0	0	0	30	230	je	nsubj	232	PRON	PRON	Singular	Ambiguous	1	0
+240	241	PER	0.9878168404102325	le premier	2	19	23	11	0	0	0	31	241	premier	nsubj	239	ADJ	NOM	Singular	Male	3	0
+243	243	PER	0.9992859959602356	je	1	19	23	14	0	0	0	32	243	je	nsubj	245	PRON	PRON	Singular	Ambiguous	1	0
+244	244	PER	0.9905490279197693	t'	1	19	23	15	0	0	0	33	244	t'	obj	245	PRON	PRON	Singular	Ambiguous	2	4
+246	246	TIME	0.6347156763076782	ce	1	19	23	17	0	0	0	34	246	ce	det	266	DET	PRON	Not_Assigned	Not_Assigned	3	
+249	250	PER	0.7297256886959076	makar alexéïévitch	2	20	24	2	0	0	0	35	249	makar	obl:mod	266	PROPN	PROP	Singular	Male	3	23
+255	255	PER	0.9990736246109009	tu	1	20	25	3	0	0	0	36	255	tu	nsubj	256	PRON	PRON	Singular	Ambiguous	2	4
+269	269	PER	0.99277663230896	-vous	1	22	28	3	0	0	0	37	269	vous	nsubj	268	PRON	PRON	Ambiguous	Ambiguous	2	5
+271	272	PER	0.9546273648738861	votre noblesse	2	22	28	5	0	0	0	38	272	noblesse	obj	268	NOUN	NOM	Plural	Ambiguous	3	5
+275	276	PER	0.9880780875682831	le docteur	2	22	28	9	0	0	0	39	276	docteur	nsubj	274	NOUN	NOM	Singular	Male	3	0
+278	278	PER	0.9963271021842957	rostow	1	22	28	12	0	0	0	40	278	rostow	obl:arg	274	PROPN	PROP	Singular	Not_Assigned	3	24
+282	282	PER	0.9938533306121826	-vous	1	23	29	1	0	0	0	41	282	vous	nsubj	281	PRON	PRON	Ambiguous	Ambiguous	2	4
+289	289	PER	0.9954383969306946	vous	1	23	29	8	0	0	0	42	289	vous	nsubj	291	PRON	PRON	Ambiguous	Ambiguous	2	4
+299	302	FAC	0.5206054002046585	la maison des pestiférés	4	24	31	4	0	0	0	43	300	maison	ROOT	300	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+308	308	PER	0.9981181621551514	rostow	1	25	32	4	0	0	0	44	308	rostow	aux:pass	309	PROPN	PROP	Singular	Not_Assigned	3	25
+322	322	PER	0.9791231155395508	nous	1	26	34	0	0	0	0	45	322	nous	nsubj	325	PRON	PRON	Plural	Ambiguous	1	7
+327	329	PER	0.6662267843882242	makéïew et moi	3	27	35	0	0	1	2	46	329	moi	conj	327	PRON	PROP	Plural	Ambiguous	3	7
+327	327	PER	0.9678514003753662	makéïew	1	27	35	0	1	0	0	47	327	makéïew	obj	325	PROPN	PROP	Singular	Not_Assigned	3	0
+329	329	PER	0.9967272281646729	moi	1	27	35	2	1	0	0	48	329	moi	conj	327	PRON	PRON	Singular	Ambiguous	1	0
+333	333	PER	0.9987804293632507	-il	1	27	35	6	0	0	0	49	333	il	dep	325	PRON	PRON	Singular	Male	3	0
+336	337	PER	0.9758950471878052	son collègue	2	27	35	9	0	1	1	50	337	collègue	obj	335	NOUN	NOM	Singular	Male	3	2
+336	336	PER	0.9987183809280396	son	1	27	35	9	1	0	0	51	336	son	det	337	DET	PRON	Singular	Ambiguous	3	0
+341	341	PER	0.6472018361091614	nos	1	27	35	14	0	0	0	52	341	nos	det	369	DET	PRON	Plural	Ambiguous	1	7
+347	348	TIME	0.6029818505048752	une semaine	2	28	37	0	0	0	0	53	348	semaine	nmod	351	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+353	354	PER	0.5228848606348038	un nouveau	2	28	37	6	0	0	0	54	354	nouveau	nmod	351	ADJ	NOM	Singular	Not_Assigned	3	26
+362	362	PER	0.6964176893234253	on	1	29	39	0	0	0	0	55	362	on	nsubj	365	PRON	PRON	Ambiguous	Ambiguous	3	27
+363	363	PER	0.9819880127906799	nous	1	29	39	1	0	0	0	56	363	nous	iobj	365	PRON	PRON	Plural	Ambiguous	1	7
+366	367	PER	0.8571295738220215	des prussiens	2	29	39	4	0	0	0	57	367	prussiens	obj	365	NOUN	NOM	Plural	Ambiguous	3	12
+371	371	PER	0.958560049533844	leur	1	29	39	9	0	0	0	58	371	leur	iobj	372	PRON	PRON	Plural	Ambiguous	3	12
+375	376	PER	0.8077571392059326	nos alliés	2	30	40	0	0	1	1	59	376	alliés	obl:mod	404	NOUN	NOM	Plural	Not_Assigned	3	12
+375	375	PER	0.8822833299636841	nos	1	30	40	0	1	0	0	60	375	nos	det	376	DET	PRON	Plural	Ambiguous	1	7
+379	379	PER	0.9875632524490356	rostow	1	31	41	0	0	0	0	61	379	rostow	nsubj	381	PROPN	PROP	Singular	Not_Assigned	3	6
+380	380	PER	0.9986679553985596	lui	1	31	41	1	0	0	0	62	380	lui	iobj	381	PRON	PRON	Singular	Ambiguous	3	0
+383	383	PER	0.9996947050094604	il	1	31	41	4	0	0	0	63	383	il	nsubj	384	PRON	PRON	Singular	Male	3	6
+386	388	PER	0.9343567490577698	le major denissow	3	31	41	7	0	0	0	64	387	major	obj	385	NOUN	PROP	Singular	Male	3	3
+391	391	PER	0.9995468258857727	je	1	32	42	1	0	0	0	65	391	je	nsubj	393	PRON	PRON	Singular	Ambiguous	1	6
+396	396	PER	0.9998136162757874	je	1	32	42	6	0	0	0	66	396	je	nsubj	399	PRON	PRON	Singular	Ambiguous	1	6
+398	398	PER	0.9912582039833069	le	1	32	42	8	0	0	0	67	398	le	obj	399	PRON	PRON	Singular	Male	3	3
+409	409	PER	0.994415283203125	j'	1	32	42	19	0	0	0	68	409	j'	nsubj	410	PRON	PRON	Singular	Ambiguous	1	6
+411	412	FAC	0.48424556851387024	trois hôpitaux	2	33	43	0	0	0	0	69	412	hôpitaux	obj	443	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+418	422	PER	0.5844964563846589	quatre cents malades et plus	5	33	43	7	0	0	0	70	420	malades	conj	412	NOUN	NOM	Not_Assigned	Not_Assigned	3	28
+429	432	PER	0.6076867505908012	les charitables dames allemandes	4	34	44	3	0	0	0	71	431	dames	nsubj	434	NOUN	NOM	Plural	Female	3	29
+433	433	PER	0.9821076989173889	nous	1	34	44	7	0	0	0	72	433	nous	iobj	434	PRON	PRON	Plural	Ambiguous	1	7
+447	447	PER	0.9763952493667603	nous	1	35	45	11	0	0	0	73	447	nous	nsubj	450	PRON	PRON	Plural	Ambiguous	1	7
+457	457	PER	0.9965478777885437	-vous	1	36	46	6	0	0	0	74	457	vous	dep	456	PRON	PRON	Ambiguous	Ambiguous	2	6
+461	462	PER	0.6545328795909882	les nouveaux	2	36	46	10	0	0	0	75	462	nouveaux	obj	460	ADJ	NOM	Plural	Not_Assigned	3	30
+472	473	PER	0.9543169438838959	du chirurgien	2	38	48	5	0	0	0	76	473	chirurgien	nmod	468	NOUN	NOM	Singular	Male	3	2
+475	475	PER	0.9988837838172913	son	1	38	48	8	0	0	0	77	475	son	det	476	DET	PRON	Singular	Ambiguous	3	2
+479	481	PER	0.95103387037913	le docteur bavard	3	39	49	0	0	0	0	78	480	docteur	obj	517	NOUN	NOM	Singular	Male	3	0
+483	483	PER	0.9978919625282288	son	1	39	49	4	0	0	0	79	483	son	det	484	DET	PRON	Singular	Ambiguous	3	0
+487	489	PER	0.9568009177843729	le major denissow	3	40	50	1	0	0	0	80	488	major	nsubj	491	NOUN	PROP	Singular	Male	3	1
+492	492	PER	0.9869340658187866	nicolas	1	40	50	6	0	0	0	81	492	nicolas	nsubj	491	PROPN	PROP	Singular	Male	3	6
+496	496	GPE	0.9538438320159912	molliten	1	40	50	10	0	0	0	82	496	molliten	obl:mod	494	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+502	502	PER	0.9997017979621887	je	1	41	51	4	0	0	0	83	502	je	nsubj	503	PRON	PRON	Singular	Ambiguous	1	6
+505	505	PER	0.996792733669281	il	1	41	51	7	0	0	0	84	505	il	nsubj	507	PRON	PRON	Singular	Male	3	1
+514	514	PER	0.9912282228469849	makéïew	1	41	51	16	0	0	0	85	514	makéïew	parataxis	503	PROPN	PROP	Singular	Not_Assigned	3	31
+517	518	PER	0.9283621609210968	le docteur	2	41	51	19	0	0	0	86	518	docteur	nsubj	516	NOUN	NOM	Singular	Male	3	0
+526	527	PER	0.9874897301197052	le chirurgien	2	42	52	7	0	0	0	87	527	chirurgien	nsubj	574	NOUN	NOM	Singular	Male	3	2
+536	536	PER	0.7451931238174438	-ce	1	44	54	2	0	0	0	88	536	ce	cop	538	PRON	PRON	Singular	Ambiguous	3	1
+546	547	PER	0.9886902868747711	le docteur	2	44	55	2	0	0	0	89	547	docteur	nsubj	545	NOUN	NOM	Singular	Male	3	0
+553	553	PER	0.9982805252075195	lui	1	45	56	2	0	0	0	90	553	lui	iobj	555	PRON	PRON	Singular	Ambiguous	3	0
+556	556	PER	0.9983378648757935	rostow	1	45	56	5	0	0	0	91	556	rostow	obj	555	PROPN	PROP	Singular	Not_Assigned	3	32
+558	558	PER	0.9996498823165894	il	1	45	56	7	0	0	0	92	558	il	nsubj	560	PRON	PRON	Singular	Male	3	0
+569	569	PER	0.9997403025627136	je	1	46	57	5	0	0	0	93	569	je	nsubj	571	PRON	PRON	Singular	Ambiguous	1	0
+573	573	PER	0.9960429668426514	il	1	46	57	9	0	0	0	94	573	il	nsubj	574	PRON	PRON	Singular	Male	3	1
+581	581	PER	0.9998327493667603	je	1	46	58	3	0	0	0	95	581	je	nsubj	582	PRON	PRON	Singular	Ambiguous	1	0
+585	585	PER	0.996840238571167	mes	1	47	59	1	0	0	0	96	585	mes	det	586	DET	PRON	Singular	Ambiguous	1	0
+592	592	PER	0.9976094961166382	toi	1	47	60	4	0	0	0	97	592	toi	obl:arg	588	PRON	PRON	Singular	Ambiguous	2	0
+594	594	PER	0.9900755286216736	makéïew	1	47	60	6	0	0	0	98	594	makéïew	appos	588	PROPN	PROP	Singular	Not_Assigned	3	33
+600	601	PER	0.8177239000797272	makar alexéïévitch	2	48	61	4	0	0	0	99	600	makar	obl:arg	598	PROPN	PROP	Singular	Male	3	34
+608	608	PER	0.9937312006950378	makéïew	1	48	62	5	0	0	0	100	608	makéïew	nsubj	607	PROPN	PROP	Singular	Not_Assigned	3	35
+614	614	PER	0.9934026598930359	rostow	1	49	63	3	0	0	0	101	614	rostow	obl:arg	612	PROPN	PROP	Singular	Not_Assigned	3	13
+618	620	PER	0.8686682184537252	vous - même	3	49	63	7	0	0	0	102	618	vous	dep	617	PRON	PRON	Ambiguous	Ambiguous	2	0
+622	625	FAC	0.5854581743478775	la salle des officiers	4	49	63	11	0	0	0	103	623	salle	obl:arg	617	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+628	628	PER	0.9993871450424194	je	1	50	64	1	0	0	0	104	628	je	nsubj	630	PRON	PRON	Singular	Ambiguous	1	13
+629	629	PER	0.9943174719810486	vous	1	50	64	2	0	0	0	105	629	vous	obj	630	PRON	PRON	Ambiguous	Ambiguous	2	0
+632	633	PER	0.9791527688503265	mon cher	2	50	64	5	0	1	1	106	633	cher	dep	630	ADJ	NOM	Singular	Male	3	0
+632	632	PER	0.9987854361534119	mon	1	50	64	5	1	0	0	107	632	mon	det	633	DET	PRON	Singular	Ambiguous	1	13
+641	641	PER	0.9986500144004822	vous	1	50	64	14	0	0	0	108	641	vous	nsubj	642	PRON	PRON	Ambiguous	Ambiguous	2	0
+646	646	PER	0.9875550866127014	votre	1	51	65	1	0	0	0	109	646	votre	det	647	DET	PRON	Ambiguous	Ambiguous	2	0
+650	651	PER	0.9903446435928345	le docteur	2	51	65	5	0	0	0	110	651	docteur	nsubj	649	NOUN	NOM	Singular	Male	3	0
+654	654	PER	0.998610258102417	rostow	1	51	65	9	0	0	0	111	654	rostow	nsubj	655	PROPN	PROP	Singular	Not_Assigned	3	36
+658	658	PER	0.9988667964935303	lui	1	51	65	13	0	0	0	112	658	lui	obl:arg	655	PRON	PRON	Singular	Ambiguous	3	0
+661	662	PER	0.9823799133300781	le chirurgien	2	52	66	1	0	0	0	113	662	chirurgien	obj	660	NOUN	NOM	Singular	Male	3	2
+664	664	PER	0.9896390438079834	l'	1	52	66	4	0	0	0	114	664	l'	obj	666	PRON	PRON	Singular	Ambiguous	3	0
+670	670	PER	0.9426254630088806	vous	1	53	67	2	0	0	0	115	670	vous	expl:comp	672	PRON	PRON	Ambiguous	Ambiguous	2	0
+675	677	PER	0.8930604656537374	vous - même	3	53	67	7	0	0	0	116	675	vous	obl:arg	672	PRON	PRON	Ambiguous	Ambiguous	2	0
+680	680	PER	0.9683853387832642	vous	1	53	67	12	0	0	0	117	680	vous	iobj	681	PRON	PRON	Ambiguous	Ambiguous	2	0
+685	685	PER	0.998915433883667	lui	1	53	67	17	0	0	0	118	685	lui	iobj	686	PRON	PRON	Singular	Ambiguous	3	0
+687	688	PER	0.9759871065616608	le médecin	2	54	68	0	0	0	0	119	688	médecin	nsubj	740	NOUN	NOM	Singular	Male	3	0
+692	693	FAC	0.7474806308746338	l' escalier	2	54	68	5	0	0	0	120	693	escalier	nmod	690	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+698	699	FAC	0.94007807970047	l' hôpital	2	55	69	3	0	0	0	121	699	hôpital	nmod	696	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+704	706	FAC	0.6757332483927408	le sombre corridor	3	55	69	9	0	0	0	122	706	corridor	obl:mod	702	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+707	707	FAC	0.5766862630844116	qu'	1	55	69	12	0	0	0	123	707	qu'	obj	764	PRON	PRON	Not_Assigned	Not_Assigned	4	
+708	708	PER	0.983187735080719	ils	1	55	69	13	0	0	0	124	708	ils	nsubj	764	PRON	PRON	Plural	Ambiguous	3	0
+712	712	PER	0.9971945285797119	nicolas	1	56	70	3	0	0	0	125	712	nicolas	nsubj	714	PROPN	PROP	Singular	Male	3	37
+732	733	PER	0.9207915663719177	un squelette	2	57	72	7	0	0	0	126	733	squelette	nsubj	735	NOUN	NOM	Singular	Not_Assigned	3	3
+751	752	PER	0.6544392108917236	les nouveaux	2	58	73	13	0	0	0	127	751	les	det	811	DET	PRON	Plural	Not_Assigned	3	0
+757	758	PER	0.9528144299983978	notre hussard	2	59	75	0	0	1	1	128	758	hussard	nsubj	759	NOUN	NOM	Singular	Not_Assigned	3	5
+757	757	PER	0.9012771248817444	notre	1	59	75	0	1	0	0	129	757	notre	det	758	DET	PRON	Plural	Ambiguous	1	38
+765	766	FAC	0.9607862234115601	la salle	2	59	75	8	0	0	0	130	766	salle	obl:mod	759	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+770	774	PER	0.6946675300598144	des malades et des blessés	5	60	76	1	0	1	2	131	771	malades	obj	769	NOUN	NOM	Plural	Not_Assigned	3	10
+770	771	PER	0.8704311847686768	des malades	2	60	76	1	1	0	0	132	771	malades	obj	769	NOUN	NOM	Plural	Ambiguous	3	39
+773	774	PER	0.7493859231472015	des blessés	2	60	76	4	1	0	0	133	774	blessés	conj	771	NOUN	NOM	Plural	Ambiguous	3	40
+785	785	PER	0.91982501745224	leurs	1	61	77	1	0	0	0	134	785	leurs	det	786	DET	PRON	Plural	Ambiguous	3	10
+790	790	PER	0.8664076924324036	-on	1	62	78	2	0	0	0	135	790	on	nsubj	789	PRON	PRON	Ambiguous	Ambiguous	3	0
+795	795	PER	0.9988887906074524	-il	1	62	78	7	0	0	0	136	795	il	flat:foreign	793	PRON	PRON	Singular	Male	3	0
+808	809	PER	0.9913206398487091	le chirurgien	2	63	79	11	0	0	0	137	809	chirurgien	nsubj	807	NOUN	NOM	Singular	Male	3	2
+819	819	PER	0.9988922476768494	sa	1	64	80	3	0	0	0	138	819	sa	det	820	DET	PRON	Singular	Ambiguous	3	0
+822	822	PER	0.9912577867507935	rostow	1	64	80	6	0	0	0	139	822	rostow	nsubj	823	PROPN	PROP	Singular	Not_Assigned	3	41
+825	827	FAC	0.7093633015950521	les chambres des	3	64	80	9	0	0	0	140	826	chambres	obl:arg	823	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+828	828	PER	0.518535852432251	soldats	1	65	81	0	0	0	0	141	828	soldats	obj	892	NOUN	NOM	Plural	Ambiguous	3	42
+844	844	FAC	0.5775078535079956	là	1	66	83	0	0	0	0	142	844	là	advmod	846	ADV	NOM	Not_Assigned	Not_Assigned	3	
+853	855	FAC	0.917290210723877	une longue salle	3	67	84	1	0	0	0	143	855	salle	obl:mod	864	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+859	860	LOC	0.3497697189450264	un soleil	2	67	84	7	0	0	0	144	860	soleil	obl:arg	857	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+878	881	PER	0.5985655933618546	les blessés et les	4	68	85	11	0	1	1	145	879	blessés	obj	864	NOUN	NOM	Plural	Ambiguous	3	43
+878	879	PER	0.8473168015480042	les blessés	2	68	85	11	1	0	0	146	879	blessés	obj	864	NOUN	NOM	Plural	Ambiguous	3	44
+882	882	PER	0.4707905948162079	malades	1	69	86	0	0	0	0	147	882	malades	obj	950	NOUN	NOM	Not_Assigned	Ambiguous	3	10
+884	884	PER	0.9517536163330078	dont	1	69	86	2	0	0	0	148	884	dont	nmod	886	PRON	PRON	Ambiguous	Ambiguous	4	10
+895	896	PER	0.7723487317562103	des survenants	2	70	87	0	0	0	0	149	896	survenants	obl:arg	964	NOUN	NOM	Plural	Not_Assigned	3	11
+898	899	PER	0.8909368216991425	les autres	2	70	88	0	0	0	0	150	899	autres	nsubj	901	ADJ	NOM	Plural	Ambiguous	3	16
+905	905	PER	0.9982752799987793	les	1	70	88	7	0	0	0	151	905	les	obj	906	PRON	PRON	Plural	Ambiguous	3	11
+911	911	PER	0.993377149105072	eux	1	71	89	2	0	0	0	152	911	eux	obl:arg	909	PRON	PRON	Plural	Ambiguous	3	11
+912	912	PER	0.908744752407074	leurs	1	71	89	3	0	0	0	153	912	leurs	det	913	DET	PRON	Plural	Ambiguous	3	16
+940	940	PER	0.9982072114944458	rostow	1	73	91	6	0	0	0	154	940	rostow	nmod	938	PROPN	PROP	Singular	Not_Assigned	3	17
+942	944	PER	0.97525688012441	celui - ci	3	73	92	0	0	0	0	155	942	celui	nsubj	946	PRON	PRON	Singular	Male	3	17
+964	964	PER	0.9796066880226135	son	1	74	93	12	0	0	0	156	964	son	det	965	DET	PRON	Singular	Ambiguous	3	0
+968	970	FAC	0.6670546531677246	les sections voisines	3	75	94	2	0	0	0	157	969	sections	obl:mod	1040	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+972	972	PER	0.9991422891616821	il	1	75	94	6	0	0	0	158	972	il	nsubj	974	PRON	PRON	Singular	Male	3	0
+983	983	PER	0.999516487121582	il	1	76	95	4	0	0	0	159	983	il	nsubj	984	PRON	PRON	Singular	Male	3	0
+989	989	PER	0.9980754852294922	ses	1	76	96	1	0	0	0	160	989	ses	det	990	DET	PRON	Singular	Ambiguous	3	0
+995	996	FAC	0.7981836199760437	du passage	2	77	97	1	0	0	0	161	996	passage	nmod	994	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+999	1000	PER	0.9804798364639282	un malade	2	77	97	5	0	0	0	162	1000	malade	obj	998	NOUN	NOM	Singular	Male	3	1
+1002	1003	PER	0.7417101562023163	un cosaque	2	77	97	8	0	0	0	163	1003	cosaque	appos	1000	NOUN	NOM	Singular	Not_Assigned	3	1
+1014	1014	PER	0.9963424801826477	ses	1	78	98	5	0	0	0	164	1014	ses	det	1015	DET	PRON	Singular	Ambiguous	3	1
+1054	1054	PER	0.9928118586540222	il	1	80	100	15	0	0	0	165	1054	il	nsubj	1135	PRON	PRON	Singular	Male	3	1
+1056	1056	PER	0.9923524260520935	sa	1	81	101	1	0	0	0	166	1056	sa	det	1057	DET	PRON	Singular	Ambiguous	3	1
+1073	1073	PER	0.9937331080436707	rostow	1	82	103	0	0	0	0	167	1073	rostow	nsubj	1075	PROPN	PROP	Singular	Not_Assigned	3	45
+1089	1090	PER	0.9725166261196136	ce malheureux	2	83	104	9	0	0	0	168	1090	malheureux	obj	1088	NOUN	NOM	Singular	Male	3	1
+1095	1095	PER	0.9980918765068054	lui	1	84	105	3	0	0	0	169	1095	lui	dep	1093	PRON	PRON	Singular	Ambiguous	3	0
+1097	1097	PER	0.9997459053993225	il	1	84	105	5	0	0	0	170	1097	il	nsubj	1099	PRON	PRON	Singular	Male	3	0
+1101	1101	PER	0.9992260932922363	il	1	84	105	9	0	0	0	171	1101	il	nsubj	1102	PRON	PRON	Singular	Male	3	0
+1107	1107	PER	0.9791000485420227	lui	1	85	106	2	0	0	0	172	1107	lui	iobj	1108	PRON	PRON	Singular	Ambiguous	3	1
+1116	1116	PER	0.9208488464355469	les	1	86	107	3	0	0	0	173	1116	les	obj	1117	PRON	PRON	Plural	Ambiguous	3	46
+1122	1122	PER	0.996975302696228	-il	1	86	108	3	0	0	0	174	1122	il	nsubj	1120	PRON	PRON	Singular	Male	3	0
+1123	1124	PER	0.9379290044307709	au chirurgien	2	86	108	4	0	0	0	175	1124	chirurgien	obl:arg	1120	NOUN	NOM	Singular	Male	3	2
+1126	1128	TIME	0.5441920657952627	au même moment	3	87	109	0	0	0	0	176	1128	moment	obl:mod	1152	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1130	1133	PER	0.6533050164580345	un soldat du train	4	87	109	4	0	1	1	177	1131	soldat	nsubj	1152	NOUN	NOM	Singular	Male	3	18
+1132	1133	VEH	0.8458418250083923	du train	2	87	109	6	1	0	0	178	1133	train	nmod	1131	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1137	1139	FAC	0.8043554027875265	l' autre pièce	3	87	109	11	0	0	0	179	1139	pièce	obl:arg	1135	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1141	1141	PER	0.9747599959373474	le	1	87	109	15	0	0	0	180	1141	le	obj	1229	PRON	PRON	Singular	Male	3	0
+1145	1150	PER	0.7628288467725118	des chefs inspecteurs de l' hôpital	6	88	110	3	0	1	1	181	1146	chefs	nmod	1144	NOUN	NOM	Not_Assigned	Not_Assigned	3	47
+1149	1150	FAC	0.9318732619285583	l' hôpital	2	88	110	7	1	0	0	182	1150	hôpital	nmod	1147	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1159	1159	PER	0.9984526634216309	lui	1	89	111	4	0	0	0	183	1159	lui	obl:arg	1157	PRON	PRON	Singular	Ambiguous	3	0
+1164	1164	PER	0.9556381702423096	le	1	90	112	3	0	0	0	184	1164	le	dep	1162	PRON	PRON	Singular	Male	3	1
+1169	1169	PER	0.977412223815918	lui	1	90	112	8	0	0	0	185	1169	lui	dep	1167	PRON	PRON	Singular	Ambiguous	3	1
+1177	1178	PER	0.954778641462326	votre noblesse	2	91	113	3	0	0	0	186	1178	noblesse	obj	1175	NOUN	NOM	Plural	Ambiguous	3	5
+1181	1182	PER	0.9855846464633942	le soldat	2	91	113	7	0	0	0	187	1182	soldat	nsubj	1180	NOUN	NOM	Singular	Male	3	18
+1187	1187	PER	0.8699067234992981	on	1	92	114	1	0	0	0	188	1187	on	nsubj	1190	PRON	PRON	Ambiguous	Ambiguous	3	11
+1196	1196	PER	0.998742401599884	rostow	1	92	114	10	0	0	0	189	1196	rostow	nsubj	1195	PROPN	PROP	Singular	Not_Assigned	3	8
+1199	1199	PER	0.9997348189353943	il	1	92	114	13	0	0	0	190	1199	il	nsubj	1200	PRON	PRON	Singular	Male	3	8
+1204	1204	PER	0.9991987347602844	il	1	92	114	18	0	0	0	191	1204	il	nsubj	1298	PRON	PRON	Singular	Male	3	8
+1213	1214	FAC	0.9501785933971405	la chambre	2	93	115	7	0	0	0	192	1214	chambre	nmod	1211	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1221	1221	PER	0.9960262775421143	lui	1	94	116	3	0	0	0	193	1221	lui	obl:arg	1218	PRON	PRON	Singular	Ambiguous	3	8
+1223	1225	PER	0.975132962067922	un vieux soldat	3	94	117	0	0	0	0	194	1225	soldat	nsubj	1326	NOUN	NOM	Singular	Male	3	3
+1245	1245	PER	0.9966769218444824	lui	1	95	118	13	0	0	0	195	1245	lui	iobj	1341	PRON	PRON	Singular	Ambiguous	3	8
+1250	1250	PER	0.9996747970581055	il	1	96	120	0	0	0	0	196	1250	il	nsubj	1252	PRON	PRON	Singular	Male	3	8
+1254	1254	PER	0.9982800483703613	lui	1	96	120	4	0	0	0	197	1254	lui	obl:arg	1252	PRON	PRON	Singular	Ambiguous	3	1
+1260	1260	PER	0.994151771068573	ses	1	96	120	10	0	0	0	198	1260	ses	det	1261	DET	PRON	Singular	Ambiguous	3	1
+1269	1270	PER	0.9701057970523834	son voisin	2	97	122	0	0	1	1	199	1270	voisin	nsubj	1374	NOUN	NOM	Singular	Male	3	3
+1269	1269	PER	0.9964985847473145	son	1	97	122	0	1	0	0	200	1269	son	det	1270	DET	PRON	Singular	Ambiguous	3	1
+1272	1275	PER	0.8803902864456177	un tout jeune homme	4	97	122	3	0	0	0	201	1275	homme	appos	1270	NOUN	NOM	Singular	Male	3	3
+1297	1297	PER	0.960716962814331	ses	1	99	124	6	0	0	0	202	1297	ses	det	1298	DET	PRON	Singular	Ambiguous	3	3
+1307	1307	PER	0.9980162382125854	rostow	1	100	125	3	0	0	0	203	1307	rostow	nmod	1305	PROPN	PROP	Singular	Not_Assigned	3	9
+1309	1309	PER	0.9997541308403015	il	1	100	126	0	0	0	0	204	1309	il	nsubj	1310	PRON	PRON	Singular	Male	3	0
+1315	1315	PER	0.9911489486694336	me	1	100	126	6	0	0	0	205	1315	me	iobj	1316	PRON	PRON	Singular	Ambiguous	1	9
+1319	1319	PER	0.9987854361534119	-il	1	100	126	10	0	0	0	206	1319	il	nsubj	1318	PRON	PRON	Singular	Male	3	9
+1322	1322	PER	0.7049869298934937	celui-ci	1	101	127	0	0	0	0	207	1322	celui-ci	nsubj	1323	PRON	PRON	Singular	Male	3	1
+1328	1329	PER	0.9771398901939392	votre noblesse	2	102	128	3	0	0	0	208	1329	noblesse	ROOT	1329	NOUN	NOM	Plural	Ambiguous	3	5
+1332	1332	PER	0.9948114156723022	nous	1	102	128	7	0	0	0	209	1332	nous	nsubj	1336	PRON	PRON	Plural	Ambiguous	1	19
+1339	1340	PER	0.7924071848392487	le vieux	2	102	128	14	0	0	0	210	1339	le	det	1443	DET	PRON	Singular	Not_Assigned	3	9
+1341	1341	PER	0.43030259013175964	soldat	1	103	129	0	0	0	0	211	1341	soldat	ROOT	1341	NOUN	NOM	Singular	Male	3	3
+1342	1342	PER	0.9852023720741272	dont	1	103	129	1	0	0	0	212	1342	dont	nmod	1344	PRON	PRON	Ambiguous	Ambiguous	4	3
+1347	1347	PER	0.9908064007759094	il	1	103	130	0	0	0	0	213	1347	il	nsubj	1349	PRON	PRON	Singular	Male	3	1
+1351	1352	TIME	0.5926513522863388	l' aube	2	103	130	4	0	0	0	214	1352	aube	obl:mod	1349	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1365	1365	PER	0.8766220808029175	on	1	105	132	1	0	0	0	215	1365	on	nsubj	1366	PRON	PRON	Ambiguous	Ambiguous	3	19
+1367	1367	PER	0.9623537063598633	l'	1	105	132	3	0	0	0	216	1367	l'	obj	1368	PRON	PRON	Singular	Ambiguous	3	1
+1377	1378	PER	0.9809846580028534	le chirurgien	2	105	132	13	0	0	0	217	1378	chirurgien	obj	1376	NOUN	NOM	Singular	Male	3	2
+1382	1383	PER	0.5585774630308151	votre noblesse	2	106	133	0	0	0	0	218	1383	noblesse	dep	1487	NOUN	NOM	Plural	Ambiguous	3	5
+1392	1392	PER	0.9989951252937317	rostow	1	107	134	7	0	0	0	219	1392	rostow	nsubj	1391	PROPN	PROP	Singular	Not_Assigned	3	48
+1419	1419	PER	0.9967865943908691	lui	1	109	136	2	0	0	0	220	1419	lui	obl:arg	1417	PRON	PRON	Singular	Ambiguous	3	9
+1429	1429	PER	0.999626636505127	il	1	109	136	12	0	0	0	221	1429	il	nsubj	1430	PRON	PRON	Singular	Male	3	9

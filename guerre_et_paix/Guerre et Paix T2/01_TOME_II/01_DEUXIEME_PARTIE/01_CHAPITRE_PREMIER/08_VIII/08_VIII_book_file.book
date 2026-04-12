@@ -1,0 +1,958 @@
+[
+    {
+        "id": 0,
+        "count": {
+            "occurrence": 79,
+            "mention_ratio": 0.4566
+        },
+        "gender": {
+            "ratio": 0.0886,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.9873,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "pierre",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "je",
+                    "c": 15
+                },
+                {
+                    "n": "j'",
+                    "c": 11
+                },
+                {
+                    "n": "me",
+                    "c": 11
+                },
+                {
+                    "n": "m'",
+                    "c": 7
+                },
+                {
+                    "n": "mon",
+                    "c": 7
+                },
+                {
+                    "n": "ma",
+                    "c": 6
+                },
+                {
+                    "n": "il",
+                    "c": 5
+                },
+                {
+                    "n": "son",
+                    "c": 3
+                },
+                {
+                    "n": "lui",
+                    "c": 3
+                },
+                {
+                    "n": "mes",
+                    "c": 3
+                },
+                {
+                    "n": "moi",
+                    "c": 2
+                },
+                {
+                    "n": "sa",
+                    "c": 1
+                },
+                {
+                    "n": "-il",
+                    "c": 1
+                },
+                {
+                    "n": "qui",
+                    "c": 1
+                },
+                {
+                    "n": ".—je",
+                    "c": 1
+                },
+                {
+                    "n": "moi - même",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "deviner",
+                "i": 163
+            },
+            {
+                "w": "trouver",
+                "i": 175
+            },
+            {
+                "w": "pressentir",
+                "i": 187
+            },
+            {
+                "w": "sentir",
+                "i": 207
+            },
+            {
+                "w": "tenir",
+                "i": 211
+            },
+            {
+                "w": "penser",
+                "i": 252
+            },
+            {
+                "w": "avoir",
+                "i": 265
+            },
+            {
+                "w": "écrire",
+                "i": 328
+            },
+            {
+                "w": "ressentir",
+                "i": 338
+            },
+            {
+                "w": "raconter",
+                "i": 459
+            },
+            {
+                "w": "faire",
+                "i": 470
+            },
+            {
+                "w": "trouver",
+                "i": 483
+            },
+            {
+                "w": "faire",
+                "i": 707
+            },
+            {
+                "w": "donner",
+                "i": 712
+            },
+            {
+                "w": "sentir",
+                "i": 1041
+            },
+            {
+                "w": "laisser",
+                "i": 1046
+            },
+            {
+                "w": "avoir",
+                "i": 1051
+            },
+            {
+                "w": "savoir",
+                "i": 1063
+            },
+            {
+                "w": "relire",
+                "i": 1086
+            },
+            {
+                "w": "rappeler",
+                "i": 1092
+            },
+            {
+                "w": "conclure",
+                "i": 1099
+            },
+            {
+                "w": "dire",
+                "i": 1166
+            },
+            {
+                "w": "supplier",
+                "i": 1173
+            },
+            {
+                "w": "prier",
+                "i": 1183
+            },
+            {
+                "w": "avoir",
+                "i": 1190
+            },
+            {
+                "w": "avoir",
+                "i": 1203
+            },
+            {
+                "w": "établir",
+                "i": 1236
+            },
+            {
+                "w": "éprouver",
+                "i": 1250
+            }
+        ],
+        "patient": [
+            {
+                "w": "recevoir",
+                "i": 401
+            },
+            {
+                "w": "asseoir",
+                "i": 407
+            }
+        ],
+        "mod": [
+            {
+                "w": "second",
+                "i": 941
+            },
+            {
+                "w": "heureux",
+                "i": 1212
+            }
+        ],
+        "poss": [
+            {
+                "w": "ennui",
+                "i": 181
+            },
+            {
+                "w": "femme",
+                "i": 224
+            },
+            {
+                "w": "intérêt",
+                "i": 267
+            },
+            {
+                "w": "apathie",
+                "i": 283
+            },
+            {
+                "w": "consentement",
+                "i": 289
+            },
+            {
+                "w": "rupture",
+                "i": 487
+            },
+            {
+                "w": "passé",
+                "i": 508
+            },
+            {
+                "w": "avenir",
+                "i": 511
+            },
+            {
+                "w": "discours",
+                "i": 700
+            },
+            {
+                "w": "affaire",
+                "i": 719
+            },
+            {
+                "w": "frère",
+                "i": 934
+            },
+            {
+                "w": "influence",
+                "i": 949
+            },
+            {
+                "w": "action",
+                "i": 996
+            },
+            {
+                "w": "femme",
+                "i": 1009
+            },
+            {
+                "w": "abandon",
+                "i": 1036
+            },
+            {
+                "w": "force",
+                "i": 1054
+            },
+            {
+                "w": "croix",
+                "i": 1138
+            },
+            {
+                "w": "pardon",
+                "i": 1143
+            },
+            {
+                "w": "réunion",
+                "i": 1154
+            },
+            {
+                "w": "femme",
+                "i": 1169
+            },
+            {
+                "w": "tort",
+                "i": 1192
+            },
+            {
+                "w": "côté",
+                "i": 1199
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "count": {
+            "occurrence": 46,
+            "mention_ratio": 0.2659
+        },
+        "gender": {
+            "ratio": 0.3913,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.9565,
+            "inference": {
+                "Singular": 0.77,
+                "Plural": 0.23
+            },
+            "max": 0.77,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "pierre",
+                    "c": 1
+                },
+                {
+                    "n": "bazdéïew",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "le bienfaiteur",
+                    "c": 2
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "il",
+                    "c": 15
+                },
+                {
+                    "n": "nous",
+                    "c": 9
+                },
+                {
+                    "n": "son",
+                    "c": 4
+                },
+                {
+                    "n": "sa",
+                    "c": 4
+                },
+                {
+                    "n": "lui",
+                    "c": 4
+                },
+                {
+                    "n": "ses",
+                    "c": 2
+                },
+                {
+                    "n": "l'",
+                    "c": 1
+                },
+                {
+                    "n": "vous",
+                    "c": 1
+                },
+                {
+                    "n": "-vous",
+                    "c": 1
+                },
+                {
+                    "n": "notre",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "voir",
+                "i": 341
+            },
+            {
+                "w": "voilà",
+                "i": 345
+            },
+            {
+                "w": "souffrir",
+                "i": 350
+            },
+            {
+                "w": "livre",
+                "i": 392
+            },
+            {
+                "w": "recevoir",
+                "i": 401
+            },
+            {
+                "w": "répondre",
+                "i": 432
+            },
+            {
+                "w": "demander",
+                "i": 436
+            },
+            {
+                "w": "garder",
+                "i": 493
+            },
+            {
+                "w": "exposer",
+                "i": 499
+            },
+            {
+                "w": "souvenir",
+                "i": 522
+            },
+            {
+                "w": "pouvoir",
+                "i": 589
+            },
+            {
+                "w": "risquer",
+                "i": 614
+            },
+            {
+                "w": "blâmer",
+                "i": 698
+            },
+            {
+                "w": "dire",
+                "i": 726
+            },
+            {
+                "w": "croire",
+                "i": 743
+            },
+            {
+                "w": "pouvoir",
+                "i": 769
+            },
+            {
+                "w": "aimer",
+                "i": 874
+            },
+            {
+                "w": "reconnaître",
+                "i": 891
+            },
+            {
+                "w": "dire",
+                "i": 909
+            },
+            {
+                "w": "donner",
+                "i": 924
+            },
+            {
+                "w": "détacher",
+                "i": 931
+            },
+            {
+                "w": "rester",
+                "i": 939
+            },
+            {
+                "w": "conseiller",
+                "i": 975
+            },
+            {
+                "w": "donner",
+                "i": 986
+            },
+            {
+                "w": "être",
+                "i": 1077
+            },
+            {
+                "w": "secourir",
+                "i": 1083
+            }
+        ],
+        "patient": [
+            {
+                "w": "demander",
+                "i": 141
+            },
+            {
+                "w": "aborder",
+                "i": 418
+            }
+        ],
+        "mod": [
+            {
+                "w": "contraire",
+                "i": 125
+            }
+        ],
+        "poss": [
+            {
+                "w": "sévérité",
+                "i": 119
+            },
+            {
+                "w": "femme",
+                "i": 122
+            },
+            {
+                "w": "belle-mère",
+                "i": 137
+            },
+            {
+                "w": "repas",
+                "i": 383
+            },
+            {
+                "w": "question",
+                "i": 518
+            },
+            {
+                "w": "état",
+                "i": 860
+            },
+            {
+                "w": "élévation",
+                "i": 886
+            },
+            {
+                "w": "lettre",
+                "i": 1088
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "count": {
+            "occurrence": 26,
+            "mention_ratio": 0.1503
+        },
+        "gender": {
+            "ratio": 0.6538,
+            "inference": {
+                "Male": 0.0,
+                "Female": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Female"
+        },
+        "number": {
+            "ratio": 0.8846,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "hélène",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "sa femme",
+                    "c": 3
+                },
+                {
+                    "n": "ma femme",
+                    "c": 2
+                },
+                {
+                    "n": "belle-mère",
+                    "c": 1
+                },
+                {
+                    "n": "celle qui est liée à moi",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "elle",
+                    "c": 7
+                },
+                {
+                    "n": "la",
+                    "c": 4
+                },
+                {
+                    "n": "lui",
+                    "c": 3
+                },
+                {
+                    "n": "sa",
+                    "c": 2
+                },
+                {
+                    "n": "qui",
+                    "c": 1
+                },
+                {
+                    "n": "l'",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "supplier",
+                "i": 44
+            },
+            {
+                "w": "éprouver",
+                "i": 57
+            },
+            {
+                "w": "revenir",
+                "i": 78
+            },
+            {
+                "w": "arriver",
+                "i": 1013
+            },
+            {
+                "w": "supplier",
+                "i": 1023
+            },
+            {
+                "w": "savoir",
+                "i": 1221
+            }
+        ],
+        "patient": [
+            {
+                "w": "écouter",
+                "i": 1026
+            },
+            {
+                "w": "laisser",
+                "i": 1046
+            },
+            {
+                "w": "supplier",
+                "i": 1173
+            },
+            {
+                "w": "prier",
+                "i": 1183
+            },
+            {
+                "w": "revoir",
+                "i": 1231
+            }
+        ],
+        "mod": [
+            {
+                "w": "coupable",
+                "i": 250
+            },
+            {
+                "w": "innocent",
+                "i": 1031
+            },
+            {
+                "w": "malheureux",
+                "i": 1033
+            }
+        ],
+        "poss": [
+            {
+                "w": "lettre",
+                "i": 37
+            },
+            {
+                "w": "vie",
+                "i": 71
+            },
+            {
+                "w": "prière",
+                "i": 1059
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "count": {
+            "occurrence": 9,
+            "mention_ratio": 0.052
+        },
+        "gender": {
+            "ratio": 0.3333,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "pierre",
+                    "c": 1
+                }
+            ],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "lui",
+                    "c": 4
+                },
+                {
+                    "n": "sa",
+                    "c": 2
+                },
+                {
+                    "n": "il",
+                    "c": 1
+                },
+                {
+                    "n": "le",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "passer",
+                "i": 2
+            },
+            {
+                "w": "recevoir",
+                "i": 35
+            },
+            {
+                "w": "dépeindre",
+                "i": 52
+            },
+            {
+                "w": "exprimer",
+                "i": 63
+            }
+        ],
+        "patient": [
+            {
+                "w": "supplier",
+                "i": 44
+            }
+        ],
+        "mod": [],
+        "poss": [
+            {
+                "w": "femme",
+                "i": 40
+            },
+            {
+                "w": "porte",
+                "i": 102
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0116
+        },
+        "gender": {
+            "ratio": 0.5,
+            "inference": {
+                "Male": 1.0,
+                "Female": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Male"
+        },
+        "number": {
+            "ratio": 0.5,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [
+                {
+                    "n": "mes frères de pétersbourg",
+                    "c": 1
+                }
+            ],
+            "common": [
+                {
+                    "n": "un des frères les moins respectés de l' ordre",
+                    "c": 1
+                }
+            ],
+            "pronoun": []
+        },
+        "agent": [],
+        "patient": [],
+        "mod": [
+            {
+                "w": "respecter",
+                "i": 94
+            }
+        ],
+        "poss": []
+    },
+    {
+        "id": 5,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0116
+        },
+        "gender": {
+            "ratio": 1.0,
+            "inference": {
+                "Male": 0.0,
+                "Female": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Female"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 1.0,
+                "Plural": 0.0
+            },
+            "max": 1.0,
+            "argmax": "Singular"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [
+                {
+                    "n": "sa belle-mère",
+                    "c": 1
+                }
+            ],
+            "pronoun": [
+                {
+                    "n": "la",
+                    "c": 1
+                }
+            ]
+        },
+        "agent": [
+            {
+                "w": "demander",
+                "i": 141
+            }
+        ],
+        "patient": [
+            {
+                "w": "voir",
+                "i": 145
+            }
+        ],
+        "mod": [],
+        "poss": []
+    },
+    {
+        "id": 6,
+        "count": {
+            "occurrence": 2,
+            "mention_ratio": 0.0116
+        },
+        "gender": {
+            "ratio": 0,
+            "inference": {
+                "Male": 0,
+                "Female": 0
+            },
+            "max": 0,
+            "argmax": "Null"
+        },
+        "number": {
+            "ratio": 1.0,
+            "inference": {
+                "Singular": 0.0,
+                "Plural": 1.0
+            },
+            "max": 1.0,
+            "argmax": "Plural"
+        },
+        "mentions": {
+            "proper": [],
+            "common": [],
+            "pronoun": [
+                {
+                    "n": "les",
+                    "c": 2
+                }
+            ]
+        },
+        "agent": [],
+        "patient": [
+            {
+                "w": "préserver",
+                "i": 952
+            },
+            {
+                "w": "soutenir",
+                "i": 962
+            }
+        ],
+        "mod": [],
+        "poss": []
+    }
+]

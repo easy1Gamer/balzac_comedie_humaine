@@ -1,0 +1,129 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	3	PER	0.5283188621203104	la haute société	3	1	1	0	0	0	0	0	3	société	nsubj	20	NOUN	NOM	Plural	Ambiguous	3	8
+5	5	PER	0.6455839276313782	qui	1	1	1	4	0	0	0	1	5	qui	nsubj	7	PRON	PRON	Ambiguous	Ambiguous	4	8
+10	11	LOC	0.7810217440128326	la cour	2	1	1	9	0	0	0	2	11	cour	obl:mod	7	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+15	16	FAC	0.41745682060718536	les grands	2	1	1	14	0	0	0	3	16	grands	amod	18	ADJ	NOM	Not_Assigned	Not_Assigned	3	
+39	41	PER	0.41388460993766785	le cercle français	3	3	4	4	0	0	0	4	40	cercle	ROOT	40	NOUN	NOM	Singular	Not_Assigned	3	16
+51	51	PER	0.9240125417709351	roumiantzow	1	4	5	8	0	0	0	5	51	roumiantzow	nmod	49	PROPN	PROP	Singular	Not_Assigned	3	17
+54	54	PER	0.8944967985153198	caulaincourt	1	5	6	0	0	0	0	6	54	caulaincourt	dep	58	PROPN	PROP	Singular	Not_Assigned	3	18
+58	58	PER	0.9970234036445618	sa	1	5	7	2	0	0	0	7	58	sa	det	59	DET	PRON	Singular	Ambiguous	3	9
+61	62	PER	0.981060653924942	son mari	2	5	7	5	0	1	1	8	62	mari	nmod	59	NOUN	NOM	Singular	Male	3	0
+61	61	PER	0.9987138509750366	son	1	5	7	5	1	0	0	9	61	son	det	62	DET	PRON	Singular	Ambiguous	3	9
+64	64	PER	0.9895248413085938	hélène	1	5	7	8	0	0	0	10	64	hélène	nsubj	71	PROPN	PROP	Singular	Female	3	1
+72	74	PER	0.4048318564891815	l' ambassade française	3	6	9	0	0	0	0	11	73	ambassade	nsubj	86	NOUN	NOM	Singular	Not_Assigned	3	6
+81	81	PER	0.941769003868103	leur	1	7	10	3	0	0	0	12	81	leur	det	82	DET	PRON	Plural	Ambiguous	3	6
+84	84	PER	0.9581162929534912	leur	1	7	10	6	0	0	0	13	84	leur	det	85	DET	PRON	Plural	Ambiguous	3	6
+87	87	PER	0.9921356439590454	son	1	7	10	9	0	0	0	14	87	son	det	88	DET	PRON	Singular	Ambiguous	3	1
+90	90	PER	0.9996813535690308	elle	1	8	11	0	0	0	0	15	90	elle	nsubj	92	PRON	PRON	Singular	Female	3	1
+94	94	GPE	0.9520816802978516	erfurth	1	8	11	4	0	0	0	16	94	erfurth	obl:arg	92	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+99	100	PER	0.38085485249757767	des deux	2	8	11	9	0	0	0	17	99	des	case	109	ADP	PRON	Plural	Not_Assigned	3	6
+104	104	GPE	0.8285681009292603	y	1	9	12	3	0	0	0	18	104	y	iobj	106	PRON	PRON	Not_Assigned	Not_Assigned	3	
+107	111	PER	0.6221227169036865	tout ce que l' europe	5	9	12	6	0	1	1	19	108	ce	obj	106	PRON	PROP	Singular	Male	3	10
+110	111	GPE	0.9005808532238007	l' europe	2	9	12	9	1	0	0	20	111	europe	nsubj	112	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+116	116	PER	0.6883612275123596	qui	1	10	13	2	0	0	0	21	116	qui	nsubj	117	PRON	PRON	Ambiguous	Ambiguous	4	10
+119	119	GPE	0.8431896567344666	napoléon	1	10	13	5	0	0	0	22	119	napoléon	obj	117	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+121	121	PER	0.9990143775939941	elle	1	10	14	0	0	0	0	23	121	elle	nsubj	123	PRON	PRON	Singular	Female	3	1
+122	122	FAC	0.6453678011894226	y	1	10	14	1	0	0	0	24	122	y	iobj	123	PRON	PRON	Not_Assigned	Not_Assigned	3	
+128	128	PER	0.431733638048172	napoléon	1	11	16	0	0	0	0	25	128	napoléon	nsubj	138	PROPN	PROP	Singular	Male	3	11
+129	129	PER	0.5089771747589111	lui-même	1	11	16	1	0	0	0	26	129	lui-même	nmod	128	PRON	PRON	Singular	Male	3	11
+132	133	FAC	0.8151828348636627	au théâtre	2	11	16	4	0	0	0	27	133	théâtre	obl:mod	131	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+135	135	PER	0.9864324927330017	sa	1	11	16	7	0	0	0	28	135	sa	det	136	DET	PRON	Singular	Ambiguous	3	1
+141	141	PER	0.9994775652885437	elle	1	12	17	2	0	0	0	29	141	elle	nsubj	142	PRON	PRON	Singular	Female	3	1
+144	144	PER	0.9969944953918457	ses	1	12	18	0	0	0	0	30	144	ses	det	145	DET	PRON	Singular	Ambiguous	3	1
+155	156	PER	0.9926032423973083	son mari	2	13	19	3	0	1	1	31	156	mari	obj	153	NOUN	NOM	Singular	Male	3	0
+155	155	PER	0.9989674091339111	son	1	13	19	3	1	0	0	32	155	son	det	156	DET	PRON	Singular	Ambiguous	3	1
+159	159	PER	0.9991668462753296	elle	1	13	19	7	0	0	0	33	159	elle	nsubj	162	PRON	PRON	Singular	Female	3	1
+165	165	PER	0.9993948936462402	il	1	13	19	13	0	0	0	34	165	il	nsubj:pass	180	PRON	PRON	Singular	Male	3	0
+172	172	PER	0.9997665286064148	elle	1	14	20	5	0	0	0	35	172	elle	nsubj	175	PRON	PRON	Singular	Female	3	1
+194	197	PER	0.4942450076341629	célèbre prince de ligne	4	16	23	0	0	0	0	36	195	prince	nsubj	199	NOUN	NOM	Not_Assigned	Not_Assigned	3	19
+198	198	PER	0.9975625276565552	lui	1	16	23	4	0	0	0	37	198	lui	iobj	199	PRON	PRON	Singular	Ambiguous	3	1
+206	206	PER	0.9189720749855042	bilibine	1	17	24	0	0	0	0	38	206	bilibine	nsubj	207	PROPN	PROP	Singular	Not_Assigned	3	12
+208	208	PER	0.9964213371276855	ses	1	17	24	2	0	0	0	39	208	ses	det	210	DET	PRON	Singular	Ambiguous	3	12
+215	216	PER	0.835059404373169	la comtesse	2	17	24	9	0	0	0	40	216	comtesse	obl:arg	213	NOUN	NOM	Singular	Female	3	1
+217	217	PER	0.5913568735122681	besoukhow	1	18	25	0	0	0	0	41	217	besoukhow	flat:name	234	PROPN	PROP	Singular	Female	3	1
+222	222	PER	0.9736502170562744	son	1	18	25	5	0	0	0	42	222	son	det	223	DET	PRON	Singular	Ambiguous	3	1
+231	233	PER	0.8447898626327515	les jeunes gens	3	19	26	0	0	0	0	43	233	gens	nsubj	234	NOUN	NOM	Plural	Ambiguous	3	20
+240	240	PER	0.982544481754303	ses	1	19	26	9	0	0	0	44	240	ses	det	241	DET	PRON	Singular	Ambiguous	3	1
+250	253	PER	0.6500959992408752	les secrétaires d' ambassade	4	20	28	0	0	0	0	45	251	secrétaires	nsubj	277	NOUN	NOM	Plural	Not_Assigned	3	13
+255	256	PER	0.7023009657859802	les ambassadeurs	2	20	28	5	0	0	0	46	256	ambassadeurs	conj	251	NOUN	NOM	Plural	Not_Assigned	3	21
+257	257	PER	0.9983727931976318	lui	1	21	29	0	0	0	0	47	257	lui	iobj	258	PRON	PRON	Singular	Ambiguous	3	1
+259	259	PER	0.966366171836853	leurs	1	21	29	2	0	0	0	48	259	leurs	det	260	DET	PRON	Plural	Ambiguous	3	13
+265	265	PER	0.9924430251121521	hélène	1	21	29	8	0	0	0	49	265	hélène	nsubj	267	PROPN	PROP	Singular	Female	3	3
+270	270	PER	0.9652776122093201	son	1	21	29	13	0	0	0	50	270	son	det	292	DET	PRON	Singular	Ambiguous	3	3
+277	277	PER	0.9990807771682739	pierre	1	22	31	0	0	0	0	51	277	pierre	nsubj	307	PROPN	PROP	Singular	Male	3	0
+279	279	PER	0.9947657585144043	qui	1	22	31	2	0	0	0	52	279	qui	nsubj	281	PRON	PRON	Ambiguous	Ambiguous	4	0
+280	280	PER	0.9985112547874451	la	1	22	31	3	0	0	0	53	280	la	obj	281	PRON	PRON	Singular	Female	3	3
+315	315	PER	0.9993160963058472	il	1	25	35	0	0	0	0	54	315	il	nsubj	316	PRON	PRON	Singular	Male	3	0
+333	333	PER	0.8525722026824951	ses	1	26	36	10	0	0	0	55	333	ses	det	334	DET	PRON	Singular	Ambiguous	3	0
+347	347	FAC	0.2064180076122284	salon	1	27	38	3	0	0	0	56	347	salon	nmod	345	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+376	376	PER	0.9964691400527954	sa	1	29	41	4	0	0	0	57	376	sa	det	377	DET	PRON	Singular	Ambiguous	3	1
+386	388	PER	0.788388172785441	la comtesse besoukhow	3	30	42	8	0	0	0	58	387	comtesse	obl:arg	384	NOUN	PROP	Singular	Female	3	1
+398	398	PER	0.9928661584854126	ses	1	31	43	9	0	0	0	59	398	ses	det	399	DET	PRON	Singular	Ambiguous	3	1
+416	416	PER	0.935438871383667	elle	1	32	44	15	0	0	0	60	416	elle	nsubj	449	PRON	PRON	Singular	Female	3	3
+424	426	PER	0.7172710100809733	cet original distrait	3	34	46	0	0	0	0	61	426	distrait	ROOT	426	VERB	NOM	Singular	Not_Assigned	3	0
+428	431	PER	0.6226159930229187	ce mari grand seigneur	4	34	46	4	0	0	0	62	429	mari	obj	426	NOUN	NOM	Singular	Male	3	0
+433	433	PER	0.9911066889762878	qui	1	34	46	9	0	0	0	63	433	qui	nsubj	435	PRON	PRON	Ambiguous	Ambiguous	4	0
+457	457	PER	0.9886341094970703	pierre	1	36	48	5	0	0	0	64	457	pierre	nsubj	465	PROPN	PROP	Singular	Male	3	2
+470	472	PER	0.9019012451171875	cette brillante beauté	3	37	49	2	0	0	0	65	472	beauté	obl:arg	468	NOUN	NOM	Singular	Not_Assigned	3	1
+495	495	PER	0.6892771124839783	sa	1	38	50	13	0	0	0	66	495	sa	det	534	DET	PRON	Singular	Ambiguous	3	2
+501	504	TIME	0.8300404846668243	ces deux dernières années	4	39	52	3	0	0	0	67	504	années	nmod	499	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+506	506	TIME	0.7241455912590027	qui	1	39	52	8	0	0	0	68	506	qui	nsubj	549	PRON	PRON	Not_Assigned	Not_Assigned	4	
+516	516	PER	0.9981516003608704	lui	1	40	53	6	0	0	0	69	516	lui	iobj	518	PRON	PRON	Singular	Ambiguous	3	2
+523	523	PER	0.4760061502456665	qui	1	41	54	0	0	0	0	70	523	qui	nmod	525	PRON	PRON	Ambiguous	Ambiguous	4	22
+531	531	PER	0.9984666109085083	lui	1	41	54	8	0	0	0	71	531	lui	iobj	533	PRON	PRON	Singular	Ambiguous	3	2
+554	554	PER	0.9969749450683594	lui	1	43	56	2	0	0	0	72	554	lui	iobj	555	PRON	PRON	Singular	Ambiguous	3	2
+560	560	PER	0.9997044205665588	il	1	43	57	0	0	0	0	73	560	il	nsubj	561	PRON	PRON	Singular	Male	3	2
+566	567	PER	0.9782858788967133	sa femme	2	44	58	1	0	1	1	74	567	femme	nmod	608	NOUN	NOM	Singular	Female	3	3
+566	566	PER	0.9989762306213379	sa	1	44	58	1	1	0	0	75	566	sa	det	567	DET	PRON	Singular	Ambiguous	3	2
+569	569	PER	0.9973207116127014	il	1	44	58	4	0	0	0	76	569	il	nsubj	570	PRON	PRON	Singular	Male	3	2
+571	572	FAC	0.8179249167442322	au théâtre	2	44	58	6	0	0	0	77	572	théâtre	obl:arg	570	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+574	574	PER	0.9988371729850769	il	1	44	59	0	0	0	0	78	574	il	nsubj	575	PRON	PRON	Singular	Male	3	2
+576	578	PER	0.7716125249862671	tout le monde	3	44	59	2	0	0	0	79	578	monde	obj	575	NOUN	NOM	Plural	Ambiguous	3	7
+581	581	PER	0.7418635487556458	chacun	1	45	60	1	0	0	0	80	581	chacun	obj	580	PRON	PRON	Ambiguous	Ambiguous	3	7
+591	591	PER	0.8501806259155273	tous	1	45	60	11	0	0	0	81	591	tous	nmod	589	PRON	PRON	Plural	Ambiguous	3	7
+596	596	PER	0.8041906952857971	l'	1	46	61	3	0	0	0	82	596	l'	obj	597	PRON	PRON	Singular	Ambiguous	3	2
+599	599	PER	0.9993239641189575	il	1	46	61	6	0	0	0	83	599	il	nsubj	601	PRON	PRON	Singular	Male	3	2
+606	606	PER	0.986193835735321	son	1	47	62	1	0	0	0	84	606	son	det	607	DET	PRON	Singular	Ambiguous	3	2
+630	631	PER	0.5557372123003006	des messieurs	2	48	63	12	0	0	0	85	631	messieurs	nmod	629	NOUN	NOM	Plural	Male	3	23
+644	645	PER	0.7204039990901947	cet original	2	49	65	8	0	0	0	86	645	original	obl:arg	642	NOUN	NOM	Singular	Male	3	0
+649	655	PER	0.7527297054018293	la femme la plus distinguée de pétersbourg	7	50	66	2	0	1	1	87	650	femme	nmod	647	NOUN	PROP	Singular	Female	3	3
+655	655	GPE	0.8308544158935547	pétersbourg	1	50	66	8	1	0	0	88	655	pétersbourg	nmod	650	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+658	658	PER	0.6929287314414978	on	1	50	66	11	0	0	0	89	658	on	nsubj	660	PRON	PRON	Ambiguous	Ambiguous	3	24
+664	664	PER	0.9975359439849854	ses	1	51	67	3	0	0	0	90	664	ses	det	665	DET	PRON	Singular	Ambiguous	3	0
+670	672	PER	0.886586050192515	les jeunes gens	3	52	68	1	0	0	0	91	672	gens	obl:mod	733	NOUN	NOM	Plural	Ambiguous	3	14
+673	673	PER	0.9590842127799988	qui	1	52	68	4	0	0	0	92	673	qui	nsubj	674	PRON	PRON	Ambiguous	Ambiguous	4	14
+679	679	PER	0.8390563130378723	hélène	1	52	68	10	0	0	0	93	679	hélène	nmod	677	PROPN	PROP	Singular	Female	3	4
+683	684	PER	0.9141993820667267	boris droubetzkoï	2	53	69	2	0	0	0	94	683	boris	obj	682	PROPN	PROP	Singular	Male	3	5
+686	686	PER	0.9944528937339783	dont	1	53	69	5	0	0	0	95	686	dont	nmod	688	PRON	PRON	Ambiguous	Ambiguous	4	5
+694	694	PER	0.994594156742096	hélène	1	54	70	0	0	0	0	96	694	hélène	nsubj	696	PROPN	PROP	Singular	Female	3	25
+695	695	PER	0.972598671913147	l'	1	54	70	1	0	0	0	97	695	l'	obj	696	PRON	PRON	Singular	Ambiguous	3	5
+698	698	PER	0.9358501434326172	mon	1	54	70	4	0	0	0	98	698	mon	det	699	DET	PRON	Singular	Ambiguous	1	3
+702	702	PER	0.9978950023651123	le	1	54	70	8	0	0	0	99	702	le	obj	703	PRON	PRON	Singular	Male	3	5
+708	708	PER	0.9975451827049255	lui	1	54	70	14	0	0	0	100	708	lui	iobj	709	PRON	PRON	Singular	Ambiguous	3	5
+712	714	PER	0.5742412209510803	tout le monde	3	55	71	2	0	0	0	101	714	monde	obl:mod	764	NOUN	NOM	Plural	Ambiguous	3	26
+721	721	PER	0.9988371729850769	pierre	1	55	71	11	0	0	0	102	721	pierre	obj	720	PROPN	PROP	Singular	Male	3	15
+723	723	PER	0.9951801300048828	boris	1	55	72	0	0	0	0	103	723	boris	nsubj	779	PROPN	PROP	Singular	Male	3	27
+726	726	PER	0.997742772102356	lui	1	56	73	2	0	0	0	104	726	lui	obl:mod	724	PRON	PRON	Singular	Ambiguous	3	15
+740	740	PER	0.9844043850898743	l'	1	57	74	3	0	0	0	105	740	l'	obj	741	PRON	PRON	Singular	Ambiguous	3	0
+747	748	TIME	0.5421869903802872	trois ans	2	57	75	3	0	0	0	106	748	ans	obl:mod	806	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+751	751	PER	0.9997192025184631	il	1	58	76	2	0	0	0	107	751	il	nsubj	752	PRON	PRON	Singular	Male	3	0
+773	774	PER	0.9773279428482056	sa femme	2	59	77	12	0	1	1	108	774	femme	nmod	771	NOUN	NOM	Singular	Female	3	4
+773	773	PER	0.9948000907897949	sa	1	59	77	12	1	0	0	109	773	sa	det	774	DET	PRON	Singular	Ambiguous	3	0
+784	784	PER	0.97596275806427	la	1	60	78	4	0	0	0	110	784	la	obj	785	PRON	PRON	Singular	Female	3	4
+790	790	PER	0.9983154535293579	elle	1	61	79	3	0	0	0	111	790	elle	nsubj	792	PRON	PRON	Singular	Female	3	4
+795	795	PER	0.9878513216972351	elle	1	61	79	8	0	0	0	112	795	elle	nsubj	799	PRON	PRON	Singular	Female	3	4
+801	801	PER	0.9083508253097534	ses	1	62	80	0	0	0	0	113	801	ses	det	802	DET	PRON	Singular	Ambiguous	3	4
+827	827	PER	0.9973726272583008	-il	1	63	82	10	0	0	0	114	827	il	obj	826	PRON	PRON	Singular	Male	3	0
+829	829	PER	0.8564766645431519	lui-même	1	63	82	12	0	0	0	115	829	lui-même	obl:mod	826	PRON	PRON	Singular	Male	3	0
+843	843	PER	0.9981504082679749	lui	1	64	83	11	0	0	0	116	843	lui	obl:mod	841	PRON	PRON	Singular	Ambiguous	3	0
+857	857	PER	0.9988043308258057	boris	1	65	85	9	0	0	0	117	857	boris	nmod	855	PROPN	PROP	Singular	Male	3	28
+860	860	PER	0.9978856444358826	lui	1	66	86	1	0	0	0	118	860	lui	obl:arg	924	PRON	PRON	Singular	Ambiguous	3	0
+863	863	PER	0.9987384676933289	lui	1	66	86	4	0	0	0	119	863	lui	iobj	864	PRON	PRON	Singular	Ambiguous	3	0
+872	872	PER	0.9970518350601196	lui	1	66	86	13	0	0	0	120	872	lui	obl:mod	870	PRON	PRON	Singular	Ambiguous	3	0
+891	891	PER	0.9982032775878906	-il	1	68	89	1	0	0	0	121	891	il	dep	890	PRON	PRON	Singular	Male	3	0
+900	900	PER	0.9994059801101685	pierre	1	69	90	7	0	0	0	122	900	pierre	nsubj	901	PROPN	PROP	Singular	Male	3	29
+924	924	PER	0.930279552936554	qui	1	71	92	2	0	0	0	123	924	qui	nsubj	926	PRON	PRON	Ambiguous	Ambiguous	4	0
+949	949	PER	0.9947530031204224	son	1	72	93	12	0	0	0	124	949	son	det	950	DET	PRON	Singular	Ambiguous	3	0
+964	964	PER	0.9915695786476135	lui	1	74	95	1	0	0	0	125	964	lui	iobj	965	PRON	PRON	Singular	Ambiguous	3	0
+968	968	PER	0.9986987113952637	lui	1	74	95	5	0	0	0	126	968	lui	iobj	969	PRON	PRON	Singular	Ambiguous	3	0
+975	975	PER	0.9950757622718811	lui	1	74	95	12	0	0	0	127	975	lui	iobj	1050	PRON	PRON	Singular	Ambiguous	3	0
