@@ -1,0 +1,92 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9984898567199707	pierre	1	1	1	0	0	0	0	0	1	pierre	nsubj	7	PROPN	PROP	Singular	Male	3	1
+4	5	PER	0.8181147873401642	le premier	2	1	1	3	0	0	0	1	5	premier	obl:mod	3	ADJ	NOM	Singular	Male	3	1
+11	14	FAC	0.7186571955680847	le cabinet du prince	4	1	1	10	0	1	1	2	12	cabinet	obl:arg	8	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+13	14	PER	0.84479159116745	du prince	2	1	1	12	1	0	0	3	14	prince	nmod	12	NOUN	NOM	Singular	Male	3	2
+15	15	PER	0.8605258464813232	andré	1	2	2	0	0	0	0	4	15	andré	flat:name	16	PROPN	PROP	Singular	Male	3	11
+20	21	FAC	0.8573319017887115	la maison	2	2	2	5	0	0	0	5	21	maison	nmod	18	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+32	32	PER	0.9993624091148376	il	1	3	3	0	0	0	0	6	32	il	nsubj	34	PRON	PRON	Singular	Male	3	1
+38	38	PER	0.9996289014816284	il	1	3	3	6	0	0	0	7	38	il	nsubj	39	PRON	PRON	Singular	Male	3	1
+45	47	TIME	0.6560321847597758	ce jour -là	3	3	3	13	0	0	0	8	46	jour	conj	39	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+57	57	PER	0.9995740056037903	il	1	4	4	9	0	0	0	9	57	il	nsubj	59	PRON	PRON	Singular	Male	3	1
+68	68	PER	0.9992163181304932	tu	1	6	6	4	0	0	0	10	68	tu	nsubj	69	PRON	PRON	Singular	Ambiguous	2	1
+71	72	PER	0.9634505212306976	mlle schérer	2	6	6	7	0	0	0	11	71	mlle	obl:mod	69	NOUN	PROP	Singular	Female	3	6
+74	74	PER	0.9972726702690125	elle	1	6	7	0	0	0	0	12	74	elle	nsubj	76	PRON	PRON	Singular	Female	3	6
+82	84	PER	0.9324627717336019	le prince andré	3	7	8	1	0	0	0	13	83	prince	nsubj	81	NOUN	PROP	Singular	Male	3	2
+86	86	PER	0.9985009431838989	qui	1	7	8	5	0	0	0	14	86	qui	nsubj	87	PRON	PRON	Ambiguous	Ambiguous	4	2
+95	96	PER	0.30696044862270355	l' autre	2	8	9	0	0	0	0	15	96	autre	obj	91	ADJ	PRON	Singular	Ambiguous	3	12
+97	97	PER	0.9980383515357971	ses	1	8	9	2	0	0	0	16	97	ses	det	98	DET	PRON	Singular	Ambiguous	3	2
+101	101	PER	0.9992079138755798	il	1	8	9	6	0	0	0	17	101	il	nsubj	102	PRON	PRON	Singular	Male	3	2
+107	107	PER	0.9980868101119995	pierre	1	9	10	0	0	0	0	18	107	pierre	nsubj	109	PROPN	PROP	Singular	Male	3	13
+115	116	PER	0.6843306720256805	le canapé	2	9	10	8	0	0	0	19	116	canapé	nsubj	118	NOUN	NOM	Singular	Not_Assigned	3	2
+123	123	PER	0.9835460186004639	sa	1	9	10	16	0	0	0	20	123	sa	expl:comp	133	DET	PRON	Singular	Ambiguous	3	2
+129	129	PER	0.9942447543144226	il	1	10	11	5	0	0	0	21	129	il	nsubj	130	PRON	PRON	Singular	Male	3	2
+136	136	PER	0.992667019367218	son	1	10	11	12	0	0	0	22	136	son	det	147	DET	PRON	Singular	Ambiguous	3	2
+140	141	PER	0.9668983221054077	cet abbé	2	12	13	1	0	0	0	23	141	abbé	nsubj	144	NOUN	NOM	Singular	Male	3	1
+147	147	PER	0.9916717410087585	il	1	12	13	8	0	0	0	24	147	il	nsubj	149	PRON	PRON	Singular	Male	3	1
+159	159	PER	0.9997625946998596	je	1	13	14	7	0	0	0	25	159	je	nsubj	161	PRON	PRON	Singular	Ambiguous	1	2
+170	170	PER	0.9996740818023682	je	1	14	15	4	0	0	0	26	170	je	nsubj	172	PRON	PRON	Singular	Ambiguous	1	2
+189	191	PER	0.9507856766382853	le prince andré	3	16	17	0	0	0	0	27	190	prince	nsubj	207	NOUN	PROP	Singular	Male	3	3
+193	193	PER	0.9979339838027954	qui	1	16	17	4	0	0	0	28	193	qui	nsubj	195	PRON	PRON	Ambiguous	Ambiguous	4	3
+206	206	PER	0.9981694221496582	l'	1	17	18	2	0	0	0	29	206	l'	obj	207	PRON	PRON	Singular	Ambiguous	3	1
+212	212	PER	0.9990414977073669	tu	1	18	19	3	0	0	0	30	212	tu	dep	210	PRON	PRON	Singular	Ambiguous	2	1
+214	215	PER	0.983796238899231	mon cher	2	18	19	5	0	1	1	31	215	cher	dep	210	ADJ	NOM	Singular	Male	3	1
+214	214	PER	0.9989427924156189	mon	1	18	19	5	1	0	0	32	214	mon	det	215	DET	PRON	Singular	Ambiguous	1	3
+241	241	PER	0.9987335801124573	tu	1	19	21	6	0	0	0	33	241	tu	nsubj	242	PRON	PRON	Singular	Ambiguous	2	1
+249	249	PER	0.9951539039611816	tu	1	20	22	2	0	0	0	34	249	tu	nsubj	250	PRON	PRON	Singular	Ambiguous	2	1
+258	258	PER	0.9815506935119629	-vous	1	21	23	2	0	0	0	35	258	vous	dep	257	PRON	PRON	Ambiguous	Ambiguous	2	3
+260	260	PER	0.9996374845504761	je	1	21	23	4	0	0	0	36	260	je	nsubj	263	PRON	PRON	Singular	Ambiguous	1	1
+277	277	PER	0.9842305779457092	me	1	22	25	2	0	0	0	37	277	me	obj	278	PRON	PRON	Singular	Ambiguous	1	1
+281	281	PER	0.9997336268424988	pierre	1	22	25	6	0	0	0	38	281	pierre	obj	280	PROPN	PROP	Singular	Male	3	4
+296	296	PER	0.9717015624046326	te	1	24	27	4	0	0	0	39	296	te	expl:comp	297	PRON	PRON	Singular	Ambiguous	2	4
+302	303	PER	0.965477466583252	ton père	2	24	27	10	0	1	1	40	303	père	nsubj	304	NOUN	NOM	Singular	Male	3	2
+302	302	PER	0.9981185793876648	ton	1	24	27	10	1	0	0	41	302	ton	det	303	DET	PRON	Singular	Ambiguous	2	4
+307	307	PER	0.9991164803504944	pierre	1	25	29	0	0	0	0	42	307	pierre	nsubj:pass	310	PROPN	PROP	Singular	Male	3	5
+321	322	PER	0.5792916417121887	un abbé	2	25	29	14	0	0	0	43	322	abbé	obl:mod	310	NOUN	NOM	Singular	Male	3	7
+327	327	PER	0.9991208910942078	il	1	26	30	4	0	0	0	44	327	il	nsubj	330	PRON	PRON	Singular	Male	3	5
+328	328	GPE	0.5225642919540405	y	1	26	30	5	0	0	0	45	328	y	iobj	330	PRON	PRON	Not_Assigned	Not_Assigned	3	
+337	337	PER	0.9925690293312073	son	1	26	31	1	0	0	0	46	337	son	det	364	DET	PRON	Singular	Ambiguous	3	5
+340	340	GPE	0.895261824131012	moscou	1	27	32	2	0	0	0	47	340	moscou	nmod	338	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+342	343	PER	0.9920679926872253	son père	2	27	32	4	0	1	1	48	343	père	nsubj	345	NOUN	NOM	Singular	Male	3	2
+342	342	PER	0.9980873465538025	son	1	27	32	4	1	0	0	49	342	son	det	343	DET	PRON	Singular	Ambiguous	3	5
+346	347	PER	0.9709534347057343	l' abbé	2	27	32	8	0	0	0	50	347	abbé	obj	345	NOUN	NOM	Singular	Male	3	7
+351	352	PER	0.7658745646476746	au jeune	2	27	32	13	0	0	0	51	351	au	case	380	ADP	PRON	Singular	Not_Assigned	3	4
+360	360	GPE	0.9228423237800598	pétersbourg	1	29	34	5	0	0	0	52	360	pétersbourg	obl:arg	358	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+366	366	PER	0.9979797005653381	je	1	29	35	0	0	0	0	53	366	je	nsubj	367	PRON	PRON	Singular	Ambiguous	1	2
+375	377	PER	0.8432543675104777	le prince basile	3	30	36	4	0	0	0	54	376	prince	nmod	373	NOUN	PROP	Singular	Male	3	2
+389	389	PER	0.9985142350196838	moi	1	31	38	2	0	0	0	55	389	moi	obl:arg	387	PRON	PRON	Singular	Ambiguous	1	3
+391	391	PER	0.991182804107666	t'	1	31	38	4	0	0	0	56	391	t'	obj	392	PRON	PRON	Singular	Ambiguous	2	4
+396	398	TIME	0.8571886221567789	depuis trois mois	3	32	39	1	0	0	0	57	398	mois	obl:mod	400	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+399	399	PER	0.9769080877304077	pierre	1	32	39	4	0	0	0	58	399	pierre	nsubj	400	PROPN	PROP	Singular	Male	3	0
+408	408	PER	0.9997807145118713	il	1	33	40	0	0	0	0	59	408	il	nsubj	410	PRON	PRON	Singular	Male	3	0
+418	418	PER	0.8497535586357117	ce	1	34	41	1	0	0	0	60	418	ce	nsubj	419	PRON	PRON	Singular	Ambiguous	3	14
+425	425	PER	0.9991148114204407	-il	1	34	41	8	0	0	0	61	425	il	ROOT	425	PRON	PRON	Singular	Male	3	0
+429	430	PER	0.6709960103034973	l' abbé	2	34	41	12	0	0	0	62	430	abbé	obl:arg	427	NOUN	NOM	Singular	Male	3	15
+432	432	PER	0.9995063543319702	il	1	34	41	15	0	0	0	63	432	il	nsubj	434	PRON	PRON	Singular	Male	3	0
+435	437	TIME	0.5456670721371969	à la soirée	3	35	42	0	0	0	0	64	437	soirée	obl:arg	469	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+445	445	PER	0.9991958737373352	lui	1	36	43	6	0	0	0	65	445	lui	iobj	446	PRON	PRON	Singular	Ambiguous	3	0
+448	448	PER	0.989976704120636	l'	1	36	43	9	0	0	0	66	448	l'	obj	449	PRON	PRON	Singular	Ambiguous	3	0
+450	452	PER	0.9317831794420878	le prince andré	3	36	43	11	0	0	0	67	451	prince	obj	449	NOUN	PROP	Singular	Male	3	16
+457	457	PER	0.9976240992546082	tes	1	37	44	3	0	0	0	68	457	tes	det	458	DET	PRON	Singular	Ambiguous	2	0
+462	462	PER	0.9994255304336548	tu	1	37	45	2	0	0	0	69	462	tu	nsubj	463	PRON	PRON	Singular	Ambiguous	2	0
+473	473	PER	0.9997856020927429	je	1	38	46	3	0	0	0	70	473	je	nsubj	478	PRON	PRON	Singular	Ambiguous	1	0
+481	481	PER	0.9993293285369873	j'	1	38	46	11	0	0	0	71	481	j'	nsubj	483	PRON	PRON	Singular	Ambiguous	1	0
+489	489	PER	0.9986274242401123	je	1	38	46	19	0	0	0	72	489	je	nsubj	528	PRON	PRON	Singular	Ambiguous	1	0
+491	491	PER	0.9975568056106567	vous	1	39	47	1	0	0	0	73	491	vous	iobj	492	PRON	PRON	Ambiguous	Ambiguous	2	3
+494	494	PER	0.976543128490448	nous	1	39	48	0	0	0	0	74	494	nous	nsubj	495	PRON	PRON	Plural	Ambiguous	1	8
+499	499	GPE	0.8073740005493164	napoléon	1	39	48	5	0	0	0	75	499	napoléon	obl:arg	495	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+510	510	PER	0.9993769526481628	je	1	40	49	5	0	0	0	76	510	je	nsubj	513	PRON	PRON	Singular	Ambiguous	1	0
+520	521	GPE	0.6129519641399384	l' angleterre	2	41	50	0	0	0	0	77	521	angleterre	obj	560	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+523	524	GPE	0.6882767379283905	l' autriche	2	41	50	3	0	0	0	78	524	autriche	conj	521	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+534	535	LOC	0.5596174597740173	au monde	2	42	51	0	0	0	0	79	535	monde	obl:arg	575	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+544	546	PER	0.955722987651825	le prince andré	3	43	53	0	0	0	0	80	545	prince	nsubj	548	NOUN	PROP	Singular	Male	3	9
+566	566	PER	0.9996359348297119	il	1	44	54	8	0	0	0	81	566	il	nsubj	568	PRON	PRON	Singular	Male	3	9
+599	599	PER	0.9995086193084717	pierre	1	47	57	7	0	0	0	82	599	pierre	nsubj	598	PROPN	PROP	Singular	Male	3	10
+616	616	PER	0.6849105954170227	le	1	48	58	15	0	0	0	83	616	le	det	665	DET	PRON	Singular	Male	3	10
+627	627	PER	0.9805808067321777	-nous	1	50	60	7	0	0	0	84	627	nous	nsubj	626	PRON	PRON	Plural	Ambiguous	1	8
+635	635	PER	0.9997231364250183	je	1	51	62	0	0	0	0	85	635	je	nsubj	638	PRON	PRON	Singular	Ambiguous	1	0
+651	651	PER	0.9860122799873352	j'	1	51	63	10	0	0	0	86	651	j'	nsubj	704	PRON	PRON	Singular	Ambiguous	1	0
+654	654	PER	0.9997413754463196	il	1	52	64	1	0	0	0	87	654	il	nsubj	656	PRON	PRON	Singular	Male	3	0
+658	658	PER	0.8840657472610474	j'	1	52	65	0	0	0	0	88	658	j'	nsubj	660	PRON	PRON	Singular	Ambiguous	1	0
+667	667	PER	0.9993902444839478	je	1	52	65	9	0	0	0	89	667	je	nsubj	668	PRON	PRON	Singular	Ambiguous	1	0
+672	672	PER	0.9783238768577576	me	1	53	66	0	0	0	0	90	672	me	iobj	673	PRON	PRON	Singular	Ambiguous	1	0
