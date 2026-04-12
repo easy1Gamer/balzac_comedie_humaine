@@ -1,0 +1,184 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	4	TIME	0.8030301779508591	à la même époque	4	1	1	0	0	0	0	0	4	époque	obl:mod	24	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+31	31	GPE	0.8633097410202026	saint-pétersbourg	1	3	3	2	0	0	0	1	31	saint-pétersbourg	nmod	29	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+37	37	PER	0.9754531383514404	roumiantzow	1	3	3	8	0	0	0	2	37	roumiantzow	nmod	35	PROPN	PROP	Singular	Not_Assigned	3	22
+39	40	PER	0.5711228996515274	des amis	2	3	3	10	0	0	0	3	40	amis	conj	37	NOUN	NOM	Plural	Ambiguous	3	23
+42	43	GPE	0.714390903711319	la france	2	4	4	1	0	0	0	4	43	france	nmod	44	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+46	51	PER	0.6797802646954855	l' impératrice mère et du césarévitch	6	4	4	5	0	1	2	5	47	impératrice	conj	37	NOUN	NOM	Plural	Not_Assigned	3	24
+46	48	PER	0.8968236247698466	l' impératrice mère	3	4	4	5	1	0	0	6	47	impératrice	conj	37	NOUN	NOM	Singular	Female	3	0
+50	51	PER	0.8865674734115601	du césarévitch	2	4	4	9	1	0	0	7	51	césarévitch	conj	37	NOUN	NOM	Singular	Not_Assigned	3	25
+101	102	GPE	0.8797386884689331	la russie	2	8	9	7	0	0	0	8	102	russie	nmod	98	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+149	151	PER	0.7747300267219543	les deux impératrices	3	12	13	0	0	0	0	9	151	impératrices	obj	160	NOUN	NOM	Plural	Not_Assigned	3	14
+159	161	PER	0.8726398348808289	l' impératrice mère	3	13	15	0	0	0	0	10	160	impératrice	nsubj	183	NOUN	NOM	Singular	Female	3	0
+173	173	PER	0.9746740460395813	son	1	14	16	3	0	0	0	11	173	son	det	174	DET	PRON	Singular	Ambiguous	3	0
+189	189	GPE	0.9454615712165833	kazan	1	15	17	8	0	0	0	12	189	kazan	nmod	185	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+197	197	PER	0.8585492372512817	leur	1	16	18	4	0	0	0	13	197	leur	iobj	198	PRON	PRON	Plural	Ambiguous	3	26
+200	202	PER	0.6971466640631357	l' impératrice élisabeth	3	16	18	7	0	0	0	14	201	impératrice	nsubj	210	NOUN	PROP	Singular	Female	3	0
+205	205	PER	0.992825984954834	son	1	16	18	12	0	0	0	15	205	son	det	222	DET	PRON	Singular	Ambiguous	3	0
+229	230	PER	0.8184668123722076	l' empereur	2	19	21	2	0	0	0	16	230	empereur	obl:arg	227	NOUN	NOM	Singular	Male	3	27
+232	232	PER	0.9992054104804993	elle	1	19	21	5	0	0	0	17	232	elle	nsubj	234	PRON	PRON	Singular	Female	3	0
+248	248	PER	0.9987173080444336	elle	1	20	22	7	0	0	0	18	248	elle	obl:mod	254	PRON	PRON	Singular	Female	3	0
+251	251	PER	0.9992520213127136	elle	1	20	22	10	0	0	0	19	251	elle	nsubj	254	PRON	PRON	Singular	Female	3	0
+257	257	GPE	0.8455702066421509	pétersbourg	1	21	23	1	0	0	0	20	257	pétersbourg	obj	256	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+259	268	TIME	0.7818655014038086	le 7 septembre , jour de la bataille de borodino	10	22	24	0	0	1	2	21	260	7	obl:mod	272	NUM	PROP	Not_Assigned	Not_Assigned	3	
+259	261	TIME	0.88519815603892	le 7 septembre	3	22	24	0	1	0	0	22	260	7	obl:mod	272	NUM	NOM	Not_Assigned	Not_Assigned	3	
+265	268	TIME	0.4803152084350586	la bataille de borodino	4	22	24	6	1	0	0	23	266	bataille	nmod	263	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+270	271	PER	0.9772741794586182	mlle schérer	2	22	24	11	0	0	0	24	270	mlle	nsubj	272	NOUN	PROP	Singular	Female	3	0
+289	290	PER	0.7448269426822662	le métropolite	2	24	26	2	0	0	0	25	290	métropolite	obl:agent	287	NOUN	NOM	Singular	Not_Assigned	3	28
+292	293	PER	0.7551428973674774	l' empereur	2	24	26	5	0	0	0	26	293	empereur	obl:arg	287	NOUN	NOM	Singular	Male	3	5
+301	301	PER	0.9512325525283813	il	1	24	26	14	0	0	0	27	301	il	nsubj	327	PRON	PRON	Singular	Male	3	5
+302	302	PER	0.9544626474380493	lui	1	24	26	15	0	0	0	28	302	lui	iobj	327	PRON	PRON	Singular	Ambiguous	3	5
+327	328	PER	0.712868258357048	le prince	2	26	30	0	0	0	0	29	328	prince	nsubj	355	NOUN	NOM	Singular	Male	3	12
+329	329	PER	0.9338383078575134	basile	1	27	31	0	0	0	0	30	329	basile	flat:name	355	PROPN	PROP	Singular	Male	3	9
+331	331	PER	0.9940419793128967	qui	1	27	31	2	0	0	0	31	331	qui	nsubj	333	PRON	PRON	Ambiguous	Ambiguous	4	9
+342	342	PER	0.9913398623466492	lui	1	27	31	13	0	0	0	32	342	lui	iobj	343	PRON	PRON	Singular	Ambiguous	3	9
+348	349	PER	0.9144384860992432	l' impératrice	2	28	32	4	0	0	0	33	349	impératrice	obl:mod	346	NOUN	NOM	Singular	Female	3	0
+357	357	PER	0.9895200729370117	son	1	28	32	13	0	0	0	34	357	son	nsubj	352	DET	PRON	Singular	Ambiguous	3	9
+392	393	PER	0.9557156562805176	anna pavlovna	2	31	36	6	0	0	0	35	392	anna	obl:mod	390	PROPN	PROP	Singular	Female	3	0
+403	405	PER	0.8952170213063558	quelques personnages influents	3	32	37	3	0	0	0	36	404	personnages	obj	402	NOUN	NOM	Plural	Ambiguous	3	13
+409	409	PER	0.7559067010879517	on	1	32	37	9	0	0	0	37	409	on	nsubj	444	PRON	PRON	Ambiguous	Ambiguous	3	29
+414	414	PER	0.9223629832267761	les	1	33	38	2	0	0	0	38	414	les	obj	416	PRON	PRON	Plural	Ambiguous	3	13
+421	421	PER	0.7906885147094727	ils	1	33	38	9	0	0	0	39	421	ils	nsubj	422	PRON	PRON	Plural	Ambiguous	3	13
+425	427	FAC	0.7434882322947184	le théâtre français	3	34	39	1	0	0	0	40	426	théâtre	obj	424	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+433	435	PER	0.5163573821385702	beaucoup de monde	3	34	40	4	0	0	0	41	435	monde	obl:arg	433	NOUN	NOM	Plural	Ambiguous	3	30
+437	441	FAC	0.8374131798744202	le salon d' anna pavlovna	5	35	41	0	0	1	1	42	438	salon	obj	431	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+440	441	PER	0.7756302952766418	anna pavlovna	2	35	41	3	1	0	0	43	440	anna	nmod	438	PROPN	PROP	Singular	Female	3	10
+444	444	PER	0.9996346235275269	elle	1	35	41	7	0	0	0	44	444	elle	nsubj	448	PRON	PRON	Singular	Female	3	10
+452	452	PER	0.620003342628479	dont	1	36	42	1	0	0	0	45	452	dont	dep	454	PRON	PRON	Ambiguous	Ambiguous	4	31
+453	453	PER	0.9992759823799133	elle	1	36	42	2	0	0	0	46	453	elle	nsubj	454	PRON	PRON	Singular	Female	3	10
+471	473	TIME	0.7987973690032959	ce jour -là	3	38	44	4	0	0	0	47	472	jour	obl:mod	470	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+483	485	PER	0.9500459829966227	la comtesse besoukhow	3	39	45	2	0	0	0	48	484	comtesse	nmod	481	NOUN	PROP	Singular	Female	3	0
+487	487	PER	0.9966681599617004	qui	1	39	45	6	0	0	0	49	487	qui	nsubj	494	PRON	PRON	Ambiguous	Ambiguous	4	0
+489	491	TIME	0.8012608289718628	depuis quelque temps	3	39	45	8	0	0	0	50	491	temps	obl:mod	494	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+501	501	PER	0.998337984085083	elle	1	40	46	6	0	0	0	51	501	elle	nsubj	502	PRON	PRON	Singular	Female	3	0
+519	522	PER	0.6989586055278778	une célébrité de la	4	41	47	11	0	0	0	52	520	célébrité	obl:arg	517	NOUN	NOM	Singular	Not_Assigned	3	32
+529	532	PER	0.892195463180542	un jeune docteur italien	4	42	48	6	0	0	0	53	531	docteur	obl:agent	527	NOUN	NOM	Singular	Male	3	2
+534	535	PER	0.9595895707607269	cet italien	2	42	48	11	0	0	0	54	535	italien	nsubj	579	NOUN	NOM	Singular	Male	3	2
+536	536	PER	0.9899241328239441	la	1	42	48	13	0	0	0	55	536	la	obj	579	PRON	PRON	Singular	Female	3	0
+557	559	PER	0.969193716843923	la charmante comtesse	3	44	51	7	0	0	0	56	559	comtesse	nmod	555	NOUN	NOM	Singular	Female	3	0
+565	565	PER	0.9983749389648438	elle	1	45	52	3	0	0	0	57	565	elle	nsubj	567	PRON	PRON	Singular	Female	3	0
+570	571	PER	0.5549268126487732	deux maris	2	45	52	8	0	0	0	58	571	maris	obj	569	NOUN	NOM	Plural	Male	3	33
+581	582	PER	0.9804547429084778	l' italien	2	46	53	2	0	0	0	59	582	italien	nmod	579	NOUN	NOM	Singular	Male	3	2
+589	589	PER	0.9970065951347351	la	1	46	53	10	0	0	0	60	589	la	obj	590	PRON	PRON	Singular	Female	3	0
+601	602	PER	0.8257967233657837	anna pavlovna	2	47	54	7	0	0	0	61	601	anna	nmod	599	PROPN	PROP	Singular	Female	3	3
+620	620	PER	0.761789083480835	on	1	49	56	1	0	0	0	62	620	on	nsubj	621	PRON	PRON	Ambiguous	Ambiguous	3	34
+622	624	PER	0.9021124641100565	la pauvre comtesse	3	49	56	3	0	0	0	63	624	comtesse	obj	621	NOUN	NOM	Singular	Female	3	0
+628	629	PER	0.8627353608608246	le médecin	2	49	56	9	0	0	0	64	629	médecin	nsubj	630	NOUN	NOM	Singular	Male	3	2
+654	654	PER	0.9933937191963196	-vous	1	51	60	2	0	0	0	65	654	vous	dep	653	PRON	PRON	Ambiguous	Ambiguous	2	3
+669	671	PER	0.9769592881202698	le vieux comte	3	52	62	1	0	0	0	66	671	comte	nsubj	673	NOUN	NOM	Singular	Male	3	5
+681	681	PER	0.9918736815452576	il	1	52	63	0	0	0	0	67	681	il	nsubj	735	PRON	PRON	Singular	Male	3	5
+688	689	PER	0.9471719563007355	le médecin	2	53	64	5	0	0	0	68	689	médecin	nsubj	692	NOUN	NOM	Singular	Male	3	2
+690	690	PER	0.9629044532775879	lui	1	53	64	7	0	0	0	69	690	lui	iobj	692	PRON	PRON	Singular	Ambiguous	3	5
+716	716	PER	0.9982935786247253	vous	1	56	68	1	0	0	0	70	716	vous	nsubj	717	PRON	PRON	Ambiguous	Ambiguous	2	10
+719	721	PER	0.9520927667617798	la pauvre comtesse	3	56	68	4	0	0	0	71	721	comtesse	obl:arg	717	NOUN	NOM	Singular	Female	3	0
+723	723	PER	0.9954929351806641	j'	1	56	69	0	0	0	0	72	723	j'	nsubj	725	PRON	PRON	Singular	Ambiguous	1	3
+728	728	PER	0.9941906929016113	ses	1	56	69	5	0	0	0	73	728	ses	det	785	DET	PRON	Singular	Ambiguous	3	0
+731	731	PER	0.7711477279663086	on	1	57	71	0	0	0	0	74	731	on	nsubj	734	PRON	PRON	Ambiguous	Ambiguous	3	35
+732	732	PER	0.9956243634223938	m'	1	57	71	1	0	0	0	75	732	m'	iobj	734	PRON	PRON	Singular	Ambiguous	1	3
+736	736	PER	0.9980370402336121	elle	1	57	71	5	0	0	0	76	736	elle	nsubj	737	PRON	PRON	Singular	Female	3	0
+745	745	PER	0.6850867867469788	c'	1	57	71	14	0	0	0	77	745	c'	nsubj	805	PRON	PRON	Ambiguous	Ambiguous	3	0
+747	747	PER	0.5885345339775085	la	1	57	71	16	0	0	0	78	747	la	det	805	DET	PRON	Singular	Female	3	0
+755	756	PER	0.9621138274669647	anna pavlovna	2	58	72	7	0	0	0	79	755	anna	nsubj	754	PROPN	PROP	Singular	Female	3	4
+760	760	PER	0.9950042366981506	son	1	58	72	12	0	0	0	80	760	son	det	819	DET	PRON	Singular	Ambiguous	3	4
+764	764	PER	0.9689480662345886	nous	1	59	73	3	0	0	0	81	764	nous	nsubj	765	PRON	PRON	Plural	Ambiguous	1	36
+774	774	PER	0.9946420192718506	m'	1	60	74	1	0	0	0	82	774	m'	iobj	775	PRON	PRON	Singular	Ambiguous	1	4
+780	780	PER	0.9946826100349426	elle	1	60	74	7	0	0	0	83	780	elle	obl:mod	778	PRON	PRON	Singular	Female	3	0
+785	785	PER	0.9929238557815552	elle	1	60	74	12	0	0	0	84	785	elle	nsubj	786	PRON	PRON	Singular	Female	3	0
+788	788	PER	0.9902802109718323	elle	1	61	75	0	0	0	0	85	788	elle	nsubj	791	PRON	PRON	Singular	Female	3	0
+795	798	PER	0.7907871603965759	un jeune homme imprudent	4	62	77	0	0	0	0	86	797	homme	nsubj	856	NOUN	NOM	Singular	Male	3	15
+814	815	PER	0.9900428652763367	la comtesse	2	63	78	7	0	0	0	87	815	comtesse	nmod	812	NOUN	NOM	Singular	Female	3	0
+822	824	PER	0.9314850171407064	le charlatan italien	3	64	79	2	0	0	0	88	823	charlatan	nsubj	827	NOUN	NOM	Singular	Not_Assigned	3	2
+831	831	PER	0.9694063067436218	sa	1	64	79	11	0	0	0	89	831	sa	det	896	DET	PRON	Singular	Ambiguous	3	2
+845	845	PER	0.9882323145866394	miennes	1	66	81	8	0	0	0	90	845	miennes	dep	842	ADJ	PRON	Not_Assigned	Ambiguous	1	4
+848	848	PER	0.5691342949867249	mlle	1	66	81	11	0	0	0	91	848	mlle	case	915	NOUN	NOM	Not_Assigned	Not_Assigned	3	4
+849	849	PER	0.978394091129303	schérer	1	67	82	0	0	0	0	92	849	schérer	flat:name	915	PROPN	PROP	Singular	Female	3	4
+854	856	PER	0.9654298623402914	le jeune homme	3	67	82	5	0	0	0	93	856	homme	obj	851	NOUN	NOM	Singular	Male	3	15
+859	859	PER	0.9997392296791077	je	1	67	82	10	0	0	0	94	859	je	nsubj	860	PRON	PRON	Singular	Ambiguous	1	4
+865	866	PER	0.9221082627773285	ce médecin	2	68	83	1	0	0	0	95	866	médecin	nsubj	869	NOUN	NOM	Singular	Male	3	2
+882	884	PER	0.5423361559708914	la reine d'	3	69	84	2	0	0	0	96	883	reine	nmod	879	NOUN	NOM	Singular	Female	3	37
+885	885	GPE	0.7797335386276245	espagne	1	69	84	5	0	0	0	97	885	espagne	nmod	883	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+888	888	PER	0.9974377155303955	lui	1	70	85	0	0	0	0	98	888	lui	iobj	891	PRON	PRON	Singular	Ambiguous	3	3
+892	892	PER	0.9972149133682251	son	1	70	85	4	0	0	0	99	892	son	det	893	DET	PRON	Singular	Ambiguous	3	3
+895	895	PER	0.9998544454574585	elle	1	70	85	7	0	0	0	100	895	elle	nsubj	897	PRON	PRON	Singular	Female	3	3
+901	901	PER	0.9962956309318542	bilibine	1	70	85	13	0	0	0	101	901	bilibine	nmod	899	PROPN	PROP	Singular	Not_Assigned	3	1
+903	903	PER	0.9921687245368958	qui	1	70	85	15	0	0	0	102	903	qui	nsubj	974	PRON	PRON	Ambiguous	Ambiguous	4	1
+915	916	PER	0.7064602077007294	des autrichiens	2	71	86	11	0	0	0	103	916	autrichiens	nmod	914	NOUN	NOM	Plural	Ambiguous	3	38
+919	919	PER	0.9992225170135498	je	1	72	87	1	0	0	0	104	919	je	nsubj	920	PRON	PRON	Singular	Ambiguous	1	1
+925	925	PER	0.9984991550445557	-il	1	72	87	7	0	0	0	105	925	il	nsubj	924	PRON	PRON	Singular	Male	3	1
+942	942	PER	0.8654323220252991	wittgenstein	1	74	89	0	0	0	0	106	942	wittgenstein	appos	1015	PROPN	PROP	Singular	Not_Assigned	3	11
+947	947	GPE	0.4982871413230896	pétropol	1	74	89	5	0	0	0	107	947	pétropol	nmod	945	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+952	952	PER	0.8967878222465515	l'	1	74	89	10	0	0	0	108	952	l'	obj	953	PRON	PRON	Singular	Ambiguous	3	11
+955	955	GPE	0.7269605994224548	pétersbourg	1	75	90	0	0	0	0	109	955	pétersbourg	obj	1029	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+965	965	PER	0.9989628791809082	lui	1	76	91	7	0	0	0	110	965	lui	iobj	966	PRON	PRON	Singular	Ambiguous	3	1
+967	968	PER	0.9339247345924377	anna pavlovna	2	76	91	9	0	0	0	111	967	anna	obj	966	PROPN	PROP	Singular	Female	3	39
+978	978	PER	0.9983745813369751	lui	1	77	92	4	0	0	0	112	978	lui	iobj	979	PRON	PRON	Singular	Ambiguous	3	1
+985	985	PER	0.9988006353378296	elle	1	77	92	11	0	0	0	113	985	elle	nsubj	1063	PRON	PRON	Singular	Female	3	1
+989	989	PER	0.99973064661026	il	1	79	94	0	0	0	0	114	989	il	nsubj	991	PRON	PRON	Singular	Male	3	1
+1005	1005	PER	0.9990530610084534	il	1	80	95	2	0	0	0	115	1005	il	nsubj	1009	PRON	PRON	Singular	Male	3	1
+1013	1014	PER	0.7614665925502777	l' empereur	2	80	95	10	0	0	0	116	1014	empereur	nsubj	1015	NOUN	NOM	Singular	Male	3	16
+1041	1043	PER	0.9582219123840332	le prince basile	3	83	98	6	0	0	0	117	1042	prince	nsubj	1040	NOUN	PROP	Singular	Male	3	1
+1052	1052	GPE	0.8256323337554932	varsovie	1	84	99	7	0	0	0	118	1052	varsovie	nmod	1050	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1058	1059	PER	0.8037644624710083	le prince	2	84	99	13	0	0	0	119	1059	prince	nsubj	1055	NOUN	NOM	Singular	Male	3	12
+1060	1060	PER	0.8742914795875549	hippolyte	1	85	100	0	0	0	0	120	1060	hippolyte	flat:name	1144	PROPN	PROP	Singular	Male	3	1
+1062	1062	PER	0.9303526878356934	on	1	85	101	0	0	0	0	121	1062	on	nsubj	1064	PRON	PRON	Ambiguous	Ambiguous	3	40
+1066	1066	PER	0.9967129230499268	le	1	85	101	4	0	0	0	122	1066	le	obj	1067	PRON	PRON	Singular	Male	3	1
+1077	1077	PER	0.9997395873069763	il	1	86	103	0	0	0	0	123	1077	il	nsubj	1078	PRON	PRON	Singular	Male	3	1
+1090	1090	PER	0.9996122717857361	il	1	87	105	0	0	0	0	124	1090	il	nsubj	1092	PRON	PRON	Singular	Male	3	1
+1096	1097	PER	0.8097867369651794	les autres	2	87	105	6	0	0	0	125	1097	autres	dep	1094	PRON	PRON	Plural	Ambiguous	3	41
+1100	1100	PER	0.9993815422058105	il	1	87	105	10	0	0	0	126	1100	il	nsubj	1189	PRON	PRON	Singular	Male	3	1
+1105	1105	PER	0.9994593262672424	il	1	88	106	3	0	0	0	127	1105	il	nsubj	1107	PRON	PRON	Singular	Male	3	1
+1110	1110	PER	0.9957006573677063	sa	1	88	106	8	0	0	0	128	1110	sa	det	1111	DET	PRON	Singular	Ambiguous	3	1
+1129	1129	PER	0.9982621073722839	-il	1	90	108	4	0	0	0	129	1129	il	nsubj	1133	PRON	PRON	Singular	Male	3	1
+1144	1144	PER	0.996665894985199	sa	1	91	109	6	0	0	0	130	1144	sa	det	1145	DET	PRON	Singular	Ambiguous	3	1
+1184	1184	PER	0.9982157945632935	son	1	94	112	1	0	0	0	131	1184	son	det	1185	DET	PRON	Singular	Ambiguous	3	1
+1192	1193	PER	0.957520991563797	la personne	2	94	112	9	0	0	0	132	1193	personne	nmod	1190	NOUN	NOM	Singular	Ambiguous	3	17
+1195	1195	PER	0.9848678708076477	qui	1	94	112	12	0	0	0	133	1195	qui	nsubj	1196	PRON	PRON	Ambiguous	Ambiguous	4	17
+1203	1204	PER	0.9178549945354462	anna pavlovna	2	95	113	6	0	0	0	134	1203	anna	nsubj	1206	PROPN	PROP	Singular	Female	3	18
+1218	1219	PER	0.8057396113872528	le prince	2	96	114	7	0	0	0	135	1219	prince	obj	1214	NOUN	NOM	Singular	Male	3	12
+1220	1220	PER	0.9331788420677185	hippolyte	1	97	115	0	0	0	0	136	1220	hippolyte	flat:name	1316	PROPN	PROP	Singular	Male	3	6
+1222	1222	PER	0.998813271522522	elle	1	97	115	2	0	0	0	137	1222	elle	nsubj	1223	PRON	PRON	Singular	Female	3	18
+1224	1226	PER	0.9719016750653585	le prince basile	3	97	115	4	0	0	0	138	1225	prince	obj	1223	NOUN	PROP	Singular	Male	3	19
+1239	1239	PER	0.995936393737793	lui	1	98	116	4	0	0	0	139	1239	lui	obl:arg	1235	PRON	PRON	Singular	Ambiguous	3	6
+1243	1243	PER	0.9982582926750183	lui	1	98	116	8	0	0	0	140	1243	lui	iobj	1244	PRON	PRON	Singular	Ambiguous	3	6
+1248	1248	PER	0.9973441958427429	le	1	98	116	13	0	0	0	141	1248	le	obj	1249	PRON	PRON	Singular	Male	3	6
+1257	1261	PER	0.5453054368495941	très auguste souverain et empereur	5	100	118	1	0	0	0	142	1258	auguste	ROOT	1258	ADJ	NOM	Not_Assigned	Not_Assigned	3	16
+1265	1267	PER	0.9510525266329447	le prince basile	3	100	118	9	0	0	0	143	1266	prince	nsubj	1264	NOUN	PROP	Singular	Male	3	7
+1276	1276	PER	0.9828542470932007	son	1	101	119	6	0	0	0	144	1276	son	det	1277	DET	PRON	Singular	Ambiguous	3	7
+1299	1299	GPE	0.9054335355758667	moscou	1	103	121	5	0	0	0	145	1299	moscou	nsubj	1410	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1301	1303	GPE	0.7837307651837667	la première capitale	3	103	121	7	0	0	0	146	1303	capitale	appos	1299	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1305	1306	GPE	0.5629545748233795	la nouvelle	2	103	121	11	0	0	0	147	1305	la	det	1410	DET	PRON	Not_Assigned	Not_Assigned	3	
+1317	1317	PER	0.9979100823402405	-il	1	104	122	10	0	0	0	148	1317	il	dep	1309	PRON	PRON	Singular	Male	3	7
+1332	1336	PER	0.59668128490448	ses fils pleins de ferveur	5	105	123	8	0	0	0	149	1333	fils	obj	1328	NOUN	NOM	Not_Assigned	Not_Assigned	3	6
+1354	1354	PER	0.6500046849250793	ta	1	107	125	1	0	0	0	150	1354	ta	det	1355	DET	PRON	Singular	Ambiguous	2	6
+1367	1368	PER	0.6241675913333893	celui qui	2	107	125	14	0	0	0	151	1367	celui	nmod	1363	PRON	PRON	Singular	Male	3	42
+1379	1381	PER	0.9442413449287415	du prince basile	3	108	126	10	0	0	0	152	1380	prince	nmod	1378	NOUN	PROP	Singular	Male	3	7
+1387	1387	PER	0.9756356477737427	bilibine	1	109	128	0	0	0	0	153	1387	bilibine	nsubj	1388	PROPN	PROP	Singular	Not_Assigned	3	20
+1390	1390	PER	0.9983494281768799	ses	1	109	128	3	0	0	0	154	1390	ses	det	1391	DET	PRON	Singular	Ambiguous	3	20
+1401	1402	PER	0.9444540739059448	anna pavlovna	2	110	130	0	0	0	0	155	1401	anna	nsubj	1404	PROPN	PROP	Singular	Female	3	43
+1429	1431	PER	0.9552658001581827	le prince basile	3	112	132	7	0	0	0	156	1430	prince	nsubj	1432	NOUN	PROP	Singular	Male	3	8
+1450	1451	GPE	0.7701358199119568	la france	2	114	134	0	0	0	0	157	1451	france	obj	1563	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1454	1458	LOC	0.6635053515434265	aux confins de la russie	5	114	134	4	0	1	1	158	1455	confins	obl:arg	1453	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1457	1458	GPE	0.8844224512577057	la russie	2	114	134	7	1	0	0	159	1458	russie	nmod	1455	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1487	1490	PER	0.6748037710785866	du bienheureux saint serge	4	116	137	2	0	0	0	160	1489	saint	nmod	1486	NOUN	PROP	Singular	Male	3	11
+1498	1498	PER	0.6857470870018005	sa	1	117	138	6	0	0	0	161	1498	sa	det	1499	DET	PRON	Singular	Ambiguous	3	11
+1504	1505	PER	0.5979888588190079	votre majesté	2	117	138	12	0	0	0	162	1505	majesté	obl:arg	1502	NOUN	NOM	Singular	Ambiguous	3	1
+1508	1508	PER	0.9995458722114563	je	1	118	140	0	0	0	0	163	1508	je	nsubj	1509	PRON	PRON	Singular	Ambiguous	1	8
+1511	1511	PER	0.9993795156478882	mes	1	118	140	3	0	0	0	164	1511	mes	det	1512	DET	PRON	Singular	Ambiguous	1	8
+1517	1517	PER	0.9639101028442383	m'	1	118	140	9	0	0	0	165	1517	m'	iobj	1518	PRON	PRON	Singular	Ambiguous	1	8
+1522	1522	PER	0.9922798871994019	votre	1	119	141	3	0	0	0	166	1522	votre	det	1524	DET	PRON	Ambiguous	Ambiguous	2	1
+1526	1526	PER	0.9910873770713806	j'	1	119	142	0	0	0	0	167	1526	j'	nsubj	1527	PRON	PRON	Singular	Ambiguous	1	8
+1548	1549	PER	0.9417193233966827	votre majesté	2	121	145	3	0	0	0	168	1549	majesté	nmod	1546	NOUN	NOM	Singular	Ambiguous	3	1
+1563	1563	PER	0.8781821131706238	-on	1	122	148	4	0	0	0	169	1563	on	dep	1561	PRON	PRON	Ambiguous	Ambiguous	3	1
+1572	1576	PER	0.5204506278038025	l' auteur et le lecteur	5	123	149	1	0	1	2	170	1573	auteur	obj	1693	NOUN	NOM	Plural	Not_Assigned	3	1
+1572	1573	PER	0.8467348217964172	l' auteur	2	123	149	1	1	0	0	171	1573	auteur	obj	1693	NOUN	NOM	Singular	Ambiguous	3	19
+1575	1576	PER	0.7715607583522797	le lecteur	2	123	149	4	1	0	0	172	1576	lecteur	conj	1573	NOUN	NOM	Singular	Ambiguous	3	7
+1586	1590	PER	0.6411554932594299	les hôtes d' anna pavlovna	5	124	150	8	0	1	1	173	1587	hôtes	nsubj	1715	NOUN	PROP	Plural	Not_Assigned	3	14
+1589	1590	PER	0.5956144034862518	anna pavlovna	2	124	150	11	1	0	0	174	1589	anna	nmod	1587	PROPN	PROP	Singular	Female	3	44
+1597	1598	GPE	0.5330385267734528	du pays	2	125	151	6	0	0	0	175	1598	pays	nmod	1596	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1617	1619	TIME	0.7946896354357401	vers cette époque	3	127	153	2	0	0	0	176	1619	époque	obl:mod	1615	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1622	1622	PER	0.9992051720619202	vous	1	128	154	1	0	0	0	177	1622	vous	nsubj	1623	PRON	PRON	Ambiguous	Ambiguous	2	45
+1626	1627	PER	0.9687804579734802	mlle schérer	2	128	154	5	0	0	0	178	1626	mlle	nsubj	1625	NOUN	PROP	Singular	Female	3	21
+1630	1630	TIME	0.8903540968894958	demain	1	128	154	9	0	0	0	179	1630	demain	advmod	1765	ADV	NOM	Not_Assigned	Not_Assigned	3	
+1633	1636	TIME	0.37227262929081917	l' anniversaire de la	4	128	154	12	0	0	0	180	1634	anniversaire	obl:mod	1765	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1639	1640	PER	0.7483244836330414	l' empereur	2	129	155	2	0	0	0	181	1640	empereur	nmod	1637	NOUN	NOM	Singular	Male	3	46
+1648	1648	PER	0.9948239326477051	j'	1	129	155	11	0	0	0	182	1648	j'	nsubj	1649	PRON	PRON	Singular	Ambiguous	1	21

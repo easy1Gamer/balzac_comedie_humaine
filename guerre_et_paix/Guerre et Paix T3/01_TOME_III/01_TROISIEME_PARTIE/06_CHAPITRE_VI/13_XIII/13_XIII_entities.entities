@@ -1,0 +1,127 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9990577101707458	pierre	1	1	1	0	0	0	0	0	1	pierre	nsubj	11	PROPN	PROP	Singular	Male	3	1
+23	23	PER	0.9994875192642212	il	1	2	2	8	0	0	0	1	23	il	nsubj	25	PRON	PRON	Singular	Male	3	1
+26	28	TIME	0.7338342666625977	pendant sa captivité	3	3	3	0	0	1	1	2	28	captivité	obl:mod	28	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+27	27	PER	0.993294894695282	sa	1	3	3	1	1	0	0	3	27	sa	det	28	DET	PRON	Singular	Ambiguous	3	1
+31	36	TIME	0.6581762333710989	lorsqu' elle arriva à son terme	6	3	3	5	0	0	0	4	33	arriva	advcl	11	VERB	NOM	Not_Assigned	Not_Assigned	3	
+43	43	PER	0.9996442794799805	il	1	4	5	2	0	0	0	5	43	il	nsubj	44	PRON	PRON	Singular	Male	3	1
+46	46	GPE	0.9426006078720093	orel	1	4	5	5	0	0	0	6	46	orel	obl:arg	44	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+49	50	TIME	0.8215351104736328	le surlendemain	2	4	5	8	0	0	0	7	50	surlendemain	obl:mod	56	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+60	60	GPE	0.9168043732643127	kiew	1	5	6	3	0	0	0	8	60	kiew	nmod	58	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+62	62	PER	0.9994557499885559	il	1	5	6	5	0	0	0	9	62	il	nsubj	63	PRON	PRON	Singular	Male	3	1
+73	74	PER	0.9621152579784393	les médecins	2	6	7	1	0	0	0	10	74	médecins	nsubj	72	NOUN	NOM	Plural	Ambiguous	3	2
+78	78	PER	0.9735572338104248	l'	1	6	7	6	0	0	0	11	78	l'	obj	80	PRON	PRON	Singular	Ambiguous	3	1
+79	79	FAC	0.4300622344017029	y	1	6	7	7	0	0	0	12	79	y	iobj	80	PRON	PRON	Not_Assigned	Not_Assigned	3	
+81	83	TIME	0.8326947093009949	pendant trois mois	3	6	7	9	0	0	0	13	83	mois	obl:mod	80	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+86	86	PER	0.9406237602233887	leurs	1	7	8	1	0	0	0	14	86	leurs	det	87	DET	PRON	Plural	Ambiguous	3	2
+89	89	PER	0.8574008941650391	leurs	1	7	8	4	0	0	0	15	89	leurs	det	90	DET	PRON	Plural	Ambiguous	3	2
+92	92	PER	0.916836142539978	leurs	1	7	8	7	0	0	0	16	92	leurs	det	93	DET	PRON	Plural	Ambiguous	3	2
+100	100	PER	0.9972097277641296	lui	1	8	9	4	0	0	0	17	100	lui	iobj	101	PRON	PRON	Singular	Ambiguous	3	1
+103	113	TIME	0.7024916843934492	les jours qui s' écoulèrent entre sa libération et sa maladie	11	9	10	0	0	1	4	18	107	écoulèrent	acl:relcl	104	VERB	NOM	Not_Assigned	Not_Assigned	3	
+103	104	TIME	0.8165450990200043	les jours	2	9	10	0	1	0	0	19	104	jours	nsubj	125	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+105	105	TIME	0.7679418325424194	qui	1	9	10	2	1	0	0	20	105	qui	nsubj	107	PRON	PRON	Not_Assigned	Not_Assigned	4	
+109	109	PER	0.9957543611526489	sa	1	9	10	6	1	0	0	21	109	sa	det	110	DET	PRON	Singular	Ambiguous	3	1
+112	112	PER	0.9977877140045166	sa	1	9	10	9	1	0	0	22	112	sa	det	113	DET	PRON	Singular	Ambiguous	3	1
+115	115	PER	0.9958100318908691	lui	1	9	10	12	0	0	0	23	115	lui	iobj	125	PRON	PRON	Singular	Ambiguous	3	1
+120	120	PER	0.9997809529304504	il	1	10	12	0	0	0	0	24	120	il	nsubj	122	PRON	PRON	Singular	Male	3	1
+165	166	PER	0.7253805696964264	des généraux	2	13	15	10	0	0	0	25	166	généraux	nmod	163	NOUN	NOM	Plural	Ambiguous	3	7
+168	169	PER	0.8825906217098236	des officiers	2	14	16	1	0	0	0	26	169	officiers	conj	180	NOUN	NOM	Plural	Ambiguous	3	3
+170	170	PER	0.9320154786109924	qui	1	14	16	3	0	0	0	27	170	qui	nsubj	172	PRON	PRON	Ambiguous	Ambiguous	4	3
+171	171	PER	0.9942697286605835	le	1	14	16	4	0	0	0	28	171	le	obj	172	PRON	PRON	Singular	Male	3	1
+177	177	PER	0.9995089769363403	il	1	14	16	10	0	0	0	29	177	il	nsubj	179	PRON	PRON	Singular	Male	3	1
+182	183	VEH	0.6456017643213272	une voiture	2	15	17	2	0	0	0	30	183	voiture	obj	181	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+185	186	VEH	0.5632437318563461	des chevaux	2	15	17	5	0	0	0	31	186	chevaux	conj	183	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+198	198	PER	0.9971140623092651	l'	1	16	18	4	0	0	0	32	198	l'	obj	200	PRON	PRON	Singular	Ambiguous	3	1
+202	203	TIME	0.8052890002727509	le jour	2	16	19	0	0	0	0	33	203	jour	obl:mod	212	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+204	204	TIME	0.8195342421531677	où	1	16	19	2	0	0	0	34	204	où	iobj	207	PRON	PRON	Not_Assigned	Not_Assigned	3	
+205	205	PER	0.9993340373039246	il	1	16	19	3	0	0	0	35	205	il	nsubj:pass	207	PRON	PRON	Singular	Male	3	1
+211	211	PER	0.9996246099472046	il	1	17	20	2	0	0	0	36	211	il	nsubj	212	PRON	PRON	Singular	Male	3	1
+217	217	PER	0.9527521133422852	pétia	1	17	20	8	0	0	0	37	217	pétia	nmod	215	PROPN	PROP	Singular	Not_Assigned	3	8
+230	230	GPE	0.9028403162956238	yaroslaw	1	18	21	6	0	0	0	38	230	yaroslaw	obl:mod	228	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+233	236	FAC	0.5812021121382713	la maison des rostow	4	18	21	9	0	1	1	39	234	maison	obl:mod	228	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+235	236	PER	0.6835380494594574	des rostow	2	18	21	11	1	0	0	40	236	rostow	nmod	234	PROPN	PROP	Ambiguous	Not_Assigned	3	9
+238	238	PER	0.8633254766464233	denissow	1	19	22	0	0	0	0	41	238	denissow	nsubj	247	PROPN	PROP	Singular	Not_Assigned	3	4
+240	240	PER	0.9740014672279358	qui	1	19	22	2	0	0	0	42	240	qui	nsubj	243	PRON	PRON	Ambiguous	Ambiguous	4	4
+241	241	PER	0.9990453124046326	lui	1	19	22	3	0	0	0	43	241	lui	iobj	243	PRON	PRON	Singular	Ambiguous	3	1
+252	252	PER	0.9986889958381653	lui	1	20	23	0	0	0	0	44	252	lui	obj	250	PRON	PRON	Singular	Ambiguous	3	1
+259	259	PER	0.9705466032028198	hélène	1	20	23	7	0	0	0	45	259	hélène	nmod	257	PROPN	PROP	Singular	Female	3	5
+263	263	PER	0.9993767142295837	il	1	20	23	11	0	0	0	46	263	il	nsubj	265	PRON	PRON	Singular	Male	3	1
+268	268	PER	0.9940286874771118	pierre	1	20	24	0	0	0	0	47	268	pierre	nsubj	289	PROPN	PROP	Singular	Male	3	0
+279	279	PER	0.9997676014900208	il	1	21	25	10	0	0	0	48	279	il	nsubj	281	PRON	PRON	Singular	Male	3	0
+292	292	PER	0.9991089701652527	lui	1	22	26	8	0	0	0	49	292	lui	obl:mod	290	PRON	PRON	Singular	Ambiguous	3	0
+295	295	PER	0.9997040629386902	il	1	22	26	11	0	0	0	50	295	il	nsubj:pass	319	PRON	PRON	Singular	Male	3	0
+327	327	PER	0.9904010891914368	ses	1	25	29	0	0	0	0	51	327	ses	det	328	DET	PRON	Singular	Ambiguous	3	0
+338	338	PER	0.9993213415145874	il	1	25	29	11	0	0	0	52	338	il	nsubj	340	PRON	PRON	Singular	Male	3	0
+347	347	PER	0.9763433337211609	lui	1	26	30	3	0	0	0	53	347	lui	obl:arg	344	PRON	PRON	Singular	Ambiguous	3	0
+348	350	TIME	0.7255071004231771	après sa maladie	3	26	30	4	0	1	1	54	350	maladie	obl:mod	344	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+349	349	PER	0.9984115362167358	sa	1	26	30	5	1	0	0	55	349	sa	det	350	DET	PRON	Singular	Ambiguous	3	0
+352	352	PER	0.999795138835907	il	1	26	30	8	0	0	0	56	352	il	nsubj	353	PRON	PRON	Singular	Male	3	0
+355	355	PER	0.997527539730072	son	1	26	30	11	0	0	0	57	355	son	det	356	DET	PRON	Singular	Ambiguous	3	0
+359	360	PER	0.9174486398696899	ses domestiques	2	27	31	1	0	1	1	58	360	domestiques	nmod	384	NOUN	NOM	Plural	Ambiguous	3	10
+359	359	PER	0.9954831600189209	ses	1	27	31	1	1	0	0	59	359	ses	det	360	DET	PRON	Singular	Ambiguous	3	0
+366	366	GPE	0.9178814888000488	moscou	1	27	31	8	0	0	0	60	366	moscou	obl:arg	362	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+368	368	PER	0.9977251887321472	le	1	27	31	10	0	0	0	61	368	le	obj	369	PRON	PRON	Singular	Male	3	0
+376	377	PER	0.9769528806209564	ses cousines	2	28	32	4	0	1	1	62	377	cousines	nmod	374	NOUN	NOM	Plural	Female	3	6
+376	376	PER	0.9987943172454834	ses	1	28	32	4	1	0	0	63	376	ses	det	377	DET	PRON	Singular	Ambiguous	3	0
+379	379	PER	0.9859561920166016	qui	1	28	32	7	0	0	0	64	379	qui	nsubj	380	PRON	PRON	Ambiguous	Ambiguous	4	6
+383	386	LOC	0.40548041462898254	ses terres aux environs	4	28	32	11	0	1	1	65	384	terres	nmod	381	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+383	383	PER	0.9893057346343994	ses	1	28	32	11	1	0	0	66	383	ses	det	384	DET	PRON	Singular	Ambiguous	3	0
+388	388	GPE	0.6917659044265747	orel	1	29	33	1	0	0	0	67	388	orel	nmod	415	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+393	393	PER	0.999693751335144	il	1	30	34	3	0	0	0	68	393	il	nsubj	395	PRON	PRON	Singular	Male	3	0
+404	404	PER	0.997229278087616	son	1	31	35	3	0	0	0	69	404	son	det	405	DET	PRON	Singular	Ambiguous	3	0
+406	409	TIME	0.489826075732708	pendant sa longue convalescence	4	31	35	5	0	1	1	70	409	convalescence	obl:mod	400	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+407	407	PER	0.9927617907524109	sa	1	31	35	6	1	0	0	71	407	sa	det	409	DET	PRON	Singular	Ambiguous	3	0
+411	411	PER	0.9997168183326721	il	1	31	35	10	0	0	0	72	411	il	nsubj	412	PRON	PRON	Singular	Male	3	0
+425	426	TIME	0.8347600698471069	le matin	2	32	36	12	0	0	0	73	426	matin	obl:mod	429	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+431	431	PER	0.9722745418548584	il	1	32	36	18	0	0	0	74	431	il	nsubj	464	PRON	PRON	Singular	Male	3	0
+442	442	PER	0.9960351586341858	il	1	33	37	10	0	0	0	75	442	il	nsubj	443	PRON	PRON	Singular	Male	3	0
+449	449	PER	0.9920252561569214	lui	1	34	38	3	0	0	0	76	449	lui	iobj	450	PRON	PRON	Singular	Ambiguous	3	0
+451	451	PER	0.9838014245033264	son	1	34	38	5	0	0	0	77	451	son	det	452	DET	PRON	Singular	Ambiguous	3	0
+456	456	PER	0.9976315498352051	il	1	34	38	10	0	0	0	78	456	il	nsubj	457	PRON	PRON	Singular	Male	3	0
+468	468	PER	0.9994516968727112	il	1	35	39	7	0	0	0	79	468	il	nsubj	469	PRON	PRON	Singular	Male	3	0
+471	471	PER	0.999756395816803	il	1	35	39	10	0	0	0	80	471	il	nsubj	472	PRON	PRON	Singular	Male	3	0
+483	483	PER	0.9967879056930542	sa	1	36	40	5	0	0	0	81	483	sa	det	484	DET	PRON	Singular	Ambiguous	3	0
+504	504	PER	0.9994524121284485	il	1	38	42	2	0	0	0	82	504	il	nsubj	508	PRON	PRON	Singular	Male	3	0
+510	512	TIME	0.6187316278616587	la première étape	3	38	42	8	0	0	0	83	512	étape	obl:mod	508	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+519	519	PER	0.9976048469543457	son	1	39	43	2	0	0	0	84	519	son	det	520	DET	PRON	Singular	Ambiguous	3	0
+522	524	TIME	0.5723559459050497	pendant sa convalescence	3	39	43	5	0	1	1	85	524	convalescence	obl:mod	515	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+523	523	PER	0.9958815574645996	sa	1	39	43	6	1	0	0	86	523	sa	det	524	DET	PRON	Singular	Ambiguous	3	0
+526	526	PER	0.9997439980506897	il	1	39	44	0	0	0	0	87	526	il	nsubj	528	PRON	PRON	Singular	Male	3	0
+548	548	PER	0.9952051639556885	lui	1	41	46	9	0	0	0	88	548	lui	iobj	549	PRON	PRON	Singular	Ambiguous	3	0
+566	566	PER	0.9967796206474304	sa	1	43	48	0	0	0	0	89	566	sa	det	567	DET	PRON	Singular	Ambiguous	3	0
+572	574	GPE	0.6804596185684204	une ville étrangère	3	43	49	2	0	0	0	90	573	ville	obl:mod	578	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+581	581	PER	0.9955831170082092	lui	1	44	50	2	0	0	0	91	581	lui	nmod	579	PRON	PRON	Singular	Ambiguous	3	0
+585	585	PER	0.9960544109344482	lui	1	44	50	6	0	0	0	92	585	lui	iobj	586	PRON	PRON	Singular	Ambiguous	3	0
+590	590	PER	0.9997252821922302	il	1	44	50	11	0	0	0	93	590	il	nsubj	592	PRON	PRON	Singular	Male	3	0
+600	601	PER	0.9717393517494202	sa femme	2	45	51	4	0	1	1	94	601	femme	nmod	598	NOUN	NOM	Singular	Female	3	5
+600	600	PER	0.9984579086303711	sa	1	45	51	4	1	0	0	95	600	sa	det	601	DET	PRON	Singular	Ambiguous	3	0
+607	607	PER	0.9980035424232483	lui	1	45	51	11	0	0	0	96	607	lui	obl:arg	604	PRON	PRON	Singular	Ambiguous	3	0
+620	620	PER	0.9996185302734375	il	1	46	53	7	0	0	0	97	620	il	nsubj	668	PRON	PRON	Singular	Male	3	0
+628	628	PER	0.9945811629295349	-je	1	47	54	6	0	0	0	98	628	je	nsubj	629	PRON	PRON	Singular	Ambiguous	1	0
+635	635	PER	0.9996906518936157	il	1	47	54	13	0	0	0	99	635	il	nsubj	637	PRON	PRON	Singular	Male	3	0
+642	642	PER	0.9994284510612488	je	1	48	55	3	0	0	0	100	642	je	nsubj	643	PRON	PRON	Singular	Ambiguous	1	0
+659	659	PER	0.999093770980835	il	1	48	56	7	0	0	0	101	659	il	nsubj	710	PRON	PRON	Singular	Male	3	0
+672	672	PER	0.9744495153427124	son	1	49	57	10	0	0	0	102	672	son	det	673	DET	PRON	Singular	Ambiguous	3	0
+675	675	PER	0.9931911826133728	lui	1	49	57	13	0	0	0	103	675	lui	iobj	725	PRON	PRON	Singular	Ambiguous	3	0
+688	688	PER	0.9924855828285217	-il	1	51	60	1	0	0	0	104	688	il	nsubj	689	PRON	PRON	Singular	Male	3	0
+695	695	PER	0.9994258880615234	il	1	51	60	8	0	0	0	105	695	il	nsubj	696	PRON	PRON	Singular	Male	3	0
+726	726	PER	0.999129593372345	il	1	53	63	1	0	0	0	106	726	il	nsubj	729	PRON	PRON	Singular	Male	3	0
+734	734	PER	0.947252631187439	il	1	54	64	2	0	0	0	107	734	il	nsubj	736	PRON	PRON	Singular	Male	3	0
+738	738	PER	0.7650784850120544	lui-même	1	54	64	6	0	0	0	108	738	lui-même	obl:arg	736	PRON	PRON	Singular	Male	3	0
+748	748	PER	0.999555766582489	il	1	55	65	0	0	0	0	109	748	il	nsubj	750	PRON	PRON	Singular	Male	3	0
+812	812	PER	0.996877908706665	-il	1	59	70	2	0	0	0	110	812	il	cop	815	PRON	PRON	Singular	Male	3	0
+832	832	PER	0.9976717829704285	-il	1	60	72	2	0	0	0	111	832	il	expl:subj	835	PRON	PRON	Singular	Male	3	0
+836	836	PER	0.98447185754776	sa	1	61	73	0	0	0	0	112	836	sa	det	837	DET	PRON	Singular	Ambiguous	3	0
+854	854	PER	0.9991082549095154	il	1	62	74	1	0	0	0	113	854	il	nsubj	856	PRON	PRON	Singular	Male	3	0
+861	861	PER	0.9802259206771851	lui	1	62	74	8	0	0	0	114	861	lui	obl:arg	859	PRON	PRON	Singular	Ambiguous	3	0
+866	866	PER	0.9966977834701538	lui	1	62	74	13	0	0	0	115	866	lui	iobj	867	PRON	PRON	Singular	Ambiguous	3	0
+871	871	PER	0.9982738494873047	il	1	63	75	3	0	0	0	116	871	il	nsubj	872	PRON	PRON	Singular	Male	3	0
+890	890	PER	0.9847958087921143	l'	1	64	77	3	0	0	0	117	890	l'	obj	891	PRON	PRON	Singular	Ambiguous	3	0
+895	895	PER	0.998544454574585	lui	1	65	78	1	0	0	0	118	895	lui	obl:mod	898	PRON	PRON	Singular	Ambiguous	3	0
+926	926	PER	0.9992110729217529	il	1	67	81	1	0	0	0	119	926	il	nsubj	927	PRON	PRON	Singular	Male	3	0
+931	931	PER	0.9973422884941101	il	1	67	81	6	0	0	0	120	931	il	nsubj	933	PRON	PRON	Singular	Male	3	0
+961	961	PER	0.9995205402374268	il	1	70	85	2	0	0	0	121	961	il	nsubj	963	PRON	PRON	Singular	Male	3	0
+976	976	PER	0.9925025701522827	sa	1	71	86	5	0	0	0	122	976	sa	det	977	DET	PRON	Singular	Ambiguous	3	0
+987	987	PER	0.9992249011993408	lui	1	72	87	2	0	0	0	123	987	lui	obl:mod	1056	PRON	PRON	Singular	Ambiguous	3	0
+990	990	PER	0.9991666078567505	son	1	72	87	5	0	0	0	124	990	son	det	991	DET	PRON	Singular	Ambiguous	3	0
+992	992	PER	0.9988700747489929	lui	1	72	87	7	0	0	0	125	992	lui	iobj	993	PRON	PRON	Singular	Ambiguous	3	0

@@ -1,0 +1,78 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+14	15	PER	0.7208361327648163	les russes	2	2	2	0	0	0	0	0	15	russes	obj	15	NOUN	NOM	Plural	Ambiguous	3	5
+17	21	TIME	0.5827143371105195	après le départ des français	5	2	2	3	0	1	1	1	19	départ	obl:mod	15	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+20	21	PER	0.8629392385482788	des français	2	2	2	6	1	0	0	2	21	français	nmod	19	NOUN	NOM	Plural	Ambiguous	3	6
+29	30	LOC	0.5808023512363434	ce lieu	2	3	3	0	0	0	0	3	30	lieu	obj	31	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+31	31	LOC	0.5605432987213135	qui	1	3	3	2	0	0	0	4	31	qui	nsubj	32	PRON	PRON	Not_Assigned	Not_Assigned	4	
+34	34	GPE	0.886763870716095	moscou	1	3	3	5	0	0	0	5	34	moscou	obj	32	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+77	78	FAC	0.642923891544342	la fourmilière	2	6	7	7	0	0	0	6	78	fourmilière	obl:arg	75	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+118	120	PER	0.6629660228888193	ses nombreuses habitantes	3	9	10	3	0	0	0	7	120	habitantes	nmod	116	NOUN	NOM	Plural	Female	3	12
+139	140	TIME	0.5245657414197922	au mois	2	10	11	13	0	0	0	8	140	mois	obl:mod	151	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+160	160	GPE	0.9386693239212036	moscou	1	12	13	3	0	0	0	9	160	moscou	nsubj	162	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+163	163	GPE	0.3044116199016571	sa	1	12	13	6	0	0	0	10	163	sa	det	164	DET	PRON	Not_Assigned	Not_Assigned	3	
+165	168	TIME	0.7500396072864532	du mois d' août	4	12	13	8	0	0	0	11	166	mois	nmod	164	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+171	171	GPE	0.6210655570030212	y	1	12	14	1	0	0	0	12	171	y	iobj	184	PRON	PRON	Not_Assigned	Not_Assigned	3	
+202	205	TIME	0.8543655425310135	une semaine plus tard	4	15	18	0	0	0	0	13	203	semaine	obl:mod	204	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+207	207	GPE	0.9005045890808105	moscou	1	15	18	5	0	0	0	14	207	moscou	nsubj	223	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+231	235	TIME	0.679100513458252	dès l' automne de 1813	5	17	20	8	0	0	0	15	233	automne	obl:mod	255	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+240	240	PER	0.9290100932121277	sa	1	18	21	2	0	0	0	16	240	sa	det	241	DET	PRON	Singular	Ambiguous	3	13
+247	249	TIME	0.7790940602620443	l' année précédente	3	18	21	9	0	0	0	17	248	année	nmod	245	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+251	256	PER	0.5111287385225296	les cosaques du détachement de wintzingerode	6	19	22	0	0	1	1	18	252	cosaques	nsubj	294	NOUN	PROP	Plural	Not_Assigned	3	1
+256	256	GPE	0.4234149754047394	wintzingerode	1	19	22	5	1	0	0	19	256	wintzingerode	nmod	254	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+258	261	PER	0.34278814122080803	les paysans des villages	4	19	22	7	0	0	0	20	259	paysans	conj	252	NOUN	NOM	Plural	Ambiguous	3	14
+264	265	PER	0.8197706341743469	les fuyards	2	20	23	2	0	0	0	21	265	fuyards	conj	252	NOUN	NOM	Plural	Ambiguous	3	7
+266	266	PER	0.8323934078216553	qui	1	20	23	4	0	0	0	22	266	qui	nsubj	268	PRON	PRON	Ambiguous	Ambiguous	4	7
+276	276	GPE	0.911090612411499	y	1	21	24	2	0	0	0	23	276	y	iobj	277	PRON	PRON	Not_Assigned	Not_Assigned	3	
+280	280	GPE	0.8729331493377686	y	1	21	24	6	0	0	0	24	280	y	iobj	281	PRON	PRON	Not_Assigned	Not_Assigned	3	
+290	291	PER	0.8399652242660522	des français	2	22	25	2	0	0	0	25	291	français	nmod	289	NOUN	NOM	Plural	Ambiguous	3	6
+293	294	PER	0.799968808889389	les paysans	2	22	25	5	0	0	0	26	294	paysans	nsubj	295	NOUN	NOM	Plural	Ambiguous	3	8
+297	297	PER	0.8281815648078918	eux	1	22	25	9	0	0	0	27	297	eux	obl:arg	295	PRON	PRON	Plural	Ambiguous	3	8
+313	314	FAC	0.7712827622890472	les rues	2	24	27	3	0	0	0	28	314	rues	conj	310	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+316	317	PER	0.8271082043647766	les cosaques	2	24	28	0	0	0	0	29	317	cosaques	nsubj	318	NOUN	NOM	Plural	Not_Assigned	3	1
+332	332	PER	0.7448428869247437	ils	1	25	29	7	0	0	0	30	332	ils	nsubj	333	PRON	PRON	Plural	Ambiguous	3	1
+345	346	PER	0.8694213032722473	ces pillards	2	26	31	0	0	0	0	31	346	pillards	nsubj:pass	374	NOUN	NOM	Plural	Not_Assigned	3	1
+350	353	PER	0.48735956102609634	une foule d' autres	4	27	32	2	0	0	0	32	351	foule	obl:arg	348	NOUN	NOM	Plural	Ambiguous	3	0
+356	356	PER	0.8519724011421204	leur	1	27	33	1	0	0	0	33	356	leur	det	357	DET	PRON	Plural	Ambiguous	3	0
+361	361	PER	0.916513204574585	leur	1	27	33	6	0	0	0	34	361	leur	det	389	DET	PRON	Plural	Ambiguous	3	0
+377	378	PER	0.9679694175720215	les français	2	29	35	4	0	0	0	35	378	français	nsubj	380	NOUN	NOM	Plural	Ambiguous	3	0
+381	381	GPE	0.8639464378356934	moscou	1	29	35	8	0	0	0	36	381	moscou	obj	380	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+384	384	GPE	0.8696542382240295	il	1	29	35	11	0	0	0	37	384	il	nsubj	415	PRON	PRON	Not_Assigned	Not_Assigned	3	
+401	402	PER	0.9341927468776703	des français	2	31	37	6	0	0	0	38	402	français	nmod	400	NOUN	NOM	Plural	Ambiguous	3	0
+436	437	PER	0.5938177108764648	des russes	2	34	41	0	0	0	0	39	437	russes	nmod	469	NOUN	NOM	Plural	Ambiguous	3	5
+439	440	GPE	0.9099242091178894	la capitale	2	34	41	3	0	0	0	40	440	capitale	obl:mod	430	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+448	450	PER	0.7427444458007812	les gens de	3	34	41	12	0	0	0	41	449	gens	nsubj	485	NOUN	NOM	Plural	Ambiguous	3	15
+454	454	PER	0.6465538144111633	marchands	1	35	42	3	0	0	0	42	454	marchands	nmod	449	NOUN	NOM	Plural	Ambiguous	3	9
+456	456	PER	0.7508495450019836	artisans	1	35	42	5	0	0	0	43	456	artisans	conj	454	NOUN	NOM	Not_Assigned	Not_Assigned	3	16
+458	458	PER	0.9144417643547058	paysans	1	35	42	7	0	0	0	44	458	paysans	conj	454	NOUN	NOM	Plural	Ambiguous	3	3
+460	461	PER	0.8949492871761322	les uns	2	35	42	9	0	0	0	45	461	uns	appos	449	PRON	PRON	Plural	Ambiguous	3	9
+475	475	GPE	0.89784836769104	y	1	36	43	9	0	0	0	46	475	y	iobj	476	PRON	PRON	Not_Assigned	Not_Assigned	3	
+484	484	GPE	0.90339195728302	y	1	37	44	4	0	0	0	47	484	y	iobj	485	PRON	PRON	Not_Assigned	Not_Assigned	3	
+494	494	PER	0.689862847328186	paysans	1	38	46	0	0	0	0	48	494	paysans	nsubj:pass	513	NOUN	NOM	Plural	Ambiguous	3	3
+496	496	PER	0.9327182769775391	qui	1	38	46	2	0	0	0	49	496	qui	nsubj	498	PRON	PRON	Ambiguous	Ambiguous	4	3
+497	497	GPE	0.8996571898460388	y	1	38	46	3	0	0	0	50	497	y	iobj	498	PRON	PRON	Not_Assigned	Not_Assigned	3	
+500	502	VEH	0.7533988356590271	des charrettes vides	3	38	46	6	0	0	0	51	501	charrettes	obl:mod	498	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+515	516	PER	0.5595631897449493	les autorités	2	39	47	7	0	0	0	52	516	autorités	obl:agent	513	NOUN	NOM	Plural	Not_Assigned	3	17
+524	525	PER	0.6123633086681366	d' autres	2	40	48	3	0	0	0	53	525	autres	nsubj	576	ADJ	NOM	Plural	Ambiguous	3	2
+533	534	PER	0.9273609817028046	leurs camarades	2	40	48	12	0	1	1	54	534	camarades	nmod	531	NOUN	NOM	Plural	Ambiguous	3	18
+533	533	PER	0.7901602983474731	leurs	1	40	48	12	1	0	0	55	533	leurs	det	534	DET	PRON	Plural	Ambiguous	3	2
+555	555	PER	0.9284151792526245	ils	1	42	50	2	0	0	0	56	555	ils	nsubj	557	PRON	PRON	Plural	Ambiguous	3	2
+559	559	PER	0.9068732261657715	eux	1	42	50	6	0	0	0	57	559	eux	obl:mod	557	PRON	PRON	Plural	Ambiguous	3	2
+588	588	GPE	0.8913195729255676	y	1	44	52	11	0	0	0	58	588	y	iobj	589	PRON	PRON	Not_Assigned	Not_Assigned	3	
+594	596	FAC	0.8168585499127706	les édifices incendiés	3	45	53	1	0	0	0	59	595	édifices	nsubj:pass	598	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+602	602	FAC	0.6032601594924927	leurs	1	45	53	9	0	0	0	60	602	leurs	det	603	DET	PRON	Not_Assigned	Not_Assigned	3	
+605	606	PER	0.7981577813625336	les marchands	2	46	54	0	0	0	0	61	606	marchands	nsubj	607	NOUN	NOM	Plural	Ambiguous	3	10
+608	608	PER	0.8372430205345154	leur	1	46	54	3	0	0	0	62	608	leur	det	609	DET	PRON	Plural	Ambiguous	3	10
+611	612	FAC	0.7471258342266083	les cabarets	2	46	54	6	0	0	0	63	612	cabarets	nsubj	662	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+614	615	FAC	0.671177476644516	les auberges	2	46	54	9	0	0	0	64	615	auberges	conj	612	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+617	619	FAC	0.8907130757967631	les maisons abandonnées	3	47	55	1	0	0	0	65	618	maisons	obj	616	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+624	625	FAC	0.6868953108787537	quelques églises	2	47	55	8	0	0	0	66	625	églises	obj	623	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+632	633	PER	0.8208296597003937	les fonctionnaires	2	48	56	6	0	0	0	67	633	fonctionnaires	nsubj	634	NOUN	NOM	Plural	Not_Assigned	3	4
+637	637	PER	0.7974571585655212	leurs	1	48	56	11	0	0	0	68	637	leurs	det	686	DET	PRON	Plural	Ambiguous	3	4
+640	640	PER	0.8213880062103271	leurs	1	49	57	2	0	0	0	69	640	leurs	det	641	DET	PRON	Plural	Ambiguous	3	4
+643	645	FAC	0.6503203709920248	de petites chambres	3	49	57	5	0	0	0	70	645	chambres	obl:mod	686	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+662	663	PER	0.8874464929103851	les français	2	51	59	2	0	0	0	71	663	français	obl:agent	660	NOUN	NOM	Plural	Ambiguous	3	19
+667	667	PER	0.7304168343544006	on	1	51	59	7	0	0	0	72	667	on	nsubj	668	PRON	PRON	Ambiguous	Ambiguous	3	20
+701	701	PER	0.31701013445854187	soumissionnaires	1	54	62	0	0	0	0	73	701	soumissionnaires	nmod	698	NOUN	NOM	Not_Assigned	Not_Assigned	3	21
+705	709	FAC	0.6167771458625794	des immeubles de la couronne	5	54	62	4	0	0	0	74	706	immeubles	nmod	704	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+712	714	PER	0.9226211309432983	le comte rostoptchine	3	55	63	0	0	0	0	75	713	comte	nsubj	715	NOUN	PROP	Singular	Male	3	11
+718	718	PER	0.9786012172698975	ses	1	55	63	6	0	0	0	76	718	ses	det	719	DET	PRON	Singular	Ambiguous	3	11

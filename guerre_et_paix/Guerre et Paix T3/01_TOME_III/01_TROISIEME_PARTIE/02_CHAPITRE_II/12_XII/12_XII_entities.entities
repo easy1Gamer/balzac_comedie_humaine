@@ -1,0 +1,219 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	2	PER	0.9358471930027008	les rostow	2	1	1	0	0	0	0	0	2	rostow	nsubj	4	PROPN	PROP	Plural	Not_Assigned	3	9
+5	5	GPE	0.9254325032234192	moscou	1	1	1	4	0	0	0	1	5	moscou	obj	4	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+7	9	TIME	0.8879497845967611	le 13 septembre	3	1	1	6	0	0	0	2	8	13	obl:mod	4	NUM	NOM	Not_Assigned	Not_Assigned	3	
+11	14	TIME	0.4987165406346321	la veille même de	4	1	1	10	0	0	0	3	12	veille	obl:mod	4	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+15	19	TIME	0.668200671672821	l' entrée de l' ennemi	5	2	2	0	0	1	1	4	16	entrée	obj	16	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+18	19	PER	0.5802848637104034	l' ennemi	2	2	2	3	1	0	0	5	19	ennemi	nmod	16	NOUN	NOM	Singular	Male	3	22
+28	29	PER	0.9916000962257385	la comtesse	2	3	3	7	0	0	0	6	29	comtesse	obl:arg	26	NOUN	NOM	Singular	Female	3	0
+34	34	PER	0.9685546159744263	pétia	1	3	3	13	0	0	0	7	34	pétia	nmod	32	PROPN	PROP	Singular	Not_Assigned	3	14
+35	40	TIME	0.3893101116021474	au régiment des cosaques d' obolensky	6	4	4	0	0	1	1	8	36	régiment	nmod	32	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+37	40	PER	0.6397707313299179	des cosaques d' obolensky	4	4	4	2	1	0	0	9	38	cosaques	nmod	36	NOUN	PROP	Ambiguous	Not_Assigned	3	23
+42	42	PER	0.9929510354995728	son	1	4	4	7	0	0	0	10	42	son	det	43	DET	PRON	Singular	Ambiguous	3	14
+45	47	GPE	0.4530787765979767	biélaïa - tserkow	3	4	4	10	0	0	0	11	45	biélaïa	nmod	43	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+52	54	PER	0.8895101944605509	ses deux fils	3	5	5	3	0	1	1	12	54	fils	nsubj	58	NOUN	NOM	Plural	Male	3	15
+52	52	PER	0.9969960451126099	ses	1	5	5	3	1	0	0	13	52	ses	det	54	DET	PRON	Singular	Ambiguous	3	0
+61	62	PER	0.862801730632782	tous deux	2	5	5	12	0	0	0	14	62	deux	obl:agent	60	PRON	PRON	Plural	Ambiguous	3	15
+68	68	PER	0.9989438652992249	lui	1	6	6	4	0	0	0	15	68	lui	iobj	69	PRON	PRON	Singular	Ambiguous	3	0
+76	76	PER	0.9998410940170288	elle	1	6	7	0	0	0	0	16	76	elle	nsubj	77	PRON	PRON	Singular	Female	3	0
+80	80	PER	0.9963163137435913	nicolas	1	7	8	1	0	0	0	17	80	nicolas	obj	79	PROPN	PROP	Singular	Male	3	24
+86	86	PER	0.9961801767349243	pétia	1	7	8	7	0	0	0	18	86	pétia	obj	85	PROPN	PROP	Singular	Not_Assigned	3	1
+90	90	PER	0.9862620830535889	le	1	7	8	11	0	0	0	19	90	le	obj	91	PRON	PRON	Singular	Male	3	1
+95	95	GPE	0.9167143106460571	pétersbourg	1	8	9	2	0	0	0	20	95	pétersbourg	obl:mod	100	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+103	103	PER	0.9771425724029541	nicolas	1	8	10	0	0	0	0	21	103	nicolas	nsubj	113	PROPN	PROP	Singular	Male	3	2
+105	105	PER	0.9946377873420715	qui	1	8	10	2	0	0	0	22	105	qui	nsubj	115	PRON	PRON	Ambiguous	Ambiguous	4	2
+107	110	TIME	0.5492623746395111	dans sa dernière lettre	4	9	11	0	0	1	1	23	110	lettre	obl:mod	113	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+108	108	PER	0.9927700161933899	sa	1	9	11	1	1	0	0	24	108	sa	det	110	DET	PRON	Singular	Ambiguous	3	2
+114	114	PER	0.9958263039588928	sa	1	9	11	7	0	0	0	25	114	sa	det	115	DET	PRON	Singular	Ambiguous	3	2
+134	135	PER	0.9929440915584564	la comtesse	2	11	13	3	0	0	0	26	135	comtesse	nmod	132	NOUN	NOM	Singular	Female	3	0
+143	143	PER	0.9984425902366638	la	1	11	13	12	0	0	0	27	143	la	obj	144	PRON	PRON	Singular	Female	3	0
+149	150	PER	0.9931790828704834	le comte	2	12	15	0	0	0	0	28	150	comte	nsubj	152	NOUN	NOM	Singular	Male	3	2
+158	159	PER	0.9856545925140381	sa femme	2	13	16	0	0	1	1	29	159	femme	conj	170	NOUN	NOM	Singular	Female	3	0
+158	158	PER	0.9977667331695557	sa	1	13	16	0	1	0	0	30	158	sa	det	159	DET	PRON	Singular	Ambiguous	3	2
+166	169	PER	0.9220895916223526	son plus jeune fils	4	13	16	8	0	1	1	31	169	fils	obj	165	NOUN	NOM	Singular	Male	3	1
+166	166	PER	0.997632622718811	son	1	13	16	8	1	0	0	32	166	son	det	169	DET	PRON	Singular	Ambiguous	3	2
+173	173	GPE	0.4527301490306854	obolensky	1	14	17	1	0	0	0	33	173	obolensky	nmod	185	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+175	177	PER	0.24284928540388742	celui de besoukhow	3	14	17	3	0	0	0	34	177	besoukhow	nmod	175	PROPN	PROP	Singular	Male	3	25
+179	179	VEH	0.41012802720069885	qui	1	14	17	7	0	0	0	35	179	qui	nsubj	181	PRON	PRON	Not_Assigned	Not_Assigned	4	
+183	183	GPE	0.8620093464851379	moscou	1	14	17	11	0	0	0	36	183	moscou	obl:mod	181	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+186	186	PER	0.7152646780014038	la	1	14	17	14	0	0	0	37	186	la	det	201	DET	PRON	Singular	Female	3	0
+187	187	PER	0.6118051409721375	comtesse	1	15	18	0	0	0	0	38	187	comtesse	nsubj:pass	190	NOUN	NOM	Singular	Female	3	0
+198	199	PER	0.9546028673648834	son benjamin	2	15	18	11	0	1	1	39	199	benjamin	obl:arg	196	NOUN	NOM	Singular	Not_Assigned	3	1
+198	198	PER	0.9981556534767151	son	1	15	18	11	1	0	0	40	198	son	det	199	DET	PRON	Singular	Ambiguous	3	0
+203	203	PER	0.9779314398765564	nicolas	1	16	20	1	0	0	0	41	203	nicolas	nsubj	206	PROPN	PROP	Singular	Male	3	26
+211	211	PER	0.9993543028831482	lui	1	16	20	9	0	0	0	42	211	lui	iobj	213	PRON	PRON	Singular	Ambiguous	3	0
+216	216	PER	0.9997840523719788	elle	1	16	20	14	0	0	0	43	216	elle	nsubj	235	PRON	PRON	Singular	Female	3	0
+225	225	PER	0.9996910095214844	elle	1	17	21	6	0	0	0	44	225	elle	nsubj	227	PRON	PRON	Singular	Female	3	0
+226	226	PER	0.9734984636306763	l'	1	17	21	7	0	0	0	45	226	l'	obj	227	PRON	PRON	Singular	Ambiguous	3	1
+230	232	PER	0.8788389563560486	ses autres enfants	3	17	21	11	0	1	1	46	232	enfants	dep	228	NOUN	NOM	Plural	Ambiguous	3	27
+230	230	PER	0.9956597685813904	ses	1	17	21	11	1	0	0	47	230	ses	det	232	DET	PRON	Singular	Ambiguous	3	0
+236	237	PER	0.9251541197299957	le cadet	2	18	22	2	0	0	0	48	237	cadet	nsubj	265	NOUN	NOM	Singular	Male	3	1
+239	243	PER	0.840980589389801	ce gamin paresseux de pétia	5	18	22	5	0	0	0	49	240	gamin	appos	237	NOUN	PROP	Singular	Male	3	1
+246	246	PER	0.9935237169265747	ses	1	18	22	12	0	0	0	50	246	ses	det	247	DET	PRON	Singular	Ambiguous	3	1
+253	253	PER	0.9752635955810547	ses	1	19	23	4	0	0	0	51	253	ses	det	254	DET	PRON	Singular	Ambiguous	3	1
+260	260	PER	0.9804806113243103	son	1	19	23	11	0	0	0	52	260	son	det	261	DET	PRON	Singular	Ambiguous	3	1
+271	271	PER	0.9994562268257141	elle	1	20	24	9	0	0	0	53	271	elle	obl:arg	265	PRON	PRON	Singular	Female	3	0
+276	278	PER	0.5144603550434113	soldats rudes et	3	20	24	14	0	0	0	54	276	soldats	nmod	274	NOUN	NOM	Plural	Ambiguous	3	16
+280	280	PER	0.7264043688774109	qui	1	21	25	1	0	0	0	55	280	qui	nsubj	282	PRON	PRON	Ambiguous	Ambiguous	4	16
+287	288	PER	0.8675321042537689	les ennemis	2	21	25	8	0	0	0	56	288	ennemis	obl:mod	285	NOUN	NOM	Plural	Ambiguous	3	28
+290	290	PER	0.9997170567512512	elle	1	21	25	11	0	0	0	57	290	elle	nsubj	291	PRON	PRON	Singular	Female	3	0
+294	294	PER	0.9986416697502136	il	1	22	26	2	0	0	0	58	294	il	nsubj	296	PRON	PRON	Singular	Male	3	1
+297	297	PER	0.9959105253219604	son	1	22	26	5	0	0	0	59	297	son	det	298	DET	PRON	Singular	Ambiguous	3	0
+300	300	PER	0.9998509883880615	elle	1	22	26	8	0	0	0	60	300	elle	nsubj	302	PRON	PRON	Singular	Female	3	0
+308	308	PER	0.9892346858978271	le	1	23	27	1	0	0	0	61	308	le	obj	309	PRON	PRON	Singular	Male	3	1
+312	312	PER	0.9955865144729614	son	1	23	28	1	0	0	0	62	312	son	det	313	DET	PRON	Singular	Ambiguous	3	0
+315	317	PER	0.7143147885799408	tous les siens	3	23	28	4	0	1	1	63	317	siens	nsubj	328	NOUN	PRON	Plural	Ambiguous	3	29
+317	317	PER	0.7779645919799805	siens	1	23	28	6	1	0	0	64	317	siens	nsubj	328	NOUN	PRON	Not_Assigned	Ambiguous	3	0
+322	322	PER	0.9987902045249939	elle	1	23	28	11	0	0	0	65	322	elle	nsubj	346	PRON	PRON	Singular	Female	3	0
+330	330	PER	0.9698895812034607	l'	1	24	29	7	0	0	0	66	330	l'	obj	331	PRON	PRON	Singular	Ambiguous	3	0
+334	334	PER	0.999523401260376	je	1	24	29	11	0	0	0	67	334	je	nsubj	336	PRON	PRON	Singular	Ambiguous	1	0
+340	340	PER	0.9859618544578552	pétia	1	25	30	0	0	0	0	68	340	pétia	obj	364	PROPN	PROP	Singular	Not_Assigned	3	10
+344	344	PER	0.9994476437568665	-elle	1	25	30	4	0	0	0	69	344	elle	nsubj	343	PRON	PRON	Singular	Female	3	0
+348	348	PER	0.98887699842453	me	1	25	30	8	0	0	0	70	348	me	iobj	349	PRON	PRON	Singular	Ambiguous	1	0
+358	358	PER	0.94265216588974	nicolas	1	26	32	0	0	0	0	71	358	nicolas	nmod	356	PROPN	PROP	Singular	Male	3	30
+360	360	PER	0.7830326557159424	qui	1	26	32	2	0	0	0	72	360	qui	nsubj	361	PRON	PRON	Ambiguous	Ambiguous	4	31
+362	367	TIME	0.8059621254603068	vers les derniers jours d' août	6	26	32	4	0	0	0	73	365	jours	obl:arg	361	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+372	372	PER	0.9939302206039429	ses	1	26	32	14	0	0	0	74	372	ses	det	373	DET	PRON	Singular	Ambiguous	3	0
+377	377	PER	0.9978725910186768	il	1	27	33	4	0	0	0	75	377	il	nsubj	378	PRON	PRON	Singular	Male	3	10
+382	382	GPE	0.8674168586730957	voronège	1	27	33	9	0	0	0	76	382	voronège	nmod	380	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+384	384	GPE	0.701904296875	où	1	27	33	11	0	0	0	77	384	où	iobj	414	PRON	PRON	Not_Assigned	Not_Assigned	3	
+385	385	PER	0.9707547426223755	il	1	27	33	12	0	0	0	78	385	il	nsubj:pass	414	PRON	PRON	Singular	Male	3	10
+392	393	VEH	0.7217113673686981	des chevaux	2	28	34	5	0	0	0	79	393	chevaux	nmod	391	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+395	395	PER	0.9294945001602173	le	1	28	35	0	0	0	0	80	395	le	obj	396	PRON	PRON	Singular	Male	3	10
+401	401	PER	0.9991747736930847	ses	1	28	35	6	0	0	0	81	401	ses	det	430	DET	PRON	Singular	Ambiguous	3	0
+404	404	PER	0.9985699653625488	pétia	1	29	36	2	0	0	0	82	404	pétia	nmod	402	PROPN	PROP	Singular	Not_Assigned	3	6
+408	411	PER	0.5566107779741287	toutes les connaissances des	4	29	36	6	0	0	0	83	410	connaissances	nsubj	414	NOUN	NOM	Plural	Not_Assigned	3	32
+412	412	PER	0.6511490345001221	rostow	1	30	37	0	0	0	0	84	412	rostow	flat:name	441	PROPN	PROP	Singular	Not_Assigned	3	33
+415	415	GPE	0.7743211984634399	moscou	1	30	37	3	0	0	0	85	415	moscou	obj	414	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+417	417	PER	0.7619006037712097	on	1	30	37	5	0	0	0	86	417	on	nsubj	418	PRON	PRON	Ambiguous	Ambiguous	3	34
+419	420	PER	0.9935269951820374	la comtesse	2	30	37	7	0	0	0	87	420	comtesse	obj	418	NOUN	NOM	Singular	Female	3	0
+430	430	PER	0.9998102784156799	elle	1	31	38	5	0	0	0	88	430	elle	nsubj	432	PRON	PRON	Singular	Female	3	0
+442	444	PER	0.4897765616575877	son pétia adoré	3	32	39	4	0	1	1	89	443	pétia	nmod	440	PROPN	PROP	Singular	Not_Assigned	3	17
+442	442	PER	0.9959992170333862	son	1	32	39	4	1	0	0	90	442	son	det	443	DET	PRON	Singular	Ambiguous	3	0
+446	446	PER	0.984876275062561	qui	1	32	39	8	0	0	0	91	446	qui	nsubj	447	PRON	PRON	Ambiguous	Ambiguous	4	17
+449	450	TIME	0.8747648596763611	le 9	2	32	39	11	0	0	0	92	450	9	obl:mod	447	NUM	NOM	Not_Assigned	Not_Assigned	3	
+455	455	PER	0.9863859415054321	son	1	32	39	17	0	0	0	93	455	son	det	488	DET	PRON	Singular	Ambiguous	3	0
+459	463	PER	0.7816940069198608	cet officier de seize ans	5	33	40	3	0	0	0	94	460	officier	nsubj	465	NOUN	NOM	Not_Assigned	Not_Assigned	3	6
+478	479	PER	0.970036655664444	sa mère	2	34	41	9	0	1	1	95	479	mère	nmod	473	NOUN	NOM	Singular	Female	3	0
+478	478	PER	0.9976807832717896	sa	1	34	41	9	1	0	0	96	478	sa	det	479	DET	PRON	Singular	Ambiguous	3	6
+484	484	PER	0.9986715316772461	-elle	1	35	42	2	0	0	0	97	484	elle	obl:arg	482	PRON	PRON	Singular	Female	3	0
+487	487	PER	0.998207688331604	lui	1	35	42	5	0	0	0	98	487	lui	iobj	488	PRON	PRON	Singular	Ambiguous	3	6
+491	491	PER	0.9990850687026978	son	1	35	42	9	0	0	0	99	491	son	det	492	DET	PRON	Singular	Ambiguous	3	0
+496	496	PER	0.9935613870620728	lui	1	35	42	14	0	0	0	100	496	lui	iobj	532	PRON	PRON	Singular	Ambiguous	3	6
+506	506	PER	0.9925249218940735	pétia	1	36	44	0	0	0	0	101	506	pétia	nsubj	508	PROPN	PROP	Singular	Not_Assigned	3	7
+528	528	PER	0.9990076422691345	il	1	38	46	4	0	0	0	102	528	il	nsubj	529	PRON	PRON	Singular	Male	3	7
+531	531	PER	0.9996104836463928	il	1	38	46	7	0	0	0	103	531	il	nsubj	532	PRON	PRON	Singular	Male	3	7
+534	534	PER	0.995487630367279	ses	1	38	46	10	0	0	0	104	534	ses	det	535	DET	PRON	Singular	Ambiguous	3	0
+550	550	PER	0.985194742679596	son	1	39	47	12	0	0	0	105	550	son	det	551	DET	PRON	Singular	Ambiguous	3	7
+553	553	PER	0.998404324054718	natacha	1	40	48	1	0	0	0	106	553	natacha	obl:arg	591	PROPN	PROP	Singular	Female	3	35
+556	556	PER	0.9993897676467896	il	1	40	48	4	0	0	0	107	556	il	nsubj	560	PRON	PRON	Singular	Male	3	7
+564	565	PER	0.9804640412330627	du comte	2	41	49	2	0	0	0	108	565	comte	nmod	563	NOUN	NOM	Singular	Male	3	2
+577	584	TIME	0.7260364107787609	le 9 , date fixée pour leur départ	8	42	50	1	0	1	2	109	578	9	obl:mod	576	NUM	NOM	Not_Assigned	Not_Assigned	3	
+577	578	TIME	0.8979591131210327	le 9	2	42	50	1	1	0	0	110	578	9	obl:mod	576	NUM	NOM	Not_Assigned	Not_Assigned	3	
+583	583	PER	0.9895753860473633	leur	1	42	50	7	1	0	0	111	583	leur	det	584	DET	PRON	Plural	Ambiguous	3	36
+591	591	FAC	0.22452464699745178	leurs	1	42	50	15	0	0	0	112	591	leurs	det	634	DET	PRON	Not_Assigned	Not_Assigned	3	
+594	594	GPE	0.9182953834533691	riazan	1	43	51	2	0	0	0	113	594	riazan	nmod	592	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+597	597	GPE	0.8753108382225037	moscou	1	43	51	5	0	0	0	114	597	moscou	conj	594	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+607	610	TIME	0.673088051378727	du 9 au 12	4	44	53	0	0	0	0	115	607	du	ROOT	607	ADP	PRON	Not_Assigned	Not_Assigned	3	
+617	617	GPE	0.9187634587287903	moscou	1	44	53	10	0	0	0	116	617	moscou	obl:mod	615	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+619	621	TIME	0.6594260533650717	tous les jours	3	44	53	12	0	0	0	117	621	jours	nsubj	666	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+633	633	GPE	0.3177300989627838	borodino	1	46	55	0	0	0	0	118	633	borodino	nmod	678	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+636	637	PER	0.8829701244831085	les habitants	2	46	55	3	0	0	0	119	637	habitants	obj	635	NOUN	NOM	Plural	Ambiguous	3	12
+642	642	PER	0.7482595443725586	ils	1	46	55	9	0	0	0	120	642	ils	nsubj	644	PRON	PRON	Plural	Ambiguous	3	12
+647	647	PER	0.7668192982673645	eux	1	47	56	2	0	0	0	121	647	eux	obl:mod	645	PRON	PRON	Plural	Ambiguous	3	12
+654	655	GPE	0.8611259758472443	la ville	2	47	56	9	0	0	0	122	655	ville	nmod	652	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+661	661	PER	0.9641196131706238	rostoptchine	1	48	58	2	0	0	0	123	661	rostoptchine	nmod	659	PROPN	PROP	Singular	Not_Assigned	3	18
+668	668	PER	0.9021354913711548	ses	1	48	58	9	0	0	0	124	668	ses	det	669	DET	PRON	Singular	Ambiguous	3	18
+689	690	GPE	0.89946648478508	la capitale	2	50	61	7	0	0	0	125	690	capitale	obj	688	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+711	713	PER	0.7188305457433065	tous les habitants	3	52	63	1	0	0	0	126	713	habitants	obj	710	NOUN	NOM	Plural	Ambiguous	3	37
+730	730	GPE	0.7783072590827942	borodino	1	53	64	6	0	0	0	127	730	borodino	nmod	728	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+756	757	PER	0.7578509449958801	les paysans	2	55	66	8	0	0	0	128	757	paysans	nsubj	759	NOUN	NOM	Plural	Ambiguous	3	38
+765	766	PER	0.646708071231842	des traîtres	2	56	67	4	0	0	0	129	766	traîtres	obj	764	NOUN	NOM	Plural	Not_Assigned	3	39
+780	782	PER	0.4974258442719777	ceux qui partaient	3	57	68	3	0	0	0	130	782	partaient	acl:relcl	780	VERB	NOM	Plural	Not_Assigned	3	19
+789	789	PER	0.9538072347640991	tous	1	57	68	12	0	0	0	131	789	tous	advmod	848	ADJ	PRON	Plural	Ambiguous	3	19
+793	793	GPE	0.9107875823974609	moscou	1	58	69	2	0	0	0	132	793	moscou	nsubj:pass	795	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+808	808	PER	0.6582587957382202	on	1	59	71	0	0	0	0	133	808	on	nsubj	809	PRON	PRON	Ambiguous	Ambiguous	3	40
+817	821	TIME	0.6633988380432129	jusqu' au 1 er septembre	5	59	71	9	0	0	0	134	819	1	nmod	820	ADJ	NOM	Not_Assigned	Not_Assigned	3	
+850	850	GPE	0.7872430086135864	moscou	1	61	73	0	0	0	0	135	850	moscou	nsubj	851	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+875	875	GPE	0.38211649656295776	le	1	62	74	10	0	0	0	136	875	le	det	938	PRON	PRON	Not_Assigned	Not_Assigned	3	
+882	884	TIME	0.8566384116808573	ces trois jours	3	64	76	0	0	0	0	137	884	jours	nsubj	886	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+888	890	PER	0.9495123823483785	la famille rostow	3	64	76	6	0	0	0	138	889	famille	obl:arg	886	NOUN	PROP	Plural	Ambiguous	3	9
+903	904	PER	0.9836986064910889	le comte	2	65	78	2	0	0	0	139	904	comte	nsubj	905	NOUN	NOM	Singular	Male	3	2
+906	907	GPE	0.8413158059120178	la ville	2	65	78	5	0	0	0	140	907	ville	obj	905	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+920	920	PER	0.9967124462127686	son	1	67	80	0	0	0	0	141	920	son	det	921	DET	PRON	Singular	Ambiguous	3	2
+923	924	PER	0.9922820031642914	la comtesse	2	67	80	3	0	0	0	142	924	comtesse	nsubj	925	NOUN	NOM	Singular	Female	3	0
+933	933	PER	0.9446668028831482	pétia	1	68	81	0	0	0	0	143	933	pétia	obj	1000	PROPN	PROP	Singular	Not_Assigned	3	20
+934	934	PER	0.9524012207984924	qui	1	68	81	1	0	0	0	144	934	qui	nsubj	936	PRON	PRON	Ambiguous	Ambiguous	4	20
+935	935	PER	0.9992669224739075	la	1	68	81	2	0	0	0	145	935	la	obj	936	PRON	PRON	Singular	Female	3	0
+940	940	PER	0.9974508881568909	natacha	1	68	81	7	0	0	0	146	940	natacha	obj	939	PROPN	PROP	Singular	Female	3	11
+941	941	PER	0.9882679581642151	qui	1	68	81	8	0	0	0	147	941	qui	nsubj	944	PRON	PRON	Ambiguous	Ambiguous	4	11
+943	943	PER	0.9983225464820862	le	1	68	81	10	0	0	0	148	943	le	obj	944	PRON	PRON	Singular	Male	3	2
+947	947	PER	0.9933257102966309	sonia	1	68	82	0	0	0	0	149	947	sonia	nsubj	1016	PROPN	PROP	Singular	Female	3	0
+960	962	TIME	0.7306710084279379	depuis quelque temps	3	70	84	0	0	0	0	150	962	temps	obl:mod	966	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+964	964	PER	0.9995419979095459	elle	1	70	84	4	0	0	0	151	964	elle	nsubj	966	PRON	PRON	Singular	Female	3	0
+973	973	PER	0.9653955698013306	nicolas	1	71	86	0	0	0	0	152	973	nicolas	nmod	971	PROPN	PROP	Singular	Male	3	13
+976	976	PER	0.9983152151107788	il	1	71	86	3	0	0	0	153	976	il	nsubj	977	PRON	PRON	Singular	Male	3	13
+979	979	PER	0.993715226650238	son	1	71	86	6	0	0	0	154	979	son	det	980	DET	PRON	Singular	Ambiguous	3	13
+982	983	PER	0.8710987567901611	la princesse	2	71	86	9	0	0	0	155	983	princesse	nmod	980	NOUN	NOM	Singular	Female	3	11
+984	984	PER	0.7253055572509766	marie	1	72	87	0	0	0	0	156	984	marie	dep	1055	PROPN	PROP	Singular	Female	3	11
+991	992	PER	0.9882378876209259	la comtesse	2	72	87	7	0	0	0	157	992	comtesse	obl:mod	988	NOUN	NOM	Singular	Female	3	0
+999	999	PER	0.9993919134140015	elle	1	73	88	1	0	0	0	158	999	elle	nsubj	1004	PRON	PRON	Singular	Female	3	0
+1008	1008	PER	0.996866762638092	elle	1	73	88	10	0	0	0	159	1008	elle	obl:mod	1006	PRON	PRON	Singular	Female	3	0
+1011	1011	PER	0.9990992546081543	elle	1	73	88	13	0	0	0	160	1011	elle	nsubj	1085	PRON	PRON	Singular	Female	3	0
+1022	1022	PER	0.9996516704559326	je	1	74	90	1	0	0	0	161	1022	je	nsubj	1101	PRON	PRON	Singular	Ambiguous	1	0
+1030	1030	PER	0.9984800219535828	-elle	1	75	91	3	0	0	0	162	1030	elle	nsubj	1031	PRON	PRON	Singular	Female	3	0
+1035	1035	PER	0.8863404393196106	bolkonsky	1	75	91	8	0	0	0	163	1035	bolkonsky	obj	1034	PROPN	PROP	Singular	Not_Assigned	3	1
+1038	1038	PER	0.9954186677932739	natacha	1	75	91	11	0	0	0	164	1038	natacha	obl:arg	1036	PROPN	PROP	Singular	Female	3	41
+1042	1042	PER	0.9982258677482605	j'	1	76	92	0	0	0	0	165	1042	j'	nsubj	1045	PRON	PRON	Singular	Ambiguous	1	0
+1048	1048	PER	0.8410837054252625	nicolas	1	76	92	6	0	0	0	166	1048	nicolas	obj	1047	PROPN	PROP	Singular	Male	3	42
+1050	1052	PER	0.9497667153676351	la princesse marie	3	76	92	8	0	0	0	167	1051	princesse	obj	1049	NOUN	PROP	Singular	Female	3	21
+1055	1055	PER	0.9987332224845886	j'	1	76	92	13	0	0	0	168	1055	j'	nsubj	1056	PRON	PRON	Singular	Ambiguous	1	0
+1072	1074	PER	0.936313251654307	la pauvre sonia	3	78	95	0	0	0	0	169	1074	sonia	nsubj:pass	1077	PROPN	PROP	Singular	Female	3	5
+1079	1079	PER	0.9986925721168518	lui	1	78	95	7	0	0	0	170	1079	lui	iobj	1080	PRON	PRON	Singular	Ambiguous	3	0
+1087	1089	PER	0.7186906735102335	une riche héritière	3	79	96	1	0	0	0	171	1089	héritière	nmod	1164	NOUN	NOM	Singular	Female	3	21
+1102	1103	PER	0.8385491967201233	des rostow	2	80	97	2	0	0	0	172	1103	rostow	nmod	1100	PROPN	PROP	Ambiguous	Not_Assigned	3	9
+1105	1105	PER	0.9997822642326355	elle	1	80	98	0	0	0	0	173	1105	elle	nsubj	1107	PRON	PRON	Singular	Female	3	5
+1118	1118	PER	0.9967572093009949	son	1	81	99	3	0	0	0	174	1118	son	det	1119	DET	PRON	Singular	Ambiguous	3	5
+1121	1121	PER	0.9996336698532104	elle	1	81	99	6	0	0	0	175	1121	elle	nsubj	1123	PRON	PRON	Singular	Female	3	5
+1125	1125	PER	0.9987263083457947	elle	1	81	99	10	0	0	0	176	1125	elle	obl:arg	1123	PRON	PRON	Singular	Female	3	5
+1138	1138	PER	0.9992208480834961	elle	1	82	100	9	0	0	0	177	1138	elle	dep	1141	PRON	PRON	Singular	Female	3	5
+1142	1146	PER	0.8267508387565613	le comte et la comtesse	5	83	101	0	0	1	2	178	1143	comte	nsubj	1224	NOUN	NOM	Plural	Not_Assigned	3	2
+1142	1143	PER	0.9677779376506805	le comte	2	83	101	0	1	0	0	179	1143	comte	nsubj	1224	NOUN	NOM	Singular	Male	3	2
+1145	1146	PER	0.978888601064682	la comtesse	2	83	101	3	1	0	0	180	1146	comtesse	conj	1143	NOUN	NOM	Singular	Female	3	0
+1156	1157	PER	0.7339172959327698	pétia et	2	83	102	0	0	1	1	181	1156	pétia	nsubj	1182	PROPN	PROP	Singular	Not_Assigned	3	3
+1156	1156	PER	0.9838032722473145	pétia	1	83	102	0	1	0	0	182	1156	pétia	nsubj	1182	PROPN	PROP	Singular	Not_Assigned	3	43
+1158	1158	PER	0.9884190559387207	natacha	1	84	103	0	0	0	0	183	1158	natacha	obj	1241	PROPN	PROP	Singular	Female	3	44
+1160	1160	PER	0.9949493408203125	qui	1	84	103	2	0	0	0	184	1160	qui	nsubj	1164	PRON	PRON	Ambiguous	Ambiguous	4	3
+1168	1169	PER	0.9898601174354553	leurs parents	2	84	103	10	0	1	1	185	1169	parents	obj	1167	NOUN	NOM	Plural	Ambiguous	3	9
+1168	1168	PER	0.9968323111534119	leurs	1	84	103	10	1	0	0	186	1168	leurs	det	1169	DET	PRON	Plural	Ambiguous	3	3
+1172	1174	PER	0.8687818249066671	tout le monde	3	85	104	1	0	0	0	187	1174	monde	obj	1171	NOUN	NOM	Plural	Ambiguous	3	3
+1184	1186	FAC	0.7929980158805847	toute la maison	3	86	105	0	0	0	0	188	1186	maison	obj	1182	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1188	1188	PER	0.7672119736671448	leurs	1	86	105	4	0	0	0	189	1188	leurs	det	1189	DET	PRON	Plural	Ambiguous	3	3
+1193	1193	PER	0.8955835700035095	leurs	1	86	105	9	0	0	0	190	1193	leurs	det	1194	DET	PRON	Plural	Ambiguous	3	3
+1197	1197	PER	0.9967390894889832	ils	1	86	106	0	0	0	0	191	1197	ils	nsubj	1284	PRON	PRON	Plural	Ambiguous	3	3
+1206	1206	PER	0.9987491369247437	ils	1	87	107	8	0	0	0	192	1206	ils	nsubj	1208	PRON	PRON	Plural	Ambiguous	3	3
+1212	1212	PER	0.9723612070083618	leur	1	88	108	2	0	0	0	193	1212	leur	iobj	1213	PRON	PRON	Plural	Ambiguous	3	3
+1218	1218	PER	0.9818016886711121	pétia	1	88	109	0	0	0	0	194	1218	pétia	nsubj	1225	PROPN	PROP	Singular	Not_Assigned	3	8
+1220	1220	PER	0.9876355528831482	qui	1	88	109	2	0	0	0	195	1220	qui	nsubj	1313	PRON	PRON	Ambiguous	Ambiguous	4	8
+1227	1227	PER	0.9985582232475281	il	1	89	110	2	0	0	0	196	1227	il	nsubj	1229	PRON	PRON	Singular	Male	3	8
+1230	1232	FAC	0.8993888894716898	la maison maternelle	3	89	110	5	0	0	0	197	1231	maison	obj	1229	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1237	1237	FAC	0.7904723286628723	y	1	89	110	12	0	0	0	198	1237	y	iobj	1327	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1243	1243	PER	0.9994457364082336	il	1	90	111	5	0	0	0	199	1243	il	nsubj	1245	PRON	PRON	Singular	Male	3	8
+1252	1254	GPE	0.41754870613416034	biélaïa - tserkow	3	91	112	0	0	0	0	200	1252	biélaïa	dep	1249	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1256	1256	GPE	0.5574290156364441	où	1	91	112	4	0	0	0	201	1256	où	iobj	1260	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1273	1273	GPE	0.9110369682312012	moscou	1	92	113	2	0	0	0	202	1273	moscou	obl:arg	1271	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1275	1275	GPE	0.6914348602294922	où	1	92	113	4	0	0	0	203	1275	où	iobj	1281	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1280	1280	PER	0.9974931478500366	il	1	92	113	9	0	0	0	204	1280	il	nsubj	1281	PRON	PRON	Singular	Male	3	8
+1285	1285	PER	0.9944637417793274	natacha	1	92	114	0	0	0	0	205	1285	natacha	nsubj	1381	PROPN	PROP	Singular	Female	3	4
+1288	1288	PER	0.9965026378631592	son	1	92	114	3	0	0	0	206	1288	son	dep	1381	DET	PRON	Singular	Ambiguous	3	4
+1295	1295	PER	0.9991515874862671	elle	1	93	115	6	0	0	0	207	1295	elle	nsubj	1300	PRON	PRON	Singular	Female	3	4
+1306	1306	PER	0.9981675148010254	lui	1	94	116	3	0	0	0	208	1306	lui	iobj	1307	PRON	PRON	Singular	Ambiguous	3	4
+1314	1314	PER	0.9958723187446594	son	1	94	116	11	0	0	0	209	1314	son	det	1315	DET	PRON	Singular	Ambiguous	3	4
+1319	1319	PER	0.9992295503616333	elle	1	95	117	1	0	0	0	210	1319	elle	nsubj	1321	PRON	PRON	Singular	Female	3	4
+1322	1322	PER	0.9852715730667114	sa	1	95	117	4	0	0	0	211	1322	sa	det	1324	DET	PRON	Singular	Ambiguous	3	4
+1328	1328	PER	0.9995915293693542	ils	1	95	117	10	0	0	0	212	1328	ils	nsubj	1330	PRON	PRON	Plural	Ambiguous	3	3
+1334	1335	TIME	0.6387828886508942	la guerre	2	96	118	3	0	0	0	213	1335	guerre	nsubj	1338	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1337	1340	LOC	0.5881807208061218	aux portes de moscou	4	96	118	6	0	1	1	214	1338	portes	obj	1330	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1340	1340	GPE	0.9217057228088379	moscou	1	96	118	9	1	0	0	215	1340	moscou	nmod	1338	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1347	1347	GPE	0.45952722430229187	y	1	97	119	1	0	0	0	216	1347	y	iobj	1348	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1365	1366	PER	0.7496923804283142	des partants	2	98	120	2	0	0	0	217	1366	partants	conj	1363	NOUN	NOM	Plural	Not_Assigned	3	45

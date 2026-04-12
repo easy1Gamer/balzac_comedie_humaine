@@ -1,0 +1,93 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+6	8	TIME	0.7114503383636475	du 2 septembre	3	1	1	5	0	0	0	0	7	2	nmod	5	NUM	NOM	Not_Assigned	Not_Assigned	3	
+26	26	PER	0.4013468325138092	habitants	1	3	3	0	0	0	0	1	26	habitants	obj	19	NOUN	NOM	Plural	Ambiguous	3	0
+27	27	PER	0.9338114857673645	qui	1	3	3	1	0	0	0	2	27	qui	nsubj	29	PRON	PRON	Ambiguous	Ambiguous	4	0
+32	34	PER	0.6040913810332617	les troupes forcées	3	3	3	6	0	0	0	3	33	troupes	conj	29	NOUN	NOM	Plural	Ambiguous	3	11
+45	45	PER	0.9864367842674255	ils	1	4	5	5	0	0	0	4	45	ils	nsubj	47	PRON	PRON	Plural	Ambiguous	3	0
+50	50	PER	0.9553621411323547	ils	1	4	5	10	0	0	0	5	50	ils	nsubj	51	PRON	PRON	Plural	Ambiguous	3	0
+62	63	FAC	0.7480062544345856	la route	2	5	6	10	0	0	0	6	63	route	nmod	60	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+65	66	PER	0.9300303161144257	les rostow	2	6	7	0	0	0	0	7	66	rostow	nsubj	69	NOUN	NOM	Plural	Not_Assigned	3	0
+71	71	GPE	0.9120262861251831	moscou	1	6	7	6	0	0	0	8	71	moscou	obj	70	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+73	75	TIME	0.5965281824270884	dans l' après-midi	3	6	7	8	0	0	0	9	75	après-midi	obl:mod	70	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+77	77	PER	0.9967204928398132	ils	1	6	7	12	0	0	0	10	77	ils	obj	85	PRON	PRON	Plural	Ambiguous	3	0
+87	88	GPE	0.7351886928081512	la ville	2	7	8	8	0	0	0	11	88	ville	nmod	85	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+90	91	TIME	0.9398472309112549	le lendemain	2	7	9	0	0	0	0	12	91	lendemain	obl:mod	100	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+97	98	TIME	0.6965305507183075	la matinée	2	8	10	4	0	0	0	13	98	matinée	obl:mod	95	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+108	108	PER	0.9872502088546753	leur	1	9	11	3	0	0	0	14	108	leur	det	109	DET	PRON	Plural	Ambiguous	3	0
+111	111	PER	0.998728334903717	ils	1	9	11	6	0	0	0	15	111	ils	nsubj	113	PRON	PRON	Plural	Ambiguous	3	0
+115	118	TIME	0.5728105828166008	à dix heures du	4	9	11	10	0	0	0	16	117	heures	obl:mod	113	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+120	125	GPE	0.7282451589902242	au village de bolchaïa - mytichtchi	6	10	12	1	0	1	1	17	121	village	obl:arg	113	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+120	122	LOC	0.4302704830964406	au village de	3	10	12	1	1	0	0	18	121	village	obl:arg	113	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+127	127	GPE	0.7312058806419373	où	1	10	12	8	0	0	0	19	127	où	iobj	143	PRON	PRON	Not_Assigned	Not_Assigned	3	
+128	132	PER	0.5088588953018188	la famille et les blessés	5	10	12	9	0	1	2	20	129	famille	nsubj	143	NOUN	NOM	Plural	Not_Assigned	3	12
+128	129	PER	0.9551670253276825	la famille	2	10	12	9	1	0	0	21	129	famille	nsubj	143	NOUN	NOM	Plural	Ambiguous	3	13
+131	132	PER	0.888393372297287	les blessés	2	10	12	12	1	0	0	22	132	blessés	conj	129	NOUN	NOM	Plural	Ambiguous	3	14
+136	137	LOC	0.6405612230300903	les isbas	2	11	13	3	0	0	0	23	137	isbas	obl:arg	134	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+138	139	PER	0.4593914896249771	des paysans	2	11	13	5	0	0	0	24	139	paysans	nmod	137	NOUN	NOM	Plural	Ambiguous	3	15
+143	143	PER	0.93267422914505	leur	1	11	14	2	0	0	0	25	143	leur	det	144	DET	PRON	Plural	Ambiguous	3	0
+148	157	PER	0.6925001680850983	domestiques , les cochers , les brosseurs des officiers blessés	10	12	15	0	0	1	3	26	154	brosseurs	conj	148	NOUN	NOM	Not_Assigned	Not_Assigned	3	16
+148	148	PER	0.31619468331336975	domestiques	1	12	15	0	1	0	0	27	148	domestiques	nsubj	171	NOUN	NOM	Plural	Ambiguous	3	1
+150	151	PER	0.7756232023239136	les cochers	2	12	15	2	1	0	0	28	151	cochers	conj	148	NOUN	NOM	Plural	Not_Assigned	3	17
+155	157	PER	0.3431907147169113	des officiers blessés	3	12	15	7	1	0	0	29	156	officiers	nmod	154	NOUN	NOM	Plural	Ambiguous	3	18
+164	165	VEH	0.6977867782115936	aux chevaux	2	13	16	5	0	0	0	30	165	chevaux	obl:arg	161	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+171	172	FAC	0.7387226521968842	la rue	2	13	16	12	0	0	0	31	172	rue	obl:mod	169	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+177	178	FAC	0.6138356477022171	ces isbas	2	14	17	3	0	0	0	32	178	isbas	nmod	175	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+181	186	PER	0.7088956385850906	l' aide de camp de raïevsky	6	14	17	7	0	1	1	33	182	aide	obj	180	NOUN	PROP	Singular	Not_Assigned	3	2
+186	186	PER	0.9726108312606812	raïevsky	1	14	17	12	1	0	0	34	186	raïevsky	nmod	182	PROPN	PROP	Singular	Not_Assigned	3	19
+189	189	PER	0.9937117099761963	il	1	14	17	15	0	0	0	35	189	il	nsubj	204	PRON	PRON	Singular	Male	3	2
+197	197	PER	0.999119222164154	il	1	15	18	7	0	0	0	36	197	il	nsubj	198	PRON	PRON	Singular	Male	3	2
+203	203	PER	0.9825255870819092	ses	1	16	19	0	0	0	0	37	203	ses	det	204	DET	PRON	Singular	Ambiguous	3	2
+214	217	TIME	0.6282620579004288	cette nuit d' automne	4	17	20	0	0	0	0	38	215	nuit	obj	230	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+219	221	PER	0.9649120171864828	la comtesse rostow	3	17	21	0	0	0	0	39	220	comtesse	nsubj	235	NOUN	PROP	Singular	Female	3	4
+223	223	PER	0.9898419976234436	qui	1	17	21	4	0	0	0	40	223	qui	nsubj	227	PRON	PRON	Ambiguous	Ambiguous	4	4
+226	227	PER	0.6943778991699219	sa voisine	2	17	21	7	0	1	1	41	227	voisine	acl:relcl	220	NOUN	NOM	Singular	Female	3	4
+226	226	PER	0.9977038502693176	sa	1	17	21	7	1	0	0	42	226	sa	det	227	DET	PRON	Singular	Ambiguous	3	2
+242	242	PER	0.9957542419433594	-elle	1	18	22	12	0	0	0	43	242	elle	nsubj	243	PRON	PRON	Singular	Female	3	4
+254	256	PER	0.9403860767682394	du malheureux blessé	3	19	23	10	0	0	0	44	256	blessé	dep	253	VERB	NOM	Singular	Male	3	2
+258	261	PER	0.8800114244222641	l' un des domestiques	4	20	24	0	0	1	1	45	259	un	nsubj	262	PRON	PRON	Singular	Male	3	8
+260	261	PER	0.8629587292671204	des domestiques	2	20	24	2	1	0	0	46	261	domestiques	nmod	259	NOUN	NOM	Plural	Ambiguous	3	1
+273	273	PER	0.9967678785324097	ils	1	21	25	0	0	0	0	47	273	ils	nsubj	276	PRON	PRON	Plural	Ambiguous	3	0
+286	286	GPE	0.7453026175498962	mamonow	1	22	26	1	0	0	0	48	286	mamonow	nmod	306	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+288	288	PER	0.9402111172676086	qui	1	22	26	3	0	0	0	49	288	qui	nsubj	295	PRON	PRON	Ambiguous	Ambiguous	4	9
+292	292	PER	0.9934366345405579	eux	1	22	26	7	0	0	0	50	292	eux	obl:mod	295	PRON	PRON	Plural	Ambiguous	3	9
+298	300	GPE	0.5614930391311646	au village de	3	22	26	13	0	0	0	51	299	village	obl:arg	295	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+301	303	GPE	0.3339050312836965	malaïa - mytichtchi	3	23	27	0	0	0	0	52	301	malaïa	nmod	323	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+309	309	PER	0.9821773767471313	camarades	1	24	28	4	0	0	0	53	309	camarades	obj	276	NOUN	NOM	Plural	Ambiguous	3	0
+318	318	PER	0.997870922088623	-il	1	24	28	13	0	0	0	54	318	il	parataxis	311	PRON	PRON	Singular	Male	3	8
+320	320	PER	0.9962755441665649	tous	1	25	29	0	0	0	0	55	320	tous	nsubj	322	ADJ	PRON	Plural	Ambiguous	3	0
+336	336	GPE	0.8229084610939026	mamonow	1	26	30	12	0	0	0	56	336	mamonow	nmod	334	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+337	337	PER	0.6076960563659668	qui	1	26	30	13	0	0	0	57	337	qui	nsubj	339	PRON	PRON	Ambiguous	Ambiguous	4	20
+366	366	GPE	0.9014643430709839	moscou	1	29	33	3	0	0	0	58	366	moscou	dep	391	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+369	371	PER	0.6041901856660843	deux des domestiques	3	30	34	0	0	0	0	59	371	domestiques	nmod	369	NOUN	NOM	Plural	Ambiguous	3	1
+376	377	VEH	0.7917141914367676	la voiture	2	30	34	7	0	0	0	60	377	voiture	obl:arg	372	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+378	378	VEH	0.9440671801567078	qui	1	30	34	9	0	0	0	61	378	qui	nsubj	380	PRON	PRON	Not_Assigned	Not_Assigned	4	
+379	379	PER	0.947664201259613	leur	1	30	34	10	0	0	0	62	379	leur	iobj	380	PRON	PRON	Plural	Ambiguous	3	1
+400	400	PER	0.9981034994125366	tu	1	32	36	9	0	0	0	63	400	tu	dep	398	PRON	PRON	Singular	Ambiguous	2	21
+410	410	PER	0.8661201000213623	mes	1	32	37	3	0	0	0	64	410	mes	dep	443	DET	PRON	Singular	Ambiguous	1	22
+411	411	PER	0.43770748376846313	amis	1	33	38	0	0	0	0	65	411	amis	obj	443	NOUN	NOM	Plural	Ambiguous	3	1
+416	416	GPE	0.9117597341537476	moscou	1	33	38	5	0	0	0	66	416	moscou	obl:mod	443	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+429	429	PER	0.9992377758026123	ils	1	34	39	7	0	0	0	67	429	ils	nsubj	430	PRON	PRON	Plural	Ambiguous	3	1
+445	445	PER	0.9858280420303345	daniel	1	35	41	0	0	0	0	68	445	daniel	nsubj	456	PROPN	PROP	Singular	Male	3	3
+447	450	PER	0.6348990648984909	le vieux valet de	4	35	41	2	0	0	0	69	449	valet	appos	445	NOUN	NOM	Singular	Male	3	3
+452	453	PER	0.9558251798152924	du comte	2	36	42	1	0	0	0	70	453	comte	nmod	486	NOUN	NOM	Singular	Male	3	5
+457	458	PER	0.9672908782958984	du groupe	2	36	42	6	0	0	0	71	458	groupe	obl:arg	456	NOUN	NOM	Plural	Ambiguous	3	1
+461	461	PER	0.997391939163208	michka	1	36	42	10	0	0	0	72	461	michka	obj	460	PROPN	PROP	Singular	Not_Assigned	3	10
+467	467	PER	0.9989945292472839	tu	1	37	43	4	0	0	0	73	467	tu	dep	465	PRON	PRON	Singular	Ambiguous	2	10
+473	474	PER	0.9428426921367645	le comte	2	37	44	1	0	0	0	74	474	comte	nsubj	475	NOUN	NOM	Singular	Male	3	5
+486	486	PER	0.9830474257469177	ses	1	38	45	5	0	0	0	75	486	ses	det	487	DET	PRON	Singular	Ambiguous	3	5
+491	491	PER	0.999657392501831	je	1	39	46	2	0	0	0	76	491	je	nsubj	493	PRON	PRON	Singular	Ambiguous	1	3
+503	503	PER	0.9932510256767273	-vous	1	40	47	4	0	0	0	77	503	vous	nsubj	502	PRON	PRON	Ambiguous	Ambiguous	2	3
+505	506	PER	0.9819939136505127	daniel térentitch	2	40	47	6	0	0	0	78	505	daniel	dep	502	PROPN	PROP	Singular	Male	3	3
+513	513	GPE	0.9176918864250183	moscou	1	40	47	14	0	0	0	79	513	moscou	obl:arg	502	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+516	517	PER	0.983003705739975	daniel térentitch	2	41	48	0	0	0	0	80	516	daniel	nsubj	519	PROPN	PROP	Singular	Male	3	23
+523	523	PER	0.9558752179145813	chacun	1	41	48	7	0	0	0	81	523	chacun	nsubj	524	PRON	PRON	Ambiguous	Ambiguous	3	3
+551	551	PER	0.9424769878387451	nous	1	43	50	8	0	0	0	82	551	nous	obl:arg	548	PRON	PRON	Plural	Ambiguous	1	6
+588	588	PER	0.9025583863258362	nous	1	46	57	6	0	0	0	83	588	nous	obl:arg	585	PRON	PRON	Plural	Ambiguous	1	6
+613	614	PER	0.9820065796375275	daniel térentitch	2	48	59	10	0	0	0	84	613	daniel	nsubj	609	PROPN	PROP	Singular	Male	3	7
+627	627	GPE	0.9140477180480957	moscou	1	49	60	9	0	0	0	85	627	moscou	obl:mod	609	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+631	632	PER	0.9798740744590759	mes amis	2	49	60	13	0	1	1	86	632	amis	obl:mod	685	NOUN	NOM	Plural	Ambiguous	3	3
+631	631	PER	0.9924578666687012	mes	1	49	60	13	1	0	0	87	631	mes	det	632	DET	PRON	Singular	Ambiguous	1	7
+636	636	GPE	0.3870004117488861	elle	1	50	61	0	0	0	0	88	636	elle	ROOT	636	PRON	PRON	Not_Assigned	Not_Assigned	3	
+638	639	PER	0.5554776042699814	notre mère	2	50	61	2	0	1	1	89	639	mère	appos	636	NOUN	NOM	Singular	Female	3	2
+638	638	PER	0.8948007225990295	notre	1	50	61	2	1	0	0	90	638	notre	det	639	DET	PRON	Plural	Ambiguous	1	6
+648	648	PER	0.9984643459320068	sa	1	51	62	3	0	0	0	91	648	sa	det	649	DET	PRON	Singular	Ambiguous	3	7

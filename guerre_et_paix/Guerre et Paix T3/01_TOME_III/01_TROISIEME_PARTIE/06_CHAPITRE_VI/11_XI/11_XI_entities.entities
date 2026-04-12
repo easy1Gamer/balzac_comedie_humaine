@@ -1,0 +1,104 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	3	TIME	0.8790363272031149	le 11 décembre	3	1	1	0	0	0	0	0	2	11	obl:mod	24	NUM	NOM	Not_Assigned	Not_Assigned	3	
+5	6	PER	0.5642219185829163	sa majesté	2	1	1	4	0	0	0	1	6	majesté	nsubj	24	NOUN	NOM	Singular	Ambiguous	3	0
+10	10	PER	0.998195469379425	sa	1	1	1	9	0	0	0	2	10	sa	det	11	DET	PRON	Singular	Ambiguous	3	0
+13	15	PER	0.9124253590901693	du comte tolstoï	3	1	1	12	0	0	0	3	14	comte	obl:arg	8	NOUN	PROP	Singular	Male	3	3
+17	22	PER	0.40986283620198566	du prince volkonsky et d' araktchéïew	6	2	2	0	0	1	2	4	18	prince	obl:arg	18	NOUN	PROP	Plural	Not_Assigned	3	7
+17	19	PER	0.939446210861206	du prince volkonsky	3	2	2	0	1	0	0	5	18	prince	obl:arg	18	NOUN	PROP	Singular	Male	3	8
+22	22	PER	0.732731282711029	araktchéïew	1	2	2	5	1	0	0	6	22	araktchéïew	conj	18	PROPN	PROP	Singular	Not_Assigned	3	9
+26	27	VEH	0.8630460202693939	son traîneau	2	2	2	9	0	1	1	7	27	traîneau	obl:arg	24	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+26	26	PER	0.9639483094215393	son	1	2	2	9	1	0	0	8	26	son	det	27	DET	PRON	Singular	Ambiguous	3	0
+32	35	FAC	0.6055282056331635	au château de vilna	4	3	3	3	0	1	1	9	33	château	obl:arg	31	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+35	35	GPE	0.6027379035949707	vilna	1	3	3	6	1	0	0	10	35	vilna	nmod	33	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+50	53	PER	0.6025151014328003	des états - majors	4	4	5	6	0	0	0	11	51	états	nmod	49	NOUN	NOM	Plural	Not_Assigned	3	10
+57	58	PER	0.534042552113533	une garde	2	4	5	13	0	0	0	12	58	garde	conj	44	NOUN	NOM	Singular	Female	3	11
+61	64	PER	0.6174301430583	du régiment de séménovsky	4	5	6	2	0	0	0	13	62	régiment	nmod	63	NOUN	PROP	Plural	Ambiguous	3	12
+66	66	PER	0.9922510981559753	l'	1	5	6	7	0	0	0	14	66	l'	obj	67	PRON	PRON	Singular	Ambiguous	3	0
+71	72	PER	0.42983169853687286	le courrier	2	6	7	0	0	0	0	15	72	courrier	nsubj	88	NOUN	NOM	Singular	Not_Assigned	3	4
+73	73	VEH	0.7358770966529846	qui	1	6	7	2	0	0	0	16	73	qui	nsubj	74	PRON	PRON	Not_Assigned	Not_Assigned	4	
+75	76	PER	0.8924943804740906	le tsar	2	6	7	4	0	0	0	17	76	tsar	obj	74	PROPN	PROP	Singular	Male	3	0
+79	80	VEH	0.8133946657180786	une troïka	2	6	7	8	0	0	0	18	80	troïka	nmod	72	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+91	91	PER	0.8252035975456238	le	1	8	9	1	0	0	0	19	91	le	obj	92	PRON	PRON	Singular	Male	3	0
+95	95	PER	0.9883391857147217	konovnitzine	1	8	9	5	0	0	0	20	95	konovnitzine	nsubj	97	PROPN	PROP	Singular	Not_Assigned	3	4
+99	100	FAC	0.7923890054225922	le vestibule	2	8	9	9	0	0	0	21	100	vestibule	obl:arg	97	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+106	106	PER	0.9967791438102722	koutouzow	1	9	10	2	0	0	0	22	106	koutouzow	obl:arg	112	PROPN	PROP	Singular	Not_Assigned	3	5
+108	108	PER	0.9957966804504395	qui	1	9	10	4	0	0	0	23	108	qui	nsubj	109	PRON	PRON	Ambiguous	Ambiguous	4	5
+113	114	PER	0.4760423004627228	du suisse	2	9	10	9	0	0	0	24	114	suisse	nmod	112	NOUN	NOM	Singular	Male	3	13
+116	119	TIME	0.8539992719888687	une minute plus tard	4	10	11	0	0	0	0	25	117	minute	obl:mod	118	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+131	131	PER	0.9884097576141357	son	1	11	12	2	0	0	0	26	131	son	det	132	DET	PRON	Singular	Ambiguous	3	0
+134	134	PER	0.9992247819900513	il	1	11	12	5	0	0	0	27	134	il	nsubj	136	PRON	PRON	Singular	Male	3	0
+138	139	FAC	0.6262162923812866	le perron	2	11	12	9	0	0	0	28	139	perron	obl:arg	136	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+145	145	PER	0.9794236421585083	sa	1	12	13	1	0	0	0	29	145	sa	det	149	DET	PRON	Singular	Ambiguous	3	0
+152	152	PER	0.9943179488182068	son	1	12	13	8	0	0	0	30	152	son	det	153	DET	PRON	Singular	Ambiguous	3	0
+156	156	PER	0.995634138584137	ses	1	12	13	12	0	0	0	31	156	ses	det	157	DET	PRON	Singular	Ambiguous	3	0
+174	174	PER	0.9928014278411865	il	1	13	14	14	0	0	0	32	174	il	nsubj	188	PRON	PRON	Singular	Male	3	0
+178	179	PER	0.9172765910625458	l' empereur	2	14	15	3	0	0	0	33	179	empereur	obl:arg	176	NOUN	NOM	Singular	Male	3	0
+181	183	VEH	0.7719263831774393	une seconde troïka	3	15	16	0	0	0	0	34	183	troïka	nsubj	184	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+196	197	VEH	0.9158603250980377	un traîneau	2	16	17	1	0	0	0	35	197	traîneau	obl:arg	210	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+198	198	VEH	0.935056746006012	qui	1	16	17	3	0	0	0	36	198	qui	nsubj	200	PRON	PRON	Not_Assigned	Not_Assigned	4	
+203	203	VEH	0.5653772354125977	elle	1	16	17	8	0	0	0	37	203	elle	obl:arg	200	PRON	PRON	Not_Assigned	Not_Assigned	3	
+208	208	FAC	0.32034832239151	duquel	1	17	18	0	0	0	0	38	208	duquel	dep	210	PRON	PRON	Not_Assigned	Not_Assigned	3	
+212	215	PER	0.6102517768740654	l' empereur et volkonsky	4	17	18	4	0	1	2	39	213	empereur	obj	210	NOUN	PROP	Plural	Not_Assigned	3	14
+212	213	PER	0.8679238855838776	l' empereur	2	17	18	4	1	0	0	40	213	empereur	obj	210	NOUN	NOM	Singular	Male	3	15
+215	215	PER	0.9884070754051208	volkonsky	1	17	18	7	1	0	0	41	215	volkonsky	conj	213	PROPN	PROP	Singular	Male	3	16
+219	221	TIME	0.8826418519020081	depuis cinquante ans	3	18	19	2	0	0	0	42	221	ans	obl:mod	217	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+227	227	PER	0.9963430762290955	lui	1	18	19	10	0	0	0	43	227	lui	iobj	228	PRON	PRON	Singular	Ambiguous	3	0
+234	237	PER	0.8079866617918015	le général en chef	4	19	20	5	0	0	0	44	235	général	nsubj	239	NOUN	NOM	Singular	Male	3	0
+245	245	PER	0.9996697902679443	il	1	20	21	5	0	0	0	45	245	il	nsubj	246	PRON	PRON	Singular	Male	3	0
+253	253	PER	0.9956508278846741	ses	1	20	21	13	0	0	0	46	253	ses	det	274	DET	PRON	Singular	Ambiguous	3	0
+257	257	PER	0.9950894713401794	son	1	21	22	3	0	0	0	47	257	son	det	258	DET	PRON	Singular	Ambiguous	3	0
+265	266	PER	0.9135397970676422	l' empereur	2	21	22	11	0	0	0	48	266	empereur	nsubj	267	NOUN	NOM	Singular	Male	3	17
+276	276	PER	0.996968686580658	lui	1	22	23	7	0	0	0	49	276	lui	obl:arg	272	PRON	PRON	Singular	Ambiguous	3	0
+283	283	PER	0.999743640422821	il	1	22	23	14	0	0	0	50	283	il	nsubj	285	PRON	PRON	Singular	Male	3	0
+288	288	PER	0.993466317653656	lui	1	23	24	0	0	0	0	51	288	lui	iobj	289	PRON	PRON	Singular	Ambiguous	3	0
+294	294	PER	0.9978195428848267	lui	1	23	24	6	0	0	0	52	294	lui	obj	295	PRON	PRON	Singular	Ambiguous	3	0
+297	297	PER	0.9984433054924011	sa	1	23	24	9	0	0	0	53	297	sa	det	298	DET	PRON	Singular	Ambiguous	3	0
+303	304	PER	0.9389634728431702	l' empereur	2	24	25	0	0	0	0	54	304	empereur	nsubj	306	NOUN	NOM	Singular	Male	3	6
+305	305	PER	0.9865850210189819	l'	1	24	25	2	0	0	0	55	305	l'	obj	306	PRON	PRON	Singular	Ambiguous	3	0
+331	331	PER	0.993104875087738	il	1	25	26	11	0	0	0	56	331	il	nsubj	357	PRON	PRON	Singular	Male	3	6
+332	332	PER	0.9969336986541748	lui	1	26	27	0	0	0	0	57	332	lui	iobj	333	PRON	PRON	Singular	Ambiguous	3	0
+337	337	PER	0.9976722598075867	l'	1	26	27	5	0	0	0	58	337	l'	obj	338	PRON	PRON	Singular	Ambiguous	3	0
+346	346	PER	0.9983084201812744	lui	1	26	28	6	0	0	0	59	346	lui	iobj	347	PRON	PRON	Singular	Ambiguous	3	0
+357	357	PER	0.994644284248352	ses	1	27	29	9	0	0	0	60	357	ses	det	358	DET	PRON	Singular	Ambiguous	3	0
+363	363	PER	0.9975467324256897	lui	1	28	30	4	0	0	0	61	363	lui	obl:arg	361	PRON	PRON	Singular	Ambiguous	3	0
+374	375	PER	0.9562856554985046	l' empereur	2	29	31	0	0	0	0	62	375	empereur	nsubj	376	NOUN	NOM	Singular	Male	3	2
+377	378	PER	0.9292851090431213	les officiers	2	29	31	3	0	0	0	63	378	officiers	obj	376	NOUN	NOM	Plural	Ambiguous	3	18
+380	383	PER	0.604295402765274	la garde des séménovsky	4	29	31	6	0	1	1	64	381	garde	conj	378	NOUN	PROP	Singular	Female	3	19
+382	383	PER	0.8041136860847473	des séménovsky	2	29	31	8	1	0	0	65	383	séménovsky	nmod	381	PROPN	PROP	Ambiguous	Not_Assigned	3	20
+393	394	PER	0.9599270522594452	au maréchal	2	30	32	5	0	0	0	66	394	maréchal	obl:arg	417	NOUN	NOM	Singular	Male	3	0
+397	398	FAC	0.8201432824134827	au château	2	30	32	9	0	0	0	67	398	château	obl:arg	396	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+403	403	PER	0.99846351146698	lui	1	31	33	3	0	0	0	68	403	lui	obl:mod	400	PRON	PRON	Singular	Ambiguous	3	0
+405	405	PER	0.9993566870689392	il	1	31	33	5	0	0	0	69	405	il	nsubj	408	PRON	PRON	Singular	Male	3	2
+407	407	PER	0.9990983009338379	lui	1	31	33	7	0	0	0	70	407	lui	iobj	408	PRON	PRON	Singular	Ambiguous	3	0
+410	410	PER	0.9987830519676208	son	1	31	33	10	0	0	0	71	410	son	det	411	DET	PRON	Singular	Ambiguous	3	2
+415	415	PER	0.9913630485534668	il	1	32	34	1	0	0	0	72	415	il	nsubj	417	PRON	PRON	Singular	Male	3	2
+419	419	GPE	0.8812131285667419	krasnoé	1	32	34	5	0	0	0	73	419	krasnoé	obl:mod	417	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+422	423	LOC	0.48779216408729553	la bérésina	2	32	34	8	0	0	0	74	423	bérésina	conj	419	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+435	436	PER	0.793405145406723	l' ennemi	2	33	35	5	0	0	0	75	436	ennemi	nmod	433	NOUN	NOM	Singular	Male	3	0
+441	441	PER	0.9971851706504822	lui	1	33	35	11	0	0	0	76	441	lui	iobj	442	PRON	PRON	Singular	Ambiguous	3	0
+446	447	TIME	0.32916734367609024	une campagne	2	34	36	1	0	0	0	77	447	campagne	nmod	478	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+449	450	LOC	0.4930456876754761	du pays	2	34	36	4	0	0	0	78	450	pays	nmod	447	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+452	452	PER	0.9770366549491882	koutouzow	1	34	37	0	0	0	0	79	452	koutouzow	nsubj	454	PROPN	PROP	Singular	Not_Assigned	3	1
+460	460	PER	0.9969208240509033	sa	1	35	39	0	0	0	0	80	460	sa	det	461	DET	PRON	Singular	Ambiguous	3	1
+474	474	PER	0.999390721321106	il	1	36	40	5	0	0	0	81	474	il	nsubj	476	PRON	PRON	Singular	Male	3	1
+478	480	TIME	0.7722335457801819	sept ans auparavant	3	36	40	9	0	0	0	82	479	ans	obl:mod	472	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+487	488	PER	0.7169116735458374	l' empereur	2	37	41	4	0	0	0	83	488	empereur	nmod	485	NOUN	NOM	Singular	Male	3	21
+493	493	GPE	0.7686188817024231	austerlitz	1	37	41	10	0	0	0	84	493	austerlitz	nmod	491	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+496	496	PER	0.9972233772277832	il	1	37	42	1	0	0	0	85	496	il	nsubj	534	PRON	PRON	Singular	Male	3	1
+497	497	PER	0.9684052467346191	le	1	38	43	0	0	0	0	86	497	le	obj	498	PRON	PRON	Singular	Male	3	0
+504	504	PER	0.9976200461387634	sa	1	38	43	7	0	0	0	87	504	sa	det	505	DET	PRON	Singular	Ambiguous	3	1
+509	510	FAC	0.534876823425293	la grande	2	38	43	12	0	0	0	88	509	la	expl:comp	549	DET	PRON	Not_Assigned	Not_Assigned	3	
+514	514	PER	0.974162757396698	son	1	39	44	3	0	0	0	89	514	son	det	515	DET	PRON	Singular	Ambiguous	3	1
+522	522	PER	0.9792823195457458	l'	1	39	44	11	0	0	0	90	522	l'	obj	523	PRON	PRON	Singular	Ambiguous	3	1
+525	525	PER	0.9967856407165527	lui	1	39	44	14	0	0	0	91	525	lui	iobj	526	PRON	PRON	Singular	Ambiguous	3	1
+529	530	PER	0.8277290165424347	votre altesse	2	40	45	1	0	0	0	92	530	altesse	ccomp	498	NOUN	NOM	Singular	Ambiguous	3	0
+533	533	PER	0.9867823123931885	koutouzow	1	41	46	0	0	0	0	93	533	koutouzow	nsubj	534	PROPN	PROP	Singular	Not_Assigned	3	22
+541	543	PER	0.9298646450042725	le comte tolstoï	3	41	46	8	0	0	0	94	542	comte	obj	539	NOUN	PROP	Singular	Male	3	3
+545	545	PER	0.9766300916671753	qui	1	41	46	12	0	0	0	95	545	qui	nsubj	587	PRON	PRON	Ambiguous	Ambiguous	4	3
+549	549	PER	0.9972527623176575	lui	1	42	47	3	0	0	0	96	549	lui	obl:arg	547	PRON	PRON	Singular	Ambiguous	3	1
+551	551	PER	0.9984306693077087	lui	1	42	47	5	0	0	0	97	551	lui	iobj	552	PRON	PRON	Singular	Ambiguous	3	1
+562	562	PER	0.9995800852775574	il	1	43	49	0	0	0	0	98	562	il	nsubj	563	PRON	PRON	Singular	Male	3	1
+569	569	PER	0.6126822233200073	on	1	43	49	7	0	0	0	99	569	on	nsubj	571	PRON	PRON	Ambiguous	Ambiguous	3	23
+570	570	PER	0.9984496831893921	lui	1	43	49	8	0	0	0	100	570	lui	iobj	571	PRON	PRON	Singular	Ambiguous	3	1
+581	581	PER	0.9972795844078064	sa	1	44	51	6	0	0	0	101	581	sa	det	583	DET	PRON	Singular	Ambiguous	3	1
+591	591	PER	0.9995824694633484	il	1	45	52	2	0	0	0	102	591	il	nsubj	592	PRON	PRON	Singular	Male	3	1

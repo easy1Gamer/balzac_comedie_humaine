@@ -1,0 +1,1196 @@
+paragraph_ID	sentence_ID	token_ID_within_sentence	token_ID_within_document	word	lemma	byte_onset	byte_offset	POS_tag	dependency_relation	syntactic_head_ID	morph	is_mention_head	char_att_agent	char_att_patient	char_att_mod	char_att_poss
+0	0	0	0	III	iii	0	3	NOUN	ROOT	0		0	-1	-1	-1	-1
+1	1	0	1	Sonia	sonia	5	10	PROPN	nsubj	6	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+1	1	1	2	et	et	11	13	CCONJ	cc	5		0	-1	-1	-1	-1
+1	1	2	3	le	le	14	16	DET	det	5	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+1	1	3	4	vieux	vieux	17	22	ADJ	amod	5	Gender=Masc|Number=Sing	0	-1	-1	5	-1
+1	1	4	5	comte	comte	23	28	NOUN	conj	1	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+1	1	5	6	essayaient	essayer	29	39	VERB	ROOT	6	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	1	-1	-1	-1
+1	1	6	7	en	en	40	42	ADP	advmod	6		0	-1	-1	-1	-1
+1	1	7	8	vain	vain	43	47	ADJ	fixed	7	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+1	1	8	9	de	de	48	50	ADP	mark	10		0	-1	-1	-1	-1
+1	1	9	10	remplacer	remplacer	51	60	VERB	xcomp	6	VerbForm=Inf	0	-1	11	-1	-1
+1	1	10	11	Natacha	natacha	61	68	PROPN	obj	10		1	-1	-1	-1	-1
+1	1	11	12	;	;	68	69	PUNCT	punct	6		0	-1	-1	-1	-1
+1	1	12	13	elle	lui	70	74	PRON	nsubj	15	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+2	2	0	14	était	être	75	80	AUX	cop	17	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+2	2	1	15	décidément	décidément	81	91	ADV	advmod	17		0	-1	-1	-1	-1
+2	2	2	16	la	le	92	94	DET	det	17	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+2	2	3	17	seule	seul	95	100	ADJ	ROOT	17	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+2	2	4	18	qui	qui	101	104	PRON	nsubj	19	PronType=Rel	0	-1	-1	-1	-1
+2	2	5	19	pût	pouvoir	105	108	VERB	acl:relcl	17	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+2	2	6	20	arrêter	arrêter	109	116	VERB	xcomp	19	VerbForm=Inf	0	-1	22	-1	-1
+2	2	7	21	sa	son	117	119	DET	det	22	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+2	2	8	22	mère	mère	120	124	NOUN	obj	20	Gender=Fem|Number=Sing	1	-1	-1	-1	21
+2	2	9	23	sur	sur	125	128	ADP	case	25		0	-1	-1	-1	-1
+2	2	10	24	la	le	129	131	DET	det	25	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+2	2	11	25	pente	pente	132	137	NOUN	obl:mod	20	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+2	2	12	26	d'	de	138	140	ADP	case	30		0	-1	-1	-1	-1
+2	2	13	27	un	un	140	142	DET	det	30	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+3	3	0	28	désespoir	désespoir	143	152	NOUN	nmod	25	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+3	3	1	29	voisin	voisin	153	159	ADJ	amod	28	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+3	3	2	30	de	de	160	162	ADP	case	32		0	-1	-1	-1	-1
+3	3	3	31	la	le	163	165	DET	det	32	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+3	3	4	32	folie	folie	166	171	NOUN	obl:arg	29	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+3	3	5	33	.	.	171	172	PUNCT	punct	17		0	-1	-1	-1	-1
+3	4	0	34	Pendant	pendant	173	180	ADP	case	36		0	-1	-1	-1	-1
+3	4	1	35	trois	trois	181	186	NUM	nummod	36	NumType=Card	0	-1	-1	-1	-1
+3	4	2	36	semaines	semaine	187	195	NOUN	obl:mod	38	Gender=Fem|Number=Plur	1	-1	-1	-1	-1
+3	4	3	37	elle	lui	196	200	PRON	nsubj	38	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+3	4	4	38	resta	rester	201	206	VERB	ROOT	38	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	37	-1	-1	-1
+4	5	0	39	constamment	constamment	207	218	ADV	advmod	42		0	-1	-1	-1	-1
+4	5	1	40	auprès	auprès	219	225	ADV	obl:arg	42		0	-1	-1	-1	-1
+4	5	2	41	d'	de	226	228	ADP	case	42		0	-1	-1	-1	-1
+4	5	3	42	elle	lui	228	232	PRON	obl:arg	40	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+4	5	4	43	,	,	232	233	PUNCT	punct	40		0	-1	-1	-1	-1
+4	5	5	44	sommeillant	sommeiller	234	245	VERB	advcl	40	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+4	5	6	45	à	à	246	247	ADP	case	47		0	-1	-1	-1	-1
+4	5	7	46	ses	son	248	251	DET	det	47	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+4	5	8	47	côtés	côté	252	257	NOUN	obl:mod	44	Gender=Masc|Number=Plur	0	-1	-1	-1	46
+4	5	9	48	dans	dans	258	262	ADP	case	50		0	-1	-1	-1	-1
+4	5	10	49	un	un	263	265	DET	det	50	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+4	5	11	50	fauteuil	fauteuil	266	274	NOUN	obl:mod	44	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+4	5	12	51	:	:	274	275	PUNCT	punct	38		0	-1	-1	-1	-1
+5	6	0	52	elle	lui	276	280	PRON	nsubj	54	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+5	6	1	53	lui	luire	281	284	PRON	iobj	54	Number=Sing|Person=3	1	-1	-1	-1	-1
+5	6	2	54	donnait	donner	285	292	VERB	advcl	38	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	52	-1	-1	-1
+5	6	3	55	à	à	293	294	ADP	mark	56		0	-1	-1	-1	-1
+5	6	4	56	boire	boire	295	300	VERB	xcomp	54	VerbForm=Inf	0	-1	-1	-1	-1
+5	6	5	57	,	,	300	301	PUNCT	punct	59		0	-1	-1	-1	-1
+5	6	6	58	à	à	302	303	ADP	mark	59		0	-1	-1	-1	-1
+5	6	7	59	manger	manger	304	310	VERB	conj	56	VerbForm=Inf	0	-1	-1	-1	-1
+5	6	8	60	,	,	310	311	PUNCT	punct	54		0	-1	-1	-1	-1
+5	6	9	61	et	et	312	314	CCONJ	cc	63		0	-1	-1	-1	-1
+5	6	10	62	ne	ne	315	317	ADV	advmod	63	Polarity=Neg	0	-1	-1	-1	-1
+5	6	11	63	cessait	cesser	318	325	VERB	conj	54	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	52	-1	-1	-1
+5	6	12	64	de	de	326	328	ADP	mark	66		0	-1	-1	-1	-1
+5	6	13	65	lui	luire	329	332	PRON	iobj	66	Number=Sing|Person=3	1	-1	-1	-1	-1
+5	6	14	66	adresser	adresser	333	341	VERB	xcomp	63	VerbForm=Inf	0	-1	-1	-1	-1
+5	6	15	67	de	de	342	344	DET	det	73	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+6	7	0	68	douces	doux	345	351	ADJ	amod	71	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+6	7	1	69	et	et	352	354	CCONJ	cc	70		0	-1	-1	-1	-1
+6	7	2	70	tendres	tendre	355	362	ADJ	conj	68	Number=Plur	0	-1	-1	-1	-1
+6	7	3	71	paroles	parole	363	370	NOUN	obj	73	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+6	7	4	72	.	.	370	371	PUNCT	punct	38		0	-1	-1	-1	-1
+7	8	0	73	La	le	373	375	DET	det	74	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+7	8	1	74	blessure	blessure	376	384	NOUN	nsubj	80	Gender=Fem|Number=Sing	0	-1	-1	-1	78
+7	8	2	75	de	de	385	387	ADP	case	78		0	-1	-1	-1	-1
+7	8	3	76	cette	ce	388	393	DET	det	78	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+7	8	4	77	pauvre	pauvre	394	400	ADJ	amod	78	Number=Sing	0	-1	-1	78	-1
+7	8	5	78	âme	âme	401	404	NOUN	nmod	74	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+7	8	6	79	ne	ne	405	407	ADV	advmod	80	Polarity=Neg	0	-1	-1	-1	-1
+7	8	7	80	pouvait	pouvoir	408	415	VERB	ROOT	80	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+7	8	8	81	se	se	416	418	PRON	obj	82	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+7	8	9	82	cicatriser	cicatriser	419	429	VERB	xcomp	80	VerbForm=Inf	0	-1	-1	-1	-1
+7	8	10	83	.	.	429	430	PUNCT	punct	80		0	-1	-1	-1	-1
+7	9	0	84	La	le	431	433	DET	det	85	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+7	9	1	85	mort	mort	434	438	NOUN	nsubj	89	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+7	9	2	86	de	de	439	441	ADP	case	94		0	-1	-1	-1	-1
+8	10	0	87	Pétia	pétia	442	447	PROPN	obj	94		1	-1	-1	-1	-1
+8	10	1	88	avait	avoir	448	453	AUX	aux:tense	89	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+8	10	2	89	emporté	emporter	454	461	VERB	ROOT	89	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+8	10	3	90	la	le	462	464	DET	det	92	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+8	10	4	91	meilleure	meilleur	465	474	ADJ	amod	92	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+8	10	5	92	part	part	475	479	NOUN	obj	89	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+8	10	6	93	de	de	480	482	ADP	case	95		0	-1	-1	-1	-1
+8	10	7	94	sa	son	483	485	DET	det	95	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+8	10	8	95	vie	vie	486	489	NOUN	nmod	92	Gender=Fem|Number=Sing	0	-1	-1	-1	94
+8	10	9	96	.	.	489	490	PUNCT	punct	89		0	-1	-1	-1	-1
+8	11	0	97	Un	un	491	493	DET	det	98	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+8	11	1	98	mois	mois	494	498	NOUN	obl:mod	99	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+8	11	2	99	plus	plus	499	503	ADV	advmod	100		0	-1	-1	-1	-1
+8	11	3	100	tard	tard	504	508	ADV	ROOT	100		1	-1	-1	-1	-1
+8	11	4	101	,	,	508	509	PUNCT	punct	110		0	-1	-1	-1	-1
+9	12	0	102	cette	ce	510	515	DET	det	103	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+9	12	1	103	femme	femme	516	521	NOUN	nsubj	125	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+9	12	2	104	,	,	521	522	PUNCT	punct	103		0	-1	-1	-1	-1
+9	12	3	105	que	que	523	526	PRON	obj	115	PronType=Rel	1	-1	-1	-1	-1
+9	12	4	106	la	le	527	529	DET	det	107	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+9	12	5	107	nouvelle	nouvelle	530	538	NOUN	nsubj	115	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+9	12	6	108	de	de	539	541	ADP	case	110		0	-1	-1	-1	-1
+9	12	7	109	la	le	542	544	DET	det	110	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+9	12	8	110	mort	mort	545	549	NOUN	nmod	107	Gender=Fem|Number=Sing	0	-1	-1	-1	113
+9	12	9	111	de	de	550	552	ADP	case	113		0	-1	-1	-1	-1
+9	12	10	112	son	son	553	556	DET	det	113	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+9	12	11	113	fils	fils	557	561	NOUN	nmod	110	Gender=Masc|Number=Sing	1	-1	-1	-1	112
+9	12	12	114	avait	avoir	562	567	AUX	aux:tense	115	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+9	12	13	115	trouvée	trouver	568	575	VERB	acl:relcl	103	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	105	-1	-1
+10	13	0	116	portant	porter	576	583	VERB	advcl	115	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+10	13	1	117	légèrement	légèrement	584	594	ADV	advmod	116		0	-1	-1	-1	-1
+10	13	2	118	et	et	595	597	CCONJ	cc	120		0	-1	-1	-1	-1
+10	13	3	119	avec	avec	598	602	ADP	case	120		0	-1	-1	-1	-1
+10	13	4	120	vigueur	vigueur	603	610	NOUN	conj	117	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+10	13	5	121	ses	son	611	614	DET	det	123	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+10	13	6	122	cinquante	cinquante	615	624	NUM	nummod	123	NumType=Card	0	-1	-1	-1	-1
+10	13	7	123	ans	an	625	628	NOUN	obj	116	Gender=Masc|Number=Plur	0	-1	-1	-1	121
+10	13	8	124	,	,	628	629	PUNCT	punct	125		0	-1	-1	-1	-1
+10	13	9	125	sortit	sortir	630	636	VERB	dep	100	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	103	-1	-1	-1
+10	13	10	126	de	de	637	639	ADP	case	138		0	-1	-1	-1	-1
+10	13	11	127	sa	son	640	642	DET	det	138	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+11	14	0	128	chambre	chambre	643	650	NOUN	obj	138	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	1	129	,	,	650	651	PUNCT	punct	128		0	-1	-1	-1	-1
+11	14	2	130	vieille	vieux	652	659	ADJ	amod	128	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	3	131	,	,	659	660	PUNCT	punct	130		0	-1	-1	-1	-1
+11	14	4	132	à	à	661	662	ADP	case	133		0	-1	-1	-1	-1
+11	14	5	133	moitié	moitié	663	669	NOUN	obl:mod	134	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	6	134	morte	mort	670	675	ADJ	xcomp	130	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	7	135	,	,	675	676	PUNCT	punct	130		0	-1	-1	-1	-1
+11	14	8	136	et	et	677	679	CCONJ	cc	138		0	-1	-1	-1	-1
+11	14	9	137	ne	ne	680	682	ADV	advmod	138	Polarity=Neg	0	-1	-1	-1	-1
+11	14	10	138	prenant	prendre	683	690	VERB	conj	130	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+11	14	11	139	plus	plus	691	695	ADV	advmod	138	Polarity=Neg	0	-1	-1	-1	-1
+11	14	12	140	aucun	aucun	696	701	DET	det	141	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+11	14	13	141	intérêt	intérêt	702	709	NOUN	obj	138	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+11	14	14	142	à	à	710	711	ADP	case	154		0	-1	-1	-1	-1
+12	15	0	143	l'	le	712	714	DET	det	144	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+12	15	1	144	existence	existence	714	723	NOUN	obj	154	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+12	15	2	145	.	.	723	724	PUNCT	punct	125		0	-1	-1	-1	-1
+12	16	0	146	Ce	ce	725	727	DET	det	147	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+12	16	1	147	coup	coup	728	732	NOUN	nsubj	154	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+12	16	2	148	,	,	732	733	PUNCT	punct	147		0	-1	-1	-1	-1
+12	16	3	149	qui	qui	734	737	PRON	nsubj	152	PronType=Rel	0	-1	-1	-1	-1
+12	16	4	150	l'	le	738	740	PRON	obj	152	Number=Sing|Person=3	1	-1	-1	-1	-1
+12	16	5	151	avait	avoir	740	745	AUX	aux:tense	152	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+12	16	6	152	terrassée	terrasser	746	755	VERB	acl:relcl	147	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	150	-1	-1
+12	16	7	153	,	,	755	756	PUNCT	punct	154		0	-1	-1	-1	-1
+12	16	8	154	arracha	arracher	757	764	VERB	ROOT	154	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+12	16	9	155	au	au	765	767	ADP	case	156	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+12	16	10	156	contraire	contraire	768	777	NOUN	obl:mod	154	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+12	16	11	157	sa	son	778	780	DET	expl:comp	170	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+13	17	0	158	fille	fille	781	786	NOUN	obj	170	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+13	17	1	159	à	à	787	788	ADP	case	161		0	-1	-1	-1	-1
+13	17	2	160	sa	son	789	791	DET	det	161	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+13	17	3	161	léthargie	léthargie	792	801	NOUN	obl:arg	170	Gender=Fem|Number=Sing	0	-1	-1	-1	160
+13	17	4	162	.	.	801	802	PUNCT	punct	154		0	-1	-1	-1	-1
+13	18	0	163	Natacha	natacha	803	810	PROPN	nsubj	165	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+13	18	1	164	avait	avoir	811	816	AUX	aux:tense	165	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+13	18	2	165	cru	croire	817	820	VERB	ROOT	165	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	163	-1	-1	-1
+13	18	3	166	que	que	821	824	SCONJ	mark	170		0	-1	-1	-1	-1
+13	18	4	167	sa	son	825	827	DET	det	168	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+13	18	5	168	vie	vie	828	831	NOUN	nsubj:pass	170	Gender=Fem|Number=Sing	0	-1	-1	-1	167
+13	18	6	169	était	être	832	837	AUX	aux:pass	170	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+13	18	7	170	finie	finir	838	843	VERB	ccomp	165	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	-1	-1	-1	-1
+13	18	8	171	lorsque	lorsque	844	851	SCONJ	mark	185		0	-1	-1	-1	-1
+14	19	0	172	son	son	852	855	DET	det	173	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+14	19	1	173	affection	affection	856	865	NOUN	nsubj	178	Gender=Fem|Number=Sing	0	-1	-1	-1	172
+14	19	2	174	pour	pour	866	870	ADP	case	176		0	-1	-1	-1	-1
+14	19	3	175	sa	son	871	873	DET	det	176	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+14	19	4	176	mère	mère	874	878	NOUN	nmod	173	Gender=Fem|Number=Sing	1	-1	-1	-1	175
+14	19	5	177	lui	luire	879	882	PRON	iobj	178	Number=Sing|Person=3	1	-1	-1	-1	-1
+14	19	6	178	démontra	démontrer	883	891	VERB	advcl	170	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+14	19	7	179	que	que	892	895	SCONJ	mark	197		0	-1	-1	-1	-1
+14	19	8	180	l'	le	896	898	DET	det	181	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+14	19	9	181	essence	essence	898	905	NOUN	nsubj	197	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+14	19	10	182	de	de	906	908	ADP	case	184		0	-1	-1	-1	-1
+14	19	11	183	son	son	909	912	DET	det	184	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+14	19	12	184	être	être	913	917	NOUN	nmod	181	Gender=Masc|Number=Sing	0	-1	-1	-1	183
+14	19	13	185	,	,	917	918	PUNCT	punct	181		0	-1	-1	-1	-1
+15	20	0	186	c'	ce	919	921	ADV	advmod	193		0	-1	-1	-1	-1
+15	20	1	187	est	est	921	924	CCONJ	advmod	193		0	-1	-1	-1	-1
+15	20	2	188	-	-	924	925	ADV	advmod	193		0	-1	-1	-1	-1
+15	20	3	189	à	à	925	926	ADV	advmod	193		0	-1	-1	-1	-1
+15	20	4	190	-	-	926	927	ADV	advmod	193		0	-1	-1	-1	-1
+15	20	5	191	dire	dire	927	931	ADV	advmod	193		0	-1	-1	-1	-1
+15	20	6	192	l'	le	932	934	DET	det	193	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+15	20	7	193	amour	amour	934	939	NOUN	conj	181	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+15	20	8	194	,	,	939	940	PUNCT	punct	197		0	-1	-1	-1	-1
+15	20	9	195	était	être	941	946	AUX	cop	197	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+15	20	10	196	encore	encore	947	953	ADV	advmod	197		0	-1	-1	-1	-1
+15	20	11	197	vivace	vivace	954	960	ADJ	ccomp	178	Number=Sing	0	-1	-1	-1	-1
+15	20	12	198	en	en	961	963	ADP	case	199		0	-1	-1	-1	-1
+15	20	13	199	elle	lui	964	968	PRON	obl:mod	197	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+15	20	14	200	,	,	968	969	PUNCT	punct	197		0	-1	-1	-1	-1
+15	20	15	201	et	et	970	972	CCONJ	cc	222		0	-1	-1	-1	-1
+15	20	16	202	,	,	972	973	PUNCT	punct	222		0	-1	-1	-1	-1
+15	20	17	203	l'	le	974	976	DET	det	204	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+15	20	18	204	amour	amour	976	981	NOUN	nsubj	222	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+15	20	19	205	une	un	982	985	DET	advmod	222	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+15	20	20	206	fois	fois	986	990	NOUN	fixed	205	Gender=Fem	0	-1	-1	-1	-1
+16	21	0	207	réveillé	réveiller	991	999	VERB	advcl	213	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+16	21	1	208	dans	dans	1000	1004	ADP	case	210		0	-1	-1	-1	-1
+16	21	2	209	son	son	1005	1008	DET	det	210	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+16	21	3	210	âme	âme	1009	1012	NOUN	obl:mod	207	Gender=Fem|Number=Sing	0	-1	-1	-1	209
+16	21	4	211	,	,	1012	1013	PUNCT	punct	213		0	-1	-1	-1	-1
+16	21	5	212	elle	lui	1014	1018	PRON	nsubj	213	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+16	21	6	213	revint	revenir	1019	1025	VERB	obj	197	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	212	-1	-1	-1
+16	21	7	214	à	à	1026	1027	ADP	case	216		0	-1	-1	-1	-1
+16	21	8	215	la	le	1028	1030	DET	det	216	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+16	21	9	216	vie	vie	1031	1034	NOUN	obl:arg	213	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+16	21	10	217	.	.	1034	1035	PUNCT	punct	165		0	-1	-1	-1	-1
+17	22	0	218	Les	le	1037	1040	DET	det	220	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+17	22	1	219	derniers	dernier	1041	1049	ADJ	amod	220	Gender=Masc|NumType=Ord|Number=Plur	0	-1	-1	220	-1
+17	22	2	220	jours	jour	1050	1055	NOUN	nsubj	226	Gender=Masc|Number=Plur	1	-1	-1	-1	222
+17	22	3	221	du	de	1056	1058	ADP	case	222	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+17	22	4	222	prince	prince	1059	1065	NOUN	nmod	220	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+17	22	5	223	André	andré	1066	1071	PROPN	flat:name	222	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+17	22	6	224	avaient	avoir	1072	1079	AUX	aux:tense	226	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+17	22	7	225	déjà	déjà	1080	1084	ADV	advmod	226		0	-1	-1	-1	-1
+17	22	8	226	lié	lier	1085	1088	VERB	ROOT	226	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	220	227	-1	-1
+17	22	9	227	Natacha	natacha	1089	1096	PROPN	obj	226	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+17	22	10	228	et	et	1097	1099	CCONJ	cc	247		0	-1	-1	-1	-1
+17	22	11	229	la	le	1100	1102	DET	det	247	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+18	23	0	230	princesse	princesse	1103	1112	NOUN	obj	247	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+18	23	1	231	Marie	marie	1113	1118	PROPN	nmod	230	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+18	23	2	232	;	;	1118	1119	PUNCT	punct	226		0	-1	-1	-1	-1
+18	23	3	233	ce	ce	1120	1122	DET	det	235	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+18	23	4	234	nouveau	nouveau	1123	1130	ADJ	amod	235	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+18	23	5	235	malheur	malheur	1131	1138	NOUN	nsubj	237	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+18	23	6	236	les	le	1139	1142	PRON	obj	237	Number=Plur|Person=3	1	-1	-1	-1	-1
+18	23	7	237	rapprocha	rapprocher	1143	1152	VERB	ROOT	237	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	236	-1	-1
+18	23	8	238	davantage	davantage	1153	1162	ADV	advmod	237		0	-1	-1	-1	-1
+18	23	9	239	.	.	1162	1163	PUNCT	punct	237		0	-1	-1	-1	-1
+18	24	0	240	Cette	ce	1164	1169	DET	det	259	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+19	25	0	241	dernière	dernier	1170	1178	ADJ	nsubj	243	Gender=Fem|NumType=Ord|Number=Sing	1	-1	-1	-1	-1
+19	25	1	242	avait	avoir	1179	1184	AUX	aux:tense	243	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+19	25	2	243	remis	remettre	1185	1190	VERB	ROOT	243	Gender=Masc|Tense=Past|VerbForm=Part	0	241	-1	-1	-1
+19	25	3	244	son	son	1191	1194	DET	det	245	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+19	25	4	245	départ	départ	1195	1201	NOUN	obj	243	Gender=Masc|Number=Sing	0	-1	-1	-1	244
+19	25	5	246	;	;	1201	1202	PUNCT	punct	243		0	-1	-1	-1	-1
+19	25	6	247	elle	lui	1203	1207	PRON	nsubj	248	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+19	25	7	248	soigna	soigner	1208	1214	VERB	ROOT	248	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	247	251	-1	-1
+19	25	8	249	avec	avec	1215	1219	ADP	case	250		0	-1	-1	-1	-1
+19	25	9	250	dévouement	dévouement	1220	1230	NOUN	obl:mod	248	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+19	25	10	251	Natacha	natacha	1231	1238	PROPN	obj	248	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+19	25	11	252	,	,	1238	1239	PUNCT	punct	251		0	-1	-1	-1	-1
+20	26	0	253	dont	dont	1240	1244	PRON	nmod	255	PronType=Rel	1	-1	-1	-1	-1
+20	26	1	254	les	le	1245	1248	DET	det	255	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+20	26	2	255	forces	force	1249	1255	NOUN	nsubj:pass	259	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+20	26	3	256	physiques	physique	1256	1265	ADJ	amod	255	Number=Plur	0	-1	-1	-1	-1
+20	26	4	257	avaient	avoir	1266	1273	AUX	aux:tense	259	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+20	26	5	258	été	être	1274	1277	AUX	aux:pass	259	Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+20	26	6	259	soumises	soumettre	1278	1286	VERB	acl:relcl	251	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	-1	-1	-1	-1
+20	26	7	260	à	à	1287	1288	ADP	case	264		0	-1	-1	-1	-1
+20	26	8	261	une	un	1289	1292	DET	det	264	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+20	26	9	262	trop	trop	1293	1297	ADV	advmod	263		0	-1	-1	-1	-1
+20	26	10	263	rude	rude	1298	1302	ADJ	amod	264	Number=Sing	0	-1	-1	-1	-1
+20	26	11	264	épreuve	épreuve	1303	1310	NOUN	obl:arg	259	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+21	27	0	265	dans	dans	1311	1315	ADP	case	267		0	-1	-1	-1	-1
+21	27	1	266	la	le	1316	1318	DET	det	267	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+21	27	2	267	chambre	chambre	1319	1326	NOUN	obl:mod	285	Gender=Fem|Number=Sing	0	-1	-1	-1	270
+21	27	3	268	de	de	1327	1329	ADP	case	270		0	-1	-1	-1	-1
+21	27	4	269	sa	son	1330	1332	DET	det	270	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+21	27	5	270	mère	mère	1333	1337	NOUN	nmod	267	Gender=Fem|Number=Sing	1	-1	-1	-1	269
+21	27	6	271	,	,	1337	1338	PUNCT	punct	267		0	-1	-1	-1	-1
+21	27	7	272	et	et	1339	1341	CCONJ	cc	275		0	-1	-1	-1	-1
+21	27	8	273	qui	qui	1342	1345	PRON	nsubj	275	PronType=Rel	1	-1	-1	-1	-1
+21	27	9	274	était	être	1346	1351	AUX	aux:tense	275	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+21	27	10	275	tombée	tomber	1352	1358	VERB	conj	267	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	273	-1	-1	-1
+21	27	11	276	malade	malade	1359	1365	ADJ	xcomp	275	Number=Sing	0	-1	-1	-1	-1
+21	27	12	277	à	à	1366	1367	ADP	case	279		0	-1	-1	-1	-1
+21	27	13	278	son	son	1368	1371	DET	det	279	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+21	27	14	279	tour	tour	1372	1376	NOUN	obl:mod	276	Number=Sing	0	-1	-1	-1	278
+21	27	15	280	.	.	1376	1377	PUNCT	punct	275		0	-1	-1	-1	-1
+22	28	0	281	S'	se	1378	1380	PRON	expl:comp	282	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+22	28	1	282	apercevant	apercevoir	1380	1390	VERB	advcl	294	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+22	28	2	283	un	un	1391	1393	DET	det	284	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+22	28	3	284	jour	jour	1394	1398	NOUN	obl:mod	287	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+22	28	4	285	qu'	que	1399	1402	SCONJ	mark	287		0	-1	-1	-1	-1
+22	28	5	286	elle	lui	1402	1406	PRON	nsubj	287	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+22	28	6	287	avait	avoir	1407	1412	VERB	xcomp	282	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	286	-1	-1	-1
+22	28	7	288	le	le	1413	1415	DET	det	289	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+22	28	8	289	frisson	frisson	1416	1423	NOUN	obj	287	Gender=Masc|Number=Sing	0	-1	-1	-1	286
+22	28	9	290	,	,	1423	1424	PUNCT	punct	294		0	-1	-1	-1	-1
+22	28	10	291	la	le	1425	1427	DET	det	292	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+22	28	11	292	princesse	princesse	1428	1437	NOUN	nsubj	294	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+22	28	12	293	Marie	marie	1438	1443	PROPN	flat:name	292	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+22	28	13	294	voulut	vouloir	1444	1450	VERB	advcl	259	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	292	-1	-1	-1
+23	29	0	295	qu'	que	1451	1454	SCONJ	mark	297		0	-1	-1	-1	-1
+23	29	1	296	elle	lui	1454	1458	PRON	nsubj	297	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+23	29	2	297	vînt	venir	1459	1463	VERB	advcl	302	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	296	-1	-1	-1
+23	29	3	298	chez	chez	1464	1468	ADP	case	299		0	-1	-1	-1	-1
+23	29	4	299	elle	lui	1469	1473	PRON	obl:arg	297	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+23	29	5	300	,	,	1473	1474	PUNCT	punct	302		0	-1	-1	-1	-1
+23	29	6	301	la	le	1475	1477	PRON	obj	302	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+23	29	7	302	coucha	coucher	1478	1484	VERB	obl:arg	294	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	301	-1	-1
+23	29	8	303	sur	sur	1485	1488	ADP	case	305		0	-1	-1	-1	-1
+23	29	9	304	son	son	1489	1492	DET	det	305	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+23	29	10	305	lit	lit	1493	1496	NOUN	obl:arg	302	Gender=Masc|Number=Sing	0	-1	-1	-1	304
+23	29	11	306	,	,	1496	1497	PUNCT	punct	307		0	-1	-1	-1	-1
+23	29	12	307	baissa	baisser	1498	1504	VERB	conj	302	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+23	29	13	308	les	le	1505	1508	DET	det	309	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+23	29	14	309	stores	store	1509	1515	NOUN	obj	307	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+23	29	15	310	,	,	1515	1516	PUNCT	punct	302		0	-1	-1	-1	-1
+23	29	16	311	et	et	1517	1519	CCONJ	cc	335		0	-1	-1	-1	-1
+24	30	0	312	allait	aller	1520	1526	VERB	xcomp	294	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+24	30	1	313	la	le	1527	1529	PRON	obj	314	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+24	30	2	314	quitter	quitter	1530	1537	VERB	xcomp	312	VerbForm=Inf	0	-1	313	-1	-1
+24	30	3	315	,	,	1537	1538	PUNCT	punct	294		0	-1	-1	-1	-1
+24	30	4	316	lorsque	lorsque	1539	1546	SCONJ	mark	319		0	-1	-1	-1	-1
+24	30	5	317	Natacha	natacha	1547	1554	PROPN	nsubj	319	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+24	30	6	318	la	le	1555	1557	PRON	obj	319	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+24	30	7	319	rappela	rappeler	1558	1565	VERB	advcl	294	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	317	318	-1	-1
+24	30	8	320	.	.	1565	1566	PUNCT	punct	294		0	-1	-1	-1	-1
+25	31	0	321	«	«	1568	1569	PUNCT	punct	324		0	-1	-1	-1	-1
+25	31	1	322	Je	je	1569	1571	PRON	nsubj	324	Number=Sing|Person=1	1	-1	-1	-1	-1
+25	31	2	323	n'	ne	1572	1574	ADV	advmod	324	Polarity=Neg	0	-1	-1	-1	-1
+25	31	3	324	ai	avoir	1574	1576	VERB	ROOT	324	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	328	-1	-1	-1
+25	31	4	325	pas	pas	1577	1580	ADV	advmod	324	Polarity=Neg	0	-1	-1	-1	-1
+25	31	5	326	sommeil	sommeil	1581	1588	NOUN	obj	324	Gender=Masc|Number=Sing	0	-1	-1	-1	328
+25	31	6	327	,	,	1588	1589	PUNCT	punct	324		0	-1	-1	-1	-1
+25	31	7	328	Marie	marie	1590	1595	PROPN	nsubj	324	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+25	31	8	329	,	,	1595	1596	PUNCT	punct	330		0	-1	-1	-1	-1
+25	31	9	330	reste	reste	1597	1602	VERB	xcomp	324	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+25	31	10	331	avec	avec	1603	1607	ADP	case	332		0	-1	-1	-1	-1
+25	31	11	332	moi	moi	1608	1611	PRON	obl:arg	330	Number=Sing|Person=1|PronType=Prs	1	-1	-1	-1	-1
+25	31	12	333	.	.	1611	1612	PUNCT	punct	324		0	-1	-1	-1	-1
+26	32	0	334	—	—	1614	1615	PUNCT	punct	338		0	-1	-1	-1	-1
+26	32	1	335	Mais	mais	1615	1619	CCONJ	cc	338		0	-1	-1	-1	-1
+26	32	2	336	tu	tu	1620	1622	PRON	nsubj:pass	338	Number=Plur|Person=2	1	-1	-1	-1	-1
+26	32	3	337	es	être	1623	1625	AUX	aux:pass	338	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+26	32	4	338	fatiguée	fatiguer	1626	1634	VERB	ROOT	338	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	-1	-1	-1	-1
+26	32	5	339	,	,	1634	1635	PUNCT	punct	338		0	-1	-1	-1	-1
+26	32	6	340	dors	dormir	1636	1640	ADP	parataxis	338		0	-1	-1	-1	-1
+26	32	7	341	.	.	1640	1641	PUNCT	punct	338		0	-1	-1	-1	-1
+27	33	0	342	—	—	1643	1644	PUNCT	punct	352		0	-1	-1	-1	-1
+27	33	1	343	Non	non	1644	1647	ADV	advmod	352		0	-1	-1	-1	-1
+27	33	2	344	,	,	1647	1648	PUNCT	punct	352		0	-1	-1	-1	-1
+27	33	3	345	non	non	1649	1652	ADV	advmod	352		0	-1	-1	-1	-1
+27	33	4	346	,	,	1652	1653	PUNCT	punct	352		0	-1	-1	-1	-1
+27	33	5	347	pourquoi	pourquoi	1654	1662	ADV	advmod	352	PronType=Int	0	-1	-1	-1	-1
+27	33	6	348	m'	me	1663	1665	PRON	obj	352	Number=Sing|Person=1	1	-1	-1	-1	-1
+27	33	7	349	as	avoir	1665	1667	AUX	aux:tense	352	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+27	33	8	350	-	-	1667	1668	PRON	nsubj	352	Number=Sing|Person=1	0	-1	-1	-1	-1
+27	33	9	351	tu	tu	1668	1670	PRON	nsubj	352	Number=Sing|Person=1	1	-1	-1	-1	-1
+27	33	10	352	emmenée	emmener	1671	1678	VERB	ROOT	352	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	351	348	-1	-1
+27	33	11	353	?	?	1678	1679	PUNCT	punct	352		0	-1	-1	-1	-1
+27	34	0	354	...	...	1679	1682	PUNCT	punct	357		0	-1	-1	-1	-1
+27	34	1	355	Elle	lui	1683	1687	PRON	nsubj	357	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+27	34	2	356	me	me	1688	1690	PRON	obj	357	Number=Sing|Person=1	1	-1	-1	-1	-1
+27	34	3	357	demandera	demander	1691	1700	VERB	ROOT	357	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	355	356	-1	-1
+27	34	4	358	.	.	1700	1701	PUNCT	punct	357		0	-1	-1	-1	-1
+28	35	0	359	—	—	1703	1704	PUNCT	punct	366		0	-1	-1	-1	-1
+28	35	1	360	Non	non	1704	1707	ADV	advmod	366		0	-1	-1	-1	-1
+28	35	2	361	,	,	1707	1708	PUNCT	punct	366		0	-1	-1	-1	-1
+28	35	3	362	ma	mon	1709	1711	DET	det	363	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+28	35	4	363	chérie	chéri	1712	1718	NOUN	obl:mod	366	Gender=Fem|Number=Sing	1	-1	-1	-1	362
+28	35	5	364	,	,	1718	1719	PUNCT	punct	366		0	-1	-1	-1	-1
+28	35	6	365	elle	lui	1720	1724	PRON	nsubj	366	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+28	35	7	366	est	être	1725	1728	AUX	ROOT	366	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+28	35	8	367	au	au	1729	1731	ADP	case	368	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+28	35	9	368	contraire	contraire	1732	1741	NOUN	obl:mod	370	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+28	35	10	369	beaucoup	beaucoup	1742	1750	ADV	advmod	370		0	-1	-1	-1	-1
+28	35	11	370	mieux	mieux	1751	1756	ADV	xcomp	366		0	-1	-1	-1	-1
+28	35	12	371	aujourd'hui	aujourd'hui	1757	1768	ADV	advmod	370		0	-1	-1	-1	-1
+28	35	13	372	.	.	1768	1769	PUNCT	punct	370		0	-1	-1	-1	-1
+28	35	14	373	»	»	1769	1770	PUNCT	punct	366		0	-1	-1	-1	-1
+29	36	0	374	Natacha	natacha	1772	1779	PROPN	nsubj	381	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+29	36	1	375	,	,	1779	1780	PUNCT	punct	374		0	-1	-1	-1	-1
+29	36	2	376	étendue	étendre	1781	1788	VERB	acl	374	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+29	36	3	377	sur	sur	1789	1792	ADP	case	379		0	-1	-1	-1	-1
+29	36	4	378	le	le	1793	1795	DET	det	379	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+29	36	5	379	lit	lit	1796	1799	NOUN	obl:arg	376	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+29	36	6	380	,	,	1799	1800	PUNCT	punct	381		0	-1	-1	-1	-1
+29	36	7	381	examinait	examiner	1801	1810	VERB	ROOT	381	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	374	-1	-1	-1
+29	36	8	382	dans	dans	1811	1815	ADP	case	384		0	-1	-1	-1	-1
+29	36	9	383	la	le	1816	1818	DET	det	384	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+29	36	10	384	demi-obscurité	demi-obscurité	1819	1833	NOUN	obl:mod	381	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+29	36	11	385	les	le	1834	1837	DET	det	386	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+29	36	12	386	traits	trait	1838	1844	NOUN	obj	381	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+30	37	0	387	de	de	1845	1847	ADP	case	389		0	-1	-1	-1	-1
+30	37	1	388	la	le	1848	1850	DET	det	389	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+30	37	2	389	princesse	princesse	1851	1860	NOUN	nmod	416	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+30	37	3	390	Marie	marie	1861	1866	PROPN	nmod	389	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+30	37	4	391	:	:	1866	1867	PUNCT	punct	381		0	-1	-1	-1	-1
+30	37	5	392	«	«	1868	1869	PUNCT	punct	394		0	-1	-1	-1	-1
+30	37	6	393	Lui	luire	1869	1872	PRON	iobj	394	Number=Sing|Person=3	0	-1	-1	-1	-1
+30	37	7	394	ressemble	ressembler	1873	1882	VERB	ROOT	394	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+30	37	8	395	-t	-t	1882	1884	PRON	dep	394	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+30	37	9	396	-elle	lui	1884	1889	PRON	dep	394	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+30	37	10	397	?	?	1889	1890	PUNCT	punct	394		0	-1	-1	-1	-1
+30	37	11	398	se	se	1891	1893	PRON	expl:comp	399	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+30	37	12	399	demandait	demander	1894	1903	VERB	ROOT	399	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	400	-1	-1	-1
+30	37	13	400	Natacha	natacha	1904	1911	PROPN	nsubj	399		1	-1	-1	-1	-1
+30	37	14	401	.	.	1911	1912	PUNCT	punct	399		0	-1	-1	-1	-1
+30	38	0	402	Oui	oui	1913	1916	ADV	ROOT	402		0	-1	-1	-1	-1
+31	39	0	403	et	et	1917	1919	CCONJ	ROOT	403		0	-1	-1	-1	-1
+31	39	1	404	non	non	1920	1923	ADV	advmod	407		0	-1	-1	-1	-1
+31	39	2	405	:	:	1923	1924	PUNCT	punct	407		0	-1	-1	-1	-1
+31	39	3	406	elle	lui	1925	1929	PRON	nsubj	407	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+31	39	4	407	a	avoir	1930	1931	VERB	ROOT	407	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	406	-1	-1	-1
+31	39	5	408	quelque	quelque	1932	1939	DET	det	409	Definite=Ind|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+31	39	6	409	chose	chose	1940	1945	NOUN	obj	407	Gender=Fem|Number=Sing	0	-1	-1	-1	406
+31	39	7	410	de	de	1946	1948	ADP	mark	411		0	-1	-1	-1	-1
+31	39	8	411	particulier	particulier	1949	1960	ADJ	acl	409	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+31	39	9	412	,	,	1960	1961	PUNCT	punct	414		0	-1	-1	-1	-1
+31	39	10	413	d'	de	1962	1964	ADP	mark	414		0	-1	-1	-1	-1
+31	39	11	414	étrange	étrange	1964	1971	ADJ	amod	409	Number=Sing	0	-1	-1	-1	-1
+31	39	12	415	,	,	1971	1972	PUNCT	punct	417		0	-1	-1	-1	-1
+31	39	13	416	quelque	quelque	1973	1980	DET	det	417	Definite=Ind|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+31	39	14	417	chose	chose	1981	1986	NOUN	conj	407	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+32	40	0	418	qui	qui	1987	1990	PRON	nsubj	421	PronType=Rel	0	-1	-1	-1	-1
+32	40	1	419	m'	me	1991	1993	PRON	iobj	421	Number=Sing|Person=1	1	-1	-1	-1	-1
+32	40	2	420	est	être	1993	1996	AUX	cop	421	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+32	40	3	421	inconnu	inconnu	1997	2004	ADJ	acl:relcl	449	Gender=Masc|Number=Sing	0	-1	-1	449	-1
+32	40	4	422	,	,	2004	2005	PUNCT	punct	421		0	-1	-1	-1	-1
+32	40	5	423	mais	mais	2006	2010	CCONJ	cc	426		0	-1	-1	-1	-1
+32	40	6	424	elle	lui	2011	2015	PRON	nsubj	426	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+32	40	7	425	m'	me	2016	2018	PRON	obj	426	Number=Sing|Person=1	1	-1	-1	-1	-1
+32	40	8	426	aime	aimer	2018	2022	VERB	conj	421	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	424	425	-1	-1
+32	40	9	427	,	,	2022	2023	PUNCT	punct	426		0	-1	-1	-1	-1
+32	40	10	428	et	et	2024	2026	CCONJ	cc	465		0	-1	-1	-1	-1
+32	40	11	429	son	son	2027	2030	DET	det	430	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+32	40	12	430	cœur	cœur	2031	2035	NOUN	nsubj	465	Gender=Masc|Number=Sing	0	-1	-1	-1	429
+32	40	13	431	est	être	2036	2039	AUX	cop	465	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+32	40	14	432	essentiellement	essentiellement	2040	2055	ADV	advmod	465		0	-1	-1	-1	-1
+33	41	0	433	bon	bon	2056	2059	ADJ	xcomp	426	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+33	41	1	434	...	...	2059	2062	PUNCT	ROOT	434		0	-1	-1	-1	-1
+33	41	2	435	mais	mais	2063	2067	CCONJ	cc	436		0	-1	-1	-1	-1
+33	41	3	436	que	que	2068	2071	PRON	ROOT	436	PronType=Int	0	-1	-1	-1	-1
+33	41	4	437	pense	penser	2072	2077	VERB	xcomp	436	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+33	41	5	438	-t	-t	2077	2079	PRON	nsubj	437	Number=Sing|Person=3	0	-1	-1	-1	-1
+33	41	6	439	-elle	lui	2079	2084	PRON	dep	436	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+33	41	7	440	?	?	2084	2085	PUNCT	punct	436		0	-1	-1	-1	-1
+33	42	0	441	Comment	comment	2086	2093	ADV	advmod	443	PronType=Int	0	-1	-1	-1	-1
+33	42	1	442	me	me	2094	2096	PRON	iobj	443	Number=Sing|Person=1	1	-1	-1	-1	-1
+33	42	2	443	juge	juger	2097	2101	VERB	ROOT	443	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+33	42	3	444	-t	-t	2101	2103	PRON	nsubj	443	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+33	42	4	445	-elle	lui	2103	2108	PRON	dep	443	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+33	42	5	446	?	?	2108	2109	PUNCT	punct	443		0	-1	-1	-1	-1
+33	42	6	447	»	»	2109	2110	PUNCT	punct	443		0	-1	-1	-1	-1
+34	43	0	448	«	«	2112	2113	PUNCT	punct	451		0	-1	-1	-1	-1
+34	43	1	449	Mâcha	mâcha	2113	2118	PROPN	nsubj:pass	451		1	-1	-1	-1	-1
+34	43	2	450	,	,	2118	2119	PUNCT	punct	451		0	-1	-1	-1	-1
+34	43	3	451	dit	dire	2120	2123	VERB	advcl	462	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	452	-1	-1	-1
+34	43	4	452	-elle	lui	2123	2128	PRON	nsubj	451	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+34	43	5	453	timidement	timidement	2129	2139	ADV	advmod	451		0	-1	-1	-1	-1
+34	43	6	454	en	en	2140	2142	ADP	mark	456		0	-1	-1	-1	-1
+34	43	7	455	l'	le	2143	2145	PRON	obj	456	Number=Sing|Person=3	1	-1	-1	-1	-1
+34	43	8	456	attirant	attirer	2145	2153	VERB	advcl	451	Tense=Pres|VerbForm=Part	0	-1	455	-1	-1
+34	43	9	457	par	par	2154	2157	ADP	case	459		0	-1	-1	-1	-1
+34	43	10	458	la	le	2158	2160	DET	det	459	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+34	43	11	459	main	main	2161	2165	NOUN	obl:mod	456	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+34	43	12	460	,	,	2165	2166	PUNCT	punct	462		0	-1	-1	-1	-1
+34	43	13	461	ne	ne	2167	2169	ADV	advmod	462	Polarity=Neg	0	-1	-1	-1	-1
+34	43	14	462	crois	croire	2170	2175	VERB	advcl	477	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+34	43	15	463	pas	pas	2176	2179	ADV	advmod	462	Polarity=Neg	0	-1	-1	-1	-1
+34	43	16	464	que	que	2180	2183	SCONJ	mark	499		0	-1	-1	-1	-1
+35	44	0	465	je	je	2184	2186	PRON	nsubj	467	Number=Sing|Person=1	1	-1	-1	-1	-1
+35	44	1	466	sois	être	2187	2191	AUX	cop	467	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+35	44	2	467	mauvaise	mauvais	2192	2200	ADJ	xcomp	499	Gender=Fem|Number=Sing	0	-1	-1	465	-1
+35	44	3	468	,	,	2200	2201	PUNCT	punct	477		0	-1	-1	-1	-1
+35	44	4	469	non	non	2202	2205	ADV	advmod	477		0	-1	-1	-1	-1
+35	44	5	470	,	,	2205	2206	PUNCT	punct	477		0	-1	-1	-1	-1
+35	44	6	471	ma	mon	2207	2209	DET	det	473	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+35	44	7	472	petite	petit	2210	2216	ADJ	amod	473	Gender=Fem|Number=Sing	0	-1	-1	473	-1
+35	44	8	473	âme	âme	2217	2220	NOUN	obl:mod	477	Gender=Fem|Number=Sing	1	-1	-1	-1	471
+35	44	9	474	,	,	2220	2221	PUNCT	punct	477		0	-1	-1	-1	-1
+35	44	10	475	je	je	2222	2224	PRON	nsubj	477	Number=Sing|Person=1	1	-1	-1	-1	-1
+35	44	11	476	t'	te	2225	2227	PRON	obj	477	Number=Sing|Person=3	1	-1	-1	-1	-1
+35	44	12	477	aime	aimer	2227	2231	VERB	ROOT	477	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	475	476	-1	-1
+35	44	13	478	bien	bien	2232	2236	ADV	advmod	477		0	-1	-1	-1	-1
+35	44	14	479	,	,	2236	2237	PUNCT	punct	482		0	-1	-1	-1	-1
+35	44	15	480	je	je	2238	2240	PRON	nsubj	482	Number=Sing|Person=1	1	-1	-1	-1	-1
+35	44	16	481	t'	te	2241	2243	PRON	obj	482	Number=Sing|Person=3	1	-1	-1	-1	-1
+35	44	17	482	assure	assurer	2243	2249	VERB	advcl	477	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	480	481	-1	-1
+35	44	18	483	,	,	2249	2250	PUNCT	punct	477		0	-1	-1	-1	-1
+36	45	0	484	soyons	être	2251	2257	AUX	advmod	485	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+36	45	1	485	amies	ami	2258	2263	ADJ	xcomp	519	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+36	45	2	486	,	,	2263	2264	PUNCT	punct	485		0	-1	-1	-1	-1
+36	45	3	487	complètement	complètement	2265	2277	ADV	advmod	488		0	-1	-1	-1	-1
+36	45	4	488	amies	ami	2278	2283	ADJ	ccomp	485	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+36	45	5	489	.	.	2283	2284	PUNCT	ROOT	489		0	-1	-1	-1	-1
+36	46	0	490	»	»	2284	2285	PUNCT	ROOT	490		0	-1	-1	-1	-1
+36	46	1	491	Et	et	2286	2288	CCONJ	cc	494		0	-1	-1	-1	-1
+36	46	2	492	elle	lui	2289	2293	PRON	nsubj	494	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+36	46	3	493	lui	luire	2294	2297	PRON	iobj	494	Number=Sing|Person=3	1	-1	-1	-1	-1
+36	46	4	494	couvrit	couvrir	2298	2305	VERB	ROOT	494	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	492	-1	-1	-1
+36	46	5	495	de	de	2306	2308	ADP	case	496		0	-1	-1	-1	-1
+36	46	6	496	baisers	baiser	2309	2316	NOUN	obl:arg	494	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+36	46	7	497	la	le	2317	2319	DET	det	534	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+37	47	0	498	figure	figure	2320	2326	NOUN	obj	534	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+37	47	1	499	et	et	2327	2329	CCONJ	cc	501		0	-1	-1	-1	-1
+37	47	2	500	les	le	2330	2333	DET	det	501	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+37	47	3	501	mains	main	2334	2339	NOUN	conj	498	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+37	47	4	502	.	.	2339	2340	PUNCT	nmod	498		0	-1	-1	-1	-1
+38	48	0	503	La	le	2342	2344	DET	det	504	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+38	48	1	504	princesse	princesse	2345	2354	NOUN	nsubj	511	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+38	48	2	505	Marie	marie	2355	2360	PROPN	flat:name	504	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+38	48	3	506	,	,	2360	2361	PUNCT	punct	504		0	-1	-1	-1	-1
+38	48	4	507	confuse	confus	2362	2369	ADJ	amod	504	Gender=Fem|Number=Sing	0	-1	-1	504	-1
+38	48	5	508	et	et	2370	2372	CCONJ	cc	509		0	-1	-1	-1	-1
+38	48	6	509	embarrassée	embarrasser	2373	2384	VERB	conj	507	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+38	48	7	510	,	,	2384	2385	PUNCT	punct	511		0	-1	-1	-1	-1
+38	48	8	511	répondit	répondre	2386	2394	VERB	ROOT	511	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	504	-1	-1	-1
+38	48	9	512	cependant	cependant	2395	2404	ADV	advmod	511		0	-1	-1	-1	-1
+38	48	10	513	avec	avec	2405	2409	ADP	case	514		0	-1	-1	-1	-1
+38	48	11	514	joie	joie	2410	2414	NOUN	obl:mod	511	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+39	49	0	515	à	à	2415	2416	ADP	case	517		0	-1	-1	-1	-1
+39	49	1	516	cet	ce	2417	2420	DET	det	517	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+39	49	2	517	épanchement	épanchement	2421	2432	NOUN	obl:arg	553	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+39	49	3	518	.	.	2432	2433	PUNCT	nmod	517		0	-1	-1	-1	-1
+40	50	0	519	À	à	2435	2436	ADP	mark	520		0	-1	-1	-1	-1
+40	50	1	520	dater	dater	2437	2442	VERB	advcl	526	VerbForm=Inf	1	-1	-1	-1	-1
+40	50	2	521	de	de	2443	2445	ADP	case	523		0	-1	-1	-1	-1
+40	50	3	522	ce	ce	2446	2448	DET	det	523	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+40	50	4	523	jour	jour	2449	2453	NOUN	obl:arg	520	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+40	50	5	524	,	,	2453	2454	PUNCT	punct	526		0	-1	-1	-1	-1
+40	50	6	525	elles	lui	2455	2460	PRON	nsubj	526	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+40	50	7	526	eurent	avoir	2461	2467	VERB	ROOT	526	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	525	528	-1	-1
+40	50	8	527	l'	le	2468	2470	DET	det	528	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+40	50	9	528	une	un	2470	2473	PRON	obj	526	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+40	50	10	529	pour	pour	2474	2478	ADP	case	531		0	-1	-1	-1	-1
+40	50	11	530	l'	le	2479	2481	DET	det	531	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+40	50	12	531	autre	autre	2481	2486	PRON	obl:mod	526	Number=Sing	1	-1	-1	-1	-1
+40	50	13	532	cette	ce	2487	2492	DET	det	533	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+40	50	14	533	amitié	amitié	2493	2499	NOUN	obj	526	Gender=Fem|Number=Sing	0	-1	-1	-1	525
+40	50	15	534	exaltée	exalter	2500	2507	VERB	acl	533	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+41	51	0	535	et	et	2508	2510	CCONJ	cc	536		0	-1	-1	-1	-1
+41	51	1	536	passionnée	passionner	2511	2521	ADJ	conj	575	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+41	51	2	537	qui	qui	2522	2525	PRON	nsubj	540	PronType=Rel	0	-1	-1	-1	-1
+41	51	3	538	ne	ne	2526	2528	ADV	advmod	540	Polarity=Neg	0	-1	-1	-1	-1
+41	51	4	539	se	se	2529	2531	PRON	expl:pass	540	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+41	51	5	540	rencontre	rencontre	2532	2541	VERB	acl:relcl	533	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+41	51	6	541	qu'	que	2542	2545	ADV	advmod	543		0	-1	-1	-1	-1
+41	51	7	542	entre	entrer	2545	2550	ADP	case	543		0	-1	-1	-1	-1
+41	51	8	543	femmes	femme	2551	2557	NOUN	obl:mod	540	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+41	51	9	544	.	.	2557	2558	PUNCT	punct	526		0	-1	-1	-1	-1
+41	52	0	545	Elles	lui	2559	2564	PRON	nsubj	547	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+41	52	1	546	s'	se	2565	2567	PRON	expl:comp	547	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+41	52	2	547	embrassaient	embrasser	2567	2579	VERB	ROOT	547	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	545	-1	-1	-1
+42	53	0	548	à	à	2580	2581	ADP	case	550		0	-1	-1	-1	-1
+42	53	1	549	tout	tout	2582	2586	DET	det	550	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+42	53	2	550	instant	instant	2587	2594	NOUN	obl:mod	589	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+42	53	3	551	,	,	2594	2595	PUNCT	punct	553		0	-1	-1	-1	-1
+42	53	4	552	s'	se	2596	2598	PRON	expl:comp	553	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+42	53	5	553	adressaient	adresser	2598	2609	VERB	conj	547	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	545	-1	-1	-1
+42	53	6	554	de	de	2610	2612	DET	det	556	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+42	53	7	555	tendres	tendre	2613	2620	ADJ	amod	556	Number=Plur	0	-1	-1	-1	-1
+42	53	8	556	paroles	parole	2621	2628	NOUN	obj	553	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+42	53	9	557	,	,	2628	2629	PUNCT	punct	547		0	-1	-1	-1	-1
+42	53	10	558	et	et	2630	2632	CCONJ	cc	559		0	-1	-1	-1	-1
+42	53	11	559	passaient	passer	2633	2642	VERB	conj	547	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	545	-1	-1	-1
+42	53	12	560	ensemble	ensemble	2643	2651	ADV	advmod	559		0	-1	-1	-1	-1
+43	54	0	561	la	le	2652	2654	DET	det	564	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+43	54	1	562	plus	plus	2655	2659	ADV	advmod	563		0	-1	-1	-1	-1
+43	54	2	563	grande	grand	2660	2666	ADJ	amod	564	Gender=Fem|Number=Sing	0	-1	-1	564	-1
+43	54	3	564	partie	partie	2667	2673	NOUN	obj	603	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+43	54	4	565	de	de	2674	2676	ADP	case	567		0	-1	-1	-1	-1
+43	54	5	566	leur	son	2677	2681	DET	det	567	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+43	54	6	567	journée	journée	2682	2689	NOUN	nmod	564	Gender=Fem|Number=Sing	0	-1	-1	-1	566
+43	54	7	568	.	.	2689	2690	PUNCT	punct	547		0	-1	-1	-1	-1
+43	55	0	569	Si	si	2691	2693	SCONJ	mark	574		0	-1	-1	-1	-1
+43	55	1	570	l'	le	2694	2696	DET	det	571	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+43	55	2	571	une	un	2696	2699	PRON	nsubj	574	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+43	55	3	572	s'	se	2700	2702	PRON	expl:comp	574	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+43	55	4	573	en	en	2702	2704	PRON	iobj	574	Person=3	0	-1	-1	-1	-1
+43	55	5	574	allait	aller	2705	2711	VERB	advcl	621	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	571	-1	-1	-1
+43	55	6	575	,	,	2711	2712	PUNCT	punct	621		0	-1	-1	-1	-1
+43	55	7	576	l'	le	2713	2715	DET	det	577	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+43	55	8	577	autre	autre	2715	2720	PRON	nsubj	621	Number=Sing	1	-1	-1	-1	-1
+44	56	0	578	s'	se	2721	2723	PRON	expl:comp	579	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+44	56	1	579	inquiétait	inquiéter	2723	2733	VERB	xcomp	621	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+44	56	2	580	,	,	2733	2734	PUNCT	punct	579		0	-1	-1	-1	-1
+44	56	3	581	et	et	2735	2737	CCONJ	cc	584		0	-1	-1	-1	-1
+44	56	4	582	ne	ne	2738	2740	ADV	advmod	584	Polarity=Neg	0	-1	-1	-1	-1
+44	56	5	583	se	se	2741	2743	PRON	expl:comp	584	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+44	56	6	584	rassurait	rassurer	2744	2753	VERB	conj	579	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+44	56	7	585	que	que	2754	2757	ADV	advmod	590		0	-1	-1	-1	-1
+44	56	8	586	lorsqu'	lorsque	2758	2765	SCONJ	mark	590		0	-1	-1	-1	-1
+44	56	9	587	elle	lui	2765	2769	PRON	nsubj	590	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+44	56	10	588	l'	le	2770	2772	PRON	obj	590	Number=Sing|Person=3	1	-1	-1	-1	-1
+44	56	11	589	avait	avoir	2772	2777	AUX	aux:tense	590	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+44	56	12	590	rejointe	rejoindre	2778	2786	VERB	xcomp	584	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	587	588	-1	-1
+44	56	13	591	.	.	2786	2787	PUNCT	punct	579		0	-1	-1	-1	-1
+44	56	14	592	Elles	lui	2788	2793	PRON	nsubj	637	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+45	57	0	593	se	se	2794	2796	PRON	expl:comp	594	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+45	57	1	594	sentaient	sentir	2797	2806	VERB	xcomp	637	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+45	57	2	595	plus	plus	2807	2811	ADV	advmod	597		0	-1	-1	-1	-1
+45	57	3	596	en	en	2812	2814	ADP	case	597		0	-1	-1	-1	-1
+45	57	4	597	paix	paix	2815	2819	NOUN	xcomp	594	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+45	57	5	598	avec	avec	2820	2824	ADP	nmod	597		0	-1	-1	-1	-1
+45	57	6	599	elles	lui	2825	2830	PRON	nmod	597	Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	-1	-1	-1	-1
+45	57	7	600	-	-	2830	2831	PRON	dep	597		0	-1	-1	-1	-1
+45	57	8	601	mêmes	même	2831	2836	PRON	dep	597		0	-1	-1	-1	-1
+45	57	9	602	,	,	2836	2837	PUNCT	punct	594		0	-1	-1	-1	-1
+45	57	10	603	réunies	réunir	2838	2845	VERB	acl	594	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	564	-1	-1
+45	57	11	604	que	que	2846	2849	SCONJ	mark	605		0	-1	-1	-1	-1
+45	57	12	605	séparées	séparer	2850	2858	VERB	ccomp	603	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+45	57	13	606	;	;	2858	2859	PUNCT	punct	594		0	-1	-1	-1	-1
+46	58	0	607	c'	ce	2860	2862	PRON	nsubj	610	Number=Sing|Person=3	0	-1	-1	-1	-1
+46	58	1	608	était	être	2862	2867	AUX	cop	610	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+46	58	2	609	un	un	2868	2870	DET	det	610	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+46	58	3	610	sentiment	sentiment	2871	2880	NOUN	ROOT	610	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+46	58	4	611	plus	plus	2881	2885	ADV	advmod	612		0	-1	-1	-1	-1
+46	58	5	612	fort	fort	2886	2890	ADJ	amod	610	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+46	58	6	613	que	que	2891	2894	SCONJ	mark	615		0	-1	-1	-1	-1
+46	58	7	614	l'	le	2895	2897	DET	det	615	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+46	58	8	615	amitié	amitié	2897	2903	NOUN	dep	612	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+46	58	9	616	,	,	2903	2904	PUNCT	punct	612		0	-1	-1	-1	-1
+46	58	10	617	et	et	2905	2907	CCONJ	cc	619		0	-1	-1	-1	-1
+46	58	11	618	si	si	2908	2910	ADV	advmod	619		0	-1	-1	-1	-1
+46	58	12	619	exclusif	exclusif	2911	2919	ADJ	conj	612	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+46	58	13	620	,	,	2919	2920	PUNCT	punct	619		0	-1	-1	-1	-1
+46	58	14	621	que	que	2921	2924	SCONJ	mark	670		0	-1	-1	-1	-1
+46	58	15	622	la	le	2925	2927	DET	det	623	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+46	58	16	623	vie	vie	2928	2931	NOUN	nsubj	670	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+47	59	0	624	ne	ne	2932	2934	ADV	advmod	625	Polarity=Neg	0	-1	-1	-1	-1
+47	59	1	625	devenait	devenir	2935	2943	VERB	ccomp	670	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+47	59	2	626	possible	possible	2944	2952	ADJ	xcomp	625	Number=Sing	0	-1	-1	-1	-1
+47	59	3	627	que	que	2953	2956	ADV	advmod	631		0	-1	-1	-1	-1
+47	59	4	628	si	si	2957	2959	SCONJ	mark	631		0	-1	-1	-1	-1
+47	59	5	629	l'	le	2960	2962	DET	det	630	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+47	59	6	630	amie	amie	2962	2966	NOUN	nsubj	631	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+47	59	7	631	était	être	2967	2972	VERB	advcl	625	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	630	-1	-1	-1
+47	59	8	632	là	là	2973	2975	ADV	obl:arg	631		0	-1	-1	-1	-1
+47	59	9	633	.	.	2975	2976	PUNCT	punct	610		0	-1	-1	-1	-1
+47	60	0	634	Parfois	parfois	2977	2984	ADV	advmod	637		0	-1	-1	-1	-1
+47	60	1	635	,	,	2984	2985	PUNCT	punct	637		0	-1	-1	-1	-1
+47	60	2	636	elles	lui	2986	2991	PRON	nsubj	637	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+47	60	3	637	gardaient	garder	2992	3001	VERB	advcl	658	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	636	-1	-1	-1
+47	60	4	638	le	le	3002	3004	DET	det	686	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+48	61	0	639	silence	silence	3005	3012	NOUN	obj	686	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+48	61	1	640	pendant	pendant	3013	3020	ADP	case	643		0	-1	-1	-1	-1
+48	61	2	641	de	de	3021	3023	DET	det	643	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+48	61	3	642	longues	long	3024	3031	ADJ	amod	643	Gender=Fem|Number=Plur	0	-1	-1	643	-1
+48	61	4	643	heures	heure	3032	3038	NOUN	obl:mod	686	Gender=Fem|Number=Plur	1	-1	-1	-1	-1
+48	61	5	644	,	,	3038	3039	PUNCT	punct	637		0	-1	-1	-1	-1
+48	61	6	645	ou	ou	3040	3042	CCONJ	cc	646		0	-1	-1	-1	-1
+48	61	7	646	bien	bien	3043	3047	ADV	advmod	650		0	-1	-1	-1	-1
+48	61	8	647	,	,	3047	3048	PUNCT	punct	650		0	-1	-1	-1	-1
+48	61	9	648	couchées	coucher	3049	3057	VERB	amod	650	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+48	61	10	649	l'	le	3058	3060	DET	det	650	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+48	61	11	650	une	un	3060	3063	PRON	obl:mod	637	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+48	61	12	651	à	à	3064	3065	ADP	case	652		0	-1	-1	-1	-1
+48	61	13	652	côté	côté	3066	3070	NOUN	nmod	650	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+48	61	14	653	de	de	3071	3073	ADP	case	702		0	-1	-1	-1	-1
+49	62	0	654	l'	le	3074	3076	DET	det	655	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+49	62	1	655	autre	autre	3076	3081	PRON	obj	702	Number=Sing	1	-1	-1	-1	-1
+49	62	2	656	,	,	3081	3082	PUNCT	punct	658		0	-1	-1	-1	-1
+49	62	3	657	elles	lui	3083	3088	PRON	nsubj	658	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+49	62	4	658	bavardaient	bavarder	3089	3100	VERB	ROOT	658	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	657	661	-1	-1
+49	62	5	659	toute	tout	3101	3106	ADJ	amod	661	Gender=Fem|Number=Sing	0	-1	-1	661	-1
+49	62	6	660	la	le	3107	3109	DET	det	661	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+49	62	7	661	nuit	nuit	3110	3114	NOUN	obj	658	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+49	62	8	662	jusqu'	jusque	3115	3121	ADP	case	664		0	-1	-1	-1	-1
+49	62	9	663	au	au	3121	3123	ADP	case	664	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+49	62	10	664	matin	matin	3124	3129	NOUN	obl:mod	658	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+49	62	11	665	.	.	3129	3130	PUNCT	punct	658		0	-1	-1	-1	-1
+49	63	0	666	Les	le	3131	3134	DET	det	667	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+49	63	1	667	souvenirs	souvenir	3135	3144	NOUN	nsubj	717	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+50	64	0	668	les	le	3145	3148	DET	det	670	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+50	64	1	669	plus	plus	3149	3153	ADV	advmod	670		0	-1	-1	-1	-1
+50	64	2	670	lointains	lointain	3154	3163	ADJ	obj	717	Gender=Masc|Number=Plur	0	-1	-1	717	-1
+50	64	3	671	étaient	être	3164	3171	AUX	cop	673	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+50	64	4	672	leur	son	3172	3176	DET	det	673	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+50	64	5	673	thème	thème	3177	3182	NOUN	obj	717	Gender=Masc|Number=Sing	0	-1	-1	-1	672
+50	64	6	674	favori	favori	3183	3189	ADJ	amod	673	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+50	64	7	675	.	.	3189	3190	PUNCT	punct	673		0	-1	-1	-1	-1
+50	65	0	676	La	le	3191	3193	DET	det	677	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+50	65	1	677	princesse	princesse	3194	3203	NOUN	nsubj	729	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+50	65	2	678	Marie	marie	3204	3209	PROPN	nmod	677	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+51	66	0	679	racontait	raconter	3210	3219	VERB	advcl	736	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	681	-1	-1
+51	66	1	680	son	son	3220	3223	DET	det	681	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+51	66	2	681	enfance	enfance	3224	3231	NOUN	obj	679	Gender=Fem|Number=Sing	1	-1	-1	-1	680
+51	66	3	682	,	,	3231	3232	PUNCT	punct	684		0	-1	-1	-1	-1
+51	66	4	683	ses	son	3233	3236	DET	det	684	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+51	66	5	684	rêveries	rêverie	3237	3245	NOUN	conj	681	Gender=Fem|Number=Plur	0	-1	-1	-1	683
+51	66	6	685	,	,	3245	3246	PUNCT	punct	686		0	-1	-1	-1	-1
+51	66	7	686	parlait	parler	3247	3254	VERB	conj	679	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+51	66	8	687	de	de	3255	3257	ADP	case	689		0	-1	-1	-1	-1
+51	66	9	688	sa	son	3258	3260	DET	det	689	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+51	66	10	689	mère	mère	3261	3265	NOUN	obl:arg	686	Gender=Fem|Number=Sing	1	-1	-1	-1	688
+51	66	11	690	et	et	3266	3268	CCONJ	cc	693		0	-1	-1	-1	-1
+51	66	12	691	de	de	3269	3271	ADP	case	693		0	-1	-1	-1	-1
+51	66	13	692	son	son	3272	3275	DET	det	693	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+51	66	14	693	père	père	3276	3280	NOUN	conj	689	Gender=Masc|Number=Sing	1	-1	-1	-1	692
+51	66	15	694	,	,	3280	3281	PUNCT	punct	679		0	-1	-1	-1	-1
+52	67	0	695	et	et	3282	3284	CCONJ	cc	696		0	-1	-1	-1	-1
+52	67	1	696	Natacha	natacha	3285	3292	PROPN	nsubj	719	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+52	67	2	697	,	,	3292	3293	PUNCT	punct	696		0	-1	-1	-1	-1
+52	67	3	698	qui	qui	3294	3297	PRON	nsubj	702	PronType=Rel	1	-1	-1	-1	-1
+52	67	4	699	jusque-là	jusque-là	3298	3307	ADV	advmod	702		0	-1	-1	-1	-1
+52	67	5	700	s'	se	3308	3310	PRON	expl:comp	702	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+52	67	6	701	était	être	3310	3315	AUX	aux:tense	702	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+52	67	7	702	détournée	détourner	3316	3325	VERB	acl:relcl	696	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	698	655	-1	-1
+52	67	8	703	avec	avec	3326	3330	ADP	case	705		0	-1	-1	-1	-1
+52	67	9	704	une	un	3331	3334	DET	det	705	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+52	67	10	705	indifférence	indifférence	3335	3347	NOUN	obl:mod	702	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+53	68	0	706	hautaine	hautain	3348	3356	ADJ	amod	758	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+53	68	1	707	de	de	3357	3359	ADP	case	709		0	-1	-1	-1	-1
+53	68	2	708	cette	ce	3360	3365	DET	det	709	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+53	68	3	709	vie	vie	3366	3369	NOUN	nmod	696	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+53	68	4	710	de	de	3370	3372	ADP	case	711		0	-1	-1	-1	-1
+53	68	5	711	dévouement	dévouement	3373	3383	NOUN	nmod	709	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+53	68	6	712	et	et	3384	3386	CCONJ	cc	714		0	-1	-1	-1	-1
+53	68	7	713	de	de	3387	3389	ADP	case	714		0	-1	-1	-1	-1
+53	68	8	714	soumission	soumission	3390	3400	NOUN	conj	711	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+53	68	9	715	,	,	3400	3401	PUNCT	punct	696		0	-1	-1	-1	-1
+53	68	10	716	dont	dont	3402	3406	PRON	nmod	772	PronType=Rel	0	-1	-1	-1	-1
+53	68	11	717	elle	lui	3407	3411	PRON	nsubj	772	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+53	68	12	718	ne	ne	3412	3414	ADV	advmod	772	Polarity=Neg	0	-1	-1	-1	-1
+54	69	0	719	pouvait	pouvoir	3415	3422	VERB	xcomp	679	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	696	-1	-1	-1
+54	69	1	720	comprendre	comprendre	3423	3433	VERB	xcomp	719	VerbForm=Inf	0	-1	-1	-1	-1
+54	69	2	721	la	le	3434	3436	DET	det	725	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+54	69	3	722	poétique	poétique	3437	3445	ADJ	amod	725	Number=Sing	0	-1	-1	-1	-1
+54	69	4	723	et	et	3446	3448	CCONJ	cc	724		0	-1	-1	-1	-1
+54	69	5	724	chrétienne	chrétien	3449	3459	ADJ	conj	722	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+54	69	6	725	abnégation	abnégation	3460	3470	NOUN	obj	720	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+54	69	7	726	,	,	3470	3471	PUNCT	punct	719		0	-1	-1	-1	-1
+54	69	8	727	aujourd'hui	aujourd'hui	3472	3483	ADV	advmod	782		0	-1	-1	-1	-1
+55	70	0	728	ardemment	ardemment	3484	3493	ADV	advmod	729		0	-1	-1	-1	-1
+55	70	1	729	attachée	attacher	3494	3502	VERB	acl	679	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	677	-1	-1	-1
+55	70	2	730	à	à	3503	3504	ADP	case	732		0	-1	-1	-1	-1
+55	70	3	731	la	le	3505	3507	DET	det	732	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+55	70	4	732	princesse	princesse	3508	3517	NOUN	obl:arg	729	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+55	70	5	733	Marie	marie	3518	3523	PROPN	nmod	732	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+55	70	6	734	,	,	3523	3524	PUNCT	punct	736		0	-1	-1	-1	-1
+55	70	7	735	s'	se	3525	3527	PRON	expl:comp	736	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+55	70	8	736	éprit	éprendre	3527	3532	VERB	ROOT	736	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+55	70	9	737	de	de	3533	3535	ADP	case	738		0	-1	-1	-1	-1
+55	70	10	738	sympathie	sympathie	3536	3545	NOUN	obl:arg	736	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+55	70	11	739	pour	pour	3546	3550	ADP	case	796		0	-1	-1	-1	-1
+55	70	12	740	son	son	3551	3554	DET	det	796	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+56	71	0	741	passé	passé	3555	3560	NOUN	obj	796	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+56	71	1	742	,	,	3560	3561	PUNCT	punct	736		0	-1	-1	-1	-1
+56	71	2	743	et	et	3562	3564	CCONJ	cc	745		0	-1	-1	-1	-1
+56	71	3	744	en	en	3565	3567	PRON	iobj	745	Person=3	0	-1	-1	-1	-1
+56	71	4	745	comprit	comprendre	3568	3575	VERB	conj	736	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+56	71	5	746	enfin	enfin	3576	3581	ADV	advmod	745		0	-1	-1	-1	-1
+56	71	6	747	le	le	3582	3584	DET	det	748	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+56	71	7	748	côté	côté	3585	3589	NOUN	obj	745	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+56	71	8	749	intime	intime	3590	3596	ADJ	amod	748	Number=Sing	0	-1	-1	-1	-1
+56	71	9	750	,	,	3596	3597	PUNCT	punct	748		0	-1	-1	-1	-1
+56	71	10	751	resté	rester	3598	3603	VERB	acl	748	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+56	71	11	752	si	si	3604	3606	ADV	advmod	753		0	-1	-1	-1	-1
+56	71	12	753	longtemps	longtemps	3607	3616	ADV	obl:mod	751		0	-1	-1	-1	-1
+57	72	0	754	impénétrable	impénétrable	3617	3629	ADJ	xcomp	810	Number=Sing	0	-1	-1	-1	-1
+57	72	1	755	à	à	3630	3631	ADP	case	757		0	-1	-1	-1	-1
+57	72	2	756	ses	son	3632	3635	DET	det	757	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+57	72	3	757	yeux	oeil	3636	3640	NOUN	obl:mod	754	Gender=Masc|Number=Plur	0	-1	-1	-1	756
+57	72	4	758	.	.	3640	3641	PUNCT	punct	736		0	-1	-1	-1	-1
+57	73	0	759	Sans	sans	3642	3646	ADP	case	760		0	-1	-1	-1	-1
+57	73	1	760	doute	doute	3647	3652	NOUN	obl:mod	764	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+57	73	2	761	,	,	3652	3653	PUNCT	punct	764		0	-1	-1	-1	-1
+57	73	3	762	elle	lui	3654	3658	PRON	nsubj	764	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+57	73	4	763	ne	ne	3659	3661	ADV	advmod	764	Polarity=Neg	0	-1	-1	-1	-1
+57	73	5	764	songeait	songer	3662	3670	VERB	ROOT	764	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	762	-1	-1	-1
+57	73	6	765	pas	pas	3671	3674	ADV	advmod	764	Polarity=Neg	0	-1	-1	-1	-1
+57	73	7	766	à	à	3675	3676	ADP	mark	767		0	-1	-1	-1	-1
+57	73	8	767	pratiquer	pratiquer	3677	3686	VERB	xcomp	764	VerbForm=Inf	0	-1	-1	-1	-1
+58	74	0	768	cette	ce	3687	3692	DET	det	769	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+58	74	1	769	abnégation	abnégation	3693	3703	NOUN	obj	825	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+58	74	2	770	absolue	absolu	3704	3711	ADJ	amod	769	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+58	74	3	771	,	,	3711	3712	PUNCT	punct	764		0	-1	-1	-1	-1
+58	74	4	772	car	car	3713	3716	CCONJ	cc	775		0	-1	-1	-1	-1
+58	74	5	773	elle	lui	3717	3721	PRON	nsubj:pass	775	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+58	74	6	774	était	être	3722	3727	AUX	aux:pass	775	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+58	74	7	775	habituée	habituer	3728	3736	VERB	conj	764	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	762	-1	-1	-1
+58	74	8	776	à	à	3737	3738	ADP	mark	777		0	-1	-1	-1	-1
+58	74	9	777	chercher	chercher	3739	3747	VERB	xcomp	775	VerbForm=Inf	0	-1	-1	-1	-1
+58	74	10	778	d'	de	3748	3750	DET	det	838	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+58	74	11	779	autres	autre	3750	3756	ADJ	amod	838	Number=Plur	0	-1	-1	-1	-1
+59	75	0	780	joies	joie	3757	3762	NOUN	obj	838	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+59	75	1	781	,	,	3762	3763	PUNCT	punct	764		0	-1	-1	-1	-1
+59	75	2	782	mais	mais	3764	3768	CCONJ	cc	784		0	-1	-1	-1	-1
+59	75	3	783	elle	lui	3769	3773	PRON	nsubj	784	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+59	75	4	784	apprécia	apprécier	3774	3782	VERB	conj	764	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	783	-1	-1	-1
+59	75	5	785	d'	de	3783	3785	ADP	advmod	784		0	-1	-1	-1	-1
+59	75	6	786	autant	autant	3785	3791	ADV	fixed	785		0	-1	-1	-1	-1
+59	75	7	787	plus	plus	3792	3796	ADV	advmod	788		0	-1	-1	-1	-1
+59	75	8	788	vivement	vivement	3797	3805	ADV	advmod	784		0	-1	-1	-1	-1
+59	75	9	789	cette	ce	3806	3811	DET	det	790	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+59	75	10	790	vertu	vertu	3812	3817	NOUN	obj	784	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+59	75	11	791	,	,	3817	3818	PUNCT	punct	784		0	-1	-1	-1	-1
+59	75	12	792	qu'	que	3819	3822	SCONJ	mark	854		0	-1	-1	-1	-1
+59	75	13	793	elle	lui	3822	3826	PRON	nsubj	854	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+59	75	14	794	ne	ne	3827	3829	ADV	advmod	854	Polarity=Neg	0	-1	-1	-1	-1
+60	76	0	795	la	le	3830	3832	PRON	obj	796	Gender=Fem|Number=Sing|Person=3	0	-1	-1	-1	-1
+60	76	1	796	possédait	posséder	3833	3842	VERB	conj	784	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	783	-1	-1	-1
+60	76	2	797	pas	pas	3843	3846	ADV	advmod	796	Polarity=Neg	0	-1	-1	-1	-1
+60	76	3	798	.	.	3846	3847	PUNCT	punct	764		0	-1	-1	-1	-1
+60	77	0	799	Quant	quant	3848	3853	ADV	case	802		0	-1	-1	-1	-1
+60	77	1	800	à	à	3854	3855	ADP	fixed	799		0	-1	-1	-1	-1
+60	77	2	801	la	le	3856	3858	DET	det	802	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+60	77	3	802	princesse	princesse	3859	3868	NOUN	obl:mod	809	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+60	77	4	803	Marie	marie	3869	3874	PROPN	flat:name	802	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+60	77	5	804	,	,	3874	3875	PUNCT	punct	809		0	-1	-1	-1	-1
+60	77	6	805	elle	lui	3876	3880	PRON	dep	809	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+60	77	7	806	aussi	aussi	3881	3886	ADV	advmod	805		0	-1	-1	-1	-1
+60	77	8	807	,	,	3886	3887	PUNCT	punct	809		0	-1	-1	-1	-1
+60	77	9	808	en	en	3888	3890	ADP	mark	809		0	-1	-1	-1	-1
+60	77	10	809	écoutant	écouter	3891	3899	VERB	advcl	823	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+61	78	0	810	les	le	3900	3903	DET	det	811	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+61	78	1	811	récits	récit	3904	3910	NOUN	obj	870	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+61	78	2	812	de	de	3911	3913	ADP	case	814		0	-1	-1	-1	-1
+61	78	3	813	l'	le	3914	3916	DET	det	814	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+61	78	4	814	enfance	enfance	3916	3923	NOUN	nmod	811	Gender=Fem|Number=Sing	0	-1	-1	-1	820
+61	78	5	815	et	et	3924	3926	CCONJ	cc	818		0	-1	-1	-1	-1
+61	78	6	816	de	de	3927	3929	ADP	case	818		0	-1	-1	-1	-1
+61	78	7	817	l'	le	3930	3932	DET	det	818	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+61	78	8	818	adolescence	adolescence	3932	3943	NOUN	conj	814	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+61	78	9	819	de	de	3944	3946	ADP	case	820		0	-1	-1	-1	-1
+61	78	10	820	Natacha	natacha	3947	3954	PROPN	nmod	814	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+61	78	11	821	,	,	3954	3955	PUNCT	punct	823		0	-1	-1	-1	-1
+61	78	12	822	elle	lui	3956	3960	PRON	nsubj	823	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+61	78	13	823	entrevoyait	entrevoir	3961	3972	VERB	ROOT	823	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	822	-1	-1	-1
+62	79	0	824	un	un	3973	3975	DET	ROOT	824	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+62	79	1	825	horizon	horizon	3976	3983	NOUN	ROOT	825	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+62	79	2	826	qui	qui	3984	3987	PRON	ROOT	826	PronType=Rel	0	-1	-1	-1	-1
+62	79	3	827	lui	luire	3988	3991	PRON	ROOT	827	Number=Sing|Person=3	1	-1	-1	-1	-1
+62	79	4	828	était	être	3992	3997	AUX	cop	829	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+62	79	5	829	inconnu	inconnu	3998	4005	ADJ	ROOT	829	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+62	79	6	830	,	,	4005	4006	PUNCT	punct	832		0	-1	-1	-1	-1
+62	79	7	831	la	le	4007	4009	DET	det	832	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+62	79	8	832	foi	foi	4010	4013	NOUN	ROOT	832	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+62	79	9	833	dans	dans	4014	4018	ADP	ROOT	833		0	-1	-1	-1	-1
+62	79	10	834	la	le	4019	4021	DET	det	835	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+62	79	11	835	vie	vie	4022	4025	NOUN	ROOT	835	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+62	79	12	836	et	et	4026	4028	CCONJ	cc	901		0	-1	-1	-1	-1
+62	79	13	837	dans	dans	4029	4033	ADP	case	901		0	-1	-1	-1	-1
+62	79	14	838	les	le	4034	4037	DET	det	901	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+63	80	0	839	jouissances	jouissance	4038	4049	NOUN	obj	901	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+63	80	1	840	qu'	que	4050	4053	PRON	obj	842	PronType=Rel	0	-1	-1	-1	-1
+63	80	2	841	elle	lui	4053	4057	PRON	nsubj	842	Gender=Fem|Number=Sing|Person=3	0	-1	-1	-1	-1
+63	80	3	842	apporte	apporter	4058	4065	VERB	acl:relcl	839	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+63	80	4	843	avec	avec	4066	4070	ADP	case	844		0	-1	-1	-1	-1
+63	80	5	844	elle	lui	4071	4075	PRON	obl:mod	842	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	-1	-1	-1	-1
+63	80	6	845	.	.	4075	4076	PUNCT	punct	835		0	-1	-1	-1	-1
+63	81	0	846	De	de	4077	4079	ADP	case	848		0	-1	-1	-1	-1
+63	81	1	847	«	«	4080	4081	PUNCT	punct	848		0	-1	-1	-1	-1
+63	81	2	848	lui	luire	4081	4084	PRON	obl:mod	852	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+63	81	3	849	»	»	4084	4085	PUNCT	punct	848		0	-1	-1	-1	-1
+63	81	4	850	elles	lui	4086	4091	PRON	nsubj	852	Gender=Fem|Number=Plur|Person=3	1	-1	-1	-1	-1
+63	81	5	851	ne	ne	4092	4094	ADV	advmod	852	Polarity=Neg	0	-1	-1	-1	-1
+63	81	6	852	parlaient	parler	4095	4104	VERB	ROOT	852	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	850	-1	-1	-1
+63	81	7	853	qu'	que	4105	4108	ADV	advmod	918		0	-1	-1	-1	-1
+63	81	8	854	à	à	4108	4109	ADP	case	918		0	-1	-1	-1	-1
+64	82	0	855	de	de	4110	4112	DET	det	858	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+64	82	1	856	bien	bien	4113	4117	ADV	advmod	857		0	-1	-1	-1	-1
+64	82	2	857	rares	rare	4118	4123	ADJ	amod	858	Number=Plur	0	-1	-1	-1	-1
+64	82	3	858	intervalles	intervalle	4124	4135	NOUN	obj	918	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+64	82	4	859	,	,	4135	4136	PUNCT	punct	858		0	-1	-1	-1	-1
+64	82	5	860	pour	pour	4137	4141	ADP	mark	863		0	-1	-1	-1	-1
+64	82	6	861	ne	ne	4142	4144	ADV	advmod	863	Polarity=Neg	0	-1	-1	-1	-1
+64	82	7	862	pas	pas	4145	4148	ADV	advmod	863	Polarity=Neg	0	-1	-1	-1	-1
+64	82	8	863	insulter	insulter	4149	4157	VERB	acl	858	VerbForm=Inf	0	-1	-1	-1	-1
+64	82	9	864	(	(	4158	4159	PUNCT	punct	863		0	-1	-1	-1	-1
+64	82	10	865	c'	ce	4159	4161	PRON	nsubj	868	Number=Sing|Person=3	0	-1	-1	-1	-1
+64	82	11	866	était	être	4161	4166	AUX	cop	868	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+64	82	12	867	leur	son	4167	4171	DET	det	868	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+64	82	13	868	idée	idée	4172	4176	NOUN	obl:mod	863	Gender=Fem|Number=Sing	0	-1	-1	-1	867
+64	82	14	869	)	)	4176	4177	PUNCT	punct	863		0	-1	-1	-1	-1
+64	82	15	870	à	à	4178	4179	ADP	case	935		0	-1	-1	-1	-1
+65	83	0	871	l'	le	4180	4182	DET	det	872	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+65	83	1	872	élévation	élévation	4182	4191	NOUN	obj	935	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+65	83	2	873	de	de	4192	4194	ADP	case	875		0	-1	-1	-1	-1
+65	83	3	874	leurs	leur	4195	4200	DET	det	875	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+65	83	4	875	sentiments	sentiment	4201	4211	NOUN	nmod	872	Gender=Masc|Number=Plur	0	-1	-1	-1	874
+65	83	5	876	,	,	4211	4212	PUNCT	punct	863		0	-1	-1	-1	-1
+65	83	6	877	mais	mais	4213	4217	CCONJ	cc	946		0	-1	-1	-1	-1
+65	83	7	878	ce	ce	4218	4220	DET	det	879	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+65	83	8	879	silence	silence	4221	4228	NOUN	nsubj	946	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+65	83	9	880	volontaire	volontaire	4229	4239	ADJ	amod	879	Number=Sing	0	-1	-1	-1	-1
+66	84	0	881	accomplissait	accomplir	4240	4253	VERB	dep	863	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+66	84	1	882	peu	peu	4254	4257	ADV	advmod	881		0	-1	-1	-1	-1
+66	84	2	883	à	à	4258	4259	ADP	fixed	882		0	-1	-1	-1	-1
+66	84	3	884	peu	peu	4260	4263	ADV	fixed	882		0	-1	-1	-1	-1
+66	84	4	885	,	,	4263	4264	PUNCT	punct	881		0	-1	-1	-1	-1
+66	84	5	886	et	et	4265	4267	CCONJ	cc	888		0	-1	-1	-1	-1
+66	84	6	887	malgré	malgré	4268	4274	ADP	case	888		0	-1	-1	-1	-1
+66	84	7	888	elles	lui	4275	4280	PRON	conj	863	Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	-1	-1	-1	-1
+66	84	8	889	,	,	4280	4281	PUNCT	punct	891		0	-1	-1	-1	-1
+66	84	9	890	l'	le	4282	4284	DET	det	891	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+66	84	10	891	œuvre	œuvre	4284	4289	NOUN	obj	863	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+66	84	11	892	de	de	4290	4292	ADP	case	894		0	-1	-1	-1	-1
+66	84	12	893	l'	le	4293	4295	DET	det	894	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+66	84	13	894	oubli	oubli	4295	4300	NOUN	nmod	891	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+66	84	14	895	.	.	4300	4301	PUNCT	punct	852		0	-1	-1	-1	-1
+67	85	0	896	Natacha	natacha	4303	4310	PROPN	nsubj	899	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+67	85	1	897	avait	avoir	4311	4316	AUX	aux:tense	899	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+67	85	2	898	singulièrement	singulièrement	4317	4331	ADV	advmod	899		0	-1	-1	-1	-1
+67	85	3	899	pâli	pâlir	4332	4336	VERB	ROOT	899	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	896	-1	-1	-1
+67	85	4	900	,	,	4336	4337	PUNCT	punct	899		0	-1	-1	-1	-1
+67	85	5	901	et	et	4338	4340	CCONJ	cc	906		0	-1	-1	-1	-1
+67	85	6	902	sa	son	4341	4343	DET	det	903	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+67	85	7	903	faiblesse	faiblesse	4344	4353	NOUN	nsubj	906	Gender=Fem|Number=Sing	0	-1	-1	-1	902
+67	85	8	904	était	être	4354	4359	AUX	cop	906	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+67	85	9	905	si	si	4360	4362	ADV	advmod	906		0	-1	-1	-1	-1
+67	85	10	906	grande	grand	4363	4369	ADJ	conj	899	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+67	85	11	907	que	que	4370	4373	SCONJ	mark	976		0	-1	-1	-1	-1
+67	85	12	908	,	,	4373	4374	PUNCT	punct	976		0	-1	-1	-1	-1
+68	86	0	909	lorsqu'	lorsque	4375	4382	SCONJ	mark	912		0	-1	-1	-1	-1
+68	86	1	910	on	on	4382	4384	PRON	nsubj	912	Number=Sing|Person=3	0	-1	-1	-1	-1
+68	86	2	911	lui	luire	4385	4388	PRON	iobj	912	Number=Sing|Person=3	1	-1	-1	-1	-1
+68	86	3	912	parlait	parler	4389	4396	VERB	advcl	919	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+68	86	4	913	de	de	4397	4399	ADP	case	915		0	-1	-1	-1	-1
+68	86	5	914	sa	son	4400	4402	DET	det	915	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+68	86	6	915	santé	santé	4403	4408	NOUN	obl:arg	912	Gender=Fem|Number=Sing	0	-1	-1	-1	914
+68	86	7	916	,	,	4408	4409	PUNCT	punct	919		0	-1	-1	-1	-1
+68	86	8	917	elle	lui	4410	4414	PRON	nsubj	919	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+68	86	9	918	en	en	4415	4417	PRON	iobj	919	Person=3	0	-1	-1	-1	-1
+68	86	10	919	éprouvait	éprouver	4418	4427	VERB	dep	906	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	917	-1	-1	-1
+68	86	11	920	un	un	4428	4430	DET	det	922	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+68	86	12	921	certain	certain	4431	4438	ADJ	amod	922	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+68	86	13	922	plaisir	plaisir	4439	4446	NOUN	obj	919	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+68	86	14	923	;	;	4446	4447	PUNCT	punct	899		0	-1	-1	-1	-1
+69	87	0	924	mais	mais	4448	4452	CCONJ	cc	936		0	-1	-1	-1	-1
+69	87	1	925	tout	tout	4453	4457	ADV	advmod	936		0	-1	-1	-1	-1
+69	87	2	926	à	à	4458	4459	ADP	fixed	925		0	-1	-1	-1	-1
+69	87	3	927	coup	coup	4460	4464	NOUN	fixed	925	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+69	87	4	928	,	,	4464	4465	PUNCT	punct	936		0	-1	-1	-1	-1
+69	87	5	929	par	par	4466	4469	ADP	case	931		0	-1	-1	-1	-1
+69	87	6	930	une	un	4470	4473	DET	det	931	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+69	87	7	931	révolution	révolution	4474	4484	NOUN	obl:mod	936	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+69	87	8	932	subite	subit	4485	4491	ADJ	amod	931	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+69	87	9	933	,	,	4491	4492	PUNCT	punct	936		0	-1	-1	-1	-1
+69	87	10	934	elle	lui	4493	4497	PRON	nsubj	936	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+69	87	11	935	se	se	4498	4500	PRON	expl:comp	936	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+69	87	12	936	sentait	sentir	4501	4508	VERB	ROOT	936	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	934	-1	-1	-1
+69	87	13	937	envahir	envahir	4509	4516	VERB	xcomp	936	VerbForm=Inf	0	-1	-1	-1	-1
+69	87	14	938	,	,	4516	4517	PUNCT	punct	937		0	-1	-1	-1	-1
+70	88	0	939	non	non	4518	4521	ADV	advmod	943		0	-1	-1	-1	-1
+70	88	1	940	pas	pas	4522	4525	ADV	advmod	943		0	-1	-1	-1	-1
+70	88	2	941	par	par	4526	4529	ADP	case	943		0	-1	-1	-1	-1
+70	88	3	942	la	le	4530	4532	DET	det	943	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+70	88	4	943	crainte	crainte	4533	4540	NOUN	obl:mod	1008	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+70	88	5	944	de	de	4541	4543	ADP	case	946		0	-1	-1	-1	-1
+70	88	6	945	la	le	4544	4546	DET	det	946	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+70	88	7	946	mort	mort	4547	4551	NOUN	nmod	943	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+70	88	8	947	,	,	4551	4552	PUNCT	punct	943		0	-1	-1	-1	-1
+70	88	9	948	mais	mais	4553	4557	CCONJ	cc	950		0	-1	-1	-1	-1
+70	88	10	949	par	par	4558	4561	ADP	case	950		0	-1	-1	-1	-1
+70	88	11	950	celle	celui	4562	4567	PRON	conj	943	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+70	88	12	951	de	de	4568	4570	ADP	case	953		0	-1	-1	-1	-1
+70	88	13	952	la	le	4571	4573	DET	det	953	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+70	88	14	953	maladie	maladie	4574	4581	NOUN	nmod	950	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+70	88	15	954	et	et	4582	4584	CCONJ	cc	1027		0	-1	-1	-1	-1
+70	88	16	955	de	de	4585	4587	ADP	case	1027		0	-1	-1	-1	-1
+70	88	17	956	la	le	4588	4590	DET	det	1027	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+71	89	0	957	perte	perte	4591	4596	NOUN	obj	1027	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+71	89	1	958	de	de	4597	4599	ADP	case	960		0	-1	-1	-1	-1
+71	89	2	959	sa	son	4600	4602	DET	det	960	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+71	89	3	960	beauté	beauté	4603	4609	NOUN	nmod	957	Gender=Fem|Number=Sing	0	-1	-1	-1	959
+71	89	4	961	.	.	4609	4610	PUNCT	punct	943		0	-1	-1	-1	-1
+71	89	5	962	Examinant	examiner	4611	4620	VERB	advcl	970	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+71	89	6	963	alors	alors	4621	4626	ADV	advmod	962		0	-1	-1	-1	-1
+71	89	7	964	son	son	4627	4630	DET	det	965	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+71	89	8	965	visage	visage	4631	4637	NOUN	obj	962	Gender=Masc|Number=Sing	0	-1	-1	-1	964
+71	89	9	966	amaigri	amaigrir	4638	4645	VERB	acl	965	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+71	89	10	967	,	,	4645	4646	PUNCT	punct	970		0	-1	-1	-1	-1
+71	89	11	968	elle	lui	4647	4651	PRON	nsubj	970	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+71	89	12	969	s'	se	4652	4654	PRON	expl:comp	970	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+71	89	13	970	étonnait	étonner	4654	4662	VERB	obj	936	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	968	-1	-1	-1
+72	90	0	971	du	de	4663	4665	ADP	case	972	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+72	90	1	972	changement	changement	4666	4676	NOUN	obl:arg	1042	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+72	90	2	973	survenu	survenir	4677	4684	VERB	acl	972	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+72	90	3	974	dans	dans	4685	4689	ADP	case	976		0	-1	-1	-1	-1
+72	90	4	975	ses	son	4690	4693	DET	det	976	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+72	90	5	976	traits	trait	4694	4700	NOUN	obl:mod	973	Gender=Masc|Number=Plur	0	-1	-1	-1	975
+72	90	6	977	,	,	4700	4701	PUNCT	punct	972		0	-1	-1	-1	-1
+72	90	7	978	et	et	4702	4704	CCONJ	cc	980		0	-1	-1	-1	-1
+72	90	8	979	les	le	4705	4708	PRON	obj	980	Number=Plur|Person=3	0	-1	-1	-1	-1
+72	90	9	980	étudiait	étudier	4709	4717	VERB	conj	972	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+72	90	10	981	tristement	tristement	4718	4728	ADV	advmod	980		0	-1	-1	-1	-1
+72	90	11	982	dans	dans	4729	4733	ADP	case	1055		0	-1	-1	-1	-1
+73	91	0	983	son	son	4734	4737	DET	det	984	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+73	91	1	984	miroir	miroir	4738	4744	NOUN	obj	980	Gender=Masc|Number=Sing	0	-1	-1	-1	983
+73	91	2	985	.	.	4744	4745	PUNCT	punct	970		0	-1	-1	-1	-1
+73	92	0	986	«	«	4746	4747	PUNCT	punct	989		0	-1	-1	-1	-1
+73	92	1	987	C'	ce	4747	4749	PRON	nsubj	989	Number=Sing|Person=3	0	-1	-1	-1	-1
+73	92	2	988	était	être	4749	4754	AUX	cop	989	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+73	92	3	989	inévitable	inévitable	4755	4765	ADJ	ROOT	989	Number=Sing	0	-1	-1	-1	-1
+73	92	4	990	,	,	4765	4766	PUNCT	punct	989		0	-1	-1	-1	-1
+73	92	5	991	»	»	4766	4767	PUNCT	punct	989		0	-1	-1	-1	-1
+73	92	6	992	se	se	4768	4770	PRON	expl:comp	993	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+73	92	7	993	disait	dire	4771	4777	VERB	parataxis	989	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	994	-1	-1	-1
+73	92	8	994	-elle	lui	4777	4782	PRON	nsubj	993	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+73	92	9	995	,	,	4782	4783	PUNCT	punct	993		0	-1	-1	-1	-1
+73	92	10	996	et	et	4784	4786	CCONJ	cc	1073		0	-1	-1	-1	-1
+73	92	11	997	cependant	cependant	4787	4796	ADV	advmod	1073		0	-1	-1	-1	-1
+73	92	12	998	elle	lui	4797	4801	PRON	nsubj	1073	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+73	92	13	999	en	en	4802	4804	PRON	iobj	1073	Person=3	0	-1	-1	-1	-1
+74	93	0	1000	avait	avoir	4805	4810	VERB	xcomp	993	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+74	93	1	1001	peur	peur	4811	4815	NOUN	obj	1000	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+74	93	2	1002	,	,	4815	4816	PUNCT	punct	993		0	-1	-1	-1	-1
+74	93	3	1003	et	et	4817	4819	CCONJ	cc	1004		0	-1	-1	-1	-1
+74	93	4	1004	regrettait	regretter	4820	4830	VERB	conj	993	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	994	-1	-1	-1
+74	93	5	1005	qu'	que	4831	4834	SCONJ	mark	1008		0	-1	-1	-1	-1
+74	93	6	1006	il	il	4834	4836	PRON	expl:subj	1008	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+74	93	7	1007	en	en	4837	4839	PRON	expl:comp	1008	Person=3	0	-1	-1	-1	-1
+74	93	8	1008	fût	être	4840	4843	VERB	ccomp	1004	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+74	93	9	1009	ainsi	ainsi	4844	4849	ADV	advmod	1008		0	-1	-1	-1	-1
+74	93	10	1010	!	!	4849	4850	PUNCT	punct	989		0	-1	-1	-1	-1
+74	94	0	1011	Un	un	4851	4853	DET	det	1012	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+74	94	1	1012	jour	jour	4854	4858	NOUN	obl:mod	1015	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+74	94	2	1013	,	,	4858	4859	PUNCT	punct	1015		0	-1	-1	-1	-1
+74	94	3	1014	ayant	avoir	4860	4865	AUX	aux:tense	1015	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+74	94	4	1015	monté	monter	4866	4871	VERB	advcl	1023	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+74	94	5	1016	trop	trop	4872	4876	ADV	advmod	1091		0	-1	-1	-1	-1
+75	95	0	1017	vite	vite	4877	4881	ADV	advmod	1091		0	-1	-1	-1	-1
+75	95	1	1018	l'	le	4882	4884	DET	det	1019	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+75	95	2	1019	escalier	escalier	4884	4892	NOUN	obj	1091	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+75	95	3	1020	,	,	4892	4893	PUNCT	punct	1023		0	-1	-1	-1	-1
+75	95	4	1021	elle	lui	4894	4898	PRON	nsubj	1023	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+75	95	5	1022	s'	se	4899	4901	PRON	expl:comp	1023	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+75	95	6	1023	arrêta	arrêter	4901	4907	VERB	ROOT	1023	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1021	-1	-1	-1
+75	95	7	1024	essoufflée	essouffler	4908	4918	VERB	xcomp	1023	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+75	95	8	1025	,	,	4918	4919	PUNCT	punct	1023		0	-1	-1	-1	-1
+75	95	9	1026	et	et	4920	4922	CCONJ	cc	1027		0	-1	-1	-1	-1
+75	95	10	1027	trouva	trouver	4923	4929	VERB	conj	1023	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1021	-1	-1	-1
+75	95	11	1028	aussitôt	aussitôt	4930	4938	ADV	advmod	1027		0	-1	-1	-1	-1
+75	95	12	1029	une	un	4939	4942	DET	det	1030	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+75	95	13	1030	raison	raison	4943	4949	NOUN	obj	1027	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+76	96	0	1031	pour	pour	4950	4954	ADP	mark	1032		0	-1	-1	-1	-1
+76	96	1	1032	redescendre	redescendre	4955	4966	VERB	xcomp	1106	VerbForm=Inf	0	-1	-1	-1	-1
+76	96	2	1033	,	,	4966	4967	PUNCT	punct	1032		0	-1	-1	-1	-1
+76	96	3	1034	puis	pouvoir	4968	4972	CCONJ	cc	1036		0	-1	-1	-1	-1
+76	96	4	1035	une	un	4973	4976	DET	det	1036	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+76	96	5	1036	autre	autre	4977	4982	ADJ	conj	1032	Number=Sing	0	-1	-1	-1	-1
+76	96	6	1037	pour	pour	4983	4987	ADP	mark	1038		0	-1	-1	-1	-1
+76	96	7	1038	remonter	remonter	4988	4996	VERB	dep	1036	VerbForm=Inf	0	-1	-1	-1	-1
+76	96	8	1039	:	:	4996	4997	PUNCT	punct	1023		0	-1	-1	-1	-1
+76	96	9	1040	elle	lui	4998	5002	PRON	nsubj	1041	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+76	96	10	1041	cherchait	chercher	5003	5012	VERB	advcl	1023	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	1040	-1	-1	-1
+76	96	11	1042	ainsi	ainsi	5013	5018	ADV	advmod	1041		0	-1	-1	-1	-1
+76	96	12	1043	à	à	5019	5020	ADP	mark	1120		0	-1	-1	-1	-1
+77	97	0	1044	essayer	essayer	5021	5028	VERB	xcomp	1041	VerbForm=Inf	0	-1	-1	-1	-1
+77	97	1	1045	et	et	5029	5031	CCONJ	cc	1047		0	-1	-1	-1	-1
+77	97	2	1046	à	à	5032	5033	ADP	mark	1047		0	-1	-1	-1	-1
+77	97	3	1047	mesurer	mesurer	5034	5041	VERB	conj	1044	VerbForm=Inf	0	-1	-1	-1	-1
+77	97	4	1048	ses	son	5042	5045	DET	det	1049	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+77	97	5	1049	forces	force	5046	5052	NOUN	obj	1047	Gender=Fem|Number=Plur	0	-1	-1	-1	1048
+77	97	6	1050	.	.	5052	5053	PUNCT	punct	1023		0	-1	-1	-1	-1
+77	98	0	1051	Une	un	5054	5057	DET	det	1053	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+77	98	1	1052	autre	autre	5058	5063	ADJ	amod	1053	Number=Sing	0	-1	-1	-1	-1
+77	98	2	1053	fois	fois	5064	5068	NOUN	obl:mod	1055	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+77	98	3	1054	elle	lui	5069	5073	PRON	nsubj	1055	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+77	98	4	1055	appela	appeler	5074	5080	VERB	ROOT	1055	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1054	1056	-1	-1
+77	98	5	1056	Douniacha	douniacha	5081	5090	PROPN	obj	1055		1	-1	-1	-1	-1
+77	98	6	1057	,	,	5090	5091	PUNCT	punct	1055		0	-1	-1	-1	-1
+78	99	0	1058	et	et	5092	5094	CCONJ	cc	1062		0	-1	-1	-1	-1
+78	99	1	1059	la	le	5095	5097	DET	det	1060	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+78	99	2	1060	voix	voix	5098	5102	NOUN	nsubj	1062	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+78	99	3	1061	lui	luire	5103	5106	PRON	iobj	1062	Number=Sing|Person=3	1	-1	-1	-1	-1
+78	99	4	1062	manqua	manquer	5107	5113	VERB	conj	1055	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1054	-1	-1	-1
+78	99	5	1063	.	.	5113	5114	PUNCT	punct	1055		0	-1	-1	-1	-1
+78	100	0	1064	Bien	bien	5115	5119	ADV	mark	1068		0	-1	-1	-1	-1
+78	100	1	1065	qu'	que	5120	5123	SCONJ	fixed	1064		0	-1	-1	-1	-1
+78	100	2	1066	elle	lui	5123	5127	PRON	nsubj	1068	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+78	100	3	1067	l'	le	5128	5130	PRON	obj	1068	Number=Sing|Person=3	1	-1	-1	-1	-1
+78	100	4	1068	entendît	entendre	5130	5138	VERB	advcl	1151	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1066	1067	-1	-1
+78	100	5	1069	s'	se	5139	5141	PRON	expl:comp	1070	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+78	100	6	1070	approcher	approcher	5141	5150	VERB	xcomp	1068	VerbForm=Inf	0	-1	-1	-1	-1
+78	100	7	1071	,	,	5150	5151	PUNCT	punct	1151		0	-1	-1	-1	-1
+78	100	8	1072	elle	lui	5152	5156	PRON	nsubj	1151	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+79	101	0	1073	l'	le	5157	5159	PRON	obj	1074	Number=Sing|Person=3	1	-1	-1	-1	-1
+79	101	1	1074	appela	appeler	5159	5165	VERB	xcomp	1151	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	1073	-1	-1
+79	101	2	1075	de	de	5166	5168	ADP	advmod	1074		0	-1	-1	-1	-1
+79	101	3	1076	nouveau	nouveau	5169	5176	ADJ	fixed	1075	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+79	101	4	1077	,	,	5176	5177	PUNCT	punct	1074		0	-1	-1	-1	-1
+79	101	5	1078	à	à	5178	5179	ADP	case	1080		0	-1	-1	-1	-1
+79	101	6	1079	pleins	plein	5180	5186	ADJ	amod	1080	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+79	101	7	1080	poumons	poumon	5187	5194	NOUN	obl:mod	1074	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+79	101	8	1081	,	,	5194	5195	PUNCT	punct	1074		0	-1	-1	-1	-1
+79	101	9	1082	comme	comme	5196	5201	ADP	mark	1085		0	-1	-1	-1	-1
+79	101	10	1083	lorsqu'	lorsque	5202	5209	SCONJ	mark	1085		0	-1	-1	-1	-1
+79	101	11	1084	elle	lui	5209	5213	PRON	nsubj	1085	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+79	101	12	1085	chantait	chanter	5214	5222	VERB	advcl	1074	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	1084	-1	-1	-1
+79	101	13	1086	,	,	5222	5223	PUNCT	punct	1074		0	-1	-1	-1	-1
+79	101	14	1087	et	et	5224	5226	CCONJ	cc	1167		0	-1	-1	-1	-1
+80	102	0	1088	elle	lui	5227	5231	PRON	nsubj	1090	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+80	102	1	1089	s'	se	5232	5234	PRON	expl:pass	1090	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+80	102	2	1090	écouta	écouter	5234	5240	VERB	parataxis	1074	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1088	-1	-1	-1
+80	102	3	1091	avec	avec	5241	5245	ADP	case	1092		0	-1	-1	-1	-1
+80	102	4	1092	attention	attention	5246	5255	NOUN	obl:mod	1090	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+80	102	5	1093	.	.	5255	5256	PUNCT	punct	1074		0	-1	-1	-1	-1
+80	103	0	1094	Elle	lui	5257	5261	PRON	nsubj	1098	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+80	103	1	1095	ne	ne	5262	5264	ADV	advmod	1098	Polarity=Neg	0	-1	-1	-1	-1
+80	103	2	1096	s'	se	5265	5267	PRON	expl:comp	1098	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+80	103	3	1097	en	en	5267	5269	PRON	iobj	1098	Person=3	0	-1	-1	-1	-1
+80	103	4	1098	doutait	douter	5270	5277	VERB	ROOT	1098	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	1094	-1	-1	-1
+80	103	5	1099	pas	pas	5278	5281	ADV	advmod	1098	Polarity=Neg	0	-1	-1	-1	-1
+80	103	6	1100	et	et	5282	5284	CCONJ	cc	1103		0	-1	-1	-1	-1
+80	103	7	1101	n'	ne	5285	5287	ADV	advmod	1103	Polarity=Neg	0	-1	-1	-1	-1
+80	103	8	1102	aurait	avoir	5287	5293	AUX	aux:tense	1103	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+80	103	9	1103	pu	pouvoir	5294	5296	VERB	conj	1098	Tense=Past|VerbForm=Part	0	1094	-1	-1	-1
+80	103	10	1104	le	le	5297	5299	PRON	parataxis	1098	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+81	104	0	1105	croire	croire	5300	5306	VERB	advcl	1124	VerbForm=Inf	0	-1	-1	-1	-1
+81	104	1	1106	possible	possible	5307	5315	ADJ	xcomp	1105	Number=Sing	0	-1	-1	-1	-1
+81	104	2	1107	,	,	5315	5316	PUNCT	punct	1105		0	-1	-1	-1	-1
+81	104	3	1108	mais	mais	5317	5321	CCONJ	cc	1119		0	-1	-1	-1	-1
+81	104	4	1109	,	,	5321	5322	PUNCT	punct	1119		0	-1	-1	-1	-1
+81	104	5	1110	à	à	5323	5324	ADP	case	1113		0	-1	-1	-1	-1
+81	104	6	1111	travers	travers	5325	5332	NOUN	fixed	1110	Gender=Masc	0	-1	-1	-1	-1
+81	104	7	1112	la	le	5333	5335	DET	det	1113	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+81	104	8	1113	couche	couche	5336	5342	NOUN	obl:mod	1119	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+81	104	9	1114	épaisse	épais	5343	5350	ADJ	amod	1113	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+81	104	10	1115	de	de	5351	5353	ADP	case	1116		0	-1	-1	-1	-1
+81	104	11	1116	limon	limon	5354	5359	NOUN	nmod	1113	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+81	104	12	1117	dont	dont	5360	5364	PRON	dep	1200	PronType=Rel	0	-1	-1	-1	-1
+81	104	13	1118	elle	lui	5365	5369	PRON	nsubj	1200	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+82	105	0	1119	croyait	croire	5370	5377	VERB	conj	1105	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+82	105	1	1120	son	son	5378	5381	DET	det	1121	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+82	105	2	1121	âme	âme	5382	5385	NOUN	obj	1119	Gender=Fem|Number=Sing	0	-1	-1	-1	1120
+82	105	3	1122	recouverte	recouvrir	5386	5396	VERB	acl	1121	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+82	105	4	1123	,	,	5396	5397	PUNCT	punct	1124		0	-1	-1	-1	-1
+82	105	5	1124	perçaient	percer	5398	5407	VERB	ROOT	1124	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+82	105	6	1125	déjà	déjà	5408	5412	ADV	advmod	1124		0	-1	-1	-1	-1
+82	105	7	1126	les	le	5413	5416	DET	det	1130	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+82	105	8	1127	fines	fin	5417	5422	ADJ	amod	1130	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+82	105	9	1128	et	et	5423	5425	CCONJ	cc	1129		0	-1	-1	-1	-1
+82	105	10	1129	tendres	tendre	5426	5433	ADJ	conj	1127	Number=Plur	0	-1	-1	-1	-1
+82	105	11	1130	pointes	pointe	5434	5441	NOUN	obj	1124	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+83	106	0	1131	de	de	5442	5444	ADP	case	1133		0	-1	-1	-1	-1
+83	106	1	1132	l'	le	5445	5447	DET	det	1133	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+83	106	2	1133	herbe	herbe	5447	5452	NOUN	nmod	1213	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+83	106	3	1134	nouvelle	nouveau	5453	5461	ADJ	amod	1133	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+83	106	4	1135	,	,	5461	5462	PUNCT	punct	1133		0	-1	-1	-1	-1
+83	106	5	1136	qui	qui	5463	5466	PRON	nsubj	1137	PronType=Rel	0	-1	-1	-1	-1
+83	106	6	1137	devait	devoir	5467	5473	VERB	acl:relcl	1133	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+83	106	7	1138	prendre	prendre	5474	5481	VERB	xcomp	1137	VerbForm=Inf	0	-1	-1	-1	-1
+83	106	8	1139	le	le	5482	5484	DET	det	1140	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+83	106	9	1140	dessus	dessus	5485	5491	NOUN	obj	1138	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+83	106	10	1141	,	,	5491	5492	PUNCT	punct	1138		0	-1	-1	-1	-1
+83	106	11	1142	et	et	5493	5495	CCONJ	cc	1228		0	-1	-1	-1	-1
+83	106	12	1143	faire	faire	5496	5501	AUX	dep	1228	VerbForm=Inf	0	-1	-1	-1	-1
+83	106	13	1144	bientôt	bientôt	5502	5509	ADV	advmod	1143		0	-1	-1	-1	-1
+84	107	0	1145	disparaître	disparaître	5510	5521	VERB	xcomp	1228	VerbForm=Inf	0	-1	-1	-1	-1
+84	107	1	1146	,	,	5521	5522	PUNCT	punct	1145		0	-1	-1	-1	-1
+84	107	2	1147	sous	sou	5523	5527	ADP	case	1149		0	-1	-1	-1	-1
+84	107	3	1148	la	le	5528	5530	DET	det	1149	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+84	107	4	1149	sève	sève	5531	5535	NOUN	obl:mod	1145	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+84	107	5	1150	de	de	5536	5538	ADP	case	1152		0	-1	-1	-1	-1
+84	107	6	1151	sa	son	5539	5541	DET	det	1152	Gender=Fem|Number=Sing|Poss=Yes	0	-1	-1	-1	-1
+84	107	7	1152	verdure	verdure	5542	5549	NOUN	nmod	1149	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+84	107	8	1153	,	,	5549	5550	PUNCT	punct	1145		0	-1	-1	-1	-1
+84	107	9	1154	la	le	5551	5553	DET	det	1155	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+84	107	10	1155	douleur	douleur	5554	5561	NOUN	obj	1145	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+84	107	11	1156	qui	qui	5562	5565	PRON	nsubj	1159	PronType=Rel	0	-1	-1	-1	-1
+84	107	12	1157	l'	le	5566	5568	PRON	obj	1159	Number=Sing|Person=3	1	-1	-1	-1	-1
+84	107	13	1158	avait	avoir	5568	5573	AUX	aux:tense	1159	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+84	107	14	1159	écrasée	écraser	5574	5581	VERB	acl:relcl	1155	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	1157	-1	-1
+84	107	15	1160	.	.	5581	5582	PUNCT	punct	1124		0	-1	-1	-1	-1
+85	108	0	1161	La	le	5583	5585	DET	det	1162	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+85	108	1	1162	plaie	plaie	5586	5591	NOUN	nsubj	1165	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+85	108	2	1163	intérieure	intérieur	5592	5602	ADJ	amod	1162	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+85	108	3	1164	se	se	5603	5605	PRON	expl:pass	1165	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+85	108	4	1165	cicatrisait	cicatriser	5606	5617	VERB	ROOT	1165	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+85	108	5	1166	.	.	5617	5618	PUNCT	punct	1165		0	-1	-1	-1	-1
+86	109	0	1167	La	le	5620	5622	DET	det	1168	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+86	109	1	1168	princesse	princesse	5623	5632	NOUN	nsubj	1170	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+86	109	2	1169	Marie	marie	5633	5638	PROPN	flat:name	1168	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+86	109	3	1170	partit	partir	5639	5645	VERB	advcl	1252	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	1168	-1	-1	-1
+86	109	4	1171	pour	pour	5646	5650	ADP	case	1172		0	-1	-1	-1	-1
+86	109	5	1172	Moscou	moscou	5651	5657	PROPN	obl:arg	1170	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+86	109	6	1173	à	à	5658	5659	ADP	case	1175		0	-1	-1	-1	-1
+86	109	7	1174	la	le	5660	5662	DET	det	1175	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+86	109	8	1175	fin	fin	5663	5666	NOUN	obl:mod	1170	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+86	109	9	1176	de	de	5667	5669	ADP	case	1177		0	-1	-1	-1	-1
+86	109	10	1177	janvier	janvier	5670	5677	NOUN	nmod	1175	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+86	109	11	1178	,	,	5677	5678	PUNCT	punct	1170		0	-1	-1	-1	-1
+86	109	12	1179	emmenant	emmener	5679	5687	VERB	advcl	1170	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+87	110	0	1180	Natacha	natacha	5688	5695	PROPN	obj	1266	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+87	110	1	1181	avec	avec	5696	5700	ADP	case	1182		0	-1	-1	-1	-1
+87	110	2	1182	elle	lui	5701	5705	PRON	obl:arg	1266	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	-1	-1	-1	-1
+87	110	3	1183	,	,	5705	5706	PUNCT	punct	1179		0	-1	-1	-1	-1
+87	110	4	1184	car	car	5707	5710	CCONJ	cc	1187		0	-1	-1	-1	-1
+87	110	5	1185	le	le	5711	5713	DET	det	1186	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+87	110	6	1186	comte	comte	5714	5719	NOUN	nsubj	1187	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+87	110	7	1187	insistait	insister	5720	5729	VERB	conj	1179	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	1186	-1	-1	-1
+87	110	8	1188	pour	pour	5730	5734	ADP	mark	1191		0	-1	-1	-1	-1
+87	110	9	1189	qu'	que	5735	5738	SCONJ	mark	1191		0	-1	-1	-1	-1
+87	110	10	1190	elle	lui	5738	5742	PRON	nsubj	1191	Gender=Fem|Number=Sing|Person=3	1	-1	-1	-1	-1
+87	110	11	1191	consultât	consulter	5743	5752	VERB	advcl	1187	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	1190	-1	-1	-1
+87	110	12	1192	les	le	5753	5756	DET	det	1280	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+88	111	0	1193	médecins	médecin	5757	5765	NOUN	obj	1280	Gender=Masc|Number=Plur	1	-1	-1	-1	-1
+88	111	1	1194	.	.	5765	5766	PUNCT	punct	1170		0	-1	-1	-1	-1

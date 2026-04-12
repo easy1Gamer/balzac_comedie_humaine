@@ -1,0 +1,81 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+3	3	PER	0.9874643087387085	vos	1	1	1	2	0	0	0	0	3	vos	det	4	DET	PRON	Ambiguous	Ambiguous	2	15
+21	28	PER	0.7083205282688141	les soldats de l' escorte et les prisonniers	8	2	3	3	0	1	2	1	22	soldats	obl:mod	18	NOUN	NOM	Plural	Not_Assigned	3	7
+21	25	PER	0.6843589782714844	les soldats de l' escorte	5	2	3	3	1	0	0	2	22	soldats	obl:mod	18	NOUN	NOM	Plural	Not_Assigned	3	8
+27	28	PER	0.9591890871524811	les prisonniers	2	2	3	9	1	0	0	3	28	prisonniers	conj	22	NOUN	NOM	Plural	Ambiguous	3	1
+34	34	PER	0.7916290163993835	ils	1	3	4	3	0	0	0	4	34	ils	nsubj	36	PRON	PRON	Plural	Ambiguous	3	7
+57	57	PER	0.3705395460128784	prisonniers	1	5	6	0	0	0	0	5	57	prisonniers	obj	61	NOUN	NOM	Not_Assigned	Ambiguous	3	1
+90	91	PER	0.798009604215622	des prisonniers	2	7	10	2	0	0	0	6	91	prisonniers	nmod	89	NOUN	NOM	Plural	Ambiguous	3	1
+96	97	FAC	0.8714303076267242	la route	2	8	11	3	0	0	0	7	97	route	obl:arg	93	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+100	104	PER	0.5795403361320496	les soldats de l' escorte	5	8	11	7	0	0	0	8	101	soldats	nsubj	106	NOUN	NOM	Plural	Not_Assigned	3	8
+108	109	PER	0.5712997317314148	l' empereur	2	9	12	0	0	0	0	9	109	empereur	ROOT	109	NOUN	NOM	Singular	Male	3	16
+111	112	PER	0.8161509037017822	l' empereur	2	9	12	3	0	0	0	10	112	empereur	nmod	109	NOUN	NOM	Singular	Male	3	17
+114	115	PER	0.9162263870239258	le maréchal	2	9	12	6	0	0	0	11	115	maréchal	appos	112	NOUN	NOM	Singular	Male	3	18
+117	118	PER	0.7746886610984802	le duc	2	9	12	9	0	0	0	12	118	duc	appos	112	NOUN	NOM	Singular	Male	3	19
+131	136	VEH	0.6806180626153946	une voiture attelée de chevaux gris	6	10	13	4	0	0	0	13	132	voiture	nsubj	129	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+138	138	PER	0.9995074272155762	pierre	1	11	14	0	0	0	0	14	138	pierre	nsubj	139	PROPN	PROP	Singular	Male	3	20
+159	160	PER	0.7192767858505249	des maréchaux	2	12	15	8	0	0	0	15	160	maréchaux	nmod	158	NOUN	NOM	Plural	Not_Assigned	3	0
+162	162	PER	0.9884896874427795	dont	1	12	15	11	0	0	0	16	162	dont	nmod	164	PRON	PRON	Ambiguous	Ambiguous	4	0
+173	174	PER	0.9771320521831512	du prisonnier	2	13	16	8	0	0	0	17	174	prisonnier	nmod	171	NOUN	NOM	Singular	Male	3	1
+182	182	PER	0.9993577599525452	pierre	1	14	17	4	0	0	0	18	182	pierre	nsubj	183	PROPN	PROP	Singular	Male	3	21
+191	191	PER	0.9965605139732361	il	1	15	18	2	0	0	0	19	191	il	nsubj	192	PRON	PRON	Singular	Male	3	0
+196	197	PER	0.9632695019245148	le général	2	15	19	0	0	0	0	20	197	général	nsubj	216	NOUN	NOM	Singular	Male	3	5
+198	198	PER	0.9797232747077942	qui	1	15	19	2	0	0	0	21	198	qui	nsubj	199	PRON	PRON	Ambiguous	Ambiguous	4	5
+210	211	VEH	0.7862435877323151	son cheval	2	16	20	9	0	1	1	22	211	cheval	obj	209	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+210	210	PER	0.8595498204231262	son	1	16	20	9	1	0	0	23	210	son	det	211	DET	PRON	Singular	Ambiguous	3	5
+217	218	VEH	0.79838827252388	la voiture	2	17	21	2	0	0	0	24	218	voiture	obl:mod	215	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+220	221	PER	0.9313726127147675	quelques officiers	2	17	22	0	0	0	0	25	221	officiers	nsubj	223	NOUN	NOM	Plural	Ambiguous	3	9
+226	226	PER	0.5820185542106628	soldats	1	18	23	0	0	0	0	26	226	soldats	nsubj	228	NOUN	NOM	Plural	Ambiguous	3	10
+227	227	PER	0.9806843400001526	les	1	18	23	1	0	0	0	27	227	les	obj	228	PRON	PRON	Plural	Ambiguous	3	9
+234	234	PER	0.9660595655441284	-il	1	18	24	4	0	0	0	28	234	il	nsubj	235	PRON	PRON	Singular	Male	3	1
+240	240	PER	0.9452446699142456	-il	1	18	25	3	0	0	0	29	240	il	nsubj	241	PRON	PRON	Singular	Male	3	1
+245	245	PER	0.8305091857910156	-on	1	18	26	2	0	0	0	30	245	on	nsubj	244	PRON	PRON	Ambiguous	Ambiguous	3	10
+254	254	PER	0.999616265296936	pierre	1	20	28	0	0	0	0	31	254	pierre	nsubj	255	PROPN	PROP	Singular	Male	3	11
+259	259	PER	0.577237069606781	karataïew	1	20	28	5	0	0	0	32	259	karataïew	obj	255	PROPN	PROP	Singular	Not_Assigned	3	0
+262	262	PER	0.9994828701019287	il	1	20	28	8	0	0	0	33	262	il	nsubj	267	PRON	PRON	Singular	Male	3	11
+279	279	PER	0.9957687854766846	sa	1	21	30	5	0	0	0	34	279	sa	det	280	DET	PRON	Singular	Ambiguous	3	0
+282	283	TIME	0.8514879047870636	la veille	2	22	31	0	0	0	0	35	283	veille	obl:mod	303	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+286	286	PER	0.9987437129020691	il	1	22	31	4	0	0	0	36	286	il	nsubj	287	PRON	PRON	Singular	Male	3	0
+291	292	PER	0.7912741601467133	l' innocent	2	22	31	9	0	0	0	37	292	innocent	nmod	289	NOUN	NOM	Singular	Male	3	1
+305	305	PER	0.9976568222045898	ses	1	23	33	0	0	0	0	38	305	ses	det	306	DET	PRON	Singular	Ambiguous	3	0
+317	317	PER	0.9993689656257629	pierre	1	24	34	9	0	0	0	39	317	pierre	obj	316	PROPN	PROP	Singular	Male	3	3
+320	321	PER	0.914749413728714	ce dernier	2	24	34	12	0	0	0	40	321	dernier	parataxis	315	ADJ	NOM	Singular	Male	3	3
+326	326	PER	0.9031389355659485	lui-même	1	25	35	3	0	0	0	41	326	lui-même	obl:arg	323	PRON	PRON	Singular	Male	3	3
+333	333	PER	0.9808464646339417	le	1	25	35	10	0	0	0	42	333	le	obj	334	PRON	PRON	Singular	Male	3	3
+342	342	PER	0.9972742199897766	sa	1	26	37	2	0	0	0	43	342	sa	det	343	DET	PRON	Singular	Ambiguous	3	3
+345	345	PER	0.9993601441383362	il	1	26	37	5	0	0	0	44	345	il	nsubj	346	PRON	PRON	Singular	Male	3	3
+351	351	PER	0.9884083867073059	le	1	26	37	11	0	0	0	45	351	le	obj	352	PRON	PRON	Singular	Male	3	0
+361	362	FAC	0.7487557530403137	du chemin	2	27	38	7	0	0	0	46	362	chemin	nmod	360	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+364	365	PER	0.9676006734371185	deux français	2	27	39	0	0	0	0	47	365	français	nsubj	366	NOUN	NOM	Plural	Ambiguous	3	12
+368	368	PER	0.9890648126602173	eux	1	27	39	4	0	0	0	48	368	eux	obl:arg	366	PRON	PRON	Plural	Ambiguous	3	12
+370	370	PER	0.9961330890655518	ses	1	28	40	0	0	0	0	49	370	ses	det	371	DET	PRON	Singular	Ambiguous	3	0
+373	373	PER	0.9993492960929871	pierre	1	28	41	0	0	0	0	50	373	pierre	nsubj	376	PROPN	PROP	Singular	Male	3	2
+387	387	PER	0.999544084072113	il	1	29	42	2	0	0	0	51	387	il	nsubj	388	PRON	PRON	Singular	Male	3	2
+395	395	PER	0.9968113303184509	lui	1	29	42	10	0	0	0	52	395	lui	obl:mod	388	PRON	PRON	Singular	Ambiguous	3	2
+401	401	PER	0.9995030164718628	il	1	30	43	4	0	0	0	53	401	il	nsubj	403	PRON	PRON	Singular	Male	3	2
+407	408	PER	0.9074571430683136	du maréchal	2	30	43	10	0	0	0	54	408	maréchal	nmod	406	NOUN	NOM	Singular	Male	3	0
+409	409	PER	0.9830612540245056	l'	1	30	43	12	0	0	0	55	409	l'	obj	441	PRON	PRON	Singular	Ambiguous	3	2
+418	418	PER	0.9968063831329346	leur	1	31	44	7	0	0	0	56	418	leur	iobj	419	PRON	PRON	Plural	Ambiguous	3	22
+426	426	GPE	0.7675679326057434	smolensk	1	32	45	2	0	0	0	57	426	smolensk	obl:mod	455	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+429	429	PER	0.9994420409202576	il	1	32	45	5	0	0	0	58	429	il	nsubj	431	PRON	PRON	Singular	Male	3	2
+435	436	PER	0.9811233580112457	deux soldats	2	32	46	0	0	0	0	59	436	soldats	nsubj	445	NOUN	NOM	Plural	Ambiguous	3	4
+438	438	PER	0.9895668625831604	dont	1	32	46	3	0	0	0	60	438	dont	nmod	472	PRON	PRON	Ambiguous	Ambiguous	4	4
+444	444	PER	0.993637204170227	le	1	33	47	4	0	0	0	61	444	le	obj	445	PRON	PRON	Singular	Male	3	2
+449	450	PER	0.9292192757129669	tous deux	2	33	48	0	0	0	0	62	450	deux	nsubj	485	PRON	PRON	Plural	Ambiguous	3	4
+455	456	PER	0.9526539742946625	l' un	2	34	49	3	0	0	0	63	456	un	nsubj	457	PRON	PRON	Singular	Male	3	4
+464	464	PER	0.9996812343597412	pierre	1	34	49	12	0	0	0	64	464	pierre	nmod	462	PROPN	PROP	Singular	Male	3	13
+466	466	PER	0.9968078136444092	qui	1	34	49	14	0	0	0	65	466	qui	nsubj	468	PRON	PRON	Ambiguous	Ambiguous	4	13
+467	467	PER	0.9876020550727844	le	1	34	49	15	0	0	0	66	467	le	obj	468	PRON	PRON	Singular	Male	3	4
+475	476	TIME	0.5461825281381607	l' avant-veille	2	35	50	6	0	0	0	67	476	avant-veille	obl:mod	481	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+477	479	PER	0.9061691164970398	ce même soldat	3	35	50	8	0	0	0	68	479	soldat	nsubj	481	NOUN	NOM	Singular	Male	3	4
+482	482	PER	0.9975941777229309	sa	1	35	50	13	0	0	0	69	482	sa	det	518	DET	PRON	Singular	Ambiguous	3	0
+497	499	PER	0.4176844259103139	toute l' assistance	3	37	52	0	0	0	0	70	499	assistance	nmod	533	NOUN	NOM	Plural	Ambiguous	3	23
+502	504	PER	0.7396190265814463	le gris »	3	37	53	1	0	0	0	71	503	gris	nsubj	505	NOUN	NOM	Singular	Not_Assigned	3	1
+510	510	PER	0.9687444567680359	karataïew	1	37	53	9	0	0	0	72	510	karataïew	nsubj:pass	549	PROPN	PROP	Singular	Not_Assigned	3	24
+518	519	VEH	0.5589683949947357	cette bête	2	38	54	6	0	0	0	73	519	bête	nsubj	516	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+524	524	PER	0.8509735465049744	-elle	1	38	54	12	0	0	0	74	524	elle	advmod	522	PRON	PRON	Singular	Female	3	1
+528	528	PER	0.9978594183921814	pierre	1	38	54	16	0	0	0	75	528	pierre	nsubj	527	PROPN	PROP	Singular	Male	3	14
+531	531	PER	0.46603646874427795	soldats	1	39	56	0	0	0	0	76	531	soldats	nsubj	540	NOUN	NOM	Plural	Ambiguous	3	6
+532	532	PER	0.9792563915252686	qui	1	39	56	1	0	0	0	77	532	qui	nsubj	533	PRON	PRON	Ambiguous	Ambiguous	4	6
+537	537	PER	0.9989721775054932	lui	1	39	56	6	0	0	0	78	537	lui	nmod	535	PRON	PRON	Singular	Ambiguous	3	14
+550	550	PER	0.9655003547668457	leurs	1	40	57	5	0	0	0	79	550	leurs	det	551	DET	PRON	Plural	Ambiguous	3	6

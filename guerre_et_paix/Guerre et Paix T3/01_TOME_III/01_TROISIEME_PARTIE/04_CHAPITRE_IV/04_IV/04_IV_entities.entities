@@ -1,0 +1,125 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+6	8	TIME	0.8506558736165365	le 5 octobre	3	1	1	5	0	0	0	0	7	5	obl:mod	4	NUM	NOM	Not_Assigned	Not_Assigned	3	
+10	11	TIME	0.8410109877586365	la veille	2	2	2	0	0	0	0	1	11	veille	obl:mod	14	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+13	13	PER	0.9569730162620544	koutouzow	1	2	2	3	0	0	0	2	13	koutouzow	nsubj	14	PROPN	PROP	Singular	Not_Assigned	3	14
+20	20	PER	0.9149139523506165	toll	1	2	3	0	0	0	0	3	20	toll	nsubj	22	PROPN	PROP	Singular	Not_Assigned	3	15
+25	25	PER	0.9944921731948853	yermolow	1	3	4	2	0	0	0	4	25	yermolow	obl:arg	25	PROPN	PROP	Singular	Male	3	16
+28	28	PER	0.9984961748123169	lui	1	3	4	5	0	0	0	5	28	lui	iobj	29	PRON	PRON	Singular	Ambiguous	3	17
+44	44	PER	0.9947428703308105	yermolow	1	5	6	6	0	0	0	6	44	yermolow	nsubj	43	PROPN	PROP	Singular	Male	3	5
+47	47	PER	0.9997368454933167	je	1	5	6	9	0	0	0	7	47	je	nsubj	50	PRON	PRON	Singular	Ambiguous	1	5
+65	65	PER	0.9909799695014954	toll	1	6	8	6	0	0	0	8	65	toll	obl:agent	63	PROPN	PROP	Singular	Not_Assigned	3	18
+75	75	GPE	0.805072546005249	austerlitz	1	7	9	3	0	0	0	9	75	austerlitz	nmod	73	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+125	126	PER	0.8541163802146912	l' ennemi	2	10	12	4	0	0	0	10	126	ennemi	obl:arg	123	NOUN	NOM	Singular	Male	3	4
+164	164	PER	0.5419741272926331	son	1	13	16	0	0	0	0	11	164	son	det	165	DET	PRON	Singular	Ambiguous	3	4
+180	180	PER	0.7413311004638672	on	1	14	17	9	0	0	0	12	180	on	nsubj	182	PRON	PRON	Ambiguous	Ambiguous	3	19
+184	185	PER	0.9143619239330292	un officier	2	15	18	0	0	0	0	13	185	officier	obj	198	NOUN	NOM	Singular	Male	3	0
+187	187	PER	0.9898855686187744	qui	1	15	18	3	0	0	0	14	187	qui	nsubj	189	PRON	PRON	Ambiguous	Ambiguous	4	0
+191	191	PER	0.964111864566803	koutouzow	1	15	18	7	0	0	0	15	191	koutouzow	nmod	189	PROPN	PROP	Singular	Not_Assigned	3	20
+197	197	PER	0.9684002995491028	yermolow	1	16	19	0	0	0	0	16	197	yermolow	obj	195	PROPN	PROP	Singular	Male	3	21
+199	202	PER	0.9234970510005951	ce jeune chevalier garde	4	16	19	2	0	0	0	17	201	chevalier	nsubj	227	NOUN	NOM	Singular	Male	3	0
+207	207	PER	0.9962448477745056	son	1	16	19	10	0	0	0	18	207	son	det	209	DET	PRON	Singular	Ambiguous	3	0
+213	217	FAC	0.6084051132202148	au logement occupé par yermolow	5	17	20	2	0	1	1	19	214	logement	obl:arg	212	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+217	217	PER	0.7855071425437927	yermolow	1	17	20	6	1	0	0	20	217	yermolow	obl:agent	215	PROPN	PROP	Singular	Male	3	22
+219	219	FAC	0.8787029385566711	il	1	17	20	8	0	0	0	21	219	il	nsubj	221	PRON	PRON	Not_Assigned	Not_Assigned	3	
+224	225	PER	0.9771875143051147	le général	2	18	21	1	0	0	0	22	225	général	nsubj	227	NOUN	NOM	Singular	Male	3	4
+230	230	PER	0.9985024929046631	lui	1	18	21	7	0	0	0	23	230	lui	iobj	231	PRON	PRON	Singular	Ambiguous	3	0
+232	233	PER	0.9125742614269257	le domestique	2	18	21	9	0	0	0	24	233	domestique	nsubj	231	NOUN	NOM	Singular	Male	3	23
+235	236	PER	0.8647716045379639	l' envoyé	2	19	22	0	0	0	0	25	236	envoyé	nsubj	238	NOUN	NOM	Singular	Not_Assigned	3	0
+240	244	PER	0.6060410976409912	un des généraux que yermolow	5	19	22	5	0	1	4	26	242	généraux	nmod	240	NOUN	PROP	Singular	Male	3	24
+240	240	PER	0.8281353116035461	un	1	19	22	5	1	0	0	27	240	un	obl:arg	238	PRON	PRON	Singular	Male	3	25
+241	242	PER	0.8605524599552155	des généraux	2	19	22	6	1	0	0	28	242	généraux	nmod	240	NOUN	NOM	Plural	Ambiguous	3	6
+243	243	PER	0.942444384098053	que	1	19	22	8	1	0	0	29	243	que	obj	245	PRON	PRON	Ambiguous	Ambiguous	4	6
+244	244	PER	0.8749372363090515	yermolow	1	19	22	9	1	0	0	30	244	yermolow	nsubj	245	PROPN	PROP	Singular	Male	3	26
+251	252	FAC	0.8707042634487152	la maison	2	20	23	3	0	0	0	31	252	maison	nmod	249	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+255	255	PER	0.99698406457901	lui	1	20	23	7	0	0	0	32	255	lui	iobj	256	PRON	PRON	Singular	Ambiguous	3	0
+257	257	PER	0.8990038633346558	-on	1	20	23	9	0	0	0	33	257	on	dep	256	PRON	PRON	Ambiguous	Ambiguous	3	27
+259	259	PER	0.9996652603149414	il	1	21	24	0	0	0	0	34	259	il	nsubj	260	PRON	PRON	Singular	Male	3	0
+262	263	PER	0.8885842263698578	un autre	2	21	24	3	0	0	0	35	263	autre	obl:arg	260	PRON	PRON	Singular	Male	3	28
+273	273	PER	0.9880064129829407	me	1	22	26	5	0	0	0	36	273	me	iobj	274	PRON	PRON	Singular	Ambiguous	1	0
+283	283	PER	0.9982556700706482	-il	1	22	26	15	0	0	0	37	283	il	nsubj	282	PRON	PRON	Singular	Male	3	0
+290	290	PER	0.9996159076690674	il	1	24	29	0	0	0	0	38	290	il	nsubj	291	PRON	PRON	Singular	Male	3	0
+294	295	LOC	0.326869934797287	du camp	2	24	29	4	0	0	0	39	295	camp	nmod	293	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+297	298	PER	0.9201137721538544	les uns	2	24	30	0	0	0	0	40	298	uns	nsubj	299	PRON	PRON	Plural	Ambiguous	3	29
+301	301	PER	0.9830316305160522	yermolow	1	24	30	4	0	0	0	41	301	yermolow	nsubj	302	PROPN	PROP	Singular	Male	3	7
+306	307	PER	0.9142371714115143	quelques généraux	2	25	31	1	0	0	0	42	307	généraux	obl:arg	329	NOUN	NOM	Plural	Ambiguous	3	30
+309	310	PER	0.8540933728218079	les autres	2	25	31	4	0	0	0	43	310	autres	nsubj	315	PRON	PRON	Plural	Ambiguous	3	31
+312	312	PER	0.9914470911026001	il	1	25	31	7	0	0	0	44	312	il	nsubj	315	PRON	PRON	Singular	Male	3	7
+318	319	PER	0.6506556421518326	malheureux officier	2	26	33	0	0	0	0	45	319	officier	nsubj	320	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+321	321	PER	0.997745931148529	ses	1	26	33	3	0	0	0	46	321	ses	det	322	DET	PRON	Singular	Ambiguous	3	0
+323	326	TIME	0.58882986754179	jusqu' à six heures	4	26	33	5	0	0	0	47	326	heures	obl:mod	320	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+328	329	TIME	0.7698355317115784	du soir	2	26	33	10	0	0	0	48	329	soir	obl:mod	357	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+334	337	TIME	0.5145644322037697	le temps de dîner	4	27	34	3	0	0	0	49	335	temps	obj	332	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+339	339	PER	0.9867272973060608	yermolow	1	27	34	8	0	0	0	50	339	yermolow	nsubj	340	PROPN	PROP	Singular	Male	3	8
+348	348	PER	0.9833342432975769	le	1	28	35	4	0	0	0	51	348	le	obj	349	PRON	PRON	Singular	Male	3	8
+351	352	PER	0.9467160701751709	le messager	2	28	35	7	0	0	0	52	352	messager	nsubj	357	NOUN	NOM	Singular	Male	3	0
+359	360	PER	0.9680485725402832	un camarade	2	29	36	2	0	0	0	53	360	camarade	obl:arg	357	NOUN	NOM	Singular	Male	3	32
+369	369	PER	0.9342655539512634	miloradovitch	1	30	37	0	0	0	0	54	369	miloradovitch	obl:mod	362	PROPN	PROP	Singular	Not_Assigned	3	9
+371	371	PER	0.8368973731994629	on	1	30	38	0	0	0	0	55	371	on	nsubj	373	PRON	PRON	Ambiguous	Ambiguous	3	33
+372	372	PER	0.9979239702224731	lui	1	30	38	1	0	0	0	56	372	lui	iobj	373	PRON	PRON	Singular	Ambiguous	3	0
+375	375	PER	0.9813616871833801	celui-ci	1	30	38	4	0	0	0	57	375	celui-ci	case	378	PRON	PRON	Singular	Male	3	9
+387	387	PER	0.992637038230896	yermolow	1	31	39	5	0	0	0	58	387	yermolow	nsubj	388	PROPN	PROP	Singular	Male	3	10
+389	389	FAC	0.5137618184089661	y	1	31	39	7	0	0	0	59	389	y	expl:comp	390	PRON	PRON	Not_Assigned	Not_Assigned	3	
+398	398	PER	0.7733400464057922	-ce	1	32	41	4	0	0	0	60	398	ce	nsubj	397	PRON	PRON	Singular	Ambiguous	3	10
+406	406	GPE	0.8304318189620972	jechkine	1	33	42	5	0	0	0	61	406	jechkine	dep	402	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+409	411	PER	0.9376571973164877	un officier cosaque	3	33	42	8	0	0	0	62	410	officier	nsubj	408	NOUN	NOM	Singular	Male	3	34
+413	413	PER	0.998105525970459	lui	1	33	42	12	0	0	0	63	413	lui	iobj	414	PRON	PRON	Singular	Ambiguous	3	0
+420	422	FAC	0.7820040583610535	une maison seigneuriale	3	34	43	2	0	0	0	64	421	maison	nmod	418	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+440	440	PER	0.7424084544181824	on	1	36	46	1	0	0	0	65	440	on	nsubj	442	PRON	PRON	Ambiguous	Ambiguous	3	11
+445	445	PER	0.9648733735084534	nos	1	36	46	6	0	0	0	66	445	nos	det	446	DET	PRON	Plural	Ambiguous	1	11
+452	452	PER	0.9301052689552307	ils	1	36	46	13	0	0	0	67	452	ils	nsubj	454	PRON	PRON	Plural	Ambiguous	3	35
+453	453	FAC	0.3963826596736908	y	1	36	46	14	0	0	0	68	453	y	iobj	454	PRON	PRON	Not_Assigned	Not_Assigned	3	
+466	466	PER	0.509871244430542	chanteurs	1	38	48	0	0	0	0	69	466	chanteurs	obj	503	NOUN	NOM	Not_Assigned	Not_Assigned	3	12
+470	471	PER	0.9651514887809753	l' officier	2	39	50	0	0	0	0	70	471	officier	nsubj	472	NOUN	NOM	Singular	Male	3	0
+479	480	FAC	0.9418120086193085	la maison	2	39	51	3	0	0	0	71	480	maison	obl:arg	477	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+482	482	PER	0.9984079003334045	il	1	39	51	6	0	0	0	72	482	il	nsubj	483	PRON	PRON	Singular	Male	3	0
+489	490	PER	0.8692672252655029	des soldats	2	40	52	5	0	0	0	73	490	soldats	nmod	488	NOUN	NOM	Plural	Ambiguous	3	36
+499	500	PER	0.8948339819908142	des assistants	2	41	53	2	0	0	0	74	500	assistants	nmod	497	NOUN	NOM	Plural	Ambiguous	3	37
+505	507	PER	0.9699394504229227	le jeune officier	3	41	54	3	0	0	0	75	507	officier	obj	504	NOUN	NOM	Singular	Male	3	0
+509	509	PER	0.9958288073539734	qui	1	41	54	7	0	0	0	76	509	qui	nsubj	551	PRON	PRON	Ambiguous	Ambiguous	4	0
+522	522	PER	0.8475956320762634	son	1	42	55	12	0	0	0	77	522	son	det	565	DET	PRON	Singular	Ambiguous	3	0
+528	528	PER	0.9986311793327332	il	1	43	56	5	0	0	0	78	528	il	nsubj:pass	530	PRON	PRON	Singular	Male	3	0
+540	540	PER	0.9991082549095154	il	1	44	58	4	0	0	0	79	540	il	nsubj	541	PRON	PRON	Singular	Male	3	0
+551	555	FAC	0.652416342496872	une grande et belle maison	5	45	59	1	0	0	0	80	555	maison	obl:arg	545	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+558	559	PER	0.29871779680252075	les russes	2	45	59	8	0	0	0	81	559	russes	obl:arg	556	NOUN	NOM	Plural	Ambiguous	3	38
+561	562	PER	0.5988075435161591	les français	2	45	59	11	0	0	0	82	562	français	conj	559	NOUN	NOM	Plural	Ambiguous	3	39
+564	564	FAC	0.4482869803905487	dont	1	46	60	0	0	0	0	83	564	dont	nmod	566	PRON	PRON	Not_Assigned	Not_Assigned	4	
+571	572	FAC	0.5796221792697906	l' antichambre	2	46	60	7	0	0	0	84	572	antichambre	obl:mod	623	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+577	577	PER	0.9987357258796692	il	1	47	61	0	0	0	0	85	577	il	ROOT	577	PRON	PRON	Singular	Male	3	0
+579	580	PER	0.7838817238807678	des laquais	2	47	61	2	0	0	0	86	579	des	ROOT	579	DET	PRON	Plural	Not_Assigned	3	40
+591	591	PER	0.2940848767757416	chanteurs	1	48	63	0	0	0	0	87	591	chanteurs	nsubj:pass	593	NOUN	NOM	Not_Assigned	Not_Assigned	3	12
+605	607	FAC	0.7230470577875773	le premier salon	3	49	65	1	0	0	0	88	607	salon	obl:arg	652	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+609	609	PER	0.9989456534385681	il	1	49	65	5	0	0	0	89	609	il	nsubj	611	PRON	PRON	Singular	Male	3	0
+610	610	FAC	0.7659150958061218	y	1	49	65	6	0	0	0	90	610	y	iobj	611	PRON	PRON	Not_Assigned	Not_Assigned	3	
+613	616	PER	0.6884180754423141	tous les principaux généraux	4	49	65	9	0	0	0	91	616	généraux	obj	611	NOUN	NOM	Plural	Ambiguous	3	1
+629	629	PER	0.9878106117248535	yermolow	1	50	66	12	0	0	0	92	629	yermolow	nmod	627	PROPN	PROP	Singular	Male	3	3
+631	631	PER	0.9699280261993408	tous	1	51	67	0	0	0	0	93	631	tous	advmod	696	ADJ	PRON	Plural	Ambiguous	3	1
+646	647	FAC	0.8762398660182953	la chambre	2	52	68	1	0	0	0	94	647	chambre	obj	645	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+649	649	PER	0.733138918876648	leurs	1	52	68	4	0	0	0	95	649	leurs	det	650	DET	PRON	Plural	Ambiguous	3	1
+660	662	PER	0.6610950827598572	un d' eux	3	53	69	1	0	1	1	96	662	eux	nmod	660	PRON	PRON	Singular	Not_Assigned	3	1
+662	662	PER	0.9311597943305969	eux	1	53	69	3	1	0	0	97	662	eux	nmod	660	PRON	PRON	Plural	Ambiguous	3	1
+664	666	PER	0.5198888083299001	très bel homme	3	53	69	5	0	0	0	98	665	bel	amod	666	ADJ	NOM	Not_Assigned	Not_Assigned	3	1
+689	690	PER	0.5947519391775131	nicolas ivanovitch	2	55	71	7	0	0	0	99	689	nicolas	dep	687	PROPN	PROP	Singular	Male	3	0
+699	700	PER	0.9751414954662323	le messager	2	56	73	0	0	0	0	100	700	messager	nsubj	701	NOUN	NOM	Singular	Male	3	0
+703	703	PER	0.9982232451438904	il	1	56	73	4	0	0	0	101	703	il	nsubj	704	PRON	PRON	Singular	Male	3	0
+720	720	PER	0.9994187355041504	il	1	57	74	8	0	0	0	102	720	il	nsubj	721	PRON	PRON	Singular	Male	3	0
+726	726	PER	0.9551532864570618	le	1	58	75	0	0	0	0	103	726	le	obj	727	PRON	PRON	Singular	Male	3	0
+731	734	PER	0.676361694931984	l' un des généraux	4	58	75	5	0	1	1	104	732	un	nsubj	736	PRON	PRON	Singular	Male	3	41
+733	734	PER	0.8629585206508636	des généraux	2	58	75	7	1	0	0	105	734	généraux	nmod	732	NOUN	NOM	Plural	Ambiguous	3	1
+735	735	PER	0.9841848611831665	le	1	58	75	9	0	0	0	106	735	le	obj	736	PRON	PRON	Singular	Male	3	0
+738	738	PER	0.9943413734436035	yermolow	1	58	75	12	0	0	0	107	738	yermolow	obl:arg	736	PROPN	PROP	Singular	Male	3	2
+740	740	PER	0.5598978400230408	ce	1	58	76	0	0	0	0	108	740	ce	det	799	DET	PRON	Singular	Ambiguous	3	2
+741	741	PER	0.8123088479042053	dernier	1	59	77	0	0	0	0	109	741	dernier	nsubj	748	ADJ	NOM	Not_Assigned	Not_Assigned	3	2
+750	750	PER	0.9989472031593323	lui	1	59	77	9	0	0	0	110	750	lui	obl:arg	748	PRON	PRON	Singular	Ambiguous	3	0
+753	753	PER	0.9992497563362122	son	1	59	77	12	0	0	0	111	753	son	det	754	DET	PRON	Singular	Ambiguous	3	2
+757	757	PER	0.9971452355384827	son	1	60	78	1	0	0	0	112	757	son	det	758	DET	PRON	Singular	Ambiguous	3	2
+764	764	PER	0.9969961643218994	tu	1	61	79	1	0	0	0	113	764	tu	nsubj	765	PRON	PRON	Singular	Ambiguous	2	0
+772	772	PER	0.9966448545455933	il	1	61	79	9	0	0	0	114	772	il	nsubj	773	PRON	PRON	Singular	Male	3	3
+777	778	PER	0.6847665309906006	au survenant	2	61	79	14	0	0	0	115	778	survenant	obl:arg	776	NOUN	NOM	Singular	Not_Assigned	3	0
+781	787	PER	0.7676485776901245	ses camarades de l' état - major	7	62	80	1	0	1	1	116	782	camarades	nmod	841	NOUN	NOM	Plural	Not_Assigned	3	42
+781	781	PER	0.9967321157455444	ses	1	62	80	1	1	0	0	117	781	ses	det	782	DET	PRON	Singular	Ambiguous	3	3
+791	791	PER	0.9932194352149963	yermolow	1	62	80	11	0	0	0	118	791	yermolow	obl:arg	789	PROPN	PROP	Singular	Male	3	13
+797	798	PER	0.9545093774795532	mon cher	2	63	82	0	0	1	1	119	798	cher	nsubj	859	ADJ	NOM	Singular	Male	3	0
+797	797	PER	0.9971901774406433	mon	1	63	82	0	1	0	0	120	797	mon	det	798	DET	PRON	Singular	Ambiguous	1	3
+805	805	PER	0.9917997121810913	il	1	63	82	8	0	0	0	121	805	il	nsubj	806	PRON	PRON	Singular	Male	3	13
+808	808	GPE	0.8257103562355042	konovnitzine	1	63	82	11	0	0	0	122	808	konovnitzine	obl:arg	806	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+810	810	PER	0.9985124468803406	tu	1	63	83	0	0	0	0	123	810	tu	nsubj	811	PRON	PRON	Singular	Ambiguous	2	0

@@ -1,0 +1,236 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9986722469329834	il	1	1	1	0	0	0	0	0	1	il	nsubj	2	PRON	PRON	Singular	Male	3	3
+4	4	GPE	0.9033048152923584	moscou	1	1	1	3	0	0	0	1	4	moscou	obl:arg	2	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+5	7	TIME	0.8804931044578552	le 30 août	3	1	1	4	0	0	0	2	6	30	obl:mod	2	NUM	NOM	Not_Assigned	Not_Assigned	3	
+9	9	PER	0.9974414110183716	il	1	1	1	8	0	0	0	3	9	il	nsubj	14	PRON	PRON	Singular	Male	3	3
+10	10	FAC	0.4993482530117035	en	1	1	1	9	0	0	0	4	10	en	iobj	14	PRON	PRON	Not_Assigned	Not_Assigned	3	
+19	19	PER	0.9988589286804199	il	1	2	2	1	0	0	0	5	19	il	nsubj	20	PRON	PRON	Singular	Male	3	3
+21	27	PER	0.7983742356300354	un aide de camp du comte rostoptchine	7	2	2	3	0	1	1	6	22	aide	obj	20	NOUN	PROP	Singular	Male	3	12
+25	27	PER	0.9406426747639974	du comte rostoptchine	3	2	2	7	1	0	0	7	26	comte	nmod	22	NOUN	PROP	Singular	Male	3	1
+30	30	PER	0.9496679902076721	nous	1	3	3	1	0	0	0	8	30	nous	nsubj	32	PRON	PRON	Plural	Ambiguous	1	20
+31	31	PER	0.9861288070678711	vous	1	3	3	2	0	0	0	9	31	vous	obj	32	PRON	PRON	Ambiguous	Ambiguous	2	3
+35	35	PER	0.9988875985145569	lui	1	3	3	6	0	0	0	10	35	lui	iobj	36	PRON	PRON	Singular	Ambiguous	3	3
+37	38	PER	0.9701728820800781	ce dernier	2	3	3	8	0	0	0	11	38	dernier	nsubj	36	ADJ	NOM	Singular	Male	3	12
+40	41	PER	0.9656561017036438	le comte	2	3	3	11	0	0	0	12	41	comte	nsubj	42	NOUN	NOM	Singular	Male	3	1
+43	43	PER	0.9828517436981201	vous	1	3	3	14	0	0	0	13	43	vous	advcl	42	PRON	PRON	Ambiguous	Ambiguous	2	3
+50	50	PER	0.9965834021568298	vous	1	4	4	6	0	0	0	14	50	vous	iobj	51	PRON	PRON	Ambiguous	Ambiguous	2	3
+55	55	PER	0.9785373210906982	lui	1	4	4	11	0	0	0	15	55	lui	obl:arg	53	PRON	PRON	Singular	Ambiguous	3	1
+58	58	PER	0.9992050528526306	pierre	1	5	6	0	0	0	0	16	58	pierre	nsubj	66	PROPN	PROP	Singular	Male	3	3
+63	64	FAC	0.753550261259079	son hôtel	2	5	6	5	0	1	1	17	64	hôtel	obl:arg	61	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+63	63	PER	0.9826390743255615	son	1	5	6	5	1	0	0	18	63	son	det	64	DET	PRON	Singular	Ambiguous	3	3
+67	68	VEH	0.7692401111125946	un isvostchik	2	5	6	9	0	0	0	19	68	isvostchik	obj	66	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+73	75	PER	0.9263032078742981	le gouverneur général	3	6	7	0	0	0	0	20	74	gouverneur	obj	78	NOUN	NOM	Singular	Male	3	1
+77	77	PER	0.9915646314620972	qui	1	6	7	4	0	0	0	21	77	qui	nsubj	79	PRON	PRON	Ambiguous	Ambiguous	4	1
+87	90	FAC	0.8248425871133804	le salon d' attente	4	7	9	0	0	0	0	22	88	salon	nsubj	92	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+94	94	PER	0.5135557055473328	monde	1	7	9	7	0	0	0	23	94	monde	obl:arg	92	NOUN	NOM	Plural	Male	3	13
+96	97	PER	0.4364645183086395	vassiltchikow et	2	7	10	0	0	1	1	24	96	vassiltchikow	ROOT	96	PROPN	PROP	Singular	Not_Assigned	3	13
+96	96	PER	0.8741466999053955	vassiltchikow	1	7	10	0	1	0	0	25	96	vassiltchikow	ROOT	96	PROPN	PROP	Singular	Not_Assigned	3	21
+98	98	PER	0.9468924403190613	platow	1	8	11	0	0	0	0	26	98	platow	dep	105	PROPN	PROP	Singular	Not_Assigned	3	22
+99	99	PER	0.9924032688140869	l'	1	8	11	1	0	0	0	27	99	l'	obj	102	PRON	PRON	Singular	Ambiguous	3	3
+105	105	PER	0.9983548521995544	lui	1	8	11	7	0	0	0	28	105	lui	iobj	107	PRON	PRON	Singular	Ambiguous	3	3
+114	114	GPE	0.8161743879318237	moscou	1	9	12	2	0	0	0	29	114	moscou	obj	113	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+117	118	GPE	0.8591226041316986	la ville	2	9	12	5	0	0	0	30	118	ville	nsubj:pass	120	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+132	133	PER	0.5291629433631897	aux habitants	2	10	14	5	0	0	0	31	133	habitants	obl:arg	129	NOUN	NOM	Plural	Ambiguous	3	23
+135	137	PER	0.7749931613604227	les fonctionnaires civils	3	10	14	8	0	0	0	32	136	fonctionnaires	nsubj	149	NOUN	NOM	Plural	Not_Assigned	3	24
+139	143	PER	0.5527701675891876	les chefs des différentes administrations	5	11	15	0	0	1	1	33	140	chefs	dep	149	NOUN	NOM	Plural	Not_Assigned	3	8
+141	143	PER	0.5745794127384821	des différentes administrations	3	11	15	2	1	0	0	34	143	administrations	nmod	140	NOUN	NOM	Plural	Not_Assigned	3	25
+146	147	PER	0.9708327949047089	au comte	2	11	15	7	0	0	0	35	147	comte	obl:arg	145	NOUN	NOM	Singular	Male	3	1
+150	150	PER	0.9072851538658142	ils	1	12	16	1	0	0	0	36	150	ils	nsubj	151	PRON	PRON	Plural	Ambiguous	3	8
+159	159	PER	0.7582255005836487	leur	1	12	16	10	0	0	0	37	159	leur	det	160	DET	PRON	Plural	Ambiguous	3	8
+165	165	PER	0.9994183778762817	pierre	1	13	18	2	0	0	0	38	165	pierre	nsubj	166	PROPN	PROP	Singular	Male	3	26
+168	169	FAC	0.8229801952838898	le salon	2	13	18	5	0	0	0	39	169	salon	obl:arg	166	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+171	175	PER	0.5070242524147034	un courrier de l' armée	5	13	18	8	0	1	1	40	172	courrier	nsubj	176	NOUN	NOM	Not_Assigned	Not_Assigned	3	9
+174	175	PER	0.2764613777399063	l' armée	2	13	18	11	1	0	0	41	175	armée	nmod	172	NOUN	NOM	Plural	Ambiguous	3	27
+180	180	PER	0.9879043698310852	rostoptchine	1	14	19	2	0	0	0	42	180	rostoptchine	nmod	178	PROPN	PROP	Singular	Male	3	1
+182	183	PER	0.7791542112827301	le courrier	2	14	20	0	0	0	0	43	183	courrier	nsubj	184	NOUN	NOM	Singular	Not_Assigned	3	9
+192	192	PER	0.8800145983695984	l'	1	15	21	2	0	0	0	44	192	l'	obj	193	PRON	PRON	Singular	Ambiguous	3	9
+204	204	PER	0.9995015859603882	pierre	1	16	23	0	0	0	0	45	204	pierre	nsubj	205	PROPN	PROP	Singular	Male	3	4
+206	206	PER	0.9991353154182434	ses	1	16	23	2	0	0	0	46	206	ses	det	207	DET	PRON	Singular	Ambiguous	3	4
+210	213	PER	0.6029262617230415	les différents groupes de	4	16	23	6	0	0	0	47	212	groupes	obl:arg	205	NOUN	NOM	Plural	Ambiguous	3	28
+214	217	PER	0.33958474174141884	fonctionnaires civils et militaires	4	17	24	0	0	0	0	48	214	fonctionnaires	nmod	212	NOUN	NOM	Not_Assigned	Not_Assigned	3	6
+219	221	PER	0.49776264031728107	jeunes et vieux	3	17	24	5	0	0	0	49	221	vieux	conj	219	ADJ	NOM	Not_Assigned	Not_Assigned	3	6
+223	223	PER	0.9854528307914734	qui	1	17	24	9	0	0	0	50	223	qui	nsubj	224	PRON	PRON	Ambiguous	Ambiguous	4	6
+225	225	PER	0.9245420694351196	leur	1	18	25	0	0	0	0	51	225	leur	det	226	DET	PRON	Plural	Ambiguous	3	6
+228	228	PER	0.976768970489502	tous	1	18	26	0	0	0	0	52	228	tous	nsubj	230	ADJ	PRON	Plural	Ambiguous	3	6
+234	234	PER	0.999548614025116	il	1	18	27	0	0	0	0	53	234	il	expl:subj	236	PRON	PRON	Singular	Male	3	4
+240	240	PER	0.6034899353981018	ses	1	18	27	6	0	0	0	54	240	ses	det	259	DET	PRON	Singular	Ambiguous	3	4
+242	242	PER	0.9794369339942932	qui	1	19	28	1	0	0	0	55	242	qui	nsubj	243	PRON	PRON	Ambiguous	Ambiguous	4	6
+270	271	PER	0.9272515177726746	l' un	2	21	31	13	0	0	0	56	271	un	nsubj	269	PRON	PRON	Singular	Male	3	14
+279	279	PER	0.9979561567306519	il	1	22	32	6	0	0	0	57	279	il	nsubj	280	PRON	PRON	Singular	Male	3	1
+285	286	PER	0.9766623973846436	l' autre	2	22	32	12	0	0	0	58	286	autre	nsubj	284	PRON	PRON	Singular	Ambiguous	3	14
+304	305	PER	0.6913611590862274	le peuple	2	24	34	11	0	0	0	59	305	peuple	dep	297	NOUN	NOM	Plural	Ambiguous	3	29
+314	314	PER	0.9990912675857544	pierre	1	25	35	7	0	0	0	60	314	pierre	nsubj	313	PROPN	PROP	Singular	Male	3	2
+321	321	PER	0.9955736398696899	sa	1	26	36	5	0	0	0	61	321	sa	det	323	DET	PRON	Singular	Ambiguous	3	1
+326	326	PER	0.9982295632362366	pierre	1	27	37	0	0	0	0	62	326	pierre	nsubj	328	PROPN	PROP	Singular	Male	3	30
+334	335	PER	0.8650378286838531	son altesse	2	28	38	1	0	0	0	63	335	altesse	nsubj	356	NOUN	NOM	Singular	Ambiguous	3	1
+347	348	PER	0.4541367292404175	les troupes	2	29	39	0	0	0	0	64	348	troupes	obj	375	NOUN	NOM	Plural	Ambiguous	3	15
+349	349	PER	0.6973629593849182	qui	1	29	39	2	0	0	0	65	349	qui	nsubj	350	PRON	PRON	Ambiguous	Ambiguous	4	15
+352	352	PER	0.8292931914329529	sa	1	29	39	5	0	0	0	66	352	sa	det	353	DET	PRON	Singular	Ambiguous	3	1
+357	357	GPE	0.8580405116081238	mojaïsk	1	29	39	10	0	0	0	67	357	mojaïsk	obj	356	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+363	365	LOC	0.5439873337745667	une forte position	3	30	40	2	0	0	0	68	365	position	obl:arg	361	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+366	366	LOC	0.7428857684135437	où	1	30	40	5	0	0	0	69	366	où	iobj	371	PRON	PRON	Not_Assigned	Not_Assigned	3	
+370	370	PER	0.9110657572746277	l'	1	30	40	9	0	0	0	70	370	l'	obj	371	PRON	PRON	Singular	Ambiguous	3	1
+376	376	PER	0.5998325347900391	on	1	31	41	0	0	0	0	71	376	on	nsubj	379	PRON	PRON	Ambiguous	Ambiguous	3	31
+377	377	PER	0.8856659531593323	lui	1	31	41	1	0	0	0	72	377	lui	iobj	379	PRON	PRON	Singular	Ambiguous	3	1
+391	391	PER	0.43287476897239685	son	1	31	41	15	0	0	0	73	391	son	det	423	DET	PRON	Singular	Ambiguous	3	1
+392	392	PER	0.7652292251586914	altesse	1	32	42	0	0	0	0	74	392	altesse	nsubj	393	NOUN	NOM	Singular	Ambiguous	3	1
+395	395	PER	0.9616799354553223	elle	1	32	42	3	0	0	0	75	395	elle	nsubj	396	PRON	PRON	Singular	Female	3	1
+397	397	GPE	0.9251500964164734	moscou	1	32	42	5	0	0	0	76	397	moscou	obj	396	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+404	404	PER	0.8576073050498962	son	1	33	43	0	0	0	0	77	404	son	det	405	DET	PRON	Singular	Ambiguous	3	1
+409	409	PER	0.8867096900939941	elle	1	33	43	5	0	0	0	78	409	elle	nsubj	411	PRON	PRON	Singular	Female	3	1
+417	418	FAC	0.7507131099700928	les rues	2	33	43	13	0	0	0	79	418	rues	obl:mod	415	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+425	427	PER	0.9462640086809794	mes bons amis	3	34	45	3	0	1	1	80	427	amis	dep	421	NOUN	NOM	Plural	Ambiguous	3	10
+425	425	PER	0.9927714467048645	mes	1	34	45	3	1	0	0	81	425	mes	det	427	DET	PRON	Singular	Ambiguous	1	4
+432	433	FAC	0.5441415458917618	des tribunaux	2	34	45	10	0	0	0	82	433	tribunaux	nmod	431	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+437	437	PER	0.8626242876052856	les	1	35	46	0	0	0	0	83	437	les	obj	438	PRON	PRON	Plural	Ambiguous	3	10
+459	459	PER	0.9997268319129944	je	1	36	49	5	0	0	0	84	459	je	nsubj	460	PRON	PRON	Singular	Ambiguous	1	4
+461	466	PER	0.7427831888198853	des jeunes braves de la ville	6	36	49	7	0	1	1	85	463	braves	obj	460	NOUN	NOM	Not_Assigned	Not_Assigned	3	32
+465	466	GPE	0.5525612533092499	la ville	2	36	49	11	1	0	0	86	466	ville	nmod	463	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+469	470	LOC	0.6577564775943756	la campagne	2	37	50	1	0	0	0	87	470	campagne	nmod	504	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+472	472	PER	0.9997612833976746	je	1	37	51	0	0	0	0	88	472	je	nsubj	473	PRON	PRON	Singular	Ambiguous	1	4
+484	484	PER	0.9995627999305725	je	1	38	52	1	0	0	0	89	484	je	nsubj	486	PRON	PRON	Singular	Ambiguous	1	4
+522	522	TIME	0.9393188953399658	demain	1	40	56	0	0	0	0	90	522	demain	advmod	531	ADV	NOM	Not_Assigned	Not_Assigned	3	
+524	525	TIME	0.6894727349281311	après midi	2	40	56	2	0	0	0	91	525	midi	obl:mod	531	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+527	530	PER	0.7225949764251709	l' image d' iverskaïa	4	40	56	5	0	0	0	92	528	image	nsubj	531	NOUN	PROP	Singular	Not_Assigned	3	33
+533	538	PER	0.5110138555367788	les blessés de l' hôpital catherine	6	41	57	1	0	1	1	93	537	hôpital	nmod	534	NOUN	PROP	Plural	Not_Assigned	3	11
+536	538	FAC	0.8372983336448669	l' hôpital catherine	3	41	57	4	1	0	0	94	537	hôpital	nmod	534	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+540	540	FAC	0.606761634349823	là	1	41	58	0	0	0	0	95	540	là	advmod	543	ADV	NOM	Not_Assigned	Not_Assigned	3	
+541	541	PER	0.9891732931137085	nous	1	41	58	1	0	0	0	96	541	nous	nsubj	543	PRON	PRON	Plural	Ambiguous	1	34
+542	542	PER	0.8738588690757751	les	1	41	58	2	0	0	0	97	542	les	obj	543	PRON	PRON	Plural	Ambiguous	3	11
+548	548	PER	0.9502302408218384	ils	1	42	59	4	0	0	0	98	548	ils	nsubj	550	PRON	PRON	Plural	Ambiguous	3	11
+554	556	PER	0.9838072260220846	moi - même	3	42	60	0	0	0	0	99	555		obl:mod	559	PRON	PRON	Singular	Ambiguous	1	2
+557	557	PER	0.9989432692527771	je	1	42	60	3	0	0	0	100	557	je	nsubj	559	PRON	PRON	Singular	Ambiguous	1	2
+562	562	PER	0.9974965453147888	j'	1	43	61	0	0	0	0	101	562	j'	nsubj	563	PRON	PRON	Singular	Ambiguous	1	2
+569	569	PER	0.991397500038147	j'	1	43	61	7	0	0	0	102	569	j'	nsubj	571	PRON	PRON	Singular	Ambiguous	1	2
+578	579	PER	0.9618968069553375	les militaires	2	44	62	1	0	0	0	103	579	militaires	nsubj	582	NOUN	NOM	Plural	Ambiguous	3	35
+580	580	PER	0.9964136481285095	m'	1	44	62	3	0	0	0	104	580	m'	iobj	582	PRON	PRON	Singular	Ambiguous	1	2
+585	585	PER	0.9995214939117432	pierre	1	44	62	8	0	0	0	105	585	pierre	nsubj	584	PROPN	PROP	Singular	Male	3	36
+595	595	GPE	0.3979284167289734	ville	1	45	63	1	0	0	0	106	595	ville	obl:mod	638	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+602	602	PER	0.9934529066085815	nous	1	46	64	1	0	0	0	107	602	nous	nsubj	604	PRON	PRON	Plural	Ambiguous	1	10
+609	613	PER	0.7145995974540711	l' un des deux fonctionnaires	5	46	64	8	0	1	1	108	610	un	ROOT	610	PRON	PRON	Not_Assigned	Not_Assigned	3	16
+611	613	PER	0.8254052599271139	des deux fonctionnaires	3	46	64	10	1	0	0	109	613	fonctionnaires	nmod	610	NOUN	NOM	Plural	Not_Assigned	3	37
+625	625	PER	0.9798214435577393	son	1	47	65	10	0	0	0	110	625	son	det	626	DET	PRON	Singular	Ambiguous	3	1
+629	630	PER	0.9876545965671539	le comte	2	48	66	1	0	0	0	111	630	comte	nsubj	632	NOUN	NOM	Singular	Male	3	1
+637	640	PER	0.743744283914566	un aide de camp	4	48	66	9	0	0	0	112	638	aide	nsubj	636	NOUN	NOM	Singular	Not_Assigned	3	38
+643	643	PER	0.9980201721191406	il	1	48	66	15	0	0	0	113	643	il	nsubj	694	PRON	PRON	Singular	Male	3	1
+648	648	PER	0.9995290040969849	je	1	49	67	2	0	0	0	114	648	je	nsubj	651	PRON	PRON	Singular	Ambiguous	1	4
+649	649	PER	0.9964981079101562	lui	1	49	67	3	0	0	0	115	649	lui	iobj	651	PRON	PRON	Singular	Ambiguous	3	1
+653	653	PER	0.7040429711341858	on	1	49	67	7	0	0	0	116	653	on	nsubj	654	PRON	PRON	Ambiguous	Ambiguous	3	39
+657	657	PER	0.9957799911499023	ses	1	49	67	11	0	0	0	117	657	ses	det	658	DET	PRON	Singular	Ambiguous	3	1
+664	664	PER	0.9831066131591797	comte	1	50	68	4	0	0	0	118	664	comte	obl:mod	666	NOUN	NOM	Singular	Male	3	2
+667	670	PER	0.9054169207811356	l' aide de camp	4	50	68	7	0	0	0	119	668	aide	nsubj	666	NOUN	NOM	Singular	Not_Assigned	3	16
+675	675	PER	0.9952378273010254	nous	1	50	68	15	0	0	0	120	675	nous	iobj	727	PRON	PRON	Plural	Ambiguous	1	40
+679	679	PER	0.9987384676933289	vous	1	51	69	2	0	0	0	121	679	vous	nsubj	680	PRON	PRON	Ambiguous	Ambiguous	2	2
+686	687	PER	0.9634561538696289	la comtesse	2	51	69	9	0	0	0	122	687	comtesse	conj	680	NOUN	NOM	Singular	Female	3	1
+689	690	PER	0.9429017901420593	votre femme	2	52	70	0	0	1	1	123	690	femme	appos	687	NOUN	NOM	Singular	Female	3	1
+689	689	PER	0.9942571520805359	votre	1	52	70	0	1	0	0	124	689	votre	det	690	DET	PRON	Ambiguous	Ambiguous	2	2
+693	693	PER	0.9995632767677307	je	1	53	71	1	0	0	0	125	693	je	nsubj	696	PRON	PRON	Singular	Ambiguous	1	2
+700	700	PER	0.9992654919624329	pierre	1	53	71	8	0	0	0	126	700	pierre	dep	699	PROPN	PROP	Singular	Male	3	41
+706	706	PER	0.9964417815208435	-vous	1	53	71	14	0	0	0	127	706	vous	nsubj	760	PRON	PRON	Ambiguous	Ambiguous	2	2
+713	713	PER	0.999270498752594	vous	1	55	73	3	0	0	0	128	713	vous	nsubj	714	PRON	PRON	Ambiguous	Ambiguous	2	2
+723	723	PER	0.9997536540031433	je	1	55	73	13	0	0	0	129	723	je	nsubj	725	PRON	PRON	Singular	Ambiguous	1	2
+729	729	PER	0.9976736903190613	j'	1	56	74	1	0	0	0	130	729	j'	nsubj	731	PRON	PRON	Singular	Ambiguous	1	2
+736	736	PER	0.9932990074157715	elle	1	56	74	8	0	0	0	131	736	elle	nsubj:pass	737	PRON	PRON	Singular	Female	3	1
+748	749	PER	0.9017484188079834	votre femme	2	58	76	4	0	1	1	132	749	femme	nsubj	750	NOUN	NOM	Singular	Female	3	1
+748	748	PER	0.9968196153640747	votre	1	58	76	4	1	0	0	133	748	votre	det	749	DET	PRON	Ambiguous	Ambiguous	2	2
+761	761	PER	0.9996691942214966	pierre	1	59	77	6	0	0	0	134	761	pierre	obj	760	PROPN	PROP	Singular	Male	3	5
+770	770	PER	0.9956802129745483	lui	1	60	78	1	0	0	0	135	770	lui	obl:mod	828	PRON	PRON	Singular	Ambiguous	3	5
+778	778	PER	0.9995635151863098	je	1	60	78	9	0	0	0	136	778	je	nsubj	779	PRON	PRON	Singular	Ambiguous	1	5
+786	786	PER	0.9987824559211731	-il	1	60	78	17	0	0	0	137	786	il	dep	784	PRON	PRON	Singular	Male	3	5
+789	793	PER	0.9481821179389953	un vieillard de haute taille	5	61	79	1	0	0	0	138	790	vieillard	obj	788	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+795	795	PER	0.9895777702331543	dont	1	61	79	7	0	0	0	139	795	dont	nmod	797	PRON	PRON	Ambiguous	Ambiguous	4	0
+808	808	PER	0.9964473843574524	sa	1	62	80	7	0	0	0	140	808	sa	det	809	DET	PRON	Singular	Ambiguous	3	0
+814	814	PER	0.9688212871551514	celui-ci	1	63	81	3	0	0	0	141	814	celui-ci	ROOT	814	PRON	PRON	Singular	Male	3	0
+819	822	PER	0.8869806230068207	un traiteur nommé vérestchaguine	4	63	82	3	0	0	0	142	820	traiteur	ROOT	820	NOUN	PROP	Singular	Male	3	0
+824	824	PER	0.9972598552703857	vous	1	63	83	0	0	0	0	143	824	vous	nsubj	888	PRON	PRON	Ambiguous	Ambiguous	2	5
+838	838	PER	0.9965426325798035	lui	1	65	85	5	0	0	0	144	838	lui	ROOT	838	PRON	PRON	Singular	Ambiguous	3	0
+841	841	PER	0.9997149109840393	pierre	1	65	85	8	0	0	0	145	841	pierre	nsubj	840	PROPN	PROP	Singular	Male	3	42
+849	850	PER	0.9628311991691589	du marchand	2	66	86	1	0	0	0	146	850	marchand	nmod	913	NOUN	NOM	Singular	Male	3	0
+852	852	PER	0.9726169109344482	qui	1	66	86	4	0	0	0	147	852	qui	nsubj	854	PRON	PRON	Ambiguous	Ambiguous	4	0
+867	867	PER	0.9968550205230713	lui	1	67	87	5	0	0	0	148	867	lui	nsubj	885	PRON	PRON	Singular	Ambiguous	3	0
+868	868	PER	0.7576040625572205	qui	1	67	87	6	0	0	0	149	868	qui	nsubj	870	PRON	PRON	Ambiguous	Ambiguous	4	0
+876	877	PER	0.9324607849121094	son fils	2	67	87	14	0	1	1	150	877	fils	obl:arg	867	NOUN	NOM	Singular	Male	3	1
+876	876	PER	0.9962477087974548	son	1	67	87	14	1	0	0	151	876	son	det	877	DET	PRON	Singular	Ambiguous	3	0
+879	879	PER	0.974172055721283	il	1	67	87	17	0	0	0	152	879	il	nsubj	880	PRON	PRON	Singular	Male	3	1
+884	884	PER	0.9996699094772339	je	1	68	88	3	0	0	0	153	884	je	nsubj	885	PRON	PRON	Singular	Ambiguous	1	43
+889	889	PER	0.9847099184989929	lui	1	68	88	8	0	0	0	154	889	lui	iobj	891	PRON	PRON	Singular	Ambiguous	3	0
+901	908	TIME	0.7628772556781769	il y a deux mois à peu près	8	69	91	0	0	0	0	155	903	a	ROOT	903	VERB	NOM	Not_Assigned	Not_Assigned	3	
+909	909	TIME	0.49708160758018494	que	1	69	91	8	0	0	0	156	909	que	mark	913	SCONJ	PRON	Not_Assigned	Not_Assigned	4	
+915	916	PER	0.9859858453273773	le comte	2	70	92	0	0	0	0	157	916	comte	dep	918	NOUN	NOM	Singular	Male	3	1
+924	925	PER	0.8443640470504761	gabriel ivanovitch	2	70	92	9	0	0	0	158	924	gabriel	obl:mod	918	PROPN	PROP	Singular	Male	3	17
+930	930	PER	0.8660497665405273	qui	1	71	93	0	0	0	0	159	930	qui	nsubj:pass	934	PRON	PRON	Ambiguous	Ambiguous	4	17
+951	951	PER	0.9793130159378052	-vous	1	72	94	6	0	0	0	160	951	vous	nsubj	950	PRON	PRON	Ambiguous	Ambiguous	2	5
+954	954	PER	0.991891622543335	-il	1	72	94	9	0	0	0	161	954	il	nsubj	953	PRON	PRON	Singular	Male	3	5
+956	957	PER	0.6730752885341644	l' un	2	72	94	11	0	0	0	162	957	un	obl:arg	953	PRON	PRON	Singular	Male	3	18
+967	967	PER	0.787433385848999	-on	1	73	95	8	0	0	0	163	967	on	nsubj	966	PRON	PRON	Ambiguous	Ambiguous	3	18
+969	969	PER	0.9907339811325073	il	1	73	95	10	0	0	0	164	969	il	nsubj	970	PRON	PRON	Singular	Male	3	5
+982	982	PER	0.9691967368125916	il	1	74	96	5	0	0	0	165	982	il	nsubj	983	PRON	PRON	Singular	Male	3	5
+986	986	PER	0.9811733365058899	vérestchaguine	1	74	96	9	0	0	0	166	986	vérestchaguine	obl:arg	983	PROPN	PROP	Singular	Male	3	0
+988	989	PER	0.6652610301971436	un jeune	2	74	96	11	0	0	0	167	988	un	expl:pass	1064	DET	PRON	Singular	Male	3	0
+993	993	PER	0.9648000001907349	auquel	1	75	97	3	0	0	0	168	993	auquel	dep	995	PRON	PRON	Singular	Male	3	0
+994	994	PER	0.997369647026062	nous	1	75	97	4	0	0	0	169	994	nous	nsubj	995	PRON	PRON	Plural	Ambiguous	1	7
+997	997	PER	0.6205931305885315	qui	1	75	97	7	0	0	0	170	997	qui	dep	1000	PRON	PRON	Ambiguous	Ambiguous	4	0
+998	998	PER	0.9953553676605225	il	1	75	97	8	0	0	0	171	998	il	nsubj	1000	PRON	PRON	Singular	Male	3	0
+1002	1002	PER	0.9985805749893188	nous	1	75	98	0	0	0	0	172	1002	nous	nsubj	1079	PRON	PRON	Plural	Ambiguous	1	7
+1009	1009	PER	0.9988443851470947	il	1	76	99	5	0	0	0	173	1009	il	nsubj	1011	PRON	PRON	Singular	Male	3	0
+1016	1018	PER	0.5510178506374359	du directeur des	3	76	99	12	0	0	0	174	1017	directeur	obl:mod	1014	NOUN	NOM	Singular	Male	3	1
+1028	1028	PER	0.9548473358154297	ils	1	77	100	9	0	0	0	175	1028	ils	nsubj	1030	PRON	PRON	Plural	Ambiguous	3	0
+1033	1033	PER	0.9994974136352539	il	1	78	101	1	0	0	0	176	1033	il	nsubj	1034	PRON	PRON	Singular	Male	3	0
+1043	1043	PER	0.9983744621276855	moi	1	79	102	7	0	0	0	177	1043	moi	parataxis	1034	PRON	PRON	Singular	Ambiguous	1	0
+1044	1044	PER	0.8744332790374756	qui	1	79	102	8	0	0	0	178	1044	qui	nsubj	1047	PRON	PRON	Ambiguous	Ambiguous	4	0
+1051	1051	PER	0.6184189915657043	on	1	80	103	1	0	0	0	179	1051	on	nsubj	1053	PRON	PRON	Ambiguous	Ambiguous	3	44
+1052	1052	PER	0.9932820796966553	le	1	80	103	2	0	0	0	180	1052	le	obj	1053	PRON	PRON	Singular	Male	3	0
+1056	1056	PER	0.9783934950828552	le	1	80	103	6	0	0	0	181	1056	le	obj	1057	PRON	PRON	Singular	Male	3	0
+1059	1059	PER	0.9501969814300537	il	1	80	103	9	0	0	0	182	1059	il	nsubj	1061	PRON	PRON	Singular	Male	3	0
+1064	1064	PER	0.9432218074798584	son	1	80	103	14	0	0	0	183	1064	son	det	1065	DET	PRON	Singular	Ambiguous	3	0
+1068	1069	PER	0.9803968369960785	le comte	2	81	104	1	0	0	0	184	1069	comte	dep	1072	NOUN	NOM	Singular	Male	3	1
+1070	1070	PER	0.9952728152275085	le	1	81	104	3	0	0	0	185	1070	le	obj	1072	PRON	PRON	Singular	Male	3	0
+1080	1080	PER	0.9571178555488586	tu	1	82	105	6	0	0	0	186	1080	tu	dep	1079	PRON	PRON	Singular	Ambiguous	2	0
+1088	1088	PER	0.9990366697311401	moi	1	83	106	4	0	0	0	187	1088	moi	ROOT	1088	PRON	PRON	Singular	Ambiguous	1	0
+1089	1089	PER	0.733465850353241	qui	1	83	106	5	0	0	0	188	1089	qui	nsubj	1092	PRON	PRON	Ambiguous	Ambiguous	4	0
+1096	1096	PER	0.9968591928482056	vous	1	83	107	2	0	0	0	189	1096	vous	nsubj	1097	PRON	PRON	Ambiguous	Ambiguous	2	7
+1104	1107	PER	0.9204173684120178	l' aide de camp	4	84	108	3	0	0	0	190	1105	aide	nsubj	1103	NOUN	NOM	Singular	Not_Assigned	3	45
+1111	1111	PER	0.9991350769996643	vous	1	84	108	10	0	0	0	191	1111	vous	nsubj	1112	PRON	PRON	Ambiguous	Ambiguous	2	7
+1131	1131	PER	0.9996280670166016	je	1	86	110	3	0	0	0	192	1131	je	nsubj	1132	PRON	PRON	Singular	Ambiguous	1	1
+1135	1135	PER	0.9991818070411682	pierre	1	86	110	7	0	0	0	193	1135	pierre	obj	1134	PROPN	PROP	Singular	Male	3	46
+1137	1138	PER	0.9820665121078491	le comte	2	86	110	9	0	0	0	194	1138	comte	nsubj	1139	NOUN	NOM	Singular	Male	3	1
+1142	1142	PER	0.9926066398620605	lui	1	86	110	14	0	0	0	195	1142	lui	iobj	1143	PRON	PRON	Singular	Ambiguous	3	1
+1144	1144	PER	0.7924389839172363	klutcharew	1	87	111	0	0	0	0	196	1144	klutcharew	obj	1230	PROPN	PROP	Singular	Not_Assigned	3	0
+1156	1160	PER	0.7093739688396454	l' aide de camp effrayé	5	88	112	10	0	0	0	197	1157	aide	nsubj	1155	NOUN	NOM	Not_Assigned	Not_Assigned	3	4
+1162	1162	PER	0.8418034315109253	klutcharew	1	88	112	16	0	0	0	198	1162	klutcharew	nsubj	1251	PROPN	PROP	Singular	Not_Assigned	3	19
+1173	1173	PER	0.9950718283653259	il	1	89	113	10	0	0	0	199	1173	il	nsubj:pass	1265	PRON	PRON	Singular	Male	3	19
+1187	1188	PER	0.9888140857219696	le comte	2	90	114	11	0	0	0	200	1188	comte	nsubj:pass	1280	NOUN	NOM	Singular	Male	3	1
+1196	1196	PER	0.9984771609306335	tu	1	91	115	6	0	0	0	201	1196	tu	nsubj	1197	PRON	PRON	Singular	Ambiguous	2	0
+1201	1201	PER	0.9977090358734131	tu	1	91	116	0	0	0	0	202	1201	tu	nsubj	1204	PRON	PRON	Singular	Ambiguous	2	0
+1211	1211	GPE	0.9379218816757202	hambourg	1	92	117	4	0	0	0	203	1211	hambourg	nmod	1209	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1219	1219	PER	0.999401330947876	tu	1	92	117	12	0	0	0	204	1219	tu	nsubj	1223	PRON	PRON	Singular	Ambiguous	2	0
+1226	1226	PER	0.9994990825653076	tu	1	93	118	1	0	0	0	205	1226	tu	nsubj	1228	PRON	PRON	Singular	Ambiguous	2	0
+1240	1240	PER	0.9990008473396301	-il	1	94	119	5	0	0	0	206	1240	il	nsubj	1239	PRON	PRON	Singular	Male	3	0
+1242	1242	PER	0.9997586607933044	je	1	94	119	7	0	0	0	207	1242	je	nsubj	1245	PRON	PRON	Singular	Ambiguous	1	0
+1251	1251	PER	0.9991796612739563	moi	1	94	119	16	0	0	0	208	1251	moi	nsubj	1255	PRON	PRON	Singular	Ambiguous	1	0
+1252	1252	PER	0.8483220338821411	qui	1	94	119	17	0	0	0	209	1252	qui	nsubj	1349	PRON	PRON	Ambiguous	Ambiguous	4	0
+1264	1264	PER	0.9996194839477539	tu	1	96	121	7	0	0	0	210	1264	tu	nsubj	1267	PRON	PRON	Singular	Ambiguous	2	0
+1269	1269	PER	0.9991270899772644	je	1	96	121	12	0	0	0	211	1269	je	nsubj	1272	PRON	PRON	Singular	Ambiguous	1	1
+1270	1270	PER	0.9783763885498047	te	1	96	121	13	0	0	0	212	1270	te	obj	1272	PRON	PRON	Singular	Ambiguous	2	0
+1277	1277	PER	0.924738883972168	te	1	96	121	20	0	0	0	213	1277	te	iobj	1374	PRON	PRON	Singular	Ambiguous	2	0
+1287	1288	PER	0.9869968891143799	le comte	2	97	123	0	0	0	0	214	1288	comte	nsubj	1291	NOUN	NOM	Singular	Male	3	1
+1292	1293	PER	0.9855140447616577	le vieux	2	97	123	5	0	0	0	215	1293	vieux	obj	1291	NOUN	NOM	Singular	Male	3	0
+1296	1297	PER	0.8620421290397644	le père	2	97	123	9	0	0	0	216	1297	père	nsubj	1395	NOUN	NOM	Singular	Male	3	0
+1310	1310	PER	0.9939868450164795	l'	1	98	125	7	0	0	0	217	1310	l'	obj	1312	PRON	PRON	Singular	Ambiguous	3	0
+1314	1314	PER	0.9990441203117371	je	1	98	125	11	0	0	0	218	1314	je	nsubj	1413	PRON	PRON	Singular	Ambiguous	1	1
+1322	1323	PER	0.9886610507965088	le vieux	2	99	126	7	0	0	0	219	1323	vieux	nsubj	1324	NOUN	NOM	Singular	Male	3	0
+1327	1327	PER	0.9822431802749634	sa	1	99	126	12	0	0	0	220	1327	sa	det	1427	DET	PRON	Singular	Ambiguous	3	0
+1330	1330	PER	0.6519829034805298	c'	1	100	128	0	0	0	0	221	1330	c'	nsubj	1334	PRON	PRON	Ambiguous	Ambiguous	3	0
+1332	1334	PER	0.5009741187095642	un vilain garnement	3	100	128	2	0	0	0	222	1334	garnement	ROOT	1334	NOUN	NOM	Singular	Not_Assigned	3	0
+1347	1347	PER	0.9917957186698914	il	1	101	129	2	0	0	0	223	1347	il	nsubj	1349	PRON	PRON	Singular	Male	3	0
+1355	1355	PER	0.9976116418838501	il	1	101	129	10	0	0	0	224	1355	il	nsubj	1357	PRON	PRON	Singular	Male	3	0
+1360	1362	PER	0.5358950793743134	tout le monde	3	102	130	1	0	0	0	225	1362	monde	obl:arg	1460	NOUN	NOM	Plural	Ambiguous	3	47
+1364	1365	PER	0.9913096129894257	son père	2	102	131	0	0	1	1	226	1365	père	nsubj	1366	NOUN	NOM	Singular	Male	3	0
+1364	1364	PER	0.9989827275276184	son	1	102	131	0	1	0	0	227	1364	son	det	1365	DET	PRON	Singular	Ambiguous	3	0
+1367	1373	FAC	0.6958790847233364	un restaurant près du pont de pierre	7	102	131	3	0	1	1	228	1371	pont	dep	1369	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1370	1373	FAC	0.7634795010089874	du pont de pierre	4	102	131	6	1	0	0	229	1371	pont	dep	1369	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1403	1403	PER	0.9960364699363708	-vous	1	104	134	4	0	0	0	230	1403	vous	dep	1402	PRON	PRON	Ambiguous	Ambiguous	2	48
+1405	1405	PER	0.9974673986434937	il	1	104	134	6	0	0	0	231	1405	il	nsubj	1408	PRON	PRON	Singular	Male	3	0
+1410	1410	FAC	0.5445299744606018	là	1	105	135	1	0	0	0	232	1410	là	obl:arg	1513	ADV	NOM	Not_Assigned	Not_Assigned	3	
+1412	1412	PER	0.985065758228302	lui	1	105	135	3	0	0	0	233	1412	lui	obl:mod	1513	PRON	PRON	Singular	Ambiguous	3	0
+1415	1417	PER	0.78111732006073	un misérable peintre	3	105	135	6	0	0	0	234	1417	peintre	nsubj	1418	NOUN	NOM	Singular	Male	3	49

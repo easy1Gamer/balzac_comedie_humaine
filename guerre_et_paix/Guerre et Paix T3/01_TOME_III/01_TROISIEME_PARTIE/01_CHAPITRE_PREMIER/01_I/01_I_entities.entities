@@ -1,0 +1,216 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	3	TIME	0.8699955741564432	le 5 septembre	3	1	1	0	0	0	0	0	2	5	nsubj	4	NUM	NOM	Not_Assigned	Not_Assigned	3	
+6	9	TIME	0.5804367810487747	le combat de schevardino	4	1	1	5	0	1	1	1	7	combat	obj	4	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+9	9	GPE	0.3675154745578766	schevardino	1	1	1	8	1	0	0	2	9	schevardino	nmod	7	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+11	12	TIME	0.8525612652301788	le 6	2	1	1	10	0	0	0	3	12	6	obl:mod	21	NUM	NOM	Not_Assigned	Not_Assigned	3	
+29	30	TIME	0.8115546107292175	le 7	2	2	2	11	0	0	0	4	30	7	nsubj	31	NUM	NOM	Not_Assigned	Not_Assigned	3	
+36	36	GPE	0.694383978843689	borodino	1	3	3	1	0	0	0	5	36	borodino	nmod	37	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+64	65	PER	0.6725113987922668	aux russes	2	5	7	2	0	0	0	6	65	russes	conj	66	NOUN	NOM	Plural	Ambiguous	3	0
+67	68	PER	0.8482580482959747	aux français	2	5	7	5	0	0	0	7	68	français	conj	65	NOUN	NOM	Plural	Ambiguous	3	13
+71	72	PER	0.8082807064056396	les premiers	2	5	8	1	0	0	0	8	72	premiers	obl:mod	81	ADJ	NOM	Plural	Ambiguous	3	1
+85	85	GPE	0.9237732291221619	moscou	1	6	9	9	0	0	0	9	85	moscou	nmod	83	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+89	89	PER	0.7564099431037903	ils	1	6	9	13	0	0	0	10	89	ils	nsubj	96	PRON	PRON	Plural	Ambiguous	3	1
+99	100	PER	0.892498254776001	les seconds	2	7	10	9	0	0	0	11	100	seconds	obl:mod	103	ADJ	NOM	Plural	Not_Assigned	3	1
+110	110	PER	0.9444420337677002	leur	1	8	11	3	0	0	0	12	110	leur	det	111	DET	PRON	Plural	Ambiguous	3	1
+119	119	PER	0.9831362366676331	leur	1	8	11	12	0	0	0	13	119	leur	iobj	120	PRON	PRON	Plural	Ambiguous	3	1
+136	136	PER	0.972934901714325	napoléon	1	10	14	2	0	0	0	14	136	napoléon	nsubj	137	PROPN	PROP	Singular	Male	3	14
+141	141	PER	0.985496461391449	koutouzow	1	10	14	7	0	0	0	15	141	koutouzow	nsubj	143	PROPN	PROP	Singular	Not_Assigned	3	15
+155	159	PER	0.780778431892395	des deux commandants en chef	5	12	17	1	0	0	0	16	157	commandants	nmod	165	NOUN	NOM	Not_Assigned	Not_Assigned	3	1
+162	163	PER	0.8734605610370636	l' un	2	12	17	8	0	0	0	17	163	un	nsubj	181	PRON	PRON	Singular	Male	3	16
+165	166	PER	0.6658069938421249	l' autre	2	12	17	11	0	0	0	18	166	autre	conj	163	PRON	PRON	Singular	Ambiguous	3	1
+179	179	PER	0.9688172936439514	napoléon	1	13	18	10	0	0	0	19	179	napoléon	nsubj	200	PROPN	PROP	Singular	Male	3	4
+190	190	PER	0.9354332685470581	ses	1	14	19	6	0	0	0	20	190	ses	det	191	DET	PRON	Singular	Ambiguous	3	4
+206	206	PER	0.9804061651229858	koutouzow	1	15	20	8	0	0	0	21	206	koutouzow	nsubj	229	PROPN	PROP	Singular	Not_Assigned	3	17
+218	218	GPE	0.9187629222869873	moscou	1	16	21	4	0	0	0	22	218	moscou	obj	216	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+220	225	TIME	0.7655358811219534	jusqu' à la bataille de borodino	6	17	22	0	0	1	1	23	223	bataille	obl:mod	230	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+225	225	GPE	0.30742502212524414	borodino	1	17	22	5	1	0	0	24	225	borodino	nmod	223	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+227	227	PER	0.982502818107605	nos	1	17	22	7	0	0	0	25	227	nos	det	228	DET	PRON	Plural	Ambiguous	1	18
+246	248	TIME	0.45986021558443707	après la bataille	3	18	23	13	0	0	0	26	248	bataille	conj	241	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+274	275	PER	0.7389828264713287	l' expérimenté	2	20	25	1	0	0	0	27	274	l'	det	278	DET	PRON	Singular	Not_Assigned	3	4
+278	278	PER	0.6812688708305359	koutouzow	1	20	25	5	0	0	0	28	278	koutouzow	nsubj	279	PROPN	PROP	Singular	Not_Assigned	3	19
+286	286	PER	0.8831943273544312	napoléon	1	21	26	2	0	0	0	29	286	napoléon	obl:arg	284	PROPN	PROP	Singular	Male	3	2
+297	297	PER	0.8441038727760315	son	1	21	26	13	0	0	0	30	297	son	det	319	DET	PRON	Singular	Ambiguous	3	2
+308	308	GPE	0.9428884387016296	moscou	1	22	28	8	0	0	0	31	308	moscou	obj	307	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+311	311	PER	0.7896944880485535	il	1	22	28	11	0	0	0	32	311	il	nsubj	334	PRON	PRON	Singular	Male	3	2
+314	314	GPE	0.9631919264793396	vienne	1	23	29	2	0	0	0	33	314	vienne	obj	313	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+316	316	PER	0.9395226836204529	il	1	23	29	4	0	0	0	34	316	il	nsubj	317	PRON	PRON	Singular	Male	3	2
+331	336	PER	0.7011382530132929	les historiens contemporains eux - mêmes	6	24	31	0	0	0	0	35	332	historiens	nsubj	361	NOUN	NOM	Plural	Not_Assigned	3	20
+339	339	PER	0.9874911308288574	il	1	25	32	2	0	0	0	36	339	il	nsubj	340	PRON	PRON	Singular	Male	3	2
+342	342	GPE	0.7212077379226685	smolensk	1	25	32	5	0	0	0	37	342	smolensk	obl:mod	340	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+354	354	PER	0.9938217401504517	il	1	26	33	4	0	0	0	38	354	il	nsubj	356	PRON	PRON	Singular	Male	3	2
+365	365	PER	0.8886854648590088	sa	1	27	34	1	0	0	0	39	365	sa	det	366	DET	PRON	Singular	Ambiguous	3	2
+373	373	PER	0.9936552047729492	il	1	27	34	9	0	0	0	40	373	il	nsubj	374	PRON	PRON	Singular	Male	3	2
+379	379	GPE	0.7235851883888245	moscou	1	28	35	0	0	0	0	41	379	moscou	nmod	377	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+384	384	PER	0.8941953778266907	lui	1	28	35	5	0	0	0	42	384	lui	ccomp	374	PRON	PRON	Singular	Ambiguous	3	2
+389	389	PER	0.9901502132415771	il	1	28	36	0	0	0	0	43	389	il	nsubj	391	PRON	PRON	Singular	Male	3	2
+398	398	PER	0.9705048203468323	lui	1	29	37	5	0	0	0	44	398	lui	iobj	399	PRON	PRON	Singular	Ambiguous	3	2
+400	401	GPE	0.6933681964874268	les villes	2	29	37	7	0	0	0	45	401	villes	obj	399	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+411	411	PER	0.9943163990974426	ses	1	30	38	2	0	0	0	46	411	ses	det	412	DET	PRON	Singular	Ambiguous	3	2
+424	425	PER	0.9569942355155945	tous deux	2	31	39	3	0	0	0	47	425	deux	nsubj	438	PRON	PRON	Plural	Ambiguous	3	1
+427	428	PER	0.9255873262882233	l' un	2	31	39	6	0	0	0	48	428	un	nsubj	430	PRON	PRON	Singular	Male	3	1
+434	435	PER	0.8705000877380371	l' autre	2	31	39	13	0	0	0	49	435	autre	conj	425	PRON	PRON	Singular	Ambiguous	3	1
+451	452	PER	0.7638925909996033	les historiens	2	33	42	0	0	0	0	50	452	historiens	nsubj	497	NOUN	NOM	Plural	Not_Assigned	3	21
+476	478	PER	0.8698843320210775	des deux capitaines	3	35	44	1	0	0	0	51	478	capitaines	nmod	475	NOUN	NOM	Plural	Not_Assigned	3	1
+480	480	PER	0.941075325012207	qui	1	35	44	5	0	0	0	52	480	qui	nsubj	522	PRON	PRON	Ambiguous	Ambiguous	4	1
+511	516	TIME	0.5538035134474436	les batailles de schevardino et de	6	38	47	6	0	1	1	53	512	batailles	dep	510	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+514	514	GPE	0.4263911545276642	schevardino	1	38	47	9	1	0	0	54	514	schevardino	nmod	512	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+517	517	GPE	0.3528878390789032	borodino	1	39	48	0	0	0	0	55	517	borodino	obj	555	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+521	523	PER	0.895605186621348	des mêmes historiens	3	39	48	4	0	0	0	56	523	historiens	nmod	520	NOUN	NOM	Plural	Not_Assigned	3	7
+530	530	PER	0.7132644653320312	ils	1	40	49	2	0	0	0	57	530	ils	nsubj	531	PRON	PRON	Plural	Ambiguous	3	7
+547	547	PER	0.9174140095710754	eux	1	41	51	5	0	0	0	58	547	eux	obl:mod	553	PRON	PRON	Plural	Ambiguous	3	7
+557	559	PER	0.5252506534258524	l' armée russe	3	42	52	1	0	0	0	59	558	armée	nsubj	613	NOUN	NOM	Plural	Ambiguous	3	1
+564	568	TIME	0.7031021654605866	après le combat de smolensk	5	42	52	8	0	1	1	60	566	combat	obl:arg	563	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+568	568	GPE	0.7960001230239868	smolensk	1	42	52	12	1	0	0	61	568	smolensk	nmod	566	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+583	583	PER	0.6703163385391235	elle	1	44	54	1	0	0	0	62	583	elle	nsubj	585	PRON	PRON	Singular	Female	3	9
+589	592	LOC	0.6948212832212448	le terrain de borodino	4	44	54	7	0	1	1	63	590	terrain	obl:mod	585	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+592	592	GPE	0.6588218212127686	borodino	1	44	54	10	1	0	0	64	592	borodino	nmod	590	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+595	595	PER	0.1880943477153778	russes	1	45	55	0	0	0	0	65	595	russes	nsubj	598	NOUN	NOM	Not_Assigned	Ambiguous	3	0
+606	606	GPE	0.8243610262870789	moscou	1	45	55	11	0	0	0	66	606	moscou	nmod	604	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+608	608	GPE	0.6189100742340088	smolensk	1	46	56	0	0	0	0	67	608	smolensk	obj	598	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+614	614	GPE	0.785123348236084	borodino	1	46	56	6	0	0	0	68	614	borodino	nmod	611	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+616	616	GPE	0.7329038381576538	outitza	1	46	56	8	0	0	0	69	616	outitza	conj	614	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+625	626	PER	0.8600285947322845	l' ennemi	2	47	57	3	0	0	0	70	626	ennemi	nmod	623	NOUN	NOM	Singular	Male	3	5
+628	628	PER	0.9775286316871643	ils	1	47	57	6	0	0	0	71	628	ils	nsubj	630	PRON	PRON	Plural	Ambiguous	3	0
+636	639	LOC	0.44581035524606705	le mamelon de schevardino	4	48	58	1	0	1	1	72	637	mamelon	obl:mod	682	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+639	639	GPE	0.4264039695262909	schevardino	1	48	58	4	1	0	0	73	639	schevardino	nmod	637	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+641	642	TIME	0.8458480536937714	le 5	2	48	59	0	0	0	0	74	642	5	obl:mod	646	NUM	NOM	Not_Assigned	Not_Assigned	3	
+644	644	PER	0.6035202145576477	napoléon	1	48	59	3	0	0	0	75	644	napoléon	nsubj	646	PROPN	PROP	Singular	Male	3	22
+656	657	TIME	0.8625383377075195	le 7	2	49	60	6	0	0	0	76	657	7	obl:mod	661	NUM	NOM	Not_Assigned	Not_Assigned	3	
+663	664	PER	0.3850351870059967	l' armée	2	49	60	13	0	0	0	77	664	armée	obl:arg	661	NOUN	NOM	Plural	Ambiguous	3	1
+667	667	PER	0.8340671062469482	qui	1	50	61	2	0	0	0	78	667	qui	nsubj	668	PRON	PRON	Ambiguous	Ambiguous	4	1
+672	672	GPE	0.692018449306488	borodino	1	50	61	7	0	0	0	79	672	borodino	nmod	670	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+720	721	PER	0.8783753514289856	les russes	2	53	66	4	0	0	0	80	721	russes	nsubj	723	NOUN	NOM	Plural	Ambiguous	3	0
+733	733	PER	0.9392846822738647	leur	1	54	67	4	0	0	0	81	733	leur	det	734	DET	PRON	Plural	Ambiguous	3	0
+736	736	PER	0.9817178249359131	ils	1	54	67	7	0	0	0	82	736	ils	nsubj	739	PRON	PRON	Plural	Ambiguous	3	0
+749	749	GPE	0.7769976258277893	borodino	1	55	68	6	0	0	0	83	749	borodino	nmod	747	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+752	752	PER	0.9672983884811401	koutouzow	1	55	68	9	0	0	0	84	752	koutouzow	nsubj	753	PROPN	PROP	Singular	Not_Assigned	3	10
+755	755	FAC	0.4519061744213104	en	1	56	69	1	0	0	0	85	755	en	dep	756	PRON	PRON	Not_Assigned	Not_Assigned	3	
+759	759	PER	0.9772793054580688	il	1	56	69	5	0	0	0	86	759	il	nsubj	763	PRON	PRON	Singular	Male	3	10
+786	786	PER	0.9865015149116516	miloradovitch	1	58	71	4	0	0	0	87	786	miloradovitch	nsubj	791	PROPN	PROP	Singular	Not_Assigned	3	11
+792	792	PER	0.9147589206695557	sa	1	58	71	10	0	0	0	88	792	sa	det	793	DET	PRON	Singular	Ambiguous	3	11
+826	826	GPE	0.43846234679222107	borodino	1	61	76	0	0	0	0	89	826	borodino	flat:name	886	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+844	847	GPE	0.4495318531990051	l' empire de russie	4	62	77	2	0	0	0	90	845	empire	nmod	842	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+851	852	PER	0.9309080243110657	les russes	2	62	78	2	0	0	0	91	852	russes	nsubj	918	NOUN	NOM	Plural	Ambiguous	3	0
+857	860	FAC	0.4898017942905426	la gauche de borodino	4	63	79	1	0	1	1	92	858	gauche	obj	856	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+860	860	GPE	0.8263186812400818	borodino	1	63	79	4	1	0	0	93	860	borodino	nmod	858	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+880	884	TIME	0.554121857881546	le matin même du 6	5	64	80	6	0	0	0	94	881	matin	obl:mod	888	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+897	898	LOC	0.5667381584644318	ce point	2	65	81	8	0	0	0	95	898	point	nmod	895	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+906	906	PER	0.9982818365097046	nous	1	66	83	3	0	0	0	96	906	nous	nsubj	907	PRON	PRON	Plural	Ambiguous	1	3
+917	917	FAC	0.4984985589981079	y	1	67	84	7	0	0	0	97	917	y	iobj	918	PRON	PRON	Not_Assigned	Not_Assigned	3	
+920	921	TIME	0.8299591541290283	le 6	2	67	84	10	0	0	0	98	921	6	obl:mod	918	NUM	NOM	Not_Assigned	Not_Assigned	3	
+925	927	TIME	0.6238488952318827	à cette date	3	68	85	1	0	0	0	99	927	date	obl:mod	991	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+933	934	TIME	0.9046657383441925	le lendemain	2	68	85	9	0	0	0	100	934	lendemain	obl:mod	932	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+942	945	FAC	0.2395777739584446	la redoute de schevardino	4	69	86	6	0	0	0	101	943	redoute	nmod	939	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+952	952	LOC	0.6516665816307068	où	1	70	87	1	0	0	0	102	952	où	iobj	954	PRON	PRON	Not_Assigned	Not_Assigned	3	
+979	979	PER	0.7015293836593628	-on	1	72	90	1	0	0	0	103	979	on	nsubj	987	PRON	PRON	Ambiguous	Ambiguous	3	0
+981	985	TIME	0.6746615946292878	dans la nuit du 5	5	72	90	3	0	1	1	104	983	nuit	obl:mod	987	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+982	985	TIME	0.5923557877540588	la nuit du 5	4	72	90	4	1	0	0	105	983	nuit	obl:mod	987	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+998	1001	PER	0.6535969376564026	une patrouille de cosaques	4	73	91	4	0	0	0	106	999	patrouille	nsubj	1004	NOUN	NOM	Plural	Ambiguous	3	23
+1010	1011	PER	0.6364180147647858	l' ennemi	2	74	92	4	0	0	0	107	1011	ennemi	nmod	1008	NOUN	NOM	Singular	Male	3	5
+1017	1017	PER	0.9942184686660767	-nous	1	75	93	4	0	0	0	108	1017	nous	nsubj	1016	PRON	PRON	Plural	Ambiguous	1	3
+1021	1022	TIME	0.8711521923542023	le 6	2	75	93	8	0	0	0	109	1022	6	obl:mod	1106	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1024	1030	TIME	0.7701201524053302	la veille de la bataille , barclay	7	75	93	11	0	1	2	110	1025	veille	nmod	1022	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1024	1028	TIME	0.6468217611312866	la veille de la bataille	5	75	93	11	1	0	0	111	1025	veille	nmod	1022	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1030	1030	PER	0.569271445274353	barclay	1	75	93	17	1	0	0	112	1030	barclay	nsubj	1106	PROPN	PROP	Singular	Not_Assigned	3	4
+1031	1032	PER	0.5960896462202072	de tolly	2	76	94	0	0	0	0	113	1032	tolly	nmod	1106	PROPN	PROP	Singular	Not_Assigned	3	24
+1034	1034	PER	0.9871461391448975	bagration	1	76	94	3	0	0	0	114	1034	bagration	conj	1106	PROPN	PROP	Singular	Not_Assigned	3	25
+1036	1039	FAC	0.29636790230870247	la redoute de schevardino	4	76	94	5	0	0	0	115	1039	schevardino	ROOT	1039	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1058	1058	PER	0.7308651804924011	koutouzow	1	78	96	0	0	0	0	116	1058	koutouzow	appos	1135	PROPN	PROP	Singular	Not_Assigned	3	6
+1059	1059	PER	0.49796944856643677	lui-même	1	78	96	1	0	0	0	117	1059	lui-même	nmod	1058	PROPN	PRON	Singular	Male	3	6
+1062	1062	PER	0.9862545728683472	son	1	78	96	4	0	0	0	118	1062	son	det	1064	PUNCT	PRON	Singular	Ambiguous	3	6
+1077	1077	PER	0.6868572235107422	-il	1	79	97	7	0	0	0	119	1077	il	ROOT	1077	PROPN	PRON	Singular	Male	3	6
+1081	1082	FAC	0.3434443175792694	cette redoute	2	79	97	11	0	0	0	120	1082	redoute	ROOT	1082	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1124	1127	PER	0.8778479099273682	du général en chef	4	82	102	9	0	0	0	121	1125	général	nmod	1123	NOUN	NOM	Singular	Male	3	2
+1129	1129	PER	0.8541764616966248	qui	1	83	103	0	0	0	0	122	1129	qui	nsubj	1130	PRON	PRON	Ambiguous	Ambiguous	4	2
+1146	1146	GPE	0.35821422934532166	schevardino	1	84	104	5	0	0	0	123	1146	schevardino	nmod	1144	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1153	1153	FAC	0.7677332758903503	elle	1	85	105	1	0	0	0	124	1153	elle	nsubj	1163	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1186	1186	PER	0.7230880260467529	nous	1	87	107	1	0	0	0	125	1186	nous	obl:agent	1271	PRON	PRON	Plural	Ambiguous	1	26
+1229	1231	PER	0.4643550515174866	l' armée russe	3	90	110	11	0	0	0	126	1230	armée	nsubj	1322	NOUN	NOM	Plural	Ambiguous	3	1
+1235	1237	LOC	0.8749461770057678	la rivière kolotcha	3	91	111	3	0	0	0	127	1236	rivière	obl:arg	1233	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1239	1239	LOC	0.6233829259872437	qui	1	91	111	7	0	0	0	128	1239	qui	nsubj	1240	PRON	PRON	Not_Assigned	Not_Assigned	4	
+1241	1242	FAC	0.5318465381860733	la grand'route	2	91	111	9	0	0	0	129	1242	grand'route	obj	1240	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1255	1255	GPE	0.7403701543807983	schevardino	1	92	112	10	0	0	0	130	1255	schevardino	obl:arg	1250	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1269	1269	GPE	0.837927520275116	borodino	1	93	113	8	0	0	0	131	1269	borodino	dep	1267	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1273	1274	LOC	0.305566169321537	des deux	2	93	113	12	0	0	0	132	1273	des	case	1368	ADP	PRON	Not_Assigned	Not_Assigned	3	
+1278	1278	GPE	0.5129003524780273	voïna	1	94	114	3	0	0	0	133	1278	voïna	conj	1276	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1282	1285	LOC	0.5404808521270752	le terrain de borodino	4	94	114	7	0	1	1	134	1283	terrain	obj	1281	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1285	1285	GPE	0.7973245978355408	borodino	1	94	114	10	1	0	0	135	1285	borodino	nmod	1283	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1293	1293	FAC	0.40356335043907166	y	1	95	115	6	0	0	0	136	1293	y	iobj	1295	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1305	1307	LOC	0.8659745852152506	la rivière kolotcha	3	96	116	5	0	0	0	137	1306	rivière	nmod	1303	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1317	1318	PER	0.8171329498291016	l' ennemi	2	97	117	6	0	0	0	138	1318	ennemi	obj	1316	NOUN	NOM	Singular	Male	3	5
+1319	1319	PER	0.89559006690979	qui	1	97	117	8	0	0	0	139	1319	qui	nsubj	1321	PRON	PRON	Ambiguous	Ambiguous	4	5
+1323	1323	GPE	0.9156370759010315	moscou	1	97	117	12	0	0	0	140	1323	moscou	obl:arg	1321	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1328	1328	GPE	0.7272094488143921	smolensk	1	98	118	2	0	0	0	141	1328	smolensk	nmod	1326	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1332	1333	PER	0.5281366556882858	les historiens	2	98	119	2	0	0	0	142	1333	historiens	obl:mod	1437	NOUN	NOM	Plural	Not_Assigned	3	27
+1335	1335	PER	0.91912442445755	napoléon	1	98	119	5	0	0	0	143	1335	napoléon	nsubj:pass	1437	PROPN	PROP	Singular	Male	3	8
+1340	1341	TIME	0.8870529234409332	le 5	2	99	120	1	0	0	0	144	1341	5	obl:mod	1339	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1343	1343	GPE	0.8736720085144043	valouïew	1	99	120	4	0	0	0	145	1343	valouïew	obl:arg	1339	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1353	1353	GPE	0.27941665053367615	russes	1	100	121	0	0	0	0	146	1353	russes	obj	1350	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1355	1355	GPE	0.7308360934257507	outitza	1	100	121	2	0	0	0	147	1355	outitza	obl:mod	1350	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1357	1357	GPE	0.8389448523521423	borodino	1	100	121	4	0	0	0	148	1357	borodino	conj	1355	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1360	1360	PER	0.8041592240333557	leur	1	100	121	7	0	0	0	149	1360	leur	det	1361	DET	PRON	Plural	Ambiguous	3	0
+1367	1367	PER	0.9783226251602173	leur	1	101	123	1	0	0	0	150	1367	leur	det	1368	DET	PRON	Plural	Ambiguous	3	0
+1370	1370	PER	0.9943161606788635	il	1	101	123	4	0	0	0	151	1370	il	nsubj	1372	PRON	PRON	Singular	Male	3	8
+1386	1389	PER	0.26753800362348557	la redoute de schevardino	4	102	124	7	0	0	0	152	1387	redoute	nsubj	1385	NOUN	PROP	Singular	Not_Assigned	3	1
+1395	1395	PER	0.9656596183776855	ses	1	103	125	2	0	0	0	153	1395	ses	det	1396	DET	PRON	Singular	Ambiguous	3	8
+1397	1399	LOC	0.8687764207522074	la rivière kolotcha	3	103	125	4	0	0	0	154	1398	rivière	obj	1393	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1418	1418	PER	0.9851855635643005	ils	1	104	126	12	0	0	0	155	1418	ils	nsubj	1524	PRON	PRON	Plural	Ambiguous	3	0
+1425	1427	PER	0.6160083015759786	l' aile gauche	3	105	127	5	0	0	0	156	1426	aile	obl:agent	1423	NOUN	NOM	Singular	Not_Assigned	3	9
+1440	1441	LOC	0.5916320085525513	une position	2	106	128	7	0	0	0	157	1441	position	obl:arg	1438	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1442	1442	LOC	0.4752649664878845	qui	1	106	128	9	0	0	0	158	1442	qui	nsubj:pass	1447	PRON	PRON	Not_Assigned	Not_Assigned	4	
+1451	1451	PER	0.969697892665863	napoléon	1	107	130	0	0	0	0	159	1451	napoléon	nsubj	1470	PROPN	PROP	Singular	Male	3	28
+1460	1461	LOC	0.799254834651947	la kolotcha	2	107	130	9	0	0	0	160	1461	kolotcha	nmod	1457	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1465	1467	FAC	0.8878052234649658	du grand chemin	3	108	131	1	0	0	0	161	1467	chemin	nmod	1464	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1479	1480	PER	0.7083594799041748	des russes	2	109	132	2	0	0	0	162	1480	russes	nmod	1478	NOUN	NOM	Plural	Ambiguous	3	0
+1482	1483	LOC	0.5016012489795685	la plaine	2	109	132	5	0	0	0	163	1483	plaine	nmod	1478	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1485	1485	GPE	0.7033397555351257	outitza	1	109	132	8	0	0	0	164	1485	outitza	nmod	1478	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1487	1487	GPE	0.8044783473014832	séménovski	1	109	132	10	0	0	0	165	1487	séménovski	conj	1485	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1489	1489	GPE	0.8962291479110718	borodino	1	109	132	12	0	0	0	166	1489	borodino	conj	1485	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1495	1496	LOC	0.8575164675712585	cette plaine	2	110	133	4	0	0	0	167	1496	plaine	conj	1470	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1497	1497	LOC	0.5030611753463745	que	1	110	133	6	0	0	0	168	1497	que	iobj	1499	PRON	PRON	Not_Assigned	Not_Assigned	4	
+1500	1503	TIME	0.587351106107235	la bataille du 7	4	110	133	9	0	0	0	169	1501	bataille	dep	1499	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1532	1532	PER	0.891838014125824	napoléon	1	113	137	1	0	0	0	170	1532	napoléon	nsubj	1536	PROPN	PROP	Singular	Male	3	12
+1537	1538	LOC	0.5211016237735748	la kolotcha	2	113	137	6	0	0	0	171	1538	kolotcha	obj	1536	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1539	1540	TIME	0.8004173338413239	le 24	2	113	137	8	0	0	0	172	1540	24	obl:mod	1536	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1541	1542	TIME	0.686317503452301	au soir	2	113	137	10	0	0	0	173	1542	soir	nmod	1540	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1546	1546	PER	0.8742367625236511	il	1	113	137	15	0	0	0	174	1546	il	nsubj	1660	PRON	PRON	Singular	Male	3	12
+1597	1597	PER	0.9971120357513428	nous	1	117	142	4	0	0	0	175	1597	nous	nsubj	1600	PRON	PRON	Plural	Ambiguous	1	3
+1610	1610	PER	0.9756812453269958	notre	1	118	143	8	0	0	0	176	1610	notre	det	1611	DET	PRON	Plural	Ambiguous	1	3
+1621	1621	GPE	0.7086923122406006	napoléon	1	119	144	7	0	0	0	177	1621	napoléon	nmod	1618	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1629	1630	TIME	0.8954595029354095	le 24	2	120	145	0	0	0	0	178	1630	24	dep	1748	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1635	1637	TIME	0.6230800350507101	la grande bataille	3	120	145	6	0	0	0	179	1637	bataille	nsubj	1633	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1655	1655	PER	0.9822070598602295	notre	1	121	147	5	0	0	0	180	1655	notre	det	1656	DET	PRON	Plural	Ambiguous	1	3
+1661	1662	TIME	0.9113996028900146	le soir	2	122	148	1	0	0	0	181	1662	soir	obl:mod	1659	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1670	1670	PER	0.9823359847068787	notre	1	122	148	10	0	0	0	182	1670	notre	det	1671	DET	PRON	Plural	Ambiguous	1	3
+1674	1676	PER	0.9038439790407816	les généraux russes	3	123	149	1	0	0	0	183	1675	généraux	conj	1659	NOUN	NOM	Plural	Ambiguous	3	0
+1701	1701	GPE	0.776368260383606	borodino	1	125	151	1	0	0	0	184	1701	borodino	nmod	1824	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1708	1709	TIME	0.7505635023117065	le 5	2	125	151	8	0	0	0	185	1709	5	obl:mod	1707	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1718	1719	TIME	0.7026045322418213	du 7	2	126	152	3	0	0	0	186	1719	7	nmod	1717	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1721	1723	PER	0.7451236645380656	les armées russes	3	126	153	0	0	0	0	187	1722	armées	nsubj	1727	NOUN	NOM	Plural	Ambiguous	3	0
+1730	1731	TIME	0.8704901039600372	le 7	2	127	154	1	0	0	0	188	1731	7	obl:mod	1729	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1739	1740	PER	0.9529006779193878	leurs généraux	2	127	155	0	0	1	1	189	1740	généraux	nsubj	1868	NOUN	NOM	Plural	Ambiguous	3	0
+1739	1739	PER	0.9585391283035278	leurs	1	127	155	0	1	0	0	190	1739	leurs	det	1740	DET	PRON	Plural	Ambiguous	3	0
+1743	1743	PER	0.9782751798629761	leur	1	128	156	2	0	0	0	191	1743	leur	det	1744	DET	PRON	Plural	Ambiguous	3	0
+1764	1767	LOC	0.4967903271317482	le champ de bataille	4	130	158	0	0	0	0	192	1765	champ	obl:mod	1893	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1772	1772	PER	0.915364682674408	leurs	1	130	158	8	0	0	0	193	1772	leurs	det	1773	DET	PRON	Plural	Ambiguous	3	0
+1779	1784	FAC	0.6970635503530502	le village de novoïé et outitza	6	131	159	1	0	1	2	194	1780	village	obl:arg	1908	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1779	1782	GPE	0.5294632017612457	le village de novoïé	4	131	159	1	1	0	0	195	1780	village	obl:arg	1908	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1784	1784	GPE	0.8250634074211121	outitza	1	131	159	6	1	0	0	196	1784	outitza	conj	1782	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1788	1788	PER	0.9957330822944641	les	1	131	159	10	0	0	0	197	1788	les	obj	1789	PRON	PRON	Plural	Ambiguous	3	0
+1794	1794	PER	0.8929771780967712	leurs	1	132	160	1	0	0	0	198	1794	leurs	det	1795	DET	PRON	Plural	Ambiguous	3	0
+1812	1814	PER	0.7476382454236349	les forces françaises	3	133	162	4	0	0	0	199	1813	forces	nsubj:pass	1816	NOUN	NOM	Plural	Not_Assigned	3	1
+1824	1825	PER	0.7187827527523041	des russes	2	134	163	6	0	0	0	200	1825	russes	nmod	1822	NOUN	NOM	Plural	Ambiguous	3	0
+1832	1832	PER	0.8710638284683228	elles	1	135	164	1	0	0	0	201	1832	elles	obl:agent	1965	PRON	PRON	Plural	Female	3	0
+1839	1839	PER	0.8943136930465698	poniatowsky	1	135	164	8	0	0	0	202	1839	poniatowsky	nmod	1837	PROPN	PROP	Singular	Not_Assigned	3	29
+1847	1847	GPE	0.5482142567634583	outitza	1	136	165	2	0	0	0	203	1847	outitza	nmod	1837	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1849	1849	GPE	0.880049467086792	ouvarova	1	136	165	4	0	0	0	204	1849	ouvarova	conj	1847	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1871	1871	GPE	0.7519969344139099	borodino	1	138	168	1	0	0	0	205	1871	borodino	nmod	2007	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1890	1891	PER	0.8685142397880554	nos généraux	2	139	169	4	0	1	1	206	1891	généraux	nmod	1888	NOUN	NOM	Plural	Ambiguous	3	1
+1890	1890	PER	0.986644446849823	nos	1	139	169	4	1	0	0	207	1890	nos	det	1891	DET	PRON	Plural	Ambiguous	1	3
+1939	1940	PER	0.7893467843532562	des russes	2	143	174	0	0	0	0	208	1940	russes	nmod	2081	NOUN	NOM	Plural	Ambiguous	3	0
+1947	1947	PER	0.9661068320274353	eux	1	143	174	8	0	0	0	209	1947	eux	obl:agent	1945	PRON	PRON	Plural	Ambiguous	3	0
+1949	1951	LOC	0.646592358748118	une plaine ouverte	3	143	174	10	0	0	0	210	1950	plaine	obl:mod	1945	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1965	1967	PER	0.5178731381893158	des forces françaises	3	144	175	10	0	0	0	211	1966	forces	conj	1934	NOUN	NOM	Plural	Not_Assigned	3	1
+1970	1970	PER	0.9294381737709045	leurs	1	145	176	1	0	0	0	212	1970	leurs	nmod	2113	NOUN	PRON	Plural	Ambiguous	3	0
+1986	1989	TIME	0.6092612966895103	dix heures de suite	4	146	177	4	0	0	0	213	1987	heures	obj	1985	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+2011	2012	TIME	0.6683317124843597	trois heures	2	148	179	2	0	0	0	214	2012	heures	obj	2010	NOUN	NOM	Not_Assigned	Not_Assigned	3	

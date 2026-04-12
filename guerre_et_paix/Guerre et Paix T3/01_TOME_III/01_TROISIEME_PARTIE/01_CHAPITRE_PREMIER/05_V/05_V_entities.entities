@@ -1,0 +1,107 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9770922064781189	bennigsen	1	1	1	0	0	0	0	0	1	bennigsen	flat:name	1	PROPN	PROP	Singular	Not_Assigned	3	7
+3	4	FAC	0.8672327101230621	la grand'route	2	1	1	2	0	0	0	1	4	grand'route	obj	2	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+6	7	FAC	0.7984767258167267	le pont	2	1	1	5	0	0	0	2	7	pont	obl:arg	2	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+8	8	FAC	0.776199460029602	que	1	1	1	7	0	0	0	3	8	que	obj	13	PRON	PRON	Not_Assigned	Not_Assigned	4	
+9	10	PER	0.958572506904602	l' officier	2	1	1	8	0	0	0	4	10	officier	nsubj	13	NOUN	NOM	Singular	Male	3	15
+14	14	PER	0.9993398785591125	pierre	1	2	2	2	0	0	0	5	14	pierre	obl:arg	12	PROPN	PROP	Singular	Male	3	16
+20	20	PER	0.9920754432678223	notre	1	2	2	8	0	0	0	6	20	notre	det	21	DET	PRON	Plural	Ambiguous	1	4
+29	34	LOC	0.6571071619788805	des deux côtés de la rivière	6	3	3	3	0	1	1	7	31	côtés	obl:arg	28	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+33	34	LOC	0.918851226568222	la rivière	2	3	3	7	1	0	0	8	34	rivière	nmod	31	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+41	42	FAC	0.7042205631732941	le pont	2	4	5	0	0	0	0	9	42	pont	nsubj	45	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+44	44	PER	0.9980524778366089	ils	1	4	5	3	0	0	0	10	44	ils	nsubj	45	PRON	PRON	Plural	Ambiguous	3	0
+46	49	GPE	0.4985577389597893	le village de borodino	4	4	5	5	0	0	0	11	47	village	obj	45	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+59	59	PER	0.983950138092041	ils	1	5	6	2	0	0	0	12	59	ils	nsubj	60	PRON	PRON	Plural	Ambiguous	3	0
+61	65	PER	0.6265340805053711	une masse énorme de soldats	5	5	6	4	0	0	0	13	62	masse	obj	60	NOUN	NOM	Plural	Not_Assigned	3	17
+78	80	LOC	0.5010757247606913	un haut mamelon	3	6	7	9	0	0	0	14	80	mamelon	nmod	76	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+82	82	LOC	0.5882396697998047	lequel	1	6	7	13	0	0	0	15	82	lequel	obl:mod	90	PRON	PRON	Not_Assigned	Not_Assigned	3	
+84	84	PER	0.2548823952674866	miliciens	1	7	8	0	0	0	0	16	84	miliciens	nsubj	85	NOUN	NOM	Not_Assigned	Not_Assigned	3	18
+93	94	FAC	0.4983527213335037	la redoute	2	7	8	9	0	0	0	17	94	redoute	obj	60	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+114	114	PER	0.9995841383934021	pierre	1	9	10	3	0	0	0	18	114	pierre	nsubj	117	PROPN	PROP	Singular	Male	3	8
+123	123	PER	0.9996540546417236	il	1	9	10	12	0	0	0	19	123	il	nsubj	125	PRON	PRON	Singular	Male	3	8
+137	139	TIME	0.253657524784406	du champ de	3	10	11	9	0	0	0	20	138	champ	nmod	133	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+142	142	GPE	0.618865966796875	borodino	1	11	12	2	0	0	0	21	142	borodino	nmod	138	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+144	144	PER	0.9984560012817383	ils	1	11	12	4	0	0	0	22	144	ils	nsubj	145	PRON	PRON	Plural	Ambiguous	3	0
+147	148	LOC	0.44740769267082214	le ravin	2	11	12	7	0	0	0	23	148	ravin	obj	145	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+150	150	PER	0.9574844241142273	les	1	11	12	10	0	0	0	24	150	les	obj	151	PRON	PRON	Plural	Ambiguous	3	0
+153	153	GPE	0.6902695298194885	séménovsky	1	12	13	1	0	0	0	25	153	séménovsky	obl:arg	163	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+155	156	PER	0.9623552560806274	les soldats	2	12	13	3	0	0	0	26	156	soldats	nsubj	157	NOUN	NOM	Plural	Ambiguous	3	19
+164	165	FAC	0.5490549206733704	des granges	2	13	14	1	0	0	0	27	165	granges	conj	175	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+176	176	PER	0.8311711549758911	ils	1	13	15	9	0	0	0	28	176	ils	nsubj	190	PRON	PRON	Plural	Ambiguous	3	0
+178	181	LOC	0.5537318736314774	un champ de seigle	4	14	16	1	0	0	0	29	179	champ	obj	177	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+193	195	FAC	0.5284324586391449	la nouvelle route	3	15	17	1	0	0	0	30	195	route	obj	192	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+205	207	LOC	0.6311245163281759	un champ labouré	3	16	18	2	0	0	0	31	206	champ	nmod	203	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+211	213	FAC	0.5561839640140533	les ouvrages avancés	3	16	18	8	0	0	0	32	212	ouvrages	obj	210	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+214	214	FAC	0.4504123330116272	auxquels	1	16	18	11	0	0	0	33	214	auxquels	dep	216	PRON	PRON	Not_Assigned	Not_Assigned	3	
+215	215	PER	0.6494295597076416	on	1	17	19	0	0	0	0	34	215	on	nsubj	216	PRON	PRON	Ambiguous	Ambiguous	3	20
+219	219	PER	0.9837297797203064	bennigsen	1	17	20	0	0	0	0	35	219	bennigsen	nsubj	222	PROPN	PROP	Singular	Not_Assigned	3	21
+221	221	FAC	0.5448445677757263	y	1	17	20	2	0	0	0	36	221	y	iobj	222	PRON	PRON	Not_Assigned	Not_Assigned	3	
+231	231	GPE	0.41118618845939636	schevardino	1	18	21	2	0	0	0	37	231	schevardino	nmod	229	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+233	233	FAC	0.5760936737060547	qui	1	18	21	4	0	0	0	38	233	qui	nmod	235	PRON	PRON	Not_Assigned	Not_Assigned	4	
+238	238	PER	0.9790909886360168	nous	1	18	21	9	0	0	0	39	238	nous	amod	229	PRON	PRON	Plural	Ambiguous	1	4
+242	242	FAC	0.4852943420410156	laquelle	1	18	21	13	0	0	0	40	242	laquelle	obl:mod	262	PRON	PRON	Not_Assigned	Not_Assigned	3	
+247	248	PER	0.6073042452335358	quelques cavaliers	2	19	22	3	0	0	0	41	248	cavaliers	obj	246	NOUN	NOM	Plural	Ambiguous	3	1
+250	250	PER	0.45234590768814087	que	1	19	22	6	0	0	0	42	250	que	obj	253	PRON	PRON	Ambiguous	Ambiguous	4	1
+251	252	PER	0.9306595921516418	les officiers	2	19	22	7	0	0	0	43	252	officiers	nsubj	253	NOUN	NOM	Plural	Ambiguous	3	22
+255	255	GPE	0.6068633794784546	napoléon	1	20	23	1	0	0	0	44	255	napoléon	xcomp	273	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+257	257	PER	0.7318783402442932	murat	1	20	23	3	0	0	0	45	257	murat	conj	255	PROPN	PROP	Singular	Male	3	23
+260	260	PER	0.973288357257843	leur	1	20	23	6	0	0	0	46	260	leur	det	261	DET	PRON	Plural	Ambiguous	3	1
+263	263	PER	0.999549925327301	pierre	1	20	24	0	0	0	0	47	263	pierre	nsubj	264	PROPN	PROP	Singular	Male	3	24
+267	267	PER	0.9967221617698669	eux	1	20	24	4	0	0	0	48	267	eux	obl:mod	264	PRON	PRON	Plural	Ambiguous	3	1
+276	279	TIME	0.821211963891983	quelques instants plus tard	4	21	26	0	0	0	0	49	277	instants	obl:mod	278	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+285	286	LOC	0.6010833084583282	la hauteur	2	22	27	3	0	0	0	50	286	hauteur	obl:arg	283	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+293	293	PER	0.9649906754493713	bennigsen	1	22	28	0	0	0	0	51	293	bennigsen	nsubj	317	PROPN	PROP	Singular	Not_Assigned	3	25
+298	301	PER	0.5825278908014297	un des généraux présents	4	23	29	3	0	0	0	52	300	généraux	nmod	298	NOUN	NOM	Singular	Not_Assigned	3	9
+303	303	PER	0.9983055591583252	lui	1	23	29	8	0	0	0	53	303	lui	expl:subj	304	PRON	PRON	Singular	Ambiguous	3	9
+313	313	PER	0.9878185987472534	nos	1	24	30	4	0	0	0	54	313	nos	det	314	DET	PRON	Plural	Ambiguous	1	4
+316	316	PER	0.9995214939117432	pierre	1	24	31	0	0	0	0	55	316	pierre	nsubj	317	PROPN	PROP	Singular	Male	3	2
+318	318	PER	0.9946691393852234	son	1	24	31	2	0	0	0	56	318	son	det	319	DET	PRON	Singular	Ambiguous	3	2
+332	332	PER	0.997980535030365	il	1	25	32	10	0	0	0	57	332	il	nsubj	358	PRON	PRON	Singular	Male	3	2
+336	336	PER	0.9972140192985535	son	1	26	33	3	0	0	0	58	336	son	det	338	DET	PRON	Singular	Ambiguous	3	2
+341	341	PER	0.9971721768379211	son	1	26	33	8	0	0	0	59	341	son	det	342	DET	PRON	Singular	Ambiguous	3	2
+349	349	PER	0.9993792772293091	il	1	27	34	2	0	0	0	60	349	il	nsubj	352	PRON	PRON	Singular	Male	3	2
+355	355	PER	0.9956024885177612	bennigsen	1	27	34	8	0	0	0	61	355	bennigsen	obl:mod	317	PROPN	PROP	Singular	Not_Assigned	3	3
+358	358	PER	0.9991210103034973	son	1	27	34	11	0	0	0	62	358	son	det	359	DET	PRON	Singular	Ambiguous	3	3
+361	361	PER	0.9962949156761169	lui	1	27	34	14	0	0	0	63	361	lui	iobj	389	PRON	PRON	Singular	Ambiguous	3	3
+373	373	PER	0.9815117716789246	me	1	29	36	6	0	0	0	64	373	me	iobj	374	PRON	PRON	Singular	Ambiguous	1	3
+376	376	PER	0.9950350522994995	vous	1	29	36	9	0	0	0	65	376	vous	iobj	377	PRON	PRON	Ambiguous	Ambiguous	2	3
+385	385	PER	0.9994255304336548	pierre	1	30	37	6	0	0	0	66	385	pierre	nsubj	384	PROPN	PROP	Singular	Male	3	26
+388	390	FAC	0.6464664538701376	les ouvrages avancés	3	31	38	1	0	0	0	67	389	ouvrages	obj	387	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+392	392	PER	0.9900994896888733	eux	1	31	38	5	0	0	0	68	392	eux	nmod	389	PRON	PRON	Plural	Ambiguous	3	0
+394	394	PER	0.9990224838256836	ils	1	31	38	7	0	0	0	69	394	ils	nsubj	396	PRON	PRON	Plural	Ambiguous	3	0
+401	401	FAC	0.7953301668167114	qui	1	32	39	2	0	0	0	70	401	qui	nsubj	410	PRON	PRON	Not_Assigned	Not_Assigned	4	
+417	420	LOC	0.6986266821622849	un bois de bouleaux	4	33	40	2	0	0	0	71	418	bois	obj	447	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+448	449	FAC	0.8013677597045898	le chemin	2	35	43	2	0	0	0	72	449	chemin	obl:arg	443	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+457	457	PER	0.9873685240745544	eux	1	35	43	11	0	0	0	73	457	eux	obl:mod	454	PRON	PRON	Plural	Ambiguous	3	0
+480	480	PER	0.8508758544921875	il	1	37	45	5	0	0	0	74	480	il	nsubj	482	PRON	PRON	Singular	Male	3	2
+493	493	PER	0.9983476400375366	ils	1	38	47	2	0	0	0	75	493	ils	nsubj	494	PRON	PRON	Plural	Ambiguous	3	0
+496	497	LOC	0.8125734925270081	une clairière	2	38	47	5	0	0	0	76	497	clairière	obl:arg	494	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+499	499	LOC	0.6029987931251526	là	1	38	47	8	0	0	0	77	499	là	advmod	501	ADV	NOM	Not_Assigned	Not_Assigned	3	
+502	503	PER	0.6705304235219955	des soldats	2	38	47	11	0	0	0	78	503	soldats	obj	501	NOUN	NOM	Plural	Ambiguous	3	27
+504	507	PER	0.27687977999448776	du corps de toutchkow	4	39	48	0	0	0	0	79	505	corps	nmod	542	NOUN	PROP	Singular	Ambiguous	3	1
+509	509	PER	0.9526295065879822	qui	1	39	48	5	0	0	0	80	509	qui	nsubj:pass	511	PRON	PRON	Ambiguous	Ambiguous	4	1
+524	524	PER	0.9986652135848999	pierre	1	40	49	6	0	0	0	81	524	pierre	nsubj	525	PROPN	PROP	Singular	Male	3	28
+526	526	PER	0.9958468079566956	bennigsen	1	40	49	8	0	0	0	82	526	bennigsen	obj	525	PROPN	PROP	Singular	Not_Assigned	3	10
+534	534	PER	0.9926920533180237	il	1	41	50	3	0	0	0	83	534	il	nsubj	535	PRON	PRON	Singular	Male	3	10
+546	549	PER	0.5985356122255325	des troupes de toutchkow	4	42	51	2	0	0	0	84	547	troupes	obl:mod	545	NOUN	PROP	Plural	Ambiguous	3	1
+563	563	PER	0.9750492572784424	nos	1	43	52	3	0	0	0	85	563	nos	det	564	DET	PRON	Plural	Ambiguous	1	4
+567	567	PER	0.9933852553367615	bennigsen	1	43	52	7	0	0	0	86	567	bennigsen	nsubj	568	PROPN	PROP	Singular	Not_Assigned	3	11
+604	605	PER	0.9421244561672211	quelques généraux	2	46	56	0	0	0	0	87	605	généraux	nsubj	606	NOUN	NOM	Plural	Ambiguous	3	5
+607	607	PER	0.996243953704834	son	1	46	56	3	0	0	0	88	607	son	det	608	DET	PRON	Singular	Ambiguous	3	11
+610	613	PER	0.8522039204835892	l' un d' eux	4	46	57	0	0	1	1	89	611	un	nsubj	664	PRON	PRON	Singular	Male	3	5
+613	613	PER	0.9366673231124878	eux	1	46	57	3	1	0	0	90	613	eux	nmod	611	PRON	PRON	Plural	Ambiguous	3	5
+628	628	PER	0.9469479918479919	les	1	47	58	10	0	0	0	91	628	les	obj	629	PRON	PRON	Plural	Ambiguous	3	5
+637	637	PER	0.9663614630699158	bennigsen	1	48	60	0	0	0	0	92	637	bennigsen	nsubj	638	PROPN	PROP	Singular	Not_Assigned	3	12
+640	640	PER	0.9947187900543213	son	1	48	60	3	0	0	0	93	640	son	det	641	DET	PRON	Singular	Ambiguous	3	12
+648	649	LOC	0.7122332751750946	la hauteur	2	49	61	2	0	0	0	94	649	hauteur	obl:arg	694	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+655	655	PER	0.6971818208694458	on	1	49	62	4	0	0	0	95	655	on	nsubj	656	PRON	PRON	Ambiguous	Ambiguous	3	29
+667	667	PER	0.998977780342102	pierre	1	50	63	7	0	0	0	96	667	pierre	obl:arg	665	PROPN	PROP	Singular	Male	3	6
+668	668	PER	0.9979913234710693	son	1	50	63	8	0	0	0	97	668	son	det	669	DET	PRON	Singular	Ambiguous	3	6
+678	678	PER	0.964633584022522	bennigsen	1	51	64	7	0	0	0	98	678	bennigsen	obj	677	PROPN	PROP	Singular	Not_Assigned	3	30
+682	682	PER	0.9669834971427917	qui	1	52	65	1	0	0	0	99	682	qui	nsubj	683	PRON	PRON	Ambiguous	Ambiguous	4	13
+687	687	PER	0.9996801614761353	il	1	52	65	6	0	0	0	100	687	il	nsubj	689	PRON	PRON	Singular	Male	3	6
+688	688	PER	0.9744178056716919	leur	1	52	65	7	0	0	0	101	688	leur	iobj	689	PRON	PRON	Plural	Ambiguous	3	13
+707	707	PER	0.9502355456352234	bennigsen	1	54	67	0	0	0	0	102	707	bennigsen	nsubj	748	PROPN	PROP	Singular	Not_Assigned	3	14
+721	721	PER	0.9985407590866089	il	1	55	68	0	0	0	0	103	721	il	nsubj	723	PRON	PRON	Singular	Male	3	14
+741	742	PER	0.7417161464691162	l' ennemi	2	56	69	5	0	0	0	104	742	ennemi	obl:arg	736	NOUN	NOM	Singular	Male	3	31
+755	758	PER	0.767179325222969	le commandant en chef	4	57	70	5	0	0	0	105	756	commandant	obj	754	NOUN	NOM	Singular	Male	3	7

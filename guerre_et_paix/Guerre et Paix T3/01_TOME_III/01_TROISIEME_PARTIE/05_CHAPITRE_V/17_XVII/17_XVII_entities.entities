@@ -1,0 +1,64 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+4	5	PER	0.8752159476280212	les français	2	1	1	3	0	0	0	0	5	français	obj	3	NOUN	NOM	Plural	Ambiguous	3	3
+8	13	TIME	0.5521833946307501	tout le cours de cette campagne	6	1	1	7	0	0	0	1	10	cours	obl:mod	3	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+17	17	PER	0.7339756488800049	leur	1	2	2	2	0	0	0	2	17	leur	det	18	DET	PRON	Plural	Ambiguous	3	3
+31	31	PER	0.8644901514053345	leurs	1	3	3	4	0	0	0	3	31	leurs	det	32	DET	PRON	Plural	Ambiguous	3	3
+37	37	PER	0.8279451727867126	leur	1	3	3	10	0	0	0	4	37	leur	det	41	DET	PRON	Plural	Ambiguous	3	3
+46	47	PER	0.69820636510849	les historiens	2	4	4	8	0	0	0	5	47	historiens	nsubj	57	NOUN	NOM	Plural	Not_Assigned	3	5
+73	73	PER	0.9242117404937744	ils	1	6	7	1	0	0	0	6	73	ils	nsubj	75	PRON	PRON	Plural	Ambiguous	3	5
+85	85	PER	0.7295041680335999	napoléon	1	7	8	6	0	0	0	7	85	napoléon	obl:agent	83	PROPN	PROP	Singular	Male	3	0
+88	89	PER	0.5262223780155182	ses troupes	2	8	9	0	0	1	1	8	89	troupes	obj	95	NOUN	NOM	Plural	Ambiguous	3	8
+88	88	PER	0.9532020688056946	ses	1	8	9	0	1	0	0	9	88	ses	det	89	DET	PRON	Singular	Ambiguous	3	0
+101	102	PER	0.8907284140586853	ses maréchaux	2	9	10	0	0	1	1	10	102	maréchaux	obj	96	NOUN	NOM	Plural	Not_Assigned	3	1
+101	101	PER	0.9582817554473877	ses	1	9	10	0	1	0	0	11	101	ses	det	102	DET	PRON	Singular	Ambiguous	3	0
+104	104	PER	0.912635326385498	ils	1	9	11	0	0	0	0	12	104	ils	nsubj	105	PRON	PRON	Plural	Ambiguous	3	1
+115	115	PER	0.9591456055641174	nous	1	10	12	0	0	0	0	13	115	nous	mark	116	PRON	PRON	Plural	Ambiguous	1	4
+120	120	PER	0.9877888560295105	l'	1	10	12	5	0	0	0	14	120	l'	obj	121	PRON	PRON	Singular	Ambiguous	3	0
+130	132	FAC	0.5084583858648936	la route dévastée	3	11	13	2	0	0	0	15	131	route	obj	126	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+134	134	PER	0.9843601584434509	il	1	11	13	6	0	0	0	16	134	il	nsubj	136	PRON	PRON	Singular	Male	3	0
+140	140	GPE	0.8955115675926208	moscou	1	11	13	12	0	0	0	17	140	moscou	obl:arg	138	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+155	155	PER	0.8902273774147034	ils	1	13	16	0	0	0	0	18	155	ils	nsubj	156	PRON	PRON	Plural	Ambiguous	3	1
+157	157	PER	0.9663293957710266	son	1	13	16	2	0	0	0	19	157	son	det	158	DET	PRON	Singular	Ambiguous	3	0
+166	169	TIME	0.520191852003336	livrer bataille à krasnoé	4	14	17	0	0	1	1	20	166	livrer	xcomp	164	VERB	PROP	Not_Assigned	Not_Assigned	3	
+169	169	GPE	0.8555250763893127	krasnoé	1	14	17	3	1	0	0	21	169	krasnoé	obl:arg	166	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+176	176	PER	0.9952300786972046	il	1	14	17	10	0	0	0	22	176	il	nsubj	177	PRON	PRON	Singular	Male	3	0
+180	180	PER	0.966507077217102	son	1	14	17	14	0	0	0	23	180	son	det	195	DET	PRON	Singular	Ambiguous	3	0
+184	184	PER	0.9721698760986328	j'	1	15	18	3	0	0	0	24	184	j'	nsubj	187	PRON	PRON	Singular	Ambiguous	1	0
+208	208	PER	0.9902200102806091	il	1	16	19	11	0	0	0	25	208	il	nsubj	209	PRON	PRON	Singular	Male	3	0
+214	216	PER	0.3988741834958394	toute son armée	3	17	20	1	0	1	1	26	216	armée	obj	213	NOUN	NOM	Plural	Ambiguous	3	6
+215	215	PER	0.9131544232368469	son	1	17	20	2	1	0	0	27	215	son	det	216	DET	PRON	Singular	Ambiguous	3	0
+218	218	PER	0.8173840641975403	son	1	17	20	5	0	0	0	28	218	son	det	220	DET	PRON	Singular	Ambiguous	3	6
+222	222	PER	0.9158306121826172	ils	1	17	21	0	0	0	0	29	222	ils	nsubj	224	PRON	PRON	Plural	Ambiguous	3	1
+223	223	PER	0.939113438129425	nous	1	17	21	1	0	0	0	30	223	nous	punct	224	PRON	PRON	Plural	Ambiguous	1	4
+228	229	PER	0.5790576338768005	des maréchaux	2	18	22	3	0	0	0	31	229	maréchaux	nmod	227	NOUN	NOM	Plural	Not_Assigned	3	1
+233	233	PER	0.9231799840927124	ney	1	18	22	8	0	0	0	32	233	ney	nmod	231	PROPN	PROP	Singular	Not_Assigned	3	7
+237	237	PER	0.9180759787559509	qui	1	18	22	12	0	0	0	33	237	qui	punct	257	PUNCT	PRON	Ambiguous	Ambiguous	4	7
+245	246	LOC	0.912796288728714	la forêt	2	19	23	6	0	0	0	34	246	forêt	ROOT	246	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+252	253	LOC	0.5589877367019653	le dnièpre	2	19	23	13	0	0	0	35	253	dnièpre	ROOT	253	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+259	259	GPE	0.938334047794342	orcha	1	20	24	2	0	0	0	36	259	orcha	flat:name	258	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+274	275	PER	0.6961025595664978	ses hommes	2	21	25	3	0	1	1	37	275	hommes	ROOT	275	PUNCT	PRON	Plural	Not_Assigned	3	9
+274	274	PER	0.9500781893730164	ses	1	21	25	3	1	0	0	38	274	ses	det	275	PUNCT	PRON	Singular	Ambiguous	3	7
+278	278	PER	0.9130710959434509	ils	1	21	26	1	0	0	0	39	278	ils	ROOT	278	PUNCT	PRON	Plural	Ambiguous	3	1
+279	279	PER	0.959251344203949	nous	1	21	26	2	0	0	0	40	279	nous	ROOT	279	PUNCT	PRON	Plural	Ambiguous	1	4
+289	290	PER	0.6235445737838745	l' empereur	2	22	27	7	0	0	0	41	290	empereur	ROOT	290	NOUN	NOM	Singular	Male	3	0
+293	294	PER	0.5936138033866882	l' empereur	2	22	27	11	0	0	0	42	294	empereur	ROOT	294	PUNCT	PRON	Singular	Male	3	0
+297	301	PER	0.4486634016036987	sa grande et héroïque armée	5	23	28	0	0	1	1	43	297	sa	ROOT	297	PUNCT	PRON	Plural	Not_Assigned	3	6
+297	297	PER	0.90176922082901	sa	1	23	28	0	1	0	0	44	297	sa	ROOT	297	PUNCT	PRON	Singular	Ambiguous	3	0
+332	332	PER	0.33807453513145447	historiens	1	26	31	0	0	0	0	45	332	historiens	punct	329	NOUN	NOM	Not_Assigned	Not_Assigned	3	5
+400	400	PER	0.7213551998138428	leur	1	30	36	6	0	0	0	46	400	leur	det	431	DET	PRON	Plural	Ambiguous	3	1
+437	438	PER	0.7341043651103973	les historiens	2	33	40	4	0	0	0	47	438	historiens	nsubj	436	NOUN	NOM	Plural	Not_Assigned	3	1
+442	442	PER	0.8924729228019714	leur	1	33	40	9	0	0	0	48	442	leur	iobj	443	PRON	PRON	Plural	Ambiguous	3	1
+482	482	PER	0.7257968783378601	eux	1	35	43	12	0	0	0	49	482	eux	nmod	484	PRON	PRON	Plural	Ambiguous	3	1
+499	499	PER	0.8059084415435791	napoléon	1	36	45	2	0	0	0	50	499	napoléon	obl:mod	573	PROPN	PROP	Singular	Male	3	2
+501	501	PER	0.9215297698974609	qui	1	36	45	4	0	0	0	51	501	qui	nsubj	538	PRON	PRON	Ambiguous	Ambiguous	4	2
+505	505	PER	0.9671574234962463	sa	1	37	46	3	0	0	0	52	505	sa	det	506	DET	PRON	Singular	Ambiguous	3	2
+518	518	PER	0.938637375831604	il	1	38	47	1	0	0	0	53	518	il	nsubj	520	PRON	PRON	Singular	Male	3	2
+522	522	PER	0.9605671763420105	lui	1	38	47	5	0	0	0	54	522	lui	obl:mod	520	PRON	PRON	Singular	Ambiguous	3	2
+525	525	PER	0.8567195534706116	dont	1	38	47	8	0	0	0	55	525	dont	nmod	527	PRON	PRON	Ambiguous	Ambiguous	4	10
+535	535	PER	0.9787863492965698	il	1	39	48	0	0	0	0	56	535	il	nsubj	537	PRON	PRON	Singular	Male	3	2
+539	539	PER	0.8834575414657593	lui	1	39	48	4	0	0	0	57	539	lui	dep	537	PRON	PRON	Singular	Ambiguous	3	2
+555	557	PER	0.4127352237701416	tous ceux qui	3	40	49	0	0	0	0	58	556	ceux	nsubj	574	PRON	PRON	Plural	Ambiguous	3	11
+558	560	TIME	0.555448184410731	depuis cinquante ans	3	40	49	3	0	0	0	59	560	ans	obl:mod	562	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+561	561	PER	0.8171418905258179	l'	1	40	49	6	0	0	0	60	561	l'	obj	562	PRON	PRON	Singular	Ambiguous	3	2
+601	601	PER	0.7145153880119324	sa	1	43	52	1	0	0	0	61	601	sa	det	602	DET	PRON	Singular	Ambiguous	3	2
+606	606	PER	0.9739109873771667	notre	1	43	52	6	0	0	0	62	606	notre	det	607	DET	PRON	Plural	Ambiguous	1	4

@@ -1,0 +1,79 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9974576830863953	pierre	1	1	1	0	0	0	0	0	1	pierre	nsubj	2	PROPN	PROP	Singular	Male	3	1
+3	4	TIME	0.7608318328857422	quatre semaines	2	1	1	2	0	0	0	1	4	semaines	obj	2	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+6	7	FAC	0.7425639033317566	cette baraque	2	1	1	5	0	0	0	2	7	baraque	obl:arg	2	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+10	10	PER	0.6326497793197632	soldats	1	2	2	0	0	0	0	3	10	soldats	obj	2	NOUN	NOM	Plural	Ambiguous	3	3
+12	13	PER	0.9342697262763977	trois officiers	2	2	2	2	0	0	0	4	13	officiers	conj	10	NOUN	NOM	Plural	Ambiguous	3	4
+16	17	PER	0.9267905056476593	deux fonctionnaires	2	2	2	6	0	0	0	5	17	fonctionnaires	conj	10	NOUN	NOM	Plural	Not_Assigned	3	5
+21	21	PER	0.997796893119812	lui	1	2	2	11	0	0	0	6	21	lui	dep	19	PRON	PRON	Singular	Ambiguous	3	1
+23	24	TIME	0.8536329567432404	ces jours	2	3	3	0	0	0	0	7	24	jours	nsubj	25	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+31	31	PER	0.998651921749115	sa	1	3	3	8	0	0	0	8	31	sa	det	32	DET	PRON	Singular	Ambiguous	3	1
+38	38	PER	0.9904851317405701	platon	1	4	4	1	0	0	0	9	38	platon	obl:arg	40	PROPN	PROP	Singular	Male	3	6
+44	44	PER	0.9960313439369202	ses	1	4	4	7	0	0	0	10	44	ses	det	46	DET	PRON	Singular	Ambiguous	3	1
+49	49	PER	0.9977814555168152	ses	1	4	4	12	0	0	0	11	49	ses	det	51	DET	PRON	Singular	Ambiguous	3	1
+72	73	PER	0.7592564225196838	platon karataïew	2	7	7	0	0	0	0	12	72	platon	nsubj	74	PROPN	PROP	Singular	Male	3	0
+88	88	PER	0.999193012714386	il	1	8	8	3	0	0	0	13	88	il	nsubj	90	PRON	PRON	Singular	Male	3	0
+93	93	PER	0.9434069991111755	lui	1	8	8	8	0	0	0	14	93	lui	nsubj	97	PRON	PRON	Singular	Ambiguous	3	0
+99	102	TIME	0.690255269408226	au juste son âge	4	9	9	0	0	1	1	15	102	âge	obl:mod	107	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+101	101	PER	0.9783958196640015	son	1	9	9	2	1	0	0	16	101	son	det	102	DET	PRON	Singular	Ambiguous	3	0
+106	106	PER	0.9993403553962708	il	1	9	9	7	0	0	0	17	106	il	nsubj	107	PRON	PRON	Singular	Male	3	0
+111	111	PER	0.9983978867530823	lui	1	9	9	12	0	0	0	18	111	lui	iobj	112	PRON	PRON	Singular	Ambiguous	3	0
+117	117	PER	0.999322772026062	il	1	10	10	2	0	0	0	19	117	il	nsubj	118	PRON	PRON	Singular	Male	3	0
+128	128	PER	0.9953858256340027	sa	1	10	10	13	0	0	0	20	128	sa	det	139	DET	PRON	Singular	Ambiguous	3	0
+131	131	PER	0.9981617331504822	ses	1	11	11	2	0	0	0	21	131	ses	det	132	DET	PRON	Singular	Ambiguous	3	0
+141	141	PER	0.9960711002349854	son	1	11	11	12	0	0	0	22	141	son	det	142	DET	PRON	Singular	Ambiguous	3	0
+169	169	PER	0.9960125684738159	sa	1	13	13	10	0	0	0	23	169	sa	det	170	DET	PRON	Singular	Ambiguous	3	0
+185	185	PER	0.9997003078460693	il	1	15	15	1	0	0	0	24	185	il	nsubj	186	PRON	PRON	Singular	Male	3	0
+188	188	PER	0.9983237385749817	sa	1	15	15	4	0	0	0	25	188	sa	det	189	DET	PRON	Singular	Ambiguous	3	0
+194	194	PER	0.9946948885917664	ses	1	15	15	10	0	0	0	26	194	ses	det	195	DET	PRON	Singular	Ambiguous	3	0
+200	200	PER	0.9994437098503113	il	1	16	16	3	0	0	0	27	200	il	nsubj	202	PRON	PRON	Singular	Male	3	0
+207	207	PER	0.9991908669471741	il	1	16	16	10	0	0	0	28	207	il	nsubj	209	PRON	PRON	Singular	Male	3	0
+214	214	PER	0.9937021732330322	il	1	16	16	17	0	0	0	29	214	il	nsubj	231	PRON	PRON	Singular	Male	3	0
+225	225	PER	0.9842588901519775	ses	1	17	17	10	0	0	0	30	225	ses	det	226	DET	PRON	Singular	Ambiguous	3	0
+233	235	TIME	0.4919433295726776	soir et matin	3	18	19	0	0	0	0	31	235	matin	conj	233	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+245	245	PER	0.9996387958526611	il	1	19	20	3	0	0	0	32	245	il	nsubj	246	PRON	PRON	Singular	Male	3	0
+249	249	PER	0.9507880210876465	mon	1	19	20	7	0	0	0	33	249	mon	det	250	DET	PRON	Singular	Ambiguous	1	1
+253	253	PER	0.9772804379463196	-moi	1	19	20	11	0	0	0	34	253	moi	dep	246	PRON	PRON	Singular	Ambiguous	1	0
+260	260	PER	0.9654639363288879	-moi	1	20	21	1	0	0	0	35	260	moi	dep	261	PRON	PRON	Singular	Ambiguous	1	0
+276	276	PER	0.9988810420036316	il	1	20	22	7	0	0	0	36	276	il	nsubj	297	PRON	PRON	Singular	Male	3	0
+286	287	TIME	0.8751459121704102	le matin	2	21	23	9	0	0	0	37	287	matin	obl:mod	315	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+293	293	PER	0.9930369257926941	il	1	21	23	16	0	0	0	38	293	il	nsubj	315	PRON	PRON	Singular	Male	3	0
+305	305	PER	0.9996342658996582	il	1	22	25	0	0	0	0	39	305	il	nsubj	306	PRON	PRON	Singular	Male	3	0
+317	317	PER	0.9995937943458557	il	1	23	26	6	0	0	0	40	317	il	nsubj	318	PRON	PRON	Singular	Male	3	0
+325	325	PER	0.993565022945404	ses	1	23	26	14	0	0	0	41	325	ses	aux:pass	349	DET	PRON	Singular	Ambiguous	3	0
+336	336	PER	0.9996894598007202	il	1	24	27	10	0	0	0	42	336	il	nsubj	339	PRON	PRON	Singular	Male	3	0
+346	347	TIME	0.8481135368347168	la nuit	2	25	28	5	0	0	0	43	347	nuit	obj	341	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+349	349	PER	0.9996256828308105	il	1	25	29	0	0	0	0	44	349	il	nsubj	351	PRON	PRON	Singular	Male	3	0
+372	372	PER	0.9717580676078796	il	1	26	30	16	0	0	0	45	372	il	nsubj	400	PRON	PRON	Singular	Male	3	0
+384	384	PER	0.9966052770614624	son	1	27	32	0	0	0	0	46	384	son	det	385	DET	PRON	Singular	Ambiguous	3	0
+400	400	PER	0.9918859004974365	sa	1	28	33	11	0	0	0	47	400	sa	det	401	DET	PRON	Singular	Ambiguous	3	0
+406	410	TIME	0.5591091752052307	après quelques semaines de prison	5	29	35	2	0	0	0	48	408	semaines	obl:mod	444	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+412	412	PER	0.9973567724227905	sa	1	29	35	8	0	0	0	49	412	sa	det	413	DET	PRON	Singular	Ambiguous	3	0
+417	417	PER	0.9996826648712158	il	1	30	36	2	0	0	0	50	417	il	nsubj	418	PRON	PRON	Singular	Male	3	0
+432	432	PER	0.9911344051361084	lui	1	31	37	0	0	0	0	51	432	lui	dep	424	PRON	PRON	Singular	Ambiguous	3	0
+440	440	PER	0.9960973858833313	lui	1	31	37	8	0	0	0	52	440	lui	iobj	442	PRON	PRON	Singular	Ambiguous	3	0
+443	443	PER	0.9931691884994507	sa	1	31	37	11	0	0	0	53	443	sa	det	444	DET	PRON	Singular	Ambiguous	3	0
+465	465	PER	0.714958131313324	soldat	1	32	39	1	0	0	0	54	465	soldat	nsubj	498	NOUN	NOM	Singular	Male	3	0
+472	472	PER	0.8042488098144531	son	1	33	40	6	0	0	0	55	472	son	det	473	DET	PRON	Singular	Ambiguous	3	0
+477	477	PER	0.9981702566146851	-il	1	33	40	11	0	0	0	56	477	il	dep	476	PRON	PRON	Singular	Male	3	0
+479	479	PER	0.9996740818023682	il	1	33	40	13	0	0	0	57	479	il	nsubj	481	PRON	PRON	Singular	Male	3	0
+485	485	PER	0.9751768708229065	ses	1	34	41	2	0	0	0	58	485	ses	det	486	DET	PRON	Singular	Ambiguous	3	0
+495	495	PER	0.999100923538208	il	1	35	42	0	0	0	0	59	495	il	nsubj:pass	499	PRON	PRON	Singular	Male	3	0
+502	502	PER	0.9992886781692505	il	1	35	43	1	0	0	0	60	502	il	nsubj	503	PRON	PRON	Singular	Male	3	0
+515	515	PER	0.9975066781044006	son	1	36	44	5	0	0	0	61	515	son	det	516	DET	PRON	Singular	Ambiguous	3	0
+519	519	PER	0.9972003698348999	sa	1	36	44	9	0	0	0	62	519	sa	det	520	DET	PRON	Singular	Ambiguous	3	0
+526	526	PER	0.9993258714675903	il	1	37	45	0	0	0	0	63	526	il	nsubj	527	PRON	PRON	Singular	Male	3	0
+528	528	PER	0.9980097413063049	ses	1	37	45	2	0	0	0	64	528	ses	det	529	DET	PRON	Singular	Ambiguous	3	0
+540	541	PER	0.9808692932128906	ses camarades	2	38	46	2	0	1	1	65	541	camarades	nmod	538	NOUN	NOM	Plural	Ambiguous	3	7
+540	540	PER	0.9940203428268433	ses	1	38	46	2	1	0	0	66	540	ses	det	541	DET	PRON	Singular	Ambiguous	3	0
+543	543	PER	0.999743640422821	il	1	38	46	5	0	0	0	67	543	il	nsubj	545	PRON	PRON	Singular	Male	3	0
+577	577	PER	0.9933843016624451	sa	1	40	48	12	0	0	0	68	577	sa	det	618	DET	PRON	Singular	Ambiguous	3	0
+587	589	PER	0.8453423380851746	des autres prisonniers	3	42	50	2	0	0	0	69	589	prisonniers	nmod	586	NOUN	NOM	Plural	Ambiguous	3	8
+591	591	PER	0.9946653842926025	platon	1	42	50	6	0	0	0	70	591	platon	nsubj	597	PROPN	PROP	Singular	Male	3	9
+595	597	PER	0.8677990039189657	un simple soldat	3	42	50	10	0	0	0	71	597	soldat	ROOT	597	NOUN	NOM	Singular	Male	3	0
+599	599	PER	0.4969746470451355	qu'	1	43	51	0	0	0	0	72	599	qu'	mark	601	SCONJ	PRON	Ambiguous	Ambiguous	4	0
+619	619	PER	0.999153733253479	pierre	1	44	52	5	0	0	0	73	619	pierre	obl:mod	622	PROPN	PROP	Singular	Male	3	2
+621	621	PER	0.9993612170219421	il	1	44	52	7	0	0	0	74	621	il	expl:subj	622	PRON	PRON	Singular	Male	3	0
+640	640	PER	0.9990611672401428	il	1	45	53	11	0	0	0	75	640	il	nsubj	689	PRON	PRON	Singular	Male	3	2
+648	651	TIME	0.7212042510509491	dès la première nuit	4	46	54	4	0	0	0	76	651	nuit	obl:mod	646	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+654	654	PER	0.9904452562332153	ses	1	46	54	10	0	0	0	77	654	ses	det	655	DET	PRON	Singular	Ambiguous	3	0

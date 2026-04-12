@@ -1,0 +1,159 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9716300368309021	davout	1	1	1	0	0	0	0	0	1	davout	flat:name	1	PROPN	PROP	Singular	Male	3	0
+34	34	PER	0.9346997737884521	lui	1	3	3	5	0	0	0	1	34	lui	fixed	33	PRON	PRON	Singular	Ambiguous	3	14
+39	39	PER	0.9671388268470764	son	1	3	3	10	0	0	0	2	39	son	det	40	DET	PRON	Singular	Ambiguous	3	0
+42	43	PER	0.8223379254341125	son maître	2	3	3	13	0	1	1	3	43	maître	nmod	40	NOUN	NOM	Singular	Male	3	4
+42	42	PER	0.8502551317214966	son	1	3	3	13	1	0	0	4	42	son	det	43	DET	PRON	Singular	Ambiguous	3	0
+101	105	PER	0.506865394115448	le chef de l' état	5	9	9	0	0	0	0	5	102	chef	obj	109	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+122	128	PER	0.6728566459247044	un être cruel , grossier , mal	7	10	11	8	0	0	0	6	123	être	nmod	117	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+133	133	PER	0.7875522375106812	araktchéïew	1	11	12	4	0	0	0	7	133	araktchéïew	dep	131	PROPN	PROP	Singular	Not_Assigned	3	0
+135	135	PER	0.9706063270568848	qui	1	11	12	6	0	0	0	8	135	qui	nsubj	136	PRON	PRON	Ambiguous	Ambiguous	4	0
+139	140	PER	0.5003907382488251	aux grenadiers	2	11	12	10	0	0	0	9	140	grenadiers	obl:arg	136	NOUN	NOM	Plural	Not_Assigned	3	15
+146	146	PER	0.9736642241477966	qui	1	12	13	4	0	0	0	10	146	qui	nsubj	148	PRON	PRON	Ambiguous	Ambiguous	4	0
+155	155	PER	0.9564267992973328	alexandre	1	12	13	13	0	0	0	11	155	alexandre	obl:arg	153	PROPN	PROP	Singular	Male	3	9
+157	157	PER	0.8238600492477417	dont	1	13	14	0	0	0	0	12	157	dont	nmod	159	PRON	PRON	Ambiguous	Ambiguous	4	9
+170	170	PER	0.986041247844696	balachow	1	14	15	0	0	0	0	13	170	balachow	nsubj	171	PROPN	PROP	Singular	Not_Assigned	3	16
+172	174	PER	0.8925749858220419	le maréchal davout	3	14	15	2	0	0	0	14	173	maréchal	obj	171	NOUN	PROP	Singular	Male	3	0
+177	180	PER	0.8871296048164368	son aide de camp	4	14	15	7	0	1	1	15	178	aide	obl:mod	171	NOUN	NOM	Singular	Not_Assigned	3	10
+177	177	PER	0.9953224062919617	son	1	14	15	7	1	0	0	16	177	son	det	178	DET	PRON	Singular	Ambiguous	3	0
+182	182	PER	0.9962288737297058	ses	1	14	15	12	0	0	0	17	182	ses	det	183	DET	PRON	Singular	Ambiguous	3	0
+186	189	FAC	0.5350159853696823	une grange de paysan	4	15	16	1	0	0	0	18	187	grange	obl:mod	199	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+205	205	PER	0.9984757304191589	il	1	16	18	0	0	0	0	19	205	il	nsubj	207	PRON	PRON	Singular	Male	3	0
+218	218	PER	0.9994019269943237	il	1	17	19	4	0	0	0	20	218	il	nsubj	219	PRON	PRON	Singular	Male	3	0
+271	271	PER	0.9995808005332947	je	1	21	23	7	0	0	0	21	271	je	nsubj	274	PRON	PRON	Singular	Ambiguous	1	0
+272	272	PER	0.9941860437393188	vous	1	21	23	8	0	0	0	22	272	vous	iobj	274	PRON	PRON	Ambiguous	Ambiguous	2	17
+289	289	PER	0.9328659772872925	moi	1	22	24	6	0	0	0	23	289	moi	obl:mod	290	PRON	PRON	Singular	Ambiguous	1	0
+299	301	FAC	0.7757431070009867	une mauvaise grange	3	23	25	2	0	0	0	24	301	grange	obl:mod	319	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+308	309	PER	0.9672662019729614	du maréchal	2	23	26	5	0	0	0	25	309	maréchal	nmod	307	NOUN	NOM	Singular	Male	3	0
+357	357	PER	0.9987941980361938	davout	1	27	30	9	0	0	0	26	357	davout	obl:arg	355	PROPN	PROP	Singular	Male	3	1
+362	362	PER	0.9966810345649719	balachow	1	27	30	14	0	0	0	27	362	balachow	nmod	360	PROPN	PROP	Singular	Not_Assigned	3	18
+366	366	PER	0.9972969889640808	sa	1	27	30	18	0	0	0	28	366	sa	det	394	DET	PRON	Singular	Ambiguous	3	1
+373	375	TIME	0.5010440945625305	la belle matinée	3	28	31	6	0	0	0	29	375	matinée	conj	371	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+377	377	PER	0.9916272163391113	sa	1	28	31	10	0	0	0	30	377	sa	det	378	DET	PRON	Singular	Ambiguous	3	1
+380	380	PER	0.9702678918838501	murat	1	29	32	1	0	0	0	31	380	murat	nmod	407	PROPN	PROP	Singular	Male	3	10
+382	382	PER	0.9974332451820374	lui	1	29	33	0	0	0	0	32	382	lui	iobj	383	PRON	PRON	Singular	Ambiguous	3	1
+391	391	PER	0.998040497303009	ses	1	29	33	9	0	0	0	33	391	ses	det	392	DET	PRON	Singular	Ambiguous	3	1
+394	394	PER	0.9996780157089233	il	1	29	33	12	0	0	0	34	394	il	nsubj	395	PRON	PRON	Singular	Male	3	1
+402	402	PER	0.9984647035598755	le	1	30	34	6	0	0	0	35	402	le	obj	403	PRON	PRON	Singular	Male	3	1
+408	408	PER	0.9969406127929688	ses	1	30	34	12	0	0	0	36	408	ses	det	409	DET	PRON	Singular	Ambiguous	3	1
+422	424	PER	0.8868768612543741	le nouveau venu	3	32	36	5	0	0	0	37	424	venu	obl:mod	420	NOUN	NOM	Singular	Male	3	1
+430	430	PER	0.9903091788291931	le	1	33	37	3	0	0	0	38	430	le	obj	431	PRON	PRON	Singular	Male	3	1
+435	436	PER	0.9732972383499146	au maréchal	2	33	37	8	0	0	0	39	436	maréchal	obl:arg	433	NOUN	NOM	Singular	Male	3	0
+438	438	PER	0.9926497340202332	qui	1	33	37	11	0	0	0	40	438	qui	nsubj	439	PRON	PRON	Ambiguous	Ambiguous	4	0
+443	443	PER	0.9990334510803223	lui	1	34	38	3	0	0	0	41	443	lui	iobj	444	PRON	PRON	Singular	Ambiguous	3	0
+448	448	PER	0.998989999294281	il	1	34	38	8	0	0	0	42	448	il	nsubj	449	PRON	PRON	Singular	Male	3	1
+461	461	PER	0.9978945851325989	davout	1	35	39	10	0	0	0	43	461	davout	nmod	459	PROPN	PROP	Singular	Male	3	6
+463	463	PER	0.9962134957313538	sa	1	35	39	12	0	0	0	44	463	sa	det	499	DET	PRON	Singular	Ambiguous	3	6
+475	476	PER	0.4887157082557678	l' empereur	2	36	40	11	0	0	0	45	476	empereur	nmod	473	NOUN	NOM	Singular	Male	3	4
+479	479	PER	0.9986036419868469	balachow	1	37	41	2	0	0	0	46	479	balachow	nsubj	481	PROPN	PROP	Singular	Not_Assigned	3	2
+483	483	PER	0.9989870190620422	lui	1	37	41	6	0	0	0	47	483	lui	iobj	484	PRON	PRON	Singular	Ambiguous	3	6
+490	490	PER	0.996933102607727	sa	1	37	41	13	0	0	0	48	490	sa	det	528	DET	PRON	Singular	Ambiguous	3	2
+496	496	PER	0.9957318902015686	sa	1	38	42	5	0	0	0	49	496	sa	det	498	DET	PRON	Singular	Ambiguous	3	0
+500	500	PER	0.9987002611160278	davout	1	38	42	9	0	0	0	50	500	davout	nsubj	503	PROPN	PROP	Singular	Male	3	19
+514	514	PER	0.9965470433235168	votre	1	40	44	3	0	0	0	51	514	votre	det	515	DET	PRON	Ambiguous	Ambiguous	2	2
+517	517	PER	0.7814136147499084	donnez-le-moi	1	40	44	6	0	0	0	52	517	donnez-le-moi	dep	521	PRON	PRON	Not_Assigned	Not_Assigned	3	2
+519	519	PER	0.9995346069335938	je	1	40	44	8	0	0	0	53	519	je	nsubj	521	PRON	PRON	Singular	Ambiguous	1	2
+523	524	PER	0.7707103490829468	l' empereur	2	40	44	12	0	0	0	54	524	empereur	obl:arg	521	NOUN	NOM	Singular	Male	3	20
+527	527	PER	0.9876404404640198	balachow	1	41	46	0	0	0	0	55	527	balachow	nsubj	529	PROPN	PROP	Singular	Not_Assigned	3	11
+528	528	PER	0.9991289973258972	lui	1	41	46	1	0	0	0	56	528	lui	iobj	529	PRON	PRON	Singular	Ambiguous	3	1
+531	531	PER	0.9990267753601074	il	1	41	46	4	0	0	0	57	531	il	nsubj	532	PRON	PRON	Singular	Male	3	11
+548	549	PER	0.4906347841024399	votre empereur	2	43	48	4	0	1	1	58	549	empereur	nmod	546	NOUN	NOM	Singular	Male	3	4
+548	548	PER	0.7146543264389038	votre	1	43	48	4	1	0	0	59	548	votre	det	549	DET	PRON	Ambiguous	Ambiguous	2	1
+553	553	PER	0.9742211103439331	votre	1	43	48	9	0	0	0	60	553	votre	det	554	DET	PRON	Ambiguous	Ambiguous	2	1
+559	559	PER	0.9934760928153992	vous	1	44	49	0	0	0	0	61	559	vous	nsubj	560	PRON	PRON	Ambiguous	Ambiguous	2	1
+564	564	PER	0.9819414615631104	nos	1	44	49	5	0	0	0	62	564	nos	det	565	DET	PRON	Plural	Ambiguous	1	21
+576	578	PER	0.9712260564168295	au général russe	3	45	50	1	0	0	0	63	577	général	obl:arg	575	NOUN	NOM	Singular	Male	3	0
+585	585	PER	0.9668009281158447	il	1	45	50	10	0	0	0	64	585	il	case	631	PRON	PRON	Singular	Male	3	1
+589	589	PER	0.9992889165878296	il	1	46	51	3	0	0	0	65	589	il	nsubj	590	PRON	PRON	Singular	Male	3	0
+592	595	PER	0.6787918955087662	l' officier de service	4	46	51	6	0	0	0	66	593	officier	obj	591	NOUN	NOM	Singular	Male	3	0
+597	597	PER	0.9923672080039978	balachow	1	47	52	0	0	0	0	67	597	balachow	nsubj	598	PROPN	PROP	Singular	Not_Assigned	3	22
+605	606	PER	0.6886334717273712	l' empereur	2	47	52	8	0	0	0	68	606	empereur	nmod	603	NOUN	NOM	Singular	Male	3	23
+634	634	PER	0.973780632019043	davout	1	49	55	0	0	0	0	69	634	davout	nsubj	635	PROPN	PROP	Singular	Male	3	7
+646	646	PER	0.9986271858215332	vous	1	51	57	1	0	0	0	70	646	vous	nsubj	647	PRON	PRON	Ambiguous	Ambiguous	2	7
+652	652	PER	0.9918042421340942	me	1	51	57	7	0	0	0	71	652	me	obj	653	PRON	PRON	Singular	Ambiguous	1	2
+660	660	PER	0.9624478816986084	balachow	1	52	58	0	0	0	0	72	660	balachow	obj	659	PROPN	PROP	Singular	Not_Assigned	3	24
+664	664	PER	0.9977855682373047	-moi	1	52	58	4	0	0	0	73	664	moi	dep	663	PRON	PRON	Singular	Ambiguous	1	2
+666	666	PER	0.9981299042701721	vous	1	52	58	6	0	0	0	74	666	vous	dep	668	PRON	PRON	Ambiguous	Ambiguous	2	7
+670	670	PER	0.9979458451271057	j'	1	52	58	10	0	0	0	75	670	j'	nsubj	671	PRON	PRON	Singular	Ambiguous	1	2
+683	684	PER	0.9346698522567749	sa majesté	2	53	59	9	0	0	0	76	684	majesté	nmod	678	NOUN	NOM	Singular	Ambiguous	3	4
+687	687	PER	0.9843212366104126	davout	1	54	60	0	0	0	0	77	687	davout	nsubj	689	PROPN	PROP	Singular	Male	3	25
+688	688	PER	0.9978195428848267	le	1	54	60	1	0	0	0	78	688	le	obj	689	PRON	PRON	Singular	Male	3	2
+702	703	PER	0.8303846716880798	l' envoyé	2	55	61	2	0	0	0	79	703	envoyé	nmod	700	NOUN	NOM	Singular	Not_Assigned	3	2
+704	704	PER	0.9966723918914795	lui	1	55	61	4	0	0	0	80	704	lui	iobj	705	PRON	PRON	Singular	Ambiguous	3	2
+712	712	PER	0.7269232273101807	on	1	56	62	1	0	0	0	81	712	on	nsubj	714	PRON	PRON	Ambiguous	Ambiguous	3	26
+713	713	PER	0.993897020816803	vous	1	56	62	2	0	0	0	82	713	vous	iobj	714	PRON	PRON	Ambiguous	Ambiguous	2	1
+718	718	PER	0.9911154508590698	vous	1	56	62	7	0	0	0	83	718	vous	iobj	720	PRON	PRON	Ambiguous	Ambiguous	2	1
+724	724	PER	0.9991680383682251	-il	1	56	62	13	0	0	0	84	724	il	dep	723	PRON	PRON	Singular	Male	3	2
+732	732	PER	0.9955742359161377	sa	1	57	63	3	0	0	0	85	732	sa	det	733	DET	PRON	Singular	Ambiguous	3	2
+735	735	PER	0.9992796778678894	il	1	57	63	6	0	0	0	86	735	il	nsubj	737	PRON	PRON	Singular	Male	3	2
+736	736	PER	0.9980520009994507	le	1	57	63	7	0	0	0	87	736	le	obj	737	PRON	PRON	Singular	Male	3	1
+740	741	FAC	0.9082005023956299	la grange	2	57	63	11	0	0	0	88	741	grange	obl:arg	737	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+743	745	TIME	0.6567125916481018	un moment après	3	58	64	0	0	0	0	89	744	moment	obl:mod	745	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+747	749	PER	0.9637136061986288	m. de castries	3	58	64	4	0	0	0	90	749	castries	nmod	747	PROPN	PROP	Singular	Male	3	12
+751	754	PER	0.8236430138349533	son aide de camp	4	58	64	8	0	1	1	91	752	aide	appos	747	NOUN	NOM	Singular	Not_Assigned	3	12
+751	751	PER	0.9960475564002991	son	1	58	64	8	1	0	0	92	751	son	det	752	DET	PRON	Singular	Ambiguous	3	2
+758	758	PER	0.9708216786384583	balachow	1	59	65	0	0	0	0	93	758	balachow	obj	816	PROPN	PROP	Singular	Not_Assigned	3	8
+761	761	PER	0.9970656037330627	le	1	59	65	3	0	0	0	94	761	le	obj	762	PRON	PRON	Singular	Male	3	8
+763	764	FAC	0.7733893394470215	au logement	2	59	65	5	0	0	0	95	764	logement	obl:arg	762	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+765	765	FAC	0.7480557560920715	qui	1	59	65	7	0	0	0	96	765	qui	nsubj:pass	768	PRON	PRON	Not_Assigned	Not_Assigned	4	
+766	766	PER	0.9857432246208191	lui	1	59	65	8	0	0	0	97	766	lui	iobj	768	PRON	PRON	Singular	Ambiguous	3	8
+770	771	PER	0.7588708698749542	le général	2	59	65	12	0	0	0	98	771	général	nsubj	831	NOUN	NOM	Singular	Male	3	0
+776	777	FAC	0.874990850687027	la grange	2	60	66	4	0	0	0	99	777	grange	obl:mod	773	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+779	781	PER	0.9292365113894144	le maréchal davout	3	60	66	7	0	0	0	100	780	maréchal	obl:mod	773	NOUN	PROP	Singular	Male	3	27
+783	783	PER	0.9853730797767639	davout	1	60	66	11	0	0	0	101	783	davout	nsubj	845	PROPN	PROP	Singular	Male	3	28
+784	784	PER	0.9903597831726074	lui	1	60	66	12	0	0	0	102	784	lui	iobj	845	PRON	PRON	Singular	Ambiguous	3	0
+787	787	PER	0.9962213039398193	il	1	61	67	2	0	0	0	103	787	il	nsubj	788	PRON	PRON	Singular	Male	3	0
+789	790	TIME	0.9406818747520447	le lendemain	2	61	67	4	0	0	0	104	790	lendemain	obl:mod	788	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+792	792	PER	0.9946151375770569	l'	1	61	67	7	0	0	0	105	792	l'	obj	793	PRON	PRON	Singular	Ambiguous	3	0
+797	798	VEH	0.6700731068849564	le train	2	61	67	12	0	0	0	106	798	train	obl:arg	795	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+802	802	PER	0.9991987347602844	il	1	62	68	3	0	0	0	107	802	il	nsubj	803	PRON	PRON	Singular	Male	3	0
+804	804	PER	0.8686360120773315	le	1	62	68	5	0	0	0	108	804	le	obj	805	PRON	PRON	Singular	Male	3	2
+808	808	PER	0.997137188911438	il	1	62	68	9	0	0	0	109	808	il	nsubj	809	PRON	PRON	Singular	Male	3	0
+823	825	PER	0.9673558076222738	m. de castries	3	63	69	6	0	0	0	110	825	castries	nmod	823	PROPN	PROP	Singular	Male	3	29
+827	836	TIME	0.6149069696664811	au bout de quatre jours de solitude et d' ennui	10	64	70	0	0	0	0	111	831	jours	nmod	828	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+840	840	PER	0.9944605827331543	il	1	64	70	13	0	0	0	112	840	il	nsubj	905	PRON	PRON	Singular	Male	3	0
+847	847	PER	0.9891716837882996	sa	1	65	71	6	0	0	0	113	847	sa	det	848	DET	PRON	Singular	Ambiguous	3	0
+851	851	PER	0.9820212125778198	son	1	65	71	10	0	0	0	114	851	son	det	852	DET	PRON	Singular	Ambiguous	3	0
+861	861	PER	0.9973516464233398	lui	1	66	72	7	0	0	0	115	861	lui	obl:mod	859	PRON	PRON	Singular	Ambiguous	3	0
+864	864	TIME	0.5769678354263306	hier	1	66	72	10	0	0	0	116	864	hier	dep	848	ADV	NOM	Not_Assigned	Not_Assigned	3	
+866	866	PER	0.9663891792297363	il	1	66	72	12	0	0	0	117	866	il	case	870	PRON	PRON	Singular	Male	3	0
+882	886	PER	0.515215402841568	bagages personnels du maréchal davout	5	68	74	0	0	1	1	118	882	bagages	nmod	876	NOUN	PROP	Singular	Not_Assigned	3	30
+884	886	PER	0.9224618872006735	du maréchal davout	3	68	74	2	1	0	0	119	885	maréchal	nmod	882	NOUN	PROP	Singular	Male	3	0
+894	894	PER	0.8132925033569336	qui	1	69	75	2	0	0	0	120	894	qui	nsubj	895	PRON	PRON	Ambiguous	Ambiguous	4	31
+896	898	GPE	0.3347192754348119	toute la localité	3	69	75	4	0	0	0	121	898	localité	obj	895	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+900	900	PER	0.9768357276916504	balachow	1	69	75	8	0	0	0	122	900	balachow	nsubj:pass	902	PROPN	PROP	Singular	Not_Assigned	3	3
+904	904	GPE	0.8154518008232117	vilna	1	70	76	0	0	0	0	123	904	vilna	obj	973	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+907	907	GPE	0.903959333896637	y	1	70	76	3	0	0	0	124	907	y	iobj	908	PRON	PRON	Not_Assigned	Not_Assigned	3	
+914	914	PER	0.9963629841804504	il	1	70	76	10	0	0	0	125	914	il	nsubj	916	PRON	PRON	Singular	Male	3	3
+921	923	TIME	0.8788456519444784	le lendemain matin	3	72	78	0	0	0	0	126	922	lendemain	obl:mod	935	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+925	929	PER	0.810354471206665	un chambellan de l' empereur	5	72	78	4	0	1	1	127	926	chambellan	nsubj	935	NOUN	NOM	Not_Assigned	Not_Assigned	3	32
+928	929	PER	0.7517237067222595	l' empereur	2	72	78	7	1	0	0	128	929	empereur	nmod	926	NOUN	NOM	Singular	Male	3	33
+931	933	PER	0.9389008482297262	m. de turenne	3	72	78	10	0	0	0	129	933	turenne	nmod	931	PROPN	PROP	Singular	Male	3	0
+936	936	PER	0.993850827217102	lui	1	72	78	15	0	0	0	130	936	lui	iobj	1009	PRON	PRON	Singular	Ambiguous	3	3
+942	943	PER	0.9807540774345398	son maître	2	73	79	5	0	1	1	131	943	maître	nmod	940	NOUN	NOM	Singular	Male	3	4
+942	942	PER	0.9976128339767456	son	1	73	79	5	1	0	0	132	942	son	det	943	DET	PRON	Singular	Ambiguous	3	3
+945	945	PER	0.9302640557289124	il	1	73	79	8	0	0	0	133	945	il	nsubj	947	PRON	PRON	Singular	Male	3	4
+946	946	PER	0.9977236390113831	lui	1	73	79	9	0	0	0	134	946	lui	iobj	947	PRON	PRON	Singular	Ambiguous	3	3
+951	954	TIME	0.48330996558070183	peu de jours auparavant	4	74	80	0	0	0	0	135	954	auparavant	advmod	935	ADV	NOM	Not_Assigned	Not_Assigned	3	
+956	961	PER	0.6706097026666006	des sentinelles du régiment de préobrajensky	6	74	80	5	0	1	1	136	957	sentinelles	nsubj	1036	NOUN	PROP	Ambiguous	Not_Assigned	3	34
+958	961	PER	0.509828120470047	du régiment de préobrajensky	4	74	80	7	1	0	0	137	959	régiment	nmod	957	NOUN	PROP	Plural	Ambiguous	3	35
+970	971	FAC	0.916064590215683	la maison	2	75	81	8	0	0	0	138	971	maison	nmod	968	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+972	972	FAC	0.9299928545951843	où	1	75	81	10	0	0	0	139	972	où	iobj	975	PRON	PRON	Not_Assigned	Not_Assigned	3	
+974	974	PER	0.6843332648277283	on	1	75	81	12	0	0	0	140	974	on	nsubj	975	PRON	PRON	Ambiguous	Ambiguous	3	36
+976	976	PER	0.9507738351821899	balachow	1	76	82	0	0	0	0	141	976	balachow	obj	1051	PROPN	PROP	Singular	Not_Assigned	3	37
+982	984	PER	0.8838995297749838	deux grenadiers français	3	76	82	6	0	0	0	142	983	grenadiers	obj	980	NOUN	NOM	Plural	Not_Assigned	3	38
+1006	1012	PER	0.5849665658814567	une brillante suite d' aides de camp	7	78	84	3	0	0	0	143	1008	suite	conj	983	NOUN	NOM	Not_Assigned	Not_Assigned	3	5
+1017	1017	PER	0.5552936792373657	napoléon	1	79	85	0	0	0	0	144	1017	napoléon	nmod	1095	PROPN	PROP	Singular	Male	3	39
+1019	1019	PER	0.9826055765151978	ils	1	79	86	0	0	0	0	145	1019	ils	nsubj:pass	1021	PRON	PRON	Plural	Ambiguous	3	5
+1024	1025	FAC	0.5789786875247955	du perron	2	79	86	5	0	0	0	146	1025	perron	nmod	1023	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1028	1029	VEH	0.715432345867157	son cheval	2	79	86	9	0	1	1	147	1029	cheval	dep	1026	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1028	1028	PER	0.9866722822189331	son	1	79	86	9	1	0	0	148	1028	son	det	1029	DET	PRON	Singular	Ambiguous	3	3
+1033	1033	PER	0.5206775665283203	dont	1	80	87	2	0	0	0	149	1033	dont	nmod	1035	PRON	PRON	Ambiguous	Ambiguous	4	5
+1034	1036	PER	0.8667541941006979	le mamelouk roustan	3	80	87	3	0	0	0	150	1035	mamelouk	nsubj	1037	NOUN	PROP	Singular	Not_Assigned	3	5
+1043	1043	PER	0.9634056687355042	napoléon	1	80	88	2	0	0	0	151	1043	napoléon	nsubj	1125	PROPN	PROP	Singular	Male	3	40
+1044	1044	PER	0.9943985342979431	le	1	80	88	3	0	0	0	152	1044	le	obj	1125	PRON	PRON	Singular	Male	3	3
+1047	1049	FAC	0.8400963743527731	la même maison	3	81	89	2	0	0	0	153	1049	maison	obl:mod	1045	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1050	1050	FAC	0.9439653754234314	où	1	81	89	5	0	0	0	154	1050	où	iobj	1054	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1051	1051	PER	0.5097423195838928	alexandre	1	81	89	6	0	0	0	155	1051	alexandre	nsubj	1054	PROPN	PROP	Singular	Male	3	13
+1052	1052	PER	0.9966204166412354	lui	1	81	89	7	0	0	0	156	1052	lui	iobj	1054	PRON	PRON	Singular	Ambiguous	3	3
+1055	1055	PER	0.9981125593185425	son	1	81	89	10	0	0	0	157	1055	son	det	1056	DET	PRON	Singular	Ambiguous	3	13

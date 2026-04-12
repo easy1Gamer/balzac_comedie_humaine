@@ -1,0 +1,202 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	6	TIME	0.6478955944379171	dans la nuit du 13 septembre	6	1	1	0	0	1	2	0	3	nuit	obl:mod	9	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1	1	TIME	0.736110508441925	dans	1	1	1	0	1	0	0	1	1	dans	case	3	ADP	PRON	Not_Assigned	Not_Assigned	3	
+2	6	TIME	0.6799343228340149	la nuit du 13 septembre	5	1	1	1	1	0	0	2	3	nuit	obl:mod	9	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+8	8	PER	0.9859212040901184	koutouzow	1	1	1	7	0	0	0	3	8	koutouzow	nsubj	9	PROPN	PROP	Singular	Not_Assigned	3	14
+12	13	PER	0.6045452356338501	aux troupes	2	1	1	11	0	0	0	4	13	troupes	obl:arg	9	NOUN	NOM	Plural	Ambiguous	3	6
+18	18	GPE	0.9087620377540588	moscou	1	2	2	2	0	0	0	5	18	moscou	ROOT	18	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+23	23	GPE	0.7889258861541748	riazan	1	2	2	7	0	0	0	6	23	riazan	nmod	21	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+25	27	PER	0.7245928843816122	les premiers régiments	3	2	3	0	0	0	0	7	27	régiments	nsubj	31	NOUN	NOM	Plural	Not_Assigned	3	2
+32	33	TIME	0.8600521981716156	la nuit	2	3	4	3	0	0	0	8	33	nuit	obl:mod	29	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+35	35	PER	0.9681899547576904	ils	1	3	4	6	0	0	0	9	35	ils	nsubj	36	PRON	PRON	Plural	Ambiguous	3	2
+46	49	TIME	0.5991434305906296	au point du jour	4	4	5	3	0	0	0	10	47	point	obl:mod	63	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+53	56	FAC	0.6473273038864136	au pont de dorogomilow	4	4	5	10	0	1	1	11	54	pont	obl:arg	52	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+56	56	GPE	0.3731193542480469	dorogomilow	1	4	5	13	1	0	0	12	56	dorogomilow	nmod	54	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+58	58	PER	0.9304327964782715	ils	1	4	5	15	0	0	0	13	58	ils	nsubj	63	PRON	PRON	Plural	Ambiguous	3	2
+61	61	PER	0.9223634600639343	eux	1	5	6	2	0	0	0	14	61	eux	obl:mod	59	PRON	PRON	Plural	Ambiguous	3	2
+62	64	PER	0.657333493232727	une foule innombrable	3	5	6	3	0	0	0	15	63	foule	obj	59	NOUN	NOM	Plural	Ambiguous	3	15
+66	67	FAC	0.8796702325344086	le pont	2	5	6	7	0	0	0	16	67	pont	obj	65	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+78	79	FAC	0.8280898928642273	les rues	2	6	7	9	0	0	0	17	79	rues	obl:mod	76	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+81	82	FAC	0.4999973922967911	les carrefours	2	6	7	12	0	0	0	18	82	carrefours	conj	79	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+89	89	PER	0.981657862663269	ils	1	7	8	6	0	0	0	19	89	ils	nsubj	91	PRON	PRON	Plural	Ambiguous	3	2
+100	100	PER	0.5177056193351746	gens	1	8	9	4	0	0	0	20	100	gens	nmod	95	NOUN	NOM	Plural	Ambiguous	3	7
+101	101	PER	0.8240914940834045	qui	1	8	9	5	0	0	0	21	101	qui	nsubj	103	PRON	PRON	Ambiguous	Ambiguous	4	7
+102	102	PER	0.9669402837753296	les	1	8	9	6	0	0	0	22	102	les	obj	103	PRON	PRON	Plural	Ambiguous	3	2
+108	108	PER	0.4543629586696625	soldats	1	9	10	0	0	0	0	23	108	soldats	nsubj	117	NOUN	NOM	Plural	Ambiguous	3	2
+121	122	FAC	0.8659235537052155	le pont	2	10	11	1	0	0	0	24	122	pont	obl:arg	129	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+125	126	VEH	0.5211938619613647	les barques	2	10	11	5	0	0	0	25	126	barques	nmod	122	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+135	135	PER	0.9962254762649536	koutouzow	1	10	12	2	0	0	0	26	135	koutouzow	obl:mod	148	PROPN	PROP	Singular	Not_Assigned	3	9
+137	137	PER	0.9901158213615417	il	1	10	12	4	0	0	0	27	137	il	nsubj	148	PRON	PRON	Singular	Male	3	9
+139	139	GPE	0.8871537446975708	moscou	1	11	13	1	0	0	0	28	139	moscou	obj	138	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+141	143	FAC	0.7268418868382772	des rues détournées	3	11	13	3	0	0	0	29	142	rues	obl:mod	138	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+145	149	TIME	0.8545573115348816	à dix heures du matin	5	11	14	0	0	0	0	30	147	heures	obl:mod	164	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+151	152	TIME	0.5836554169654846	le 14	2	11	14	6	0	0	0	31	152	14	obl:mod	164	NUM	NOM	Not_Assigned	Not_Assigned	3	
+163	165	FAC	0.4805891315142314	le faubourg de	3	12	15	10	0	0	0	32	164	faubourg	obl:mod	157	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+166	166	GPE	0.3123650550842285	dorogomilow	1	13	16	0	0	0	0	33	166	dorogomilow	nmod	178	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+168	173	PER	0.5859164198239645	tout le reste de l' armée	6	13	16	2	0	0	0	34	170	reste	nsubj	175	NOUN	NOM	Not_Assigned	Not_Assigned	3	5
+176	176	PER	0.9668494462966919	son	1	13	16	10	0	0	0	35	176	son	det	177	DET	PRON	Singular	Ambiguous	3	5
+179	182	TIME	0.7509559839963913	à la même heure	4	14	17	0	0	0	0	36	182	heure	obl:mod	194	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+184	184	PER	0.8396433591842651	napoléon	1	14	17	5	0	0	0	37	184	napoléon	nsubj	194	PROPN	PROP	Singular	Male	3	8
+191	192	PER	0.680825263261795	ses troupes	2	14	17	12	0	1	1	38	192	troupes	nmod	189	NOUN	NOM	Plural	Ambiguous	3	6
+191	191	PER	0.9955249428749084	ses	1	14	17	12	1	0	0	39	191	ses	det	192	DET	PRON	Singular	Ambiguous	3	8
+199	201	LOC	0.8385526140530905	la montagne poklonnaïa	3	15	18	3	0	0	0	40	200	montagne	nmod	197	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+209	209	PER	0.9960184693336487	ses	1	16	19	0	0	0	0	41	209	ses	det	210	DET	PRON	Singular	Ambiguous	3	8
+212	213	TIME	0.6405917406082153	du 7	2	16	20	0	0	0	0	42	213	7	obl:mod	237	NUM	NOM	Not_Assigned	Not_Assigned	3	
+214	216	TIME	0.669513076543808	au 14 septembre	3	16	20	2	0	0	0	43	215	14	nmod	213	NUM	NOM	Not_Assigned	Not_Assigned	3	
+219	219	GPE	0.5832916498184204	borodino	1	16	20	7	0	0	0	44	219	borodino	nmod	223	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+225	226	PER	0.6387700736522675	l' ennemi	2	17	21	0	0	0	0	45	226	ennemi	obj	241	NOUN	NOM	Singular	Male	3	10
+228	234	TIME	0.6635719537734985	pendant toute cette semaine mémorable et agitée	7	17	21	3	0	1	1	46	231	semaine	obl:mod	237	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+229	234	TIME	0.520495260755221	toute cette semaine mémorable et agitée	6	17	21	4	1	0	0	47	231	semaine	obl:mod	237	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+239	239	GPE	0.7107489109039307	moscou	1	18	22	0	0	0	0	48	239	moscou	obl:mod	237	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+258	259	LOC	0.7553455233573914	du soleil	2	19	23	6	0	0	0	49	259	soleil	nmod	257	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+282	283	TIME	0.7993196547031403	au printemps	2	21	25	2	0	0	0	50	283	printemps	dep	280	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+325	326	PER	0.6752166152000427	les uns	2	24	28	3	0	0	0	51	326	uns	nsubj	328	PRON	PRON	Plural	Ambiguous	3	16
+329	330	PER	0.5972414314746857	les autres	2	24	28	7	0	0	0	52	330	autres	obj	328	PRON	PRON	Plural	Ambiguous	3	17
+334	335	TIME	0.6138946264982224	du matin	2	25	30	0	0	0	0	53	335	matin	obl:mod	358	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+337	337	GPE	0.8190479278564453	moscou	1	25	30	3	0	0	0	54	337	moscou	obj	336	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+348	348	PER	0.13458530604839325	poklonnaïa	1	26	32	0	0	0	0	55	348	poklonnaïa	nmod	373	PROPN	PROP	Singular	Not_Assigned	3	18
+350	351	FAC	0.4894905537366867	ses jardins	2	26	32	2	0	1	1	56	351	jardins	obl:mod	343	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+350	350	FAC	0.3058565557003021	ses	1	26	32	2	1	0	0	57	350	ses	det	351	DET	PRON	Not_Assigned	Not_Assigned	3	
+353	354	FAC	0.668775349855423	ses églises	2	26	32	5	0	1	1	58	354	églises	conj	351	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+353	353	FAC	0.7197341918945312	ses	1	26	32	5	1	0	0	59	353	ses	det	354	DET	PRON	Not_Assigned	Not_Assigned	3	
+356	357	LOC	0.296734020113945	sa rivière	2	26	32	8	0	1	1	60	357	rivière	conj	351	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+356	356	FAC	0.6314472556114197	sa	1	26	32	8	1	0	0	61	356	sa	det	357	DET	PRON	Not_Assigned	Not_Assigned	3	
+359	359	FAC	0.642813503742218	ses	1	26	32	11	0	0	0	62	359	ses	det	360	DET	PRON	Not_Assigned	Not_Assigned	3	
+370	371	LOC	0.7597465217113495	du soleil	2	27	33	9	0	0	0	63	371	soleil	nmod	369	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+381	382	GPE	0.7983418107032776	la ville	2	28	34	7	0	0	0	64	382	ville	nsubj	383	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+386	386	PER	0.6318225264549255	sa	1	29	35	2	0	0	0	65	386	sa	ROOT	386	DET	PRON	Singular	Ambiguous	3	5
+390	390	PER	0.9853915572166443	napoléon	1	29	36	0	0	0	0	66	390	napoléon	nsubj	391	PROPN	PROP	Singular	Male	3	0
+394	394	GPE	0.4830484688282013	la	1	29	36	4	0	0	0	67	394	la	obj	395	PRON	PRON	Not_Assigned	Not_Assigned	3	
+417	417	PER	0.9992102384567261	il	1	31	39	0	0	0	0	68	417	il	nsubj	418	PRON	PRON	Singular	Male	3	0
+420	422	GPE	0.6103734771410624	cette grande cité	3	32	40	1	0	0	0	69	422	cité	case	424	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+429	429	PER	0.9966552257537842	il	1	32	40	10	0	0	0	70	429	il	nsubj	430	PRON	PRON	Singular	Male	3	0
+435	436	LOC	0.7343398034572601	la montagne	2	33	41	2	0	0	0	71	436	montagne	nmod	433	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+443	443	PER	0.9977783560752869	il	1	33	41	10	0	0	0	72	443	il	nsubj	444	PRON	PRON	Singular	Male	3	0
+457	457	PER	0.9706171154975891	lui	1	34	42	11	0	0	0	73	457	lui	obl:mod	455	PRON	PRON	Singular	Ambiguous	3	0
+459	461	PER	0.49796274304389954	chaque cœur russe	3	35	43	0	0	0	0	74	460	cœur	nsubj	468	NOUN	NOM	Not_Assigned	Not_Assigned	3	19
+465	465	GPE	0.9485613703727722	moscou	1	35	43	6	0	0	0	75	465	moscou	obj	464	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+498	498	PER	0.7874600291252136	napoléon	1	38	46	0	0	0	0	76	498	napoléon	nsubj	500	PROPN	PROP	Singular	Male	3	20
+503	505	GPE	0.6036467353502909	cette ville asiatique	3	39	47	1	0	0	0	77	504	ville	nsubj	555	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+508	508	GPE	0.4021121859550476	ses	1	39	47	6	0	0	0	78	508	ses	det	510	DET	PRON	Not_Assigned	Not_Assigned	3	
+512	512	GPE	0.6135514974594116	moscou	1	39	47	10	0	0	0	79	512	moscou	appos	504	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+516	516	FAC	0.5618603229522705	la	1	40	48	0	0	0	0	80	516	la	obj	517	PRON	PRON	Not_Assigned	Not_Assigned	3	
+521	523	GPE	0.7221906582514445	cette ville fameuse	3	40	48	5	0	0	0	81	522	ville	obj	517	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+531	531	PER	0.9930230379104614	-il	1	40	50	2	0	0	0	82	531	il	nsubj	530	PRON	PRON	Singular	Male	3	0
+542	542	PER	0.9873378276824951	lui	1	41	51	9	0	0	0	83	542	lui	obl:mod	540	PRON	PRON	Singular	Ambiguous	3	0
+546	546	GPE	0.9407422542572021	moscou	1	41	51	13	0	0	0	84	546	moscou	nmod	544	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+548	548	PER	0.9989805817604065	il	1	42	52	0	0	0	0	85	548	il	nsubj	549	PRON	PRON	Singular	Male	3	0
+550	554	PER	0.8179914116859436	l' interprète lelorgne d' ideville	5	42	52	2	0	0	0	86	551	interprète	obj	549	NOUN	PROP	Singular	Not_Assigned	3	21
+561	562	PER	0.4429204910993576	l' ennemi	2	43	54	0	0	0	0	87	562	ennemi	nsubj	603	NOUN	NOM	Singular	Male	3	10
+578	578	PER	0.9953502416610718	-il	1	43	54	17	0	0	0	88	578	il	nsubj	577	PRON	PRON	Singular	Male	3	0
+582	582	PER	0.9961255192756653	il	1	44	55	2	0	0	0	89	582	il	nsubj	585	PRON	PRON	Singular	Male	3	0
+587	587	PER	0.9771411418914795	toutchkow	1	44	55	7	0	0	0	90	587	toutchkow	obl:arg	585	PROPN	PROP	Singular	Not_Assigned	3	22
+589	589	GPE	0.8862972259521484	smolensk	1	44	55	9	0	0	0	91	589	smolensk	obl:mod	585	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+602	602	PER	0.9982244372367859	lui	1	45	57	7	0	0	0	92	602	lui	iobj	604	PRON	PRON	Singular	Ambiguous	3	0
+616	616	PER	0.9992455244064331	il	1	46	58	8	0	0	0	93	616	il	nsubj	617	PRON	PRON	Singular	Male	3	0
+623	623	PER	0.9933684468269348	ses	1	47	59	2	0	0	0	94	623	ses	det	624	DET	PRON	Singular	Ambiguous	3	0
+634	634	PER	0.7720316052436829	sa	1	47	60	8	0	0	0	95	634	sa	det	682	DET	PRON	Singular	Ambiguous	3	0
+637	637	PER	0.9995691180229187	il	1	48	61	2	0	0	0	96	637	il	nsubj	638	PRON	PRON	Singular	Male	3	0
+639	639	PER	0.9990242719650269	ses	1	48	61	4	0	0	0	97	639	ses	det	640	DET	PRON	Singular	Ambiguous	3	0
+643	643	PER	0.9930644631385803	lui	1	48	61	8	0	0	0	98	643	lui	dep	641	PRON	PRON	Singular	Ambiguous	3	0
+650	650	PER	0.9988330006599426	il	1	49	62	0	0	0	0	99	650	il	nsubj	651	PRON	PRON	Singular	Male	3	0
+657	657	PER	0.9992009997367859	il	1	49	62	7	0	0	0	100	657	il	nsubj	658	PRON	PRON	Singular	Male	3	0
+661	661	FAC	0.6658967733383179	la	1	50	63	1	0	0	0	101	661	la	obj	662	PRON	PRON	Not_Assigned	Not_Assigned	3	
+665	667	GPE	0.4703711271286011	cette fière capitale	3	50	63	5	0	0	0	102	667	capitale	obj	662	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+671	671	PER	0.9799251556396484	-il	1	50	63	11	0	0	0	103	671	il	nsubj	670	PRON	PRON	Singular	Male	3	0
+673	673	GPE	0.6631726026535034	la	1	50	63	13	0	0	0	104	673	la	obj	674	PRON	PRON	Not_Assigned	Not_Assigned	3	
+676	676	PER	0.9882038831710815	ma	1	50	63	16	0	0	0	105	676	ma	obl:mod	674	DET	PRON	Singular	Ambiguous	1	0
+682	682	PER	0.8802828788757324	alexandre	1	51	65	3	0	0	0	106	682	alexandre	nsubj	680	PROPN	PROP	Singular	Male	3	11
+689	689	PER	0.9380596876144409	-il	1	51	65	10	0	0	0	107	689	il	dep	687	PRON	PRON	Singular	Male	3	11
+691	691	PER	0.9992169141769409	je	1	51	66	0	0	0	0	108	691	je	nsubj	693	PRON	PRON	Singular	Ambiguous	1	0
+706	709	GPE	0.6522992253303528	la capitale des tsars	4	52	67	8	0	0	0	109	707	capitale	nsubj:pass	713	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+716	716	PER	0.9955413937568665	ma	1	53	68	1	0	0	0	110	716	ma	det	717	DET	PRON	Singular	Ambiguous	1	0
+729	729	PER	0.995215654373169	-je	1	54	70	1	0	0	0	111	729	je	nsubj	730	PRON	PRON	Singular	Ambiguous	1	0
+734	734	PER	0.999081015586853	je	1	54	70	6	0	0	0	112	734	je	nsubj	736	PRON	PRON	Singular	Ambiguous	1	0
+756	757	FAC	0.4266471117734909	du kremlin	2	56	73	2	0	0	0	113	757	kremlin	nmod	755	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+759	759	PER	0.9989380240440369	je	1	56	73	5	0	0	0	114	759	je	nsubj	760	PRON	PRON	Singular	Ambiguous	1	0
+765	765	PER	0.9989326596260071	je	1	56	73	11	0	0	0	115	765	je	nsubj	823	PRON	PRON	Singular	Ambiguous	1	0
+766	766	PER	0.9344105124473572	leur	1	56	73	12	0	0	0	116	766	leur	iobj	823	PRON	PRON	Plural	Ambiguous	3	23
+780	781	PER	0.5038572698831558	des boyards	2	58	75	1	0	0	0	117	781	boyards	nmod	836	NOUN	NOM	Plural	Not_Assigned	3	4
+792	793	PER	0.6783615946769714	leur conquérant	2	59	76	0	0	1	1	118	793	conquérant	dep	783	NOUN	NOM	Singular	Not_Assigned	3	0
+792	792	PER	0.5426011681556702	leur	1	59	76	0	1	0	0	119	792	leur	det	793	DET	PRON	Plural	Ambiguous	3	4
+798	798	PER	0.976428747177124	leur	1	59	76	6	0	0	0	120	798	leur	iobj	799	PRON	PRON	Plural	Ambiguous	3	4
+800	800	PER	0.9962446093559265	-je	1	59	76	8	0	0	0	121	800	je	dep	799	PRON	PRON	Singular	Ambiguous	1	0
+806	806	PER	0.9989402890205383	je	1	59	76	14	0	0	0	122	806	je	nsubj	808	PRON	PRON	Singular	Ambiguous	1	0
+812	812	PER	0.996006429195404	mon	1	60	77	2	0	0	0	123	812	mon	det	813	DET	PRON	Singular	Ambiguous	1	0
+819	819	PER	0.8050035834312439	j'	1	60	77	9	0	0	0	124	819	j'	nsubj	820	PRON	PRON	Singular	Ambiguous	1	0
+822	822	PER	0.9846261143684387	je	1	60	77	12	0	0	0	125	822	je	nsubj	883	PRON	PRON	Singular	Ambiguous	1	0
+823	823	PER	0.964646577835083	vous	1	61	78	0	0	0	0	126	823	vous	iobj	824	PRON	PRON	Ambiguous	Ambiguous	2	4
+831	831	PER	0.980907142162323	vous	1	61	78	8	0	0	0	127	831	vous	obl:arg	829	PRON	PRON	Ambiguous	Ambiguous	2	4
+834	834	PER	0.9915109276771545	mes	1	61	78	11	0	0	0	128	834	mes	det	896	DET	PRON	Singular	Ambiguous	1	0
+835	835	PER	0.4975213408470154	peuples	1	62	79	0	0	0	0	129	835	peuples	obj	896	NOUN	NOM	Not_Assigned	Not_Assigned	3	24
+838	838	PER	0.9986672401428223	ma	1	62	79	3	0	0	0	130	838	ma	det	839	DET	PRON	Singular	Ambiguous	1	0
+840	840	PER	0.9588086009025574	les	1	62	79	5	0	0	0	131	840	les	obj	841	PRON	PRON	Plural	Ambiguous	3	4
+847	847	PER	0.9989834427833557	je	1	62	79	12	0	0	0	132	847	je	nsubj	849	PRON	PRON	Singular	Ambiguous	1	0
+848	848	PER	0.9842959642410278	leur	1	62	79	13	0	0	0	133	848	leur	iobj	849	PRON	PRON	Plural	Ambiguous	3	4
+859	859	PER	0.9767462015151978	m'	1	64	81	3	0	0	0	134	859	m'	iobj	860	PRON	PRON	Singular	Ambiguous	1	0
+871	871	PER	0.9984357953071594	-il	1	64	82	4	0	0	0	135	871	il	dep	869	PRON	PRON	Singular	Male	3	0
+876	876	PER	0.9970691800117493	sa	1	64	82	9	0	0	0	136	876	sa	det	941	DET	PRON	Singular	Ambiguous	3	0
+880	881	PER	0.9536838531494141	un général	2	65	83	3	0	0	0	137	881	général	nsubj	884	NOUN	NOM	Singular	Male	3	25
+888	888	PER	0.8430898785591125	les	1	65	83	11	0	0	0	138	888	les	obj	889	PRON	PRON	Plural	Ambiguous	3	4
+891	894	TIME	0.5940097905695438	deux heures s' écoulèrent	4	66	84	0	0	0	0	139	894	écoulèrent	ROOT	894	VERB	NOM	Not_Assigned	Not_Assigned	3	
+896	896	PER	0.9016715884208679	napoléon	1	66	85	0	0	0	0	140	896	napoléon	nsubj	897	PROPN	PROP	Singular	Male	3	1
+904	904	GPE	0.4297671616077423	y	1	67	86	1	0	0	0	141	904	y	iobj	905	PRON	PRON	Not_Assigned	Not_Assigned	3	
+906	907	PER	0.8363904058933258	la députation	2	67	86	3	0	0	0	142	907	députation	obj	905	NOUN	NOM	Singular	Not_Assigned	3	5
+909	909	PER	0.9983474016189575	son	1	67	87	0	0	0	0	143	909	son	det	910	DET	PRON	Singular	Ambiguous	3	1
+923	923	PER	0.9966153502464294	lui	1	68	88	6	0	0	0	144	923	lui	obl:mod	912	PRON	PRON	Singular	Ambiguous	3	1
+932	932	PER	0.9934670329093933	il	1	68	89	5	0	0	0	145	932	il	nsubj	1001	PRON	PRON	Singular	Male	3	1
+935	936	GPE	0.8651075661182404	la capitale	2	69	90	2	0	0	0	146	936	capitale	obj	934	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+938	938	PER	0.9964535236358643	son	1	69	90	5	0	0	0	147	938	son	det	939	DET	PRON	Singular	Ambiguous	3	1
+940	940	PER	0.9970530271530151	lui	1	69	90	7	0	0	0	148	940	lui	iobj	941	PRON	PRON	Singular	Ambiguous	3	1
+946	949	FAC	0.4549456909298897	le palais des tsars	4	70	91	2	0	0	0	149	947	palais	nmod	944	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+951	951	FAC	0.5725057721138	où	1	70	91	7	0	0	0	150	951	où	iobj	1027	PRON	PRON	Not_Assigned	Not_Assigned	3	
+952	955	PER	0.7058599293231964	les grands seigneurs russes	4	70	91	8	0	0	0	151	954	seigneurs	nsubj	1027	NOUN	NOM	Plural	Ambiguous	3	12
+959	963	PER	0.5011741042137146	les seigneurs de sa cour	5	71	92	2	0	1	1	152	960	seigneurs	obl:mod	957	NOUN	NOM	Plural	Not_Assigned	3	12
+962	962	PER	0.982844352722168	sa	1	71	92	5	1	0	0	153	962	sa	det	963	DET	PRON	Singular	Ambiguous	3	1
+965	965	PER	0.9993576407432556	il	1	71	93	0	0	0	0	154	965	il	nsubj	966	PRON	PRON	Singular	Male	3	1
+967	968	PER	0.5744150578975677	un préfet	2	71	93	2	0	0	0	155	968	préfet	obj	966	NOUN	NOM	Singular	Male	3	26
+970	970	PER	0.9900028705596924	lui	1	72	94	0	0	0	0	156	970	lui	iobj	971	PRON	PRON	Singular	Ambiguous	3	1
+974	975	PER	0.679705411195755	des populations	2	72	94	4	0	0	0	157	975	populations	nmod	973	NOUN	NOM	Plural	Not_Assigned	3	27
+977	977	PER	0.9995039701461792	il	1	72	94	7	0	0	0	158	977	il	nsubj	978	PRON	PRON	Singular	Male	3	1
+990	990	GPE	0.8718712329864502	afrique	1	73	95	8	0	0	0	159	990	afrique	obl:mod	993	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+991	991	PER	0.9830447435379028	il	1	73	95	9	0	0	0	160	991	il	nsubj	993	PRON	PRON	Singular	Male	3	1
+1005	1006	FAC	0.7024841606616974	une mosquée	2	74	96	11	0	0	0	161	1006	mosquée	obl:arg	1003	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1010	1010	GPE	0.907183825969696	moscou	1	75	97	2	0	0	0	162	1010	moscou	obl:mod	1012	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1011	1011	PER	0.9867926836013794	il	1	75	97	3	0	0	0	163	1011	il	nsubj	1012	PRON	PRON	Singular	Male	3	1
+1020	1021	PER	0.817856103181839	des tsars	2	75	97	12	0	0	0	164	1021	tsars	nmod	1019	NOUN	NOM	Plural	Not_Assigned	3	28
+1025	1025	PER	0.9995662569999695	il	1	76	98	2	0	0	0	165	1025	il	nsubj	1026	PRON	PRON	Singular	Male	3	1
+1039	1040	PER	0.8336514532566071	ses généraux	2	77	99	2	0	1	1	166	1040	généraux	nsubj	1042	NOUN	NOM	Plural	Ambiguous	3	13
+1039	1039	PER	0.9962553977966309	ses	1	77	99	2	1	0	0	167	1039	ses	det	1040	DET	PRON	Singular	Ambiguous	3	1
+1044	1044	PER	0.9848235845565796	eux	1	77	99	7	0	0	0	168	1044	eux	obl:arg	1042	PRON	PRON	Plural	Ambiguous	3	13
+1056	1057	PER	0.8469387590885162	des députés	2	78	100	6	0	0	0	169	1057	députés	nmod	1055	NOUN	NOM	Plural	Ambiguous	3	29
+1068	1069	GPE	0.8514643013477325	la ville	2	79	101	6	0	0	0	170	1069	ville	nsubj	1071	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1075	1077	PER	0.43129371603329975	tout le monde	3	79	101	13	0	0	0	171	1077	monde	nsubj	1158	NOUN	NOM	Plural	Ambiguous	3	30
+1078	1078	GPE	0.4166249632835388	la	1	79	101	16	0	0	0	172	1078	la	obj	1158	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1086	1087	PER	0.8844635784626007	sa majesté	2	80	103	5	0	0	0	173	1087	majesté	obl:arg	1082	NOUN	NOM	Singular	Ambiguous	3	0
+1089	1089	PER	0.9883191585540771	la	1	80	103	8	0	0	0	174	1089	la	obj	1090	PRON	PRON	Singular	Female	3	0
+1105	1105	PER	0.9909591674804688	lui	1	82	105	1	0	0	0	175	1105	lui	iobj	1106	PRON	PRON	Singular	Ambiguous	3	0
+1122	1123	GPE	0.8691754341125488	la ville	2	83	106	5	0	0	0	176	1123	ville	obl:mod	1119	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1125	1130	PER	0.7591181894143423	des gens surexcités par l' ivresse	6	83	106	8	0	0	0	177	1126	gens	obj	1119	NOUN	NOM	Plural	Not_Assigned	3	7
+1133	1133	PER	0.49314266443252563	uns	1	84	108	0	0	0	0	178	1133	uns	nsubj	1134	PRON	PRON	Not_Assigned	Not_Assigned	3	31
+1146	1147	PER	0.9139263927936554	les autres	2	85	109	2	0	0	0	179	1147	autres	nsubj	1148	PRON	PRON	Plural	Ambiguous	3	32
+1162	1163	PER	0.8762220144271851	l' empereur	2	86	110	6	0	0	0	180	1163	empereur	obl:arg	1150	NOUN	NOM	Singular	Male	3	1
+1188	1188	PER	0.9608794450759888	il	1	89	114	1	0	0	0	181	1188	il	nsubj	1190	PRON	PRON	Singular	Male	3	1
+1201	1202	PER	0.9509548246860504	l' empereur	2	90	115	0	0	0	0	182	1202	empereur	nsubj	1306	NOUN	NOM	Singular	Male	3	3
+1204	1204	PER	0.980933666229248	qui	1	90	115	3	0	0	0	183	1204	qui	nsubj	1206	PRON	PRON	Ambiguous	Ambiguous	4	3
+1211	1211	PER	0.9882926344871521	ses	1	90	115	10	0	0	0	184	1211	ses	det	1212	DET	PRON	Singular	Ambiguous	3	3
+1220	1220	PER	0.9733678698539734	son	1	91	116	4	0	0	0	185	1220	son	det	1221	DET	PRON	Singular	Ambiguous	3	3
+1223	1223	PER	0.9379512071609497	sa	1	91	116	7	0	0	0	186	1223	sa	det	1224	DET	PRON	Singular	Ambiguous	3	3
+1243	1243	PER	0.9992926120758057	il	1	93	118	0	0	0	0	187	1243	il	nsubj	1244	PRON	PRON	Singular	Male	3	3
+1261	1262	PER	0.7044292390346527	les troupes	2	94	119	1	0	0	0	188	1262	troupes	nsubj	1267	NOUN	NOM	Plural	Ambiguous	3	6
+1263	1263	PER	0.7398805022239685	qui	1	94	119	3	0	0	0	189	1263	qui	nsubj	1264	PRON	PRON	Ambiguous	Ambiguous	4	6
+1265	1265	GPE	0.927862286567688	moscou	1	94	119	5	0	0	0	190	1265	moscou	obj	1264	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1266	1266	GPE	0.9057250618934631	y	1	94	119	6	0	0	0	191	1266	y	iobj	1267	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1311	1314	PER	0.6542775332927704	ses soldats , napoléon	4	98	123	4	0	1	2	192	1312	soldats	nmod	1309	NOUN	PROP	Plural	Ambiguous	3	2
+1311	1311	PER	0.9815463423728943	ses	1	98	123	4	1	0	0	193	1311	ses	det	1312	DET	PRON	Singular	Ambiguous	3	3
+1314	1314	PER	0.9428855180740356	napoléon	1	98	123	7	1	0	0	194	1314	napoléon	nsubj	1316	PROPN	PROP	Singular	Male	3	33
+1318	1318	PER	0.9628308415412903	eux	1	98	123	11	0	0	0	195	1318	eux	obl:mod	1316	PRON	PRON	Plural	Ambiguous	3	2
+1324	1324	GPE	0.7298116087913513	dorogomilow	1	99	124	2	0	0	0	196	1324	dorogomilow	nmod	1322	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1326	1326	FAC	0.6548733711242676	là	1	99	124	4	0	0	0	197	1326	là	advmod	1329	ADV	NOM	Not_Assigned	Not_Assigned	3	
+1327	1327	PER	0.9987181425094604	il	1	99	124	5	0	0	0	198	1327	il	nsubj	1329	PRON	PRON	Singular	Male	3	3
+1344	1345	PER	0.5515052825212479	la députation	2	100	125	8	0	0	0	199	1345	députation	nmod	1342	NOUN	NOM	Singular	Not_Assigned	3	5
+1347	1347	PER	0.9988583326339722	il	1	100	125	11	0	0	0	200	1347	il	nsubj	1349	PRON	PRON	Singular	Male	3	3

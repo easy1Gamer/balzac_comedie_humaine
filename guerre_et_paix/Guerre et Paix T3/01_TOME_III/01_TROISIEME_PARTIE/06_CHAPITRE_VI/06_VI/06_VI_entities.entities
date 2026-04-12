@@ -1,0 +1,161 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	3	TIME	0.9064308007558187	le 17 novembre	3	1	1	0	0	0	0	0	2	17	nsubj	7	NUM	NOM	Not_Assigned	Not_Assigned	3	
+5	12	TIME	0.8149098940193653	le premier jour de la bataille de krasnoé	8	1	1	4	0	1	1	1	7	jour	ROOT	7	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+12	12	GPE	0.4569656550884247	krasnoé	1	1	1	11	1	0	0	2	12	krasnoé	nmod	10	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+32	33	PER	0.9144683182239532	les généraux	2	3	4	3	0	0	0	3	33	généraux	obl:agent	30	NOUN	NOM	Plural	Ambiguous	3	6
+34	34	PER	0.8560273051261902	qui	1	3	4	5	0	0	0	4	34	qui	nsubj	38	PRON	PRON	Ambiguous	Ambiguous	4	6
+68	69	PER	0.8649164140224457	l' ennemi	2	5	6	10	0	0	0	5	69	ennemi	nsubj	77	NOUN	NOM	Singular	Male	3	7
+81	82	TIME	0.8124804794788361	la journée	2	7	8	0	0	0	0	6	82	journée	nsubj	84	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+88	88	PER	0.9848265647888184	koutouzow	1	7	9	0	0	0	0	7	88	koutouzow	nsubj	113	PROPN	PROP	Singular	Not_Assigned	3	1
+97	98	PER	0.8792211413383484	les mécontents	2	8	10	3	0	0	0	8	98	mécontents	nsubj	102	NOUN	NOM	Plural	Not_Assigned	3	12
+106	106	PER	0.9811891317367554	son	1	8	10	12	0	0	0	9	106	son	det	115	DET	PRON	Singular	Ambiguous	3	1
+115	115	GPE	0.8938800096511841	dobroïé	1	9	11	8	0	0	0	10	115	dobroïé	obl:arg	113	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+117	117	GPE	0.681545615196228	où	1	9	11	10	0	0	0	11	117	où	iobj	129	PRON	PRON	Not_Assigned	Not_Assigned	3	
+118	119	FAC	0.530102863907814	le quartier	2	9	11	11	0	0	0	12	119	quartier	nsubj	129	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+126	126	PER	0.9934872388839722	son	1	10	12	6	0	0	0	13	126	son	det	127	DET	PRON	Singular	Ambiguous	3	1
+132	133	FAC	0.7796733975410461	la route	2	10	13	3	0	0	0	14	133	route	nmod	130	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+139	141	PER	0.8840306401252747	les prisonniers français	3	11	14	4	0	0	0	15	140	prisonniers	obj	135	NOUN	NOM	Plural	Ambiguous	3	4
+142	142	PER	0.7645691633224487	qu'	1	11	14	7	0	0	0	16	142	qu'	obj	145	PRON	PRON	Ambiguous	Ambiguous	4	4
+143	143	PER	0.7394994497299194	on	1	11	14	8	0	0	0	17	143	on	nsubj	145	PRON	PRON	Ambiguous	Ambiguous	3	13
+159	159	GPE	0.8583027124404907	dobroïé	1	12	16	3	0	0	0	18	159	dobroïé	dep	157	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+161	164	PER	0.6633196324110031	une foule de soldats	4	12	16	5	0	0	0	19	162	foule	nsubj	177	NOUN	NOM	Plural	Ambiguous	3	14
+177	180	PER	0.8898573517799377	du commandant en chef	4	14	19	2	0	0	0	20	178	commandant	nmod	176	NOUN	NOM	Singular	Male	3	1
+194	194	PER	0.9963686466217041	lui	1	15	20	3	0	0	0	21	194	lui	obl:mod	192	PRON	PRON	Singular	Ambiguous	3	1
+198	200	PER	0.5724906822045644	un des généraux	3	15	20	7	0	1	1	22	200	généraux	nmod	198	NOUN	NOM	Singular	Not_Assigned	3	8
+199	200	PER	0.8534273207187653	des généraux	2	15	20	8	1	0	0	23	200	généraux	nmod	198	NOUN	NOM	Plural	Ambiguous	3	6
+201	201	PER	0.9974722266197205	lui	1	15	20	10	0	0	0	24	201	lui	iobj	202	PRON	PRON	Singular	Ambiguous	3	1
+214	215	PER	0.7954031229019165	ces hommes	2	16	21	8	0	0	0	25	215	hommes	conj	211	NOUN	NOM	Plural	Not_Assigned	3	4
+217	217	PER	0.9989263415336609	sa	1	16	21	11	0	0	0	26	217	sa	det	218	DET	PRON	Singular	Ambiguous	3	1
+223	223	PER	0.9995193481445312	il	1	17	22	3	0	0	0	27	223	il	nsubj	224	PRON	PRON	Singular	Male	3	1
+232	232	PER	0.9951672554016113	lui	1	17	22	12	0	0	0	28	232	lui	iobj	250	PRON	PRON	Singular	Ambiguous	3	1
+235	235	PER	0.9970722198486328	il	1	18	23	2	0	0	0	29	235	il	nsubj	236	PRON	PRON	Singular	Male	3	1
+248	250	PER	0.8622233867645264	des soldats français	3	19	25	1	0	0	0	30	249	soldats	nmod	247	NOUN	NOM	Plural	Ambiguous	3	3
+275	275	PER	0.9575084447860718	leur	1	21	27	0	0	0	0	31	275	leur	iobj	276	PRON	PRON	Plural	Ambiguous	3	3
+278	281	TIME	0.554463118314743	quelques minutes à vivre	4	21	27	3	0	0	0	32	279	minutes	obj	276	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+283	286	PER	0.8328062295913696	deux d' entre eux	4	21	28	0	0	1	2	33	286	eux	nmod	283	PRON	PRON	Plural	Ambiguous	3	3
+283	285	PER	0.4246043215195338	deux d' entre	3	21	28	0	1	0	0	34	284	d'	case	286	ADP	PRON	Plural	Not_Assigned	3	3
+286	286	PER	0.9158533811569214	eux	1	21	28	3	1	0	0	35	286	eux	nmod	283	PRON	PRON	Plural	Ambiguous	3	3
+288	288	PER	0.9698106646537781	dont	1	21	28	5	0	0	0	36	288	dont	nmod	290	PRON	PRON	Ambiguous	Ambiguous	4	3
+289	290	PER	0.642278790473938	l' un	2	21	28	6	0	0	0	37	290	un	nsubj	312	PRON	PRON	Singular	Male	3	3
+321	322	PER	0.6301100552082062	ces malheureux	2	24	32	2	0	0	0	38	322	malheureux	obl:agent	319	NOUN	NOM	Plural	Ambiguous	3	3
+327	327	PER	0.9707120060920715	koutouzow	1	24	33	0	0	0	0	39	327	koutouzow	nsubj	356	PROPN	PROP	Singular	Not_Assigned	3	9
+330	330	PER	0.978686511516571	les	1	24	33	3	0	0	0	40	330	les	obj	356	PRON	PRON	Plural	Ambiguous	3	3
+350	350	PER	0.9991347193717957	il	1	26	36	2	0	0	0	41	350	il	nsubj	351	PRON	PRON	Singular	Male	3	1
+352	354	PER	0.9525690873463949	un soldat russe	3	26	36	4	0	0	0	42	353	soldat	obj	351	NOUN	NOM	Singular	Male	3	3
+355	355	PER	0.9909680485725403	qui	1	26	36	7	0	0	0	43	355	qui	nsubj	356	PRON	PRON	Ambiguous	Ambiguous	4	3
+363	364	PER	0.9561410248279572	un français	2	27	37	2	0	0	0	44	364	français	obl:arg	361	NOUN	NOM	Singular	Male	3	15
+366	366	PER	0.9995613694190979	il	1	27	37	5	0	0	0	45	366	il	nsubj	367	PRON	PRON	Singular	Male	3	1
+375	375	PER	0.9982250332832336	sa	1	27	37	14	0	0	0	46	375	sa	det	403	DET	PRON	Singular	Ambiguous	3	1
+385	385	PER	0.99864262342453	tu	1	29	39	4	0	0	0	47	385	tu	dep	384	PRON	PRON	Singular	Ambiguous	2	9
+389	389	PER	0.9968461394309998	-il	1	29	39	8	0	0	0	48	389	il	nsubj	387	PRON	PRON	Singular	Male	3	1
+390	391	PER	0.9687321186065674	au général	2	29	39	9	0	0	0	49	391	général	obl:arg	387	NOUN	NOM	Singular	Male	3	1
+392	392	PER	0.9919670224189758	qui	1	29	39	11	0	0	0	50	392	qui	nsubj	393	PRON	PRON	Ambiguous	Ambiguous	4	1
+396	396	PER	0.9966239929199219	son	1	29	39	15	0	0	0	51	396	son	det	426	DET	PRON	Singular	Ambiguous	3	1
+407	409	PER	0.46290011207262677	régiment de préobrajenski	3	31	41	0	0	0	0	52	409	préobrajenski	nmod	407	PROPN	PROP	Singular	Not_Assigned	3	10
+417	417	PER	0.9990912675857544	-il	1	31	41	10	0	0	0	53	417	il	nsubj	416	PRON	PRON	Singular	Male	3	1
+428	428	PER	0.9973914623260498	le	1	32	42	7	0	0	0	54	428	le	obj	429	PRON	PRON	Singular	Male	3	1
+431	431	PER	0.9997032284736633	il	1	32	42	10	0	0	0	55	431	il	nsubj	432	PRON	PRON	Singular	Male	3	1
+435	435	PER	0.9892200827598572	lui	1	33	43	0	0	0	0	56	435	lui	conj	432	PRON	PRON	Singular	Ambiguous	3	1
+449	451	PER	0.6551259954770406	un des généraux	3	34	44	0	0	1	1	57	451	généraux	nmod	449	NOUN	NOM	Singular	Not_Assigned	3	8
+450	451	PER	0.8621244132518768	des généraux	2	34	44	1	1	0	0	58	451	généraux	nmod	449	NOUN	NOM	Plural	Ambiguous	3	6
+454	455	PER	0.9536301791667938	au soldat	2	34	44	5	0	0	0	59	455	soldat	obl:arg	452	NOUN	NOM	Singular	Male	3	11
+456	456	PER	0.9902944564819336	qui	1	34	44	7	0	0	0	60	456	qui	nsubj	457	PRON	PRON	Ambiguous	Ambiguous	4	11
+468	471	PER	0.8340731561183929	du commandant en chef	4	35	45	5	0	0	0	61	469	commandant	obl:arg	467	NOUN	NOM	Singular	Male	3	1
+473	475	PER	0.9847341577212015	celui - ci	3	35	45	10	0	0	0	62	473	celui	nsubj	476	PRON	PRON	Singular	Male	3	1
+492	492	PER	0.8697124719619751	sa	1	36	46	13	0	0	0	63	492	sa	det	529	DET	PRON	Singular	Ambiguous	3	1
+502	503	PER	0.9142241179943085	les officiers	2	37	47	9	0	0	0	64	503	officiers	obj	499	NOUN	NOM	Plural	Ambiguous	3	5
+504	504	PER	0.912351131439209	qui	1	37	47	11	0	0	0	65	504	qui	nsubj	542	PRON	PRON	Ambiguous	Ambiguous	4	5
+505	505	PER	0.984526515007019	l'	1	38	48	0	0	0	0	66	505	l'	obj	506	PRON	PRON	Singular	Ambiguous	3	1
+525	525	PER	0.9993512034416199	je	1	40	50	1	0	0	0	67	525	je	nsubj	527	PRON	PRON	Singular	Ambiguous	1	1
+526	526	PER	0.9815763235092163	vous	1	40	50	2	0	0	0	68	526	vous	obj	527	PRON	PRON	Ambiguous	Ambiguous	2	5
+528	528	PER	0.9549583196640015	tous	1	40	50	4	0	0	0	69	528	tous	advmod	527	ADJ	PRON	Plural	Ambiguous	3	5
+530	530	PER	0.9812052249908447	votre	1	40	50	6	0	0	0	70	530	votre	det	534	DET	PRON	Ambiguous	Ambiguous	2	5
+536	537	LOC	0.422780305147171	la victoire	2	40	51	0	0	0	0	71	537	victoire	nsubj	578	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+540	540	PER	0.9842280149459839	nous	1	41	52	2	0	0	0	72	540	nous	obl:arg	538	PRON	PRON	Plural	Ambiguous	1	5
+543	544	GPE	0.911598414182663	la russie	2	41	52	5	0	0	0	73	544	russie	nsubj	547	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+546	546	PER	0.981319785118103	nous	1	41	52	8	0	0	0	74	546	nous	obj	547	PRON	PRON	Plural	Ambiguous	1	5
+551	551	PER	0.9507067799568176	vous	1	41	53	1	0	0	0	75	551	vous	ROOT	551	PRON	PRON	Ambiguous	Ambiguous	2	5
+561	561	PER	0.9997765421867371	il	1	42	54	5	0	0	0	76	561	il	nsubj	563	PRON	PRON	Singular	Male	3	1
+568	569	PER	0.9642154574394226	un soldat	2	42	54	12	0	0	0	77	569	soldat	obj	567	NOUN	NOM	Singular	Male	3	3
+576	576	PER	0.9980227947235107	il	1	43	55	3	0	0	0	78	576	il	nsubj	578	PRON	PRON	Singular	Male	3	3
+582	583	PER	0.8196515738964081	des préobrajenski	2	43	55	9	0	0	0	79	583	préobrajenski	nmod	581	PROPN	PROP	Ambiguous	Not_Assigned	3	10
+593	593	PER	0.9816597104072571	il	1	44	56	8	0	0	0	80	593	il	nsubj	594	PRON	PRON	Singular	Male	3	3
+608	609	PER	0.983218789100647	mes enfants	2	45	58	2	0	1	1	81	609	enfants	ROOT	609	NOUN	NOM	Plural	Ambiguous	3	2
+608	608	PER	0.9942944645881653	mes	1	45	58	2	1	0	0	82	608	mes	det	609	DET	PRON	Singular	Ambiguous	1	1
+613	613	PER	0.9990431666374207	-il	1	45	58	7	0	0	0	83	613	il	nsubj	611	PRON	PRON	Singular	Male	3	1
+618	619	PER	0.9798431098461151	le soldat	2	45	58	12	0	0	0	84	619	soldat	obl:arg	616	NOUN	NOM	Singular	Male	3	3
+633	633	PER	0.9796619415283203	ils	1	47	60	2	0	0	0	85	633	ils	nsubj	634	PRON	PRON	Plural	Ambiguous	3	2
+638	638	PER	0.9965231418609619	koutouzow	1	47	60	7	0	0	0	86	638	koutouzow	nsubj	692	PROPN	PROP	Singular	Not_Assigned	3	0
+642	642	PER	0.9981076717376709	sa	1	47	60	11	0	0	0	87	642	sa	det	643	DET	PRON	Singular	Ambiguous	3	0
+650	650	PER	0.995810866355896	son	1	48	61	5	0	0	0	88	650	son	det	651	DET	PRON	Singular	Ambiguous	3	0
+664	665	PER	0.9723169207572937	mes enfants	2	49	62	7	0	1	1	89	665	enfants	dep	658	NOUN	NOM	Plural	Ambiguous	3	2
+664	664	PER	0.9953258037567139	mes	1	49	62	7	1	0	0	90	664	mes	det	665	DET	PRON	Singular	Ambiguous	1	0
+669	669	PER	0.998389482498169	-il	1	49	62	12	0	0	0	91	669	il	nsubj	668	PRON	PRON	Singular	Male	3	0
+677	679	PER	0.7379627625147501	officiers et soldats	3	50	64	0	0	1	2	92	679	soldats	conj	677	NOUN	NOM	Plural	Ambiguous	3	16
+677	677	PER	0.8187413215637207	officiers	1	50	64	0	1	0	0	93	677	officiers	nsubj	681	NOUN	NOM	Plural	Ambiguous	3	17
+679	679	PER	0.9007127285003662	soldats	1	50	64	2	1	0	0	94	679	soldats	conj	677	NOUN	NOM	Plural	Ambiguous	3	18
+683	683	PER	0.9977578520774841	lui	1	50	64	6	0	0	0	95	683	lui	obl:arg	681	PRON	PRON	Singular	Ambiguous	3	0
+688	688	PER	0.9992678761482239	il	1	51	65	1	0	0	0	96	688	il	nsubj	689	PRON	PRON	Singular	Male	3	0
+690	690	PER	0.9960970282554626	leur	1	51	65	3	0	0	0	97	690	leur	iobj	691	PRON	PRON	Plural	Ambiguous	3	2
+696	696	PER	0.998552143573761	sa	1	51	66	3	0	0	0	98	696	sa	det	697	DET	PRON	Singular	Ambiguous	3	0
+702	702	PER	0.9971089959144592	son	1	51	66	9	0	0	0	99	702	son	det	754	DET	PRON	Singular	Ambiguous	3	0
+717	717	PER	0.847614049911499	qui	1	53	68	1	0	0	0	100	717	qui	nsubj	718	PRON	PRON	Ambiguous	Ambiguous	4	0
+723	724	PER	0.8356612026691437	un vieillard	2	53	68	7	0	0	0	101	724	vieillard	conj	707	NOUN	NOM	Singular	Male	3	0
+725	725	PER	0.9146844148635864	qui	1	53	68	9	0	0	0	102	725	qui	nsubj	726	PRON	PRON	Ambiguous	Ambiguous	4	0
+730	733	PER	0.9167430102825165	ses frères d' armes	4	54	69	1	0	1	1	103	731	frères	obl:mod	782	NOUN	NOM	Plural	Male	3	5
+730	730	PER	0.9566327333450317	ses	1	54	69	1	1	0	0	104	730	ses	det	731	DET	PRON	Singular	Ambiguous	3	0
+742	743	PER	0.9692019522190094	mes enfants	2	55	70	7	0	1	1	105	743	enfants	dep	736	NOUN	NOM	Plural	Ambiguous	3	2
+742	742	PER	0.9974246025085449	mes	1	55	70	7	1	0	0	106	742	mes	det	743	DET	PRON	Singular	Ambiguous	1	0
+745	745	PER	0.9997031092643738	je	1	55	71	0	0	0	0	107	745	je	nsubj	746	PRON	PRON	Singular	Ambiguous	1	0
+766	766	PER	0.9801930785179138	nous	1	56	74	0	0	0	0	108	766	nous	nsubj	767	PRON	PRON	Plural	Ambiguous	1	2
+768	769	PER	0.7195729911327362	nos hôtes	2	57	75	0	0	1	1	109	769	hôtes	obj	824	NOUN	NOM	Plural	Ambiguous	3	4
+768	768	PER	0.9191493391990662	nos	1	57	75	0	1	0	0	110	768	nos	det	769	DET	PRON	Plural	Ambiguous	1	2
+776	776	PER	0.9959557056427002	nous	1	57	75	8	0	0	0	111	776	nous	nsubj	778	PRON	PRON	Plural	Ambiguous	1	2
+780	781	PER	0.6441408097743988	le tsar	2	57	76	0	0	0	0	112	781	tsar	nsubj	839	PROPN	PROP	Singular	Male	3	1
+785	785	PER	0.9841277003288269	vos	1	58	77	3	0	0	0	113	785	vos	det	786	DET	PRON	Ambiguous	Ambiguous	2	0
+792	792	PER	0.9871708750724792	j'	1	58	78	4	0	0	0	114	792	j'	nsubj	794	PRON	PRON	Singular	Ambiguous	1	0
+799	799	PER	0.9921550154685974	vous	1	59	79	0	0	0	0	115	799	vous	nsubj	800	PRON	PRON	Ambiguous	Ambiguous	2	0
+802	802	PER	0.9918631315231323	vous	1	59	79	3	0	0	0	116	802	vous	obl:arg	800	PRON	PRON	Ambiguous	Ambiguous	2	0
+806	806	PER	0.9796807765960693	eux	1	59	79	7	0	0	0	117	806	eux	obl:mod	800	PRON	PRON	Plural	Ambiguous	3	4
+809	809	PER	0.9996953010559082	il	1	59	79	10	0	0	0	118	809	il	nsubj	810	PRON	PRON	Singular	Male	3	0
+811	812	PER	0.8912563621997833	les prisonniers	2	59	79	12	0	0	0	119	812	prisonniers	obj	810	NOUN	NOM	Plural	Ambiguous	3	4
+816	816	PER	0.9010477066040039	ils	1	60	80	2	0	0	0	120	816	ils	nsubj:pass	819	PRON	PRON	Plural	Ambiguous	3	4
+821	821	PER	0.8194650411605835	leur	1	60	80	7	0	0	0	121	821	leur	det	822	DET	PRON	Plural	Ambiguous	3	4
+832	832	PER	0.9527694582939148	ils	1	61	82	1	0	0	0	122	832	ils	nsubj	834	PRON	PRON	Plural	Ambiguous	3	4
+836	836	PER	0.9871358275413513	nous	1	61	82	5	0	0	0	123	836	nous	nsubj	839	PRON	PRON	Plural	Ambiguous	1	0
+838	838	PER	0.9303637742996216	les	1	61	82	7	0	0	0	124	838	les	obj	839	PRON	PRON	Plural	Ambiguous	3	4
+844	844	PER	0.9868789315223694	nous	1	62	83	2	0	0	0	125	844	nous	nsubj	845	PRON	PRON	Plural	Ambiguous	1	0
+846	846	PER	0.7021523118019104	en	1	62	83	4	0	0	0	126	846	en	iobj	847	PRON	PRON	Ambiguous	Ambiguous	3	4
+857	857	PER	0.8664865493774414	nous	1	63	84	2	0	0	0	127	857	nous	dep	853	PRON	PRON	Plural	Ambiguous	1	0
+864	865	PER	0.9437665641307831	mes enfants	2	63	84	9	0	1	1	128	865	enfants	dep	853	NOUN	NOM	Plural	Ambiguous	3	2
+864	864	PER	0.9946792125701904	mes	1	63	84	9	1	0	0	129	864	mes	det	865	DET	PRON	Singular	Ambiguous	1	0
+875	876	PER	0.9811757206916809	les soldats	2	64	86	7	0	0	0	130	876	soldats	nsubj	877	NOUN	NOM	Plural	Ambiguous	3	2
+879	879	PER	0.9972952008247375	lui	1	65	87	0	0	0	0	131	879	lui	obl:mod	877	PRON	PRON	Singular	Ambiguous	3	0
+887	887	PER	0.998783528804779	son	1	65	87	8	0	0	0	132	887	son	det	888	DET	PRON	Singular	Ambiguous	3	0
+890	890	PER	0.9978173971176147	sa	1	65	88	0	0	0	0	133	890	sa	det	891	DET	PRON	Singular	Ambiguous	3	0
+907	907	PER	0.9976168870925903	ses	1	67	90	2	0	0	0	134	907	ses	det	908	DET	PRON	Singular	Ambiguous	3	0
+911	911	PER	0.9985480904579163	ses	1	67	90	6	0	0	0	135	911	ses	det	912	DET	PRON	Singular	Ambiguous	3	0
+914	914	PER	0.9997506737709045	il	1	67	91	0	0	0	0	136	914	il	nsubj	915	PRON	PRON	Singular	Male	3	0
+927	927	PER	0.9593721628189087	les	1	68	92	6	0	0	0	137	927	les	obj	929	PRON	PRON	Plural	Ambiguous	3	4
+933	933	PER	0.8764464259147644	ils	1	68	93	0	0	0	0	138	933	ils	nsubj	935	PRON	PRON	Plural	Ambiguous	3	4
+939	939	PER	0.8423070311546326	ils	1	68	93	6	0	0	0	139	939	ils	nsubj	1008	PRON	PRON	Plural	Ambiguous	3	4
+950	951	VEH	0.9345710873603821	son cheval	2	70	95	4	0	1	1	140	951	cheval	obl:arg	948	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+950	950	PER	0.9903864860534668	son	1	70	95	4	1	0	0	141	950	son	det	951	DET	PRON	Singular	Ambiguous	3	0
+962	962	PER	0.9995362758636475	il	1	71	96	2	0	0	0	142	962	il	nsubj	964	PRON	PRON	Singular	Male	3	0
+972	973	PER	0.8916966915130615	des soldats	2	71	96	12	0	0	0	143	973	soldats	nmod	968	NOUN	NOM	Plural	Ambiguous	3	2
+975	975	PER	0.9483538269996643	qui	1	71	96	15	0	0	0	144	975	qui	nsubj	1047	PRON	PRON	Ambiguous	Ambiguous	4	2
+978	978	PER	0.8827329874038696	leurs	1	72	97	2	0	0	0	145	978	leurs	det	979	DET	PRON	Plural	Ambiguous	3	2
+987	990	PER	0.943381279706955	du général en chef	4	73	98	6	0	0	0	146	988	général	nmod	986	NOUN	NOM	Singular	Male	3	0
+996	997	PER	0.7743756175041199	des troupes	2	74	99	1	0	0	0	147	997	troupes	obl:mod	995	NOUN	NOM	Plural	Ambiguous	3	2
+1027	1027	PER	0.9862223267555237	leur	1	76	101	6	0	0	0	148	1027	leur	iobj	1028	PRON	PRON	Plural	Ambiguous	3	2
+1034	1034	PER	0.8152503967285156	chacun	1	77	102	0	0	0	0	149	1034	chacun	nsubj	1035	PRON	PRON	Ambiguous	Ambiguous	3	2
+1037	1037	PER	0.9957285523414612	lui	1	77	102	3	0	0	0	150	1037	lui	obl:mod	1035	PRON	PRON	Singular	Ambiguous	3	0
+1049	1049	PER	0.8451218008995056	son	1	78	103	2	0	0	0	151	1049	son	det	1050	DET	PRON	Singular	Ambiguous	3	0
+1057	1058	PER	0.8239575922489166	l' ennemi	2	78	103	10	0	0	0	152	1058	ennemi	nmod	1055	NOUN	NOM	Singular	Male	3	7
+1067	1068	PER	0.9730267524719238	du vieillard	2	79	104	5	0	0	0	153	1068	vieillard	nmod	1065	NOUN	NOM	Singular	Male	3	0
+1074	1074	PER	0.6162122488021851	soldats	1	80	105	0	0	0	0	154	1074	soldats	nmod	1071	NOUN	NOM	Plural	Ambiguous	3	2
+1093	1094	PER	0.9429960250854492	du maréchal	2	81	107	5	0	0	0	155	1094	maréchal	obl:arg	1091	NOUN	NOM	Singular	Male	3	0
+1096	1096	PER	0.9970356225967407	lui	1	81	107	8	0	0	0	156	1096	lui	iobj	1097	PRON	PRON	Singular	Ambiguous	3	0
+1099	1099	PER	0.9978647828102112	il	1	81	107	11	0	0	0	157	1099	il	nsubj	1182	PRON	PRON	Singular	Male	3	0
+1107	1107	PER	0.9857544898986816	koutouzow	1	82	108	6	0	0	0	158	1107	koutouzow	nsubj	1109	PROPN	PROP	Singular	Not_Assigned	3	19
+1110	1110	PER	0.9912023544311523	lui	1	82	108	9	0	0	0	159	1110	lui	iobj	1111	PRON	PRON	Singular	Ambiguous	3	0

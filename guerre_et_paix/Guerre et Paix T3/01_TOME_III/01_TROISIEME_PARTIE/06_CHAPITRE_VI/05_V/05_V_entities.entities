@@ -1,0 +1,158 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	6	TIME	0.6256005118290583	dans les années 1812 et 1813	6	1	1	0	0	1	2	0	3	années	obl:mod	10	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1	1	TIME	0.7855406403541565	dans	1	1	1	0	1	0	0	1	1	dans	case	3	ADP	PRON	Not_Assigned	Not_Assigned	3	
+2	6	TIME	0.7458772301673889	les années 1812 et 1813	5	1	1	1	1	0	0	2	3	années	obl:mod	10	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+9	9	PER	0.9891088008880615	l'	1	1	1	8	0	0	0	3	9	l'	obj	10	PRON	PRON	Singular	Ambiguous	3	1
+14	15	PER	0.8037327527999878	l' empereur	2	1	2	0	0	0	0	4	15	empereur	nsubj	18	NOUN	NOM	Singular	Male	3	8
+33	33	PER	0.9949690699577332	koutouzow	1	3	4	2	0	0	0	5	33	koutouzow	nsubj:pass	35	PROPN	PROP	Singular	Not_Assigned	3	1
+49	49	GPE	0.6056970357894897	napoléon	1	4	5	8	0	0	0	6	49	napoléon	nmod	47	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+58	58	PER	0.9820224046707153	ses	1	5	6	3	0	0	0	7	58	ses	det	59	DET	PRON	Singular	Ambiguous	3	1
+61	63	PER	0.6560518940289816	les troupes russes	3	5	6	6	0	0	0	8	62	troupes	obj	55	NOUN	NOM	Plural	Ambiguous	3	9
+67	67	GPE	0.8625830411911011	krasnoé	1	5	6	12	0	0	0	9	67	krasnoé	obl:arg	65	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+70	71	LOC	0.39960217475891113	la bérésina	2	6	7	0	0	0	0	10	71	bérésina	dep	75	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+149	149	PER	0.8421090841293335	napoléon	1	12	15	0	0	0	0	11	149	napoléon	ROOT	149	PROPN	PROP	Singular	Male	3	1
+160	164	PER	0.6238925635814667	les russes eux - mêmes	5	13	16	5	0	0	0	12	161	russes	conj	149	NOUN	NOM	Plural	Not_Assigned	3	2
+180	180	PER	0.8520340323448181	leurs	1	14	17	12	0	0	0	13	180	leurs	det	181	DET	PRON	Plural	Ambiguous	3	2
+186	186	PER	0.9966447353363037	koutouzow	1	15	19	1	0	0	0	14	186	koutouzow	obj	183	PROPN	PROP	Singular	Not_Assigned	3	5
+188	188	PER	0.9732117056846619	qui	1	15	19	3	0	0	0	15	188	qui	nmod	194	PRON	PRON	Ambiguous	Ambiguous	4	5
+190	196	TIME	0.5415872761181423	du commencement à la fin de 1812	7	15	19	5	0	1	1	16	194	fin	nmod	186	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+193	196	TIME	0.6925000548362732	la fin de 1812	4	15	19	8	1	0	0	17	194	fin	nmod	186	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+199	199	GPE	0.6734538078308105	borodino	1	15	19	14	0	0	0	18	199	borodino	nmod	186	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+201	201	GPE	0.9063903093338013	vilna	1	16	20	1	0	0	0	19	201	vilna	nmod	215	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+221	221	PER	0.8328434824943542	qui	1	17	21	2	0	0	0	20	221	qui	nsubj	224	PRON	PRON	Ambiguous	Ambiguous	4	1
+234	234	PER	0.7440117001533508	qui	1	18	22	2	0	0	0	21	234	qui	nsubj	235	PRON	PRON	Ambiguous	Ambiguous	4	1
+251	251	PER	0.9723474979400635	lui	1	19	23	6	0	0	0	22	251	lui	dep	249	PRON	PRON	Singular	Ambiguous	3	1
+263	263	PER	0.9820666313171387	koutouzow	1	20	25	0	0	0	0	23	263	koutouzow	nsubj:pass	265	PROPN	PROP	Singular	Not_Assigned	3	0
+267	267	PER	0.904569149017334	eux	1	20	25	4	0	0	0	24	267	eux	nmod	265	PRON	PRON	Plural	Ambiguous	3	2
+281	281	PER	0.9163792729377747	ils	1	21	26	10	0	0	0	25	281	ils	nsubj	283	PRON	PRON	Plural	Ambiguous	3	2
+287	287	PER	0.995128870010376	lui	1	22	27	2	0	0	0	26	287	lui	obl:arg	306	PRON	PRON	Singular	Ambiguous	3	0
+337	339	PER	0.4020773569742839	tout un peuple	3	25	31	10	0	0	0	27	339	peuple	nmod	335	NOUN	NOM	Plural	Ambiguous	3	3
+341	341	PER	0.9944629073143005	il	1	26	32	0	0	0	0	28	341	il	nsubj	345	PRON	PRON	Singular	Male	3	0
+346	349	PER	0.44586753845214844	des « quarante siècles	4	26	32	5	0	0	0	29	349	siècles	obl:arg	345	NOUN	NOM	Plural	Not_Assigned	3	10
+352	353	PER	0.6685057282447815	ses soldats	2	26	32	11	0	1	1	30	353	soldats	obj	351	NOUN	NOM	Plural	Ambiguous	3	4
+352	352	PER	0.8757558465003967	ses	1	26	32	11	1	0	0	31	352	ses	det	353	DET	PRON	Singular	Ambiguous	3	0
+356	357	FAC	0.2412533164024353	des pyramides	2	27	33	1	0	0	0	32	357	pyramides	nmod	355	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+363	363	PER	0.9979162812232971	il	1	27	33	8	0	0	0	33	363	il	nsubj	365	PRON	PRON	Singular	Male	3	0
+372	372	PER	0.9851529598236084	ses	1	28	34	0	0	0	0	34	372	ses	det	373	DET	PRON	Singular	Ambiguous	3	0
+376	376	PER	0.9966148734092712	ses	1	28	34	4	0	0	0	35	376	ses	det	377	DET	PRON	Singular	Ambiguous	3	0
+383	383	PER	0.9548355937004089	-il	1	28	35	3	0	0	0	36	383	il	dep	382	PRON	PRON	Singular	Male	3	0
+385	385	PER	0.9412124752998352	lui-même	1	28	35	5	0	0	0	37	385	lui-même	obl:arg	382	PRON	PRON	Singular	Male	3	0
+387	387	PER	0.9822707772254944	il	1	28	36	0	0	0	0	38	387	il	nsubj	416	PRON	PRON	Singular	Male	3	0
+415	415	PER	0.9995834231376648	il	1	30	39	0	0	0	0	39	415	il	nsubj	416	PRON	PRON	Singular	Male	3	0
+418	418	PER	0.8104212284088135	ses	1	30	39	3	0	0	0	40	418	ses	det	449	DET	PRON	Singular	Ambiguous	3	0
+422	424	PER	0.9514633814493815	mme de staël	3	31	40	3	0	0	0	41	424	staël	nmod	422	PROPN	PROP	Singular	Female	3	11
+439	446	PER	0.6333643347024918	les généraux , les officiers , les soldats	8	32	41	4	0	1	3	42	440	généraux	obl:mod	437	NOUN	NOM	Plural	Not_Assigned	3	12
+439	440	PER	0.9189381897449493	les généraux	2	32	41	4	1	0	0	43	440	généraux	obl:mod	437	NOUN	NOM	Plural	Ambiguous	3	13
+442	443	PER	0.8823872208595276	les officiers	2	32	41	7	1	0	0	44	443	officiers	conj	440	NOUN	NOM	Plural	Ambiguous	3	14
+445	446	PER	0.8926144540309906	les soldats	2	32	41	10	1	0	0	45	446	soldats	conj	440	NOUN	NOM	Plural	Ambiguous	3	15
+457	457	PER	0.8424579501152039	sienne	1	33	42	7	0	0	0	46	457	sienne	obl:arg	454	PRON	PRON	Singular	Ambiguous	3	0
+460	461	PER	0.76101353764534	le comte	2	33	43	1	0	0	0	47	461	comte	nsubj	495	NOUN	NOM	Singular	Male	3	16
+462	462	PER	0.7591152787208557	rostoptchine	1	34	44	0	0	0	0	48	462	rostoptchine	flat:name	495	PROPN	PROP	Singular	Male	3	17
+463	463	PER	0.9973770380020142	lui	1	34	44	1	0	0	0	49	463	lui	iobj	464	PRON	PRON	Singular	Ambiguous	3	0
+472	472	GPE	0.8655948042869568	moscou	1	35	45	1	0	0	0	50	472	moscou	obj	471	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+475	475	PER	0.9938985109329224	lui	1	35	45	4	0	0	0	51	475	lui	iobj	476	PRON	PRON	Singular	Ambiguous	3	0
+477	477	PER	0.9935944676399231	sa	1	35	45	6	0	0	0	52	477	sa	det	478	DET	PRON	Singular	Ambiguous	3	0
+482	482	GPE	0.7709025740623474	le	1	35	45	11	0	0	0	53	482	le	obj	483	PRON	PRON	Not_Assigned	Not_Assigned	3	
+487	487	PER	0.9953374862670898	koutouzow	1	36	46	2	0	0	0	54	487	koutouzow	nsubj	489	PROPN	PROP	Singular	Not_Assigned	3	18
+488	488	PER	0.9977425336837769	lui	1	36	46	3	0	0	0	55	488	lui	iobj	489	PRON	PRON	Singular	Ambiguous	3	0
+496	496	PER	0.9958897233009338	j'	1	37	47	5	0	0	0	56	496	j'	nsubj	498	PRON	PRON	Singular	Ambiguous	1	0
+503	503	GPE	0.8983564376831055	moscou	1	37	48	3	0	0	0	57	503	moscou	nsubj:pass	506	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+509	509	PER	0.8837679028511047	araktchéïew	1	38	49	1	0	0	0	58	509	araktchéïew	nsubj	510	PROPN	PROP	Singular	Not_Assigned	3	19
+511	511	PER	0.9990131855010986	lui	1	38	49	3	0	0	0	59	511	lui	iobj	512	PRON	PRON	Singular	Ambiguous	3	0
+517	518	PER	0.7958081960678101	l' empereur	2	38	49	9	0	0	0	60	518	empereur	nmod	515	NOUN	NOM	Singular	Male	3	20
+523	523	PER	0.6668974161148071	yermolow	1	39	50	1	0	0	0	61	523	yermolow	case	524	PROPN	PROP	Singular	Not_Assigned	3	1
+529	529	PER	0.9974479675292969	koutouzow	1	39	50	7	0	0	0	62	529	koutouzow	nsubj	530	PROPN	PROP	Singular	Not_Assigned	3	6
+537	537	PER	0.9994704127311707	je	1	40	51	5	0	0	0	63	537	je	nsubj	538	PRON	PRON	Singular	Ambiguous	1	6
+548	548	PER	0.998896598815918	il	1	40	51	16	0	0	0	64	548	il	nsubj	550	PRON	PRON	Singular	Male	3	0
+556	556	PER	0.9952711462974548	lui	1	41	53	1	0	0	0	65	556	lui	iobj	557	PRON	PRON	Singular	Ambiguous	3	0
+559	559	PER	0.998499870300293	lui	1	41	53	4	0	0	0	66	559	lui	obl:mod	557	PRON	PRON	Singular	Ambiguous	3	0
+561	561	PER	0.976887047290802	qui	1	41	53	6	0	0	0	67	561	qui	nsubj	572	PRON	PRON	Ambiguous	Ambiguous	4	0
+585	585	PER	0.9948390126228333	lui	1	43	55	7	0	0	0	68	585	lui	obl:arg	583	PRON	PRON	Singular	Ambiguous	3	0
+587	589	PER	0.9106364051500956	au comte rostoptchine	3	43	55	9	0	0	0	69	588	comte	conj	585	NOUN	PROP	Singular	Male	3	0
+596	597	GPE	0.7506949603557587	la capitale	2	44	56	2	0	0	0	70	597	capitale	nmod	594	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+601	601	PER	0.9978038668632507	lui	1	44	56	7	0	0	0	71	601	lui	iobj	602	PRON	PRON	Singular	Ambiguous	3	0
+624	625	PER	0.9800959229469299	ce vieillard	2	46	58	10	0	0	0	72	625	vieillard	nsubj	651	NOUN	NOM	Singular	Male	3	0
+662	662	PER	0.9884427189826965	lui	1	49	61	10	0	0	0	73	662	lui	iobj	663	PRON	PRON	Singular	Ambiguous	3	0
+669	670	PER	0.9489605128765106	cet homme	2	50	62	4	0	0	0	74	670	homme	nsubj	729	NOUN	NOM	Singular	Male	3	0
+671	671	PER	0.9825729131698608	qui	1	50	62	6	0	0	0	75	671	qui	nsubj	672	PRON	PRON	Ambiguous	Ambiguous	4	0
+678	678	PER	0.9681165814399719	ses	1	50	62	13	0	0	0	76	678	ses	obl:arg	672	DET	PRON	Singular	Ambiguous	3	0
+690	692	TIME	0.6053460737069448	toute sa carrière	3	51	63	11	0	1	1	77	692	carrière	obl:mod	685	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+691	691	PER	0.9830491542816162	sa	1	51	63	12	1	0	0	78	691	sa	det	692	DET	PRON	Singular	Ambiguous	3	0
+701	701	PER	0.9994328618049622	il	1	52	64	8	0	0	0	79	701	il	nsubj	702	PRON	PRON	Singular	Male	3	0
+714	714	PER	0.9996699094772339	il	1	53	66	8	0	0	0	80	714	il	nsubj	715	PRON	PRON	Singular	Male	3	0
+723	723	PER	0.9961028099060059	lui	1	54	67	3	0	0	0	81	723	lui	iobj	725	PRON	PRON	Singular	Ambiguous	3	0
+733	733	PER	0.9825553894042969	sa	1	54	67	13	0	0	0	82	733	sa	det	788	DET	PRON	Singular	Ambiguous	3	0
+751	751	PER	0.9898363947868347	-il	1	56	69	3	0	0	0	83	751	il	nsubj	754	PRON	PRON	Singular	Male	3	0
+759	762	TIME	0.7570853680372238	la bataille de borodino	4	56	69	11	0	1	1	84	760	bataille	obl:arg	757	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+762	762	GPE	0.7841358184814453	borodino	1	56	69	14	1	0	0	85	762	borodino	nmod	760	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+769	769	PER	0.9985557198524475	lui	1	57	70	5	0	0	0	86	769	lui	nmod	765	PRON	PRON	Singular	Ambiguous	3	0
+771	772	PER	0.9286150634288788	son entourage	2	57	70	7	0	1	1	87	772	entourage	conj	769	NOUN	NOM	Plural	Ambiguous	3	21
+771	771	PER	0.9950137734413147	son	1	57	70	7	1	0	0	88	771	son	det	772	DET	PRON	Singular	Ambiguous	3	0
+780	780	PER	0.9993008375167847	il	1	58	72	0	0	0	0	89	780	il	nsubj	783	PRON	PRON	Singular	Male	3	0
+785	785	PER	0.9995096921920776	il	1	58	72	5	0	0	0	90	785	il	nsubj	788	PRON	PRON	Singular	Male	3	0
+790	790	PER	0.9974930286407471	ses	1	58	72	10	0	0	0	91	790	ses	det	791	DET	PRON	Singular	Ambiguous	3	0
+794	798	TIME	0.6557800471782684	jusqu' à sa dernière heure	5	59	73	0	0	1	1	92	798	heure	obl:mod	852	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+796	796	PER	0.9846062660217285	sa	1	59	73	2	1	0	0	93	796	sa	det	798	DET	PRON	Singular	Ambiguous	3	0
+803	803	PER	0.9895285964012146	-il	1	59	74	3	0	0	0	94	803	il	nsubj	806	PRON	PRON	Singular	Male	3	0
+811	811	GPE	0.7472042441368103	moscou	1	60	75	0	0	0	0	95	811	moscou	nmod	809	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+818	819	GPE	0.851810872554779	la russie	2	60	75	7	0	0	0	96	819	russie	nmod	816	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+824	824	PER	0.993059515953064	sa	1	60	75	13	0	0	0	97	824	sa	det	825	DET	PRON	Singular	Ambiguous	3	0
+827	827	PER	0.4769670367240906	lauriston	1	61	76	0	0	0	0	98	827	lauriston	obj	887	PROPN	PROP	Singular	Not_Assigned	3	22
+832	832	PER	0.9947010278701782	-il	1	61	76	5	0	0	0	99	832	il	nsubj	834	PRON	PRON	Singular	Male	3	0
+857	857	PER	0.9940197467803955	-il	1	62	78	3	0	0	0	100	857	il	expl:subj	922	PRON	PRON	Singular	Male	3	0
+860	861	PER	0.5189877897500992	le seul	2	63	79	0	0	0	0	101	861	seul	ROOT	861	ADJ	NOM	Singular	Male	3	0
+869	869	PER	0.9932699799537659	nos	1	63	79	9	0	0	0	102	869	nos	det	870	DET	PRON	Plural	Ambiguous	1	7
+886	886	PER	0.9488396644592285	nous	1	64	80	12	0	0	0	103	886	nous	nsubj	888	PRON	PRON	Plural	Ambiguous	1	7
+897	898	PER	0.7899058163166046	l' ennemi	2	65	81	8	0	0	0	104	898	ennemi	obl:arg	895	NOUN	NOM	Singular	Male	3	0
+910	910	GPE	0.7265780568122864	taroutino	1	66	82	2	0	0	0	105	910	taroutino	nmod	908	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+913	913	GPE	0.8401542901992798	viazma	1	66	82	5	0	0	0	106	913	viazma	conj	910	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+916	916	GPE	0.8622118830680847	krasnoé	1	66	82	8	0	0	0	107	916	krasnoé	conj	910	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+924	925	LOC	0.8362184762954712	la frontière	2	67	83	2	0	0	0	108	925	frontière	obj	923	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+936	937	PER	0.5777444839477539	dix français	2	68	84	1	0	0	0	109	937	français	obl:mod	940	NOUN	NOM	Plural	Ambiguous	3	23
+938	938	PER	0.7274299263954163	il	1	68	84	3	0	0	0	110	938	il	nsubj	940	PRON	PRON	Singular	Male	3	0
+946	946	PER	0.998262345790863	lui	1	68	85	1	0	0	0	111	946	lui	nsubj	951	PROPN	PRON	Singular	Ambiguous	3	0
+950	950	PER	0.9440574049949646	nous	1	68	85	5	0	0	0	112	950	nous	iobj	1019	PRON	PRON	Plural	Ambiguous	1	24
+957	957	PER	0.8483811616897583	araktchéiew	1	69	86	6	0	0	0	113	957	araktchéiew	obl:arg	955	PROPN	PROP	Singular	Not_Assigned	3	25
+962	963	PER	0.740769624710083	l' empereur	2	70	87	0	0	0	0	114	963	empereur	obj	1031	NOUN	NOM	Singular	Male	3	26
+966	967	PER	0.714178204536438	le seul	2	70	87	4	0	0	0	115	966	le	dep	974	DET	PRON	Singular	Not_Assigned	3	0
+968	968	PER	0.8697460889816284	qui	1	70	87	6	0	0	0	116	968	qui	nsubj	974	PRON	PRON	Ambiguous	Ambiguous	4	0
+971	971	GPE	0.9501128196716309	vilna	1	70	87	9	0	0	0	117	971	vilna	obl:mod	974	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+995	996	LOC	0.6109660565853119	des frontières	2	72	89	2	0	0	0	118	996	frontières	dep	993	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1012	1012	PER	0.9994736313819885	il	1	73	91	5	0	0	0	119	1012	il	nsubj	1013	PRON	PRON	Singular	Male	3	0
+1020	1020	PER	0.977920413017273	ses	1	73	91	13	0	0	0	120	1020	ses	det	1094	DET	PRON	Singular	Ambiguous	3	0
+1028	1028	PER	0.9980738162994385	il	1	74	92	7	0	0	0	121	1028	il	nsubj	1029	PRON	PRON	Singular	Male	3	0
+1036	1037	GPE	0.7847743034362793	la russie	2	75	93	2	0	0	0	122	1037	russie	nmod	1034	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1045	1046	PER	0.8276717066764832	l' ennemi	2	75	93	11	0	0	0	123	1046	ennemi	obl:mod	1041	NOUN	NOM	Singular	Male	3	0
+1048	1048	PER	0.8683673739433289	il	1	75	93	14	0	0	0	124	1048	il	nsubj	1050	PRON	PRON	Singular	Male	3	0
+1056	1057	GPE	0.4463169425725937	du pays	2	76	94	4	0	0	0	125	1057	pays	obl:arg	1055	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1065	1065	PER	0.9704784750938416	lui	1	76	94	13	0	0	0	126	1065	lui	iobj	1143	PRON	PRON	Singular	Ambiguous	3	0
+1071	1072	PER	0.6768450438976288	du peuple	2	77	95	4	0	0	0	127	1072	peuple	nmod	1070	NOUN	NOM	Plural	Ambiguous	3	3
+1075	1076	PER	0.4939795434474945	l' armée	2	77	95	8	0	0	0	128	1076	armée	conj	1072	NOUN	NOM	Plural	Ambiguous	3	27
+1078	1078	PER	0.9969643950462341	lui	1	77	96	0	0	0	0	129	1078	lui	ROOT	1078	PRON	PRON	Singular	Ambiguous	3	0
+1080	1081	PER	0.6019885838031769	ce temporiseur	2	77	96	2	0	0	0	130	1081	temporiseur	appos	1078	NOUN	NOM	Singular	Not_Assigned	3	0
+1082	1082	PER	0.7239691019058228	dont	1	78	97	0	0	0	0	131	1082	dont	nmod	1084	PRON	PRON	Ambiguous	Ambiguous	4	0
+1093	1093	PER	0.997671902179718	lui	1	78	97	11	0	0	0	132	1093	lui	ROOT	1093	PROPN	PRON	Singular	Ambiguous	3	0
+1102	1102	PER	0.9915682673454285	il	1	79	98	3	0	0	0	133	1102	il	nsubj	1103	PRON	PRON	Singular	Male	3	0
+1104	1107	TIME	0.776427760720253	la bataille de borodino	4	79	98	5	0	1	1	134	1105	bataille	obj	1103	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1107	1107	GPE	0.8164777755737305	borodino	1	79	98	8	1	0	0	135	1107	borodino	nmod	1105	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1126	1127	PER	0.8812319934368134	des généraux	2	81	100	2	0	0	0	136	1126	des	nmod	1123	PUNCT	PRON	Plural	Not_Assigned	3	28
+1133	1135	PER	0.6992979248364767	l' armée victorieuse	3	81	100	9	0	0	0	137	1134	armée	ROOT	1134	PUNCT	PRON	Plural	Ambiguous	3	29
+1141	1141	GPE	0.7019971609115601	borodino	1	82	101	2	0	0	0	138	1141	borodino	nummod	1139	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+1146	1147	GPE	0.8283012807369232	la russie	2	82	101	7	0	0	0	139	1147	russie	ROOT	1147	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+1177	1178	GPE	0.5837056338787079	l' empire	2	84	103	10	0	0	0	140	1178	empire	ROOT	1178	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+1181	1182	PER	0.9685989916324615	ce vieillard	2	85	104	1	0	0	0	141	1181	ce	ROOT	1181	PUNCT	PRON	Singular	Not_Assigned	3	0
+1185	1185	PER	0.9350988268852234	-il	1	85	104	5	0	0	0	142	1185	il	punct	1186	PUNCT	PRON	Singular	Male	3	0
+1191	1193	PER	0.5476169387499491	tout le monde	3	85	104	11	0	0	0	143	1191	tout	ROOT	1191	PUNCT	PRON	Plural	Not_Assigned	3	30
+1231	1231	PER	0.9986257553100586	lui	1	88	108	9	0	0	0	144	1231	lui	obl:arg	1229	PRON	PRON	Singular	Ambiguous	3	0
+1242	1243	PER	0.8774082064628601	le peuple	2	89	110	0	0	0	0	145	1243	peuple	nsubj	1246	NOUN	NOM	Plural	Ambiguous	3	3
+1253	1253	PER	0.6882384419441223	l'	1	90	111	1	0	0	0	146	1253	l'	obj	1255	PRON	PRON	Singular	Ambiguous	3	3
+1262	1263	PER	0.941239058971405	du tsar	2	90	111	10	0	0	0	147	1263	tsar	nmod	1261	NOUN	NOM	Singular	Male	3	0
+1268	1268	PER	0.5993413329124451	ce	1	90	111	16	0	0	0	148	1268	ce	det	1359	DET	PRON	Singular	Ambiguous	3	0
+1269	1270	PER	0.3978893756866455	vieillard disgracié	2	91	112	0	0	0	0	149	1269	vieillard	obj	1257	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+1283	1284	GPE	0.4360422194004059	du pays	2	92	114	3	0	0	0	150	1284	pays	nmod	1282	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1290	1290	PER	0.9990954399108887	il	1	92	114	10	0	0	0	151	1290	il	nsubj	1292	PRON	PRON	Singular	Male	3	0
+1294	1294	PER	0.9927001595497131	ses	1	92	114	14	0	0	0	152	1294	ses	det	1387	DET	PRON	Singular	Ambiguous	3	0
+1305	1306	PER	0.8195354342460632	ses hommes	2	93	115	10	0	1	1	153	1306	hommes	obj	1304	NOUN	NOM	Plural	Not_Assigned	3	4
+1305	1305	PER	0.9526050686836243	ses	1	93	115	10	1	0	0	154	1305	ses	det	1306	DET	PRON	Singular	Ambiguous	3	0
+1313	1313	PER	0.7560434937477112	les	1	94	116	4	0	0	0	155	1313	les	obj	1314	PRON	PRON	Plural	Ambiguous	3	4
+1393	1393	PER	0.9366689920425415	leur	1	100	122	0	0	0	0	156	1393	leur	det	1394	DET	PRON	Plural	Ambiguous	3	31

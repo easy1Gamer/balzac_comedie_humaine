@@ -1,0 +1,277 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	1	PER	0.9977154731750488	pierre	1	1	1	0	0	0	0	0	1	pierre	nsubj	2	PROPN	PROP	Singular	Male	3	4
+3	4	LOC	0.9223029613494873	la colline	2	1	1	2	0	0	0	1	4	colline	obj	2	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+5	5	LOC	0.676813542842865	dont	1	1	1	4	0	0	0	2	5	dont	iobj	10	PRON	PRON	Not_Assigned	Not_Assigned	4	
+6	7	PER	0.9705621004104614	le docteur	2	1	1	5	0	0	0	3	7	docteur	nsubj	10	NOUN	NOM	Singular	Male	3	23
+8	8	PER	0.9986863732337952	lui	1	1	1	7	0	0	0	4	8	lui	iobj	10	PRON	PRON	Singular	Ambiguous	3	4
+19	20	LOC	0.8142104148864746	le soleil	2	2	3	4	0	0	0	5	20	soleil	nsubj	21	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+37	39	LOC	0.6264623204867045	du terrain accidenté	3	3	4	7	0	0	0	6	38	terrain	nmod	36	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+40	40	LOC	0.7216801047325134	qui	1	3	4	10	0	0	0	7	40	qui	nsubj	42	PRON	PRON	Not_Assigned	Not_Assigned	4	
+46	46	PER	0.9951847195625305	ses	1	4	5	3	0	0	0	8	46	ses	det	47	DET	PRON	Singular	Ambiguous	3	4
+50	50	PER	0.9874168634414673	sa	1	4	6	1	0	0	0	9	50	sa	det	51	DET	PRON	Singular	Ambiguous	3	4
+58	58	GPE	0.7860060334205627	smolensk	1	5	7	2	0	0	0	10	58	smolensk	nmod	56	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+60	60	FAC	0.4246677756309509	qui	1	5	7	4	0	0	0	11	60	qui	nsubj	61	PRON	PRON	Not_Assigned	Not_Assigned	4	
+65	66	FAC	0.5694547742605209	son église	2	5	7	9	0	1	1	12	66	église	obl:mod	61	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+65	65	FAC	0.45478424429893494	son	1	5	7	9	1	0	0	13	65	son	det	66	DET	PRON	Not_Assigned	Not_Assigned	3	
+78	79	LOC	0.6400584578514099	du mamelon	2	6	8	11	0	0	0	14	79	mamelon	nmod	77	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+83	83	GPE	0.49861398339271545	borodino	1	7	9	0	0	0	0	15	83	borodino	obj	52	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+90	91	FAC	0.9002829790115356	la route	2	7	10	5	0	0	0	16	91	route	nsubj	92	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+93	94	FAC	0.8574608266353607	un pont	2	7	10	8	0	0	0	17	94	pont	obj	92	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+102	105	GPE	0.5430566668510437	au village de valouïew	4	8	11	4	0	0	0	18	103	village	obl:arg	100	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+118	119	GPE	0.4881070554256439	ce village	2	9	12	5	0	0	0	19	119	village	dep	115	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+123	126	TIME	0.54170361161232	ce moment par napoléon	4	9	12	10	0	1	1	20	124	moment	obl:mod	121	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+126	126	GPE	0.850891649723053	napoléon	1	9	12	13	1	0	0	21	126	napoléon	obl:agent	121	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+128	128	GPE	0.416642427444458	elle	1	9	12	15	0	0	0	22	128	elle	nsubj	138	PRON	PRON	Not_Assigned	Not_Assigned	3	
+131	133	LOC	0.7269203464190165	un bois épais	3	10	13	2	0	0	0	23	132	bois	obl:mod	129	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+134	134	LOC	0.8207041025161743	qui	1	10	13	5	0	0	0	24	134	qui	nsubj	136	PRON	PRON	Not_Assigned	Not_Assigned	4	
+144	150	LOC	0.5427466205188206	ce massif de bouleaux et de sapins	7	11	14	1	0	0	0	25	145	massif	obl:arg	153	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+152	153	LOC	0.8195921182632446	au soleil	2	11	14	9	0	0	0	26	153	soleil	obl:mod	151	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+158	163	FAC	0.7729330758253733	le clocher du couvent de kolotski	6	12	15	2	0	1	1	27	159	clocher	conj	167	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+163	163	GPE	0.37027785181999207	kolotski	1	12	15	7	1	0	0	28	163	kolotski	nmod	161	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+176	177	LOC	0.8325263559818268	la forêt	2	13	17	5	0	0	0	29	177	forêt	nmod	171	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+179	180	FAC	0.8088633418083191	du chemin	2	13	17	8	0	0	0	30	180	chemin	conj	177	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+195	195	PER	0.9797993302345276	nos	1	14	18	8	0	0	0	31	195	nos	det	196	DET	PRON	Plural	Ambiguous	1	6
+207	209	LOC	0.8217560648918152	des rivières kolotcha	3	15	20	5	0	0	0	32	208	rivières	nmod	206	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+213	214	LOC	0.6693794429302216	le pays	2	15	20	11	0	0	0	33	214	pays	nsubj	230	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+237	239	FAC	0.38223252693812054	les villages de	3	17	22	9	0	0	0	34	238	villages	obl:mod	234	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+240	240	GPE	0.4487287104129791	besoukhow	1	18	23	0	0	0	0	35	240	besoukhow	obj	257	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+243	243	GPE	0.8426392674446106	zakharino	1	18	23	3	0	0	0	36	243	zakharino	conj	240	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+247	251	LOC	0.5685040056705475	d' immenses champs de blé	5	18	23	7	0	0	0	37	249	champs	obj	234	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+257	260	GPE	0.5646088123321533	du village de séménovski	4	19	24	2	0	0	0	38	258	village	nmod	255	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+265	265	PER	0.9992382526397705	pierre	1	20	25	3	0	0	0	39	265	pierre	nsubj	266	PROPN	PROP	Singular	Male	3	3
+268	268	PER	0.9915298223495483	sa	1	20	25	6	0	0	0	40	268	sa	det	269	DET	PRON	Singular	Ambiguous	3	3
+274	274	PER	0.984639048576355	sa	1	20	25	12	0	0	0	41	274	sa	det	275	DET	PRON	Singular	Ambiguous	3	3
+288	288	PER	0.9761409759521484	son	1	21	26	12	0	0	0	42	288	son	det	310	DET	PRON	Singular	Ambiguous	3	3
+297	297	PER	0.9993060827255249	il	1	22	27	8	0	0	0	43	297	il	nsubj	300	PRON	PRON	Singular	Male	3	3
+307	308	LOC	0.639487087726593	des clairières	2	23	28	3	0	0	0	44	308	clairières	conj	305	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+313	314	LOC	0.7543043792247772	des bois	2	23	28	9	0	0	0	45	314	bois	conj	305	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+321	322	LOC	0.3652133047580719	des villages	2	24	29	2	0	0	0	46	322	villages	conj	319	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+324	325	LOC	0.8051185011863708	des collines	2	24	29	5	0	0	0	47	325	collines	conj	322	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+327	328	LOC	0.8457750380039215	des ruisseaux	2	24	29	8	0	0	0	48	328	ruisseaux	conj	319	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+335	335	PER	0.9972695708274841	ses	1	25	30	1	0	0	0	49	335	ses	det	336	DET	PRON	Singular	Ambiguous	3	3
+337	337	PER	0.9994878768920898	il	1	25	30	3	0	0	0	50	337	il	nsubj	339	PRON	PRON	Singular	Male	3	3
+352	352	PER	0.9910765886306763	notre	1	26	31	5	0	0	0	51	352	notre	det	353	DET	PRON	Plural	Ambiguous	1	6
+359	359	PER	0.9881830811500549	nos	1	26	31	12	0	0	0	52	359	nos	det	386	DET	PRON	Plural	Ambiguous	1	6
+364	365	PER	0.6393441259860992	l' ennemi	2	27	32	4	0	0	0	53	365	ennemi	nmod	362	NOUN	NOM	Singular	Male	3	24
+372	372	PER	0.9991668462753296	je	1	27	33	3	0	0	0	54	372	je	nsubj	375	PRON	PRON	Singular	Ambiguous	1	3
+380	380	PER	0.9983062744140625	-il	1	28	34	1	0	0	0	55	380	il	nsubj	379	PRON	PRON	Singular	Male	3	3
+387	388	PER	0.9612190127372742	un officier	2	28	34	8	0	0	0	56	388	officier	obl:arg	385	NOUN	NOM	Singular	Male	3	1
+389	389	PER	0.9923189282417297	qui	1	28	34	10	0	0	0	57	389	qui	nsubj	390	PRON	PRON	Ambiguous	Ambiguous	4	1
+393	393	PER	0.9975027441978455	sa	1	28	34	14	0	0	0	58	393	sa	det	422	DET	PRON	Singular	Ambiguous	3	3
+405	405	PER	0.9974397420883179	-vous	1	30	36	2	0	0	0	59	405	vous	ROOT	405	PRON	PRON	Ambiguous	Ambiguous	2	1
+409	409	PER	0.9987668991088867	lui	1	30	36	6	0	0	0	60	409	lui	iobj	410	PRON	PRON	Singular	Ambiguous	3	1
+411	411	PER	0.9968158602714539	pierre	1	30	36	8	0	0	0	61	411	pierre	nsubj	410	PROPN	PROP	Singular	Male	3	25
+414	414	PER	0.9935200810432434	me	1	30	36	11	0	0	0	62	414	me	iobj	415	PRON	PRON	Singular	Ambiguous	1	3
+420	420	FAC	0.4361397922039032	qui	1	31	37	1	0	0	0	63	420	qui	nsubj	421	PRON	PRON	Not_Assigned	Not_Assigned	4	
+424	424	PER	0.9877060055732727	nous	1	31	37	5	0	0	0	64	424	nous	obl:arg	421	PRON	PRON	Plural	Ambiguous	1	6
+429	429	GPE	0.6866289377212524	bourdino	1	32	38	3	0	0	0	65	429	bourdino	ROOT	429	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+437	438	PER	0.987907201051712	l' officier	2	32	38	11	0	0	0	66	438	officier	nsubj	436	NOUN	NOM	Singular	Male	3	1
+443	443	PER	0.9813993573188782	son	1	32	38	17	0	0	0	67	443	son	det	476	DET	PRON	Singular	Ambiguous	3	1
+446	447	PER	0.9745515882968903	un camarade	2	33	39	2	0	0	0	68	447	camarade	obl:arg	476	NOUN	NOM	Singular	Male	3	7
+450	450	GPE	0.7046230435371399	borodino	1	34	40	1	0	0	0	69	450	borodino	ROOT	450	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+454	455	PER	0.9808781743049622	l' autre	2	34	40	5	0	0	0	70	455	autre	nsubj	453	PRON	PRON	Singular	Ambiguous	3	7
+457	457	PER	0.9800721406936646	le	1	34	40	8	0	0	0	71	457	le	obj	458	PRON	PRON	Singular	Male	3	7
+460	461	PER	0.9798551499843597	l' officier	2	35	41	0	0	0	0	72	461	officier	nsubj	472	NOUN	NOM	Singular	Male	3	1
+474	474	PER	0.9968572854995728	pierre	1	36	42	0	0	0	0	73	474	pierre	obj	472	PROPN	PROP	Singular	Male	3	13
+480	481	PER	0.7770346403121948	les nôtres	2	37	43	4	0	0	0	74	481	nôtres	nsubj	479	NOUN	NOM	Plural	Not_Assigned	3	0
+490	491	PER	0.9398903548717499	les français	2	38	44	7	0	0	0	75	491	français	conj	487	NOUN	NOM	Plural	Ambiguous	3	8
+494	494	PER	0.8558225035667419	les	1	38	44	11	0	0	0	76	494	les	obj	495	PRON	PRON	Plural	Ambiguous	3	8
+496	496	PER	0.9941778182983398	-vous	1	38	44	13	0	0	0	77	496	vous	nsubj	495	PRON	PRON	Ambiguous	Ambiguous	2	13
+508	508	PER	0.9994779229164124	pierre	1	39	45	7	0	0	0	78	508	pierre	nsubj	507	PROPN	PROP	Singular	Male	3	26
+522	523	PER	0.9787754118442535	l' officier	2	40	46	12	0	0	0	79	523	officier	nsubj	525	NOUN	NOM	Singular	Male	3	1
+524	524	PER	0.9982385635375977	lui	1	40	46	14	0	0	0	80	524	lui	iobj	525	PRON	PRON	Singular	Ambiguous	3	3
+537	538	LOC	0.9530038833618164	la rivière	2	41	47	8	0	0	0	81	538	rivière	nmod	535	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+542	542	PER	0.9940898418426514	son	1	41	47	13	0	0	0	82	542	son	det	543	DET	PRON	Singular	Ambiguous	3	1
+549	549	PER	0.9973317384719849	pierre	1	42	48	5	0	0	0	83	549	pierre	nsubj	552	PROPN	PROP	Singular	Male	3	27
+554	555	PER	0.7879333794116974	plusieurs autres	2	43	49	0	0	0	0	84	555	autres	obj	552	PRON	PRON	Plural	Ambiguous	3	28
+562	563	PER	0.9523592293262482	les français	2	44	50	5	0	0	0	85	563	français	ROOT	563	NOUN	NOM	Plural	Ambiguous	3	8
+573	573	PER	0.9982109069824219	-il	1	44	51	8	0	0	0	86	573	il	dep	571	PRON	PRON	Singular	Male	3	1
+579	580	LOC	0.8581999242305756	la colline	2	45	52	2	0	0	0	87	580	colline	nmod	577	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+588	589	PER	0.7641611397266388	les nôtres	2	46	53	6	0	0	0	88	589	nôtres	ROOT	589	NOUN	NOM	Plural	Not_Assigned	3	0
+592	593	PER	0.4745871275663376	les nôtres	2	47	54	1	0	0	0	89	593	nôtres	ROOT	593	NOUN	NOM	Plural	Not_Assigned	3	0
+604	604	PER	0.9992678761482239	pierre	1	48	56	1	0	0	0	90	604	pierre	nsubj	605	PROPN	PROP	Singular	Male	3	29
+634	634	LOC	0.7475978136062622	où	1	50	58	3	0	0	0	91	634	où	iobj	636	PRON	PRON	Not_Assigned	Not_Assigned	3	
+652	652	PER	0.9103589057922363	lui	1	52	60	5	0	0	0	92	652	lui	dep	605	PRON	PRON	Singular	Ambiguous	3	2
+656	657	PER	0.984783798456192	l' officier	2	52	60	9	0	0	0	93	657	officier	nsubj	655	NOUN	NOM	Singular	Male	3	1
+662	663	FAC	0.3958396464586258	la redoute	2	52	60	15	0	0	0	94	663	redoute	obl:mod	655	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+665	665	GPE	0.3856683075428009	schevardino	1	53	61	1	0	0	0	95	665	schevardino	nmod	716	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+668	668	PER	0.9890517592430115	nous	1	53	62	0	0	0	0	96	668	nous	nsubj	670	PRON	PRON	Plural	Ambiguous	1	0
+669	669	FAC	0.49937719106674194	y	1	53	62	1	0	0	0	97	669	y	iobj	670	PRON	PRON	Not_Assigned	Not_Assigned	3	
+671	671	TIME	0.7690038681030273	hier	1	53	62	3	0	0	0	98	671	hier	advmod	670	ADV	NOM	Not_Assigned	Not_Assigned	3	
+675	675	PER	0.8951842784881592	il	1	53	62	7	0	0	0	99	675	il	expl:subj	678	PRON	PRON	Singular	Male	3	2
+677	677	GPE	0.40765807032585144	y	1	53	62	9	0	0	0	100	677	y	iobj	678	PRON	PRON	Not_Assigned	Not_Assigned	3	
+687	687	PER	0.991883397102356	notre	1	54	63	6	0	0	0	101	687	notre	det	688	DET	PRON	Plural	Ambiguous	1	0
+691	691	PER	0.951682448387146	notre	1	55	64	1	0	0	0	102	691	notre	det	692	DET	PRON	Plural	Ambiguous	1	0
+695	696	PER	0.9793879091739655	l' officier	2	55	64	5	0	0	0	103	696	officier	nsubj	694	NOUN	NOM	Singular	Male	3	1
+703	703	PER	0.9993743300437927	je	1	55	65	0	0	0	0	104	703	je	nsubj	759	PRON	PRON	Singular	Ambiguous	1	1
+705	705	PER	0.9980419874191284	vous	1	56	66	1	0	0	0	105	705	vous	iobj	707	PRON	PRON	Ambiguous	Ambiguous	2	3
+713	713	PER	0.9990860223770142	moi	1	56	66	9	0	0	0	106	713	moi	conj	704	PRON	PRON	Singular	Ambiguous	1	1
+714	714	PER	0.8827036023139954	qui	1	56	66	10	0	0	0	107	714	qui	nsubj	716	PRON	PRON	Ambiguous	Ambiguous	4	1
+722	722	PER	0.9988320469856262	-moi	1	57	67	3	0	0	0	108	722	moi	dep	721	PRON	PRON	Singular	Ambiguous	1	1
+725	725	PER	0.9929609894752502	notre	1	57	67	6	0	0	0	109	725	notre	det	726	DET	PRON	Plural	Ambiguous	1	0
+729	729	GPE	0.836370587348938	borodino	1	57	67	10	0	0	0	110	729	borodino	obl:arg	727	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+731	731	GPE	0.5265860557556152	ici	1	57	67	12	0	0	0	111	731	ici	advmod	727	ADV	NOM	Not_Assigned	Not_Assigned	3	
+732	732	PER	0.7394242882728577	même,—il	1	58	68	0	0	0	0	112	732	même,-il	punct	727	PUNCT	PRON	Not_Assigned	Not_Assigned	3	30
+737	739	FAC	0.6303919752438863	l' église blanche;—là	3	58	68	5	0	0	0	113	738	église	obl:mod	733	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+744	745	LOC	0.28644436597824097	la kolotcha	2	59	69	0	0	0	0	114	745	kolotcha	obj	802	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+748	748	PER	0.9957717061042786	-vous	1	59	69	4	0	0	0	115	748	vous	dep	747	PRON	PRON	Ambiguous	Ambiguous	2	3
+752	754	LOC	0.7320156296094259	cette petite prairie	3	59	69	8	0	0	0	116	754	prairie	nmod	750	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+756	756	LOC	0.6168404221534729	ses	1	59	69	12	0	0	0	117	756	ses	det	816	DET	PRON	Not_Assigned	Not_Assigned	3	
+768	768	PER	0.991712212562561	notre	1	60	71	6	0	0	0	118	768	notre	det	769	DET	PRON	Plural	Ambiguous	1	0
+771	771	PER	0.9857974648475647	notre	1	60	72	0	0	0	0	119	771	notre	det	772	DET	PRON	Plural	Ambiguous	1	0
+775	775	FAC	0.5603559613227844	le	1	61	73	2	0	0	0	120	775	le	expl:subj	776	PRON	PRON	Not_Assigned	Not_Assigned	3	
+778	778	PER	0.9981448650360107	-il	1	61	73	5	0	0	0	121	778	il	dep	776	PRON	PRON	Singular	Male	3	1
+789	790	LOC	0.6655299961566925	la moskva	2	62	74	2	0	0	0	122	790	moskva	nsubj	776	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+797	797	PER	0.9958645105361938	nous	1	62	74	10	0	0	0	123	797	nous	nsubj	799	PRON	PRON	Plural	Ambiguous	1	0
+800	801	FAC	0.3706665486097336	trois fortes	2	62	74	13	0	0	0	124	800	trois	aux:tense	864	NUM	NOM	Not_Assigned	Not_Assigned	3	
+806	806	PER	0.9912607073783875	notre	1	63	76	2	0	0	0	125	806	notre	det	807	DET	PRON	Plural	Ambiguous	1	0
+811	812	PER	0.9662473499774933	l' officier	2	63	76	7	0	0	0	126	812	officier	nsubj	814	NOUN	NOM	Singular	Male	3	1
+821	821	PER	0.9973589777946472	vous	1	64	77	5	0	0	0	127	821	vous	iobj	823	PRON	PRON	Ambiguous	Ambiguous	2	14
+825	825	PER	0.9903940558433533	notre	1	64	77	9	0	0	0	128	825	notre	det	826	DET	PRON	Plural	Ambiguous	1	0
+829	829	TIME	0.6696217656135559	hier	1	64	77	13	0	0	0	129	829	hier	obl:mod	819	ADV	NOM	Not_Assigned	Not_Assigned	3	
+831	831	GPE	0.37812191247940063	schevardino	1	65	78	0	0	0	0	130	831	schevardino	obj	819	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+833	833	GPE	0.36466673016548157	où	1	65	78	2	0	0	0	131	833	où	iobj	835	PRON	PRON	Not_Assigned	Not_Assigned	3	
+834	834	PER	0.9976286292076111	vous	1	65	78	3	0	0	0	132	834	vous	nsubj	835	PRON	PRON	Ambiguous	Ambiguous	2	14
+842	842	PER	0.9973190426826477	nous	1	65	78	11	0	0	0	133	842	nous	nsubj	909	PRON	PRON	Plural	Ambiguous	1	0
+854	856	GPE	0.33712537586688995	ce village brûlé	3	66	79	10	0	0	0	134	855	village	obl:arg	852	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+860	860	PER	0.9979342222213745	-il	1	67	80	2	0	0	0	135	860	il	dep	858	PRON	PRON	Singular	Male	3	1
+863	866	LOC	0.5869478136301041	la colline de raïevsky.—seulement	4	67	80	5	0	0	0	136	864	colline	obj	862	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+881	881	PER	0.8557536602020264	lui	1	68	82	3	0	0	0	137	881	lui	obl:mod	891	PRON	PRON	Singular	Ambiguous	3	2
+884	884	PER	0.9753461480140686	il	1	68	82	6	0	0	0	138	884	il	nsubj	891	PRON	PRON	Singular	Male	3	2
+892	892	PER	0.9557685852050781	ses	1	69	83	3	0	0	0	139	892	ses	det	893	DET	PRON	Singular	Ambiguous	3	2
+903	903	PER	0.858070433139801	il	1	69	83	14	0	0	0	140	903	il	nsubj	904	PRON	PRON	Singular	Male	3	2
+906	907	LOC	0.5830630660057068	la moskva	2	70	84	1	0	0	0	141	907	moskva	obj	904	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+921	921	TIME	0.8239949345588684	demain	1	71	85	1	0	0	0	142	921	demain	advmod	990	ADV	NOM	Not_Assigned	Not_Assigned	3	
+927	929	PER	0.9765068292617798	un vieux sergent	3	72	87	0	0	0	0	143	929	sergent	nsubj	935	NOUN	NOM	Singular	Male	3	1
+930	930	PER	0.9927635788917542	qui	1	72	87	3	0	0	0	144	930	qui	nsubj	931	PRON	PRON	Ambiguous	Ambiguous	4	1
+944	945	PER	0.9821074306964874	son chef	2	73	88	4	0	1	1	145	945	chef	nmod	942	NOUN	NOM	Singular	Male	3	4
+944	944	PER	0.9986648559570312	son	1	73	88	4	1	0	0	146	944	son	det	945	DET	PRON	Singular	Ambiguous	3	1
+955	955	PER	0.9955633878707886	il	1	73	88	15	0	0	0	147	955	il	nsubj	1029	PRON	PRON	Singular	Male	3	1
+956	956	PER	0.9866349101066589	l'	1	74	89	0	0	0	0	148	956	l'	obj	957	PRON	PRON	Singular	Ambiguous	3	4
+970	970	PER	0.9971824884414673	-il	1	75	90	10	0	0	0	149	970	il	nsubj	969	PRON	PRON	Singular	Male	3	1
+973	974	PER	0.9783559441566467	l' officier	2	76	91	0	0	0	0	150	974	officier	nsubj	975	NOUN	NOM	Singular	Male	3	1
+997	998	TIME	0.884683758020401	le lendemain	2	77	92	9	0	0	0	151	998	lendemain	obl:mod	994	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1015	1017	PER	0.6762038071950277	la troisième compagnie	3	79	94	6	0	0	0	152	1017	compagnie	obj	1014	NOUN	NOM	Plural	Ambiguous	3	31
+1020	1020	PER	0.9986836314201355	-il	1	79	94	11	0	0	0	153	1020	il	nsubj	1019	PRON	PRON	Singular	Male	3	4
+1028	1028	PER	0.9969186782836914	-vous	1	80	95	4	0	0	0	154	1028	vous	dep	1024	PRON	PRON	Ambiguous	Ambiguous	2	0
+1030	1030	PER	0.998875081539154	vous	1	80	95	6	0	0	0	155	1030	vous	appos	1024	PRON	PRON	Ambiguous	Ambiguous	2	0
+1033	1033	PER	0.9835913777351379	-vous	1	80	96	1	0	0	0	156	1033	vous	nsubj	1032	PRON	PRON	Ambiguous	Ambiguous	2	0
+1038	1038	PER	0.996529757976532	moi	1	81	97	1	0	0	0	157	1038	moi	dep	1044	PRON	PRON	Singular	Ambiguous	1	0
+1042	1042	PER	0.9996442794799805	je	1	81	97	5	0	0	0	158	1042	je	nsubj	1044	PRON	PRON	Singular	Ambiguous	1	0
+1050	1050	PER	0.996895432472229	pierre	1	82	98	1	0	0	0	159	1050	pierre	nsubj	1051	PROPN	PROP	Singular	Male	3	32
+1052	1053	LOC	0.9019268453121185	la colline	2	82	98	3	0	0	0	160	1053	colline	obj	1051	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1058	1059	PER	0.8281976282596588	les miliciens	2	82	98	9	0	0	0	161	1059	miliciens	obl:arg	1056	NOUN	NOM	Plural	Not_Assigned	3	0
+1077	1077	PER	0.9794483780860901	ils	1	83	100	4	0	0	0	162	1077	ils	nsubj	1078	PRON	PRON	Plural	Ambiguous	3	0
+1086	1090	PER	0.6571935713291168	officiers , soldats et miliciens	5	85	103	0	0	1	3	163	1086	officiers	nsubj	1092	NOUN	NOM	Plural	Not_Assigned	3	33
+1086	1086	PER	0.8233966827392578	officiers	1	85	103	0	1	0	0	164	1086	officiers	nsubj	1092	NOUN	NOM	Plural	Ambiguous	3	34
+1088	1088	PER	0.9276105165481567	soldats	1	85	103	2	1	0	0	165	1088	soldats	conj	1086	NOUN	NOM	Plural	Ambiguous	3	9
+1090	1090	PER	0.6459641456604004	miliciens	1	85	103	4	1	0	0	166	1090	miliciens	conj	1086	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+1094	1095	FAC	0.7250749170780182	la grand'route	2	85	103	8	0	0	0	167	1095	grand'route	obl:arg	1092	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1101	1101	GPE	0.7940858602523804	borodino	1	86	105	3	0	0	0	168	1101	borodino	obl:arg	1099	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1106	1107	LOC	0.7539911866188049	la hauteur	2	86	105	8	0	0	0	169	1107	hauteur	obl:arg	1104	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1112	1114	PER	0.5268018941084543	notre sainte mère	3	87	106	3	0	1	1	170	1114	mère	ROOT	1114	NOUN	NOM	Singular	Female	3	0
+1112	1112	PER	0.8497235774993896	notre	1	87	106	3	1	0	0	171	1112	notre	det	1114	DET	PRON	Plural	Ambiguous	1	0
+1118	1118	PER	0.9496304392814636	notre	1	87	106	9	0	0	0	172	1118	notre	det	1119	DET	PRON	Plural	Ambiguous	1	0
+1121	1123	PER	0.638401617606481	notre sainte mère	3	87	106	12	0	1	1	173	1123	mère	conj	1114	NOUN	NOM	Singular	Female	3	0
+1121	1121	PER	0.9367539286613464	notre	1	87	106	12	1	0	0	174	1121	notre	det	1123	DET	PRON	Plural	Ambiguous	1	0
+1124	1124	PER	0.7124380469322205	iverskaïa	1	88	107	0	0	0	0	175	1124	iverskaïa	nmod	1211	PROPN	PROP	Singular	Not_Assigned	3	0
+1132	1136	PER	0.7945246458053589	notre sainte mère de smolensk	5	89	108	6	0	1	2	176	1134	mère	ROOT	1134	NOUN	PROP	Singular	Female	3	0
+1132	1132	PER	0.9593093991279602	notre	1	89	108	6	1	0	0	177	1132	notre	det	1134	DET	PRON	Plural	Ambiguous	1	0
+1136	1136	GPE	0.9340543150901794	smolensk	1	89	108	10	1	0	0	178	1136	smolensk	nmod	1134	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1140	1141	PER	0.866374284029007	un autre	2	89	108	14	0	0	0	179	1141	autre	nsubj	1139	PRON	PRON	Singular	Male	3	35
+1143	1149	PER	0.6463290410382407	les miliciens , les habitants du village	7	90	109	0	0	1	2	180	1147	habitants	conj	1144	NOUN	NOM	Plural	Not_Assigned	3	15
+1143	1144	PER	0.8216664791107178	les miliciens	2	90	109	0	1	0	0	181	1144	miliciens	nsubj	1157	NOUN	NOM	Plural	Not_Assigned	3	16
+1148	1149	GPE	0.6193249821662903	du village	2	90	109	5	1	0	0	182	1149	village	nmod	1147	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1154	1155	FAC	0.4214064031839371	la batterie	2	90	109	11	0	0	0	183	1155	batterie	nmod	1152	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1159	1159	PER	0.9403976798057556	leurs	1	91	110	2	0	0	0	184	1159	leurs	det	1160	DET	PRON	Plural	Ambiguous	3	15
+1172	1173	VEH	0.4431120455265045	du cortège	2	92	112	1	0	0	0	185	1173	cortège	obl:mod	1171	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1176	1178	FAC	0.6566410859425863	la route poudreuse	3	92	112	5	0	0	0	186	1177	route	obl:mod	1182	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1180	1181	PER	0.8859530985355377	l' infanterie	2	92	112	9	0	0	0	187	1181	infanterie	nsubj	1182	NOUN	NOM	Singular	Not_Assigned	3	17
+1187	1187	PER	0.8916776180267334	ses	1	93	113	2	0	0	0	188	1187	ses	det	1188	DET	PRON	Singular	Ambiguous	3	17
+1208	1208	PER	0.8222396969795227	ses	1	94	115	5	0	0	0	189	1208	ses	det	1209	DET	PRON	Singular	Ambiguous	3	36
+1214	1216	PER	0.9232498009999593	un vieux prêtre	3	95	116	2	0	0	0	190	1216	prêtre	obl:agent	1212	NOUN	NOM	Singular	Male	3	37
+1218	1219	PER	0.6651040017604828	les diacres	2	95	116	6	0	0	0	191	1219	diacres	conj	1216	NOUN	NOM	Plural	Not_Assigned	3	38
+1221	1222	PER	0.7857573628425598	des sacristains	2	95	116	9	0	0	0	192	1222	sacristains	conj	1216	NOUN	NOM	Plural	Not_Assigned	3	39
+1227	1229	PER	0.7654383977254232	soldats et officiers	3	96	118	0	0	1	2	193	1229	officiers	conj	1227	NOUN	NOM	Plural	Ambiguous	3	18
+1227	1227	PER	0.7908177375793457	soldats	1	96	118	0	1	0	0	194	1227	soldats	nsubj	1230	NOUN	NOM	Plural	Ambiguous	3	9
+1229	1229	PER	0.8115813732147217	officiers	1	96	118	2	1	0	0	195	1229	officiers	conj	1227	NOUN	NOM	Plural	Ambiguous	3	40
+1254	1254	GPE	0.8714418411254883	smolensk	1	98	120	2	0	0	0	196	1254	smolensk	obl:arg	1252	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1259	1260	TIME	0.5944492816925049	depuis lors	2	98	120	7	0	0	0	197	1259	depuis	advmod	1262	ADP	PRON	Not_Assigned	Not_Assigned	3	
+1263	1264	PER	0.575366735458374	l' armée	2	98	120	11	0	0	0	198	1264	armée	obj	1262	NOUN	NOM	Plural	Ambiguous	3	0
+1290	1291	PER	0.6805006861686707	des militaires	2	100	123	3	0	0	0	199	1291	militaires	nmod	1289	NOUN	NOM	Plural	Ambiguous	3	0
+1300	1301	LOC	0.7164279222488403	la colline	2	101	125	1	0	0	0	200	1301	colline	nmod	1399	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1311	1312	PER	0.5734113603830338	les sacristains	2	101	126	8	0	0	0	201	1312	sacristains	nsubj	1414	NOUN	NOM	Plural	Not_Assigned	3	19
+1314	1314	PER	0.8629856705665588	leurs	1	102	127	1	0	0	0	202	1314	leurs	det	1315	DET	PRON	Plural	Ambiguous	3	19
+1374	1378	PER	0.647258722782135	le prêtre et les diacres	5	106	133	6	0	1	2	203	1375	prêtre	obl:mod	1372	NOUN	NOM	Plural	Not_Assigned	3	41
+1374	1375	PER	0.9172705113887787	le prêtre	2	106	133	6	1	0	0	204	1375	prêtre	obl:mod	1372	NOUN	NOM	Singular	Male	3	4
+1377	1378	PER	0.7519091665744781	les diacres	2	106	133	9	1	0	0	205	1378	diacres	conj	1375	NOUN	NOM	Plural	Not_Assigned	3	42
+1384	1385	PER	0.5965427756309509	des autres	2	107	134	4	0	0	0	206	1385	autres	dep	1381	ADJ	NOM	Plural	Ambiguous	3	43
+1386	1388	PER	0.8179516196250916	les officiers supérieurs	3	107	134	6	0	0	0	207	1387	officiers	obj	1381	NOUN	NOM	Plural	Ambiguous	3	44
+1407	1408	PER	0.9500413239002228	le prêtre	2	109	137	1	0	0	0	208	1408	prêtre	obj	1405	NOUN	NOM	Singular	Male	3	4
+1413	1414	PER	0.7129544615745544	un allemand	2	109	137	7	0	0	0	209	1414	allemand	advcl	1405	NOUN	NOM	Singular	Male	3	10
+1417	1417	PER	0.9983115196228027	il	1	109	137	11	0	0	0	210	1417	il	nsubj	1419	PRON	PRON	Singular	Male	3	10
+1437	1437	PER	0.9986063838005066	il	1	111	139	3	0	0	0	211	1437	il	nsubj	1438	PRON	PRON	Singular	Male	3	10
+1445	1446	PER	0.7539209127426147	du peuple	2	112	140	0	0	0	0	212	1446	peuple	nmod	1556	NOUN	NOM	Plural	Ambiguous	3	0
+1448	1450	PER	0.8519545992215475	un autre général	3	112	140	3	0	0	0	213	1450	général	nsubj	1458	NOUN	NOM	Singular	Male	3	20
+1465	1465	PER	0.9946604371070862	lui	1	113	141	5	0	0	0	214	1465	lui	obl:arg	1462	PRON	PRON	Singular	Ambiguous	3	20
+1467	1467	PER	0.9991312623023987	pierre	1	113	142	0	0	0	0	215	1467	pierre	nsubj	1469	PROPN	PROP	Singular	Male	3	11
+1476	1476	PER	0.9996166229248047	il	1	114	143	4	0	0	0	216	1476	il	nsubj	1479	PRON	PRON	Singular	Male	3	11
+1484	1484	PER	0.9972711205482483	son	1	114	143	12	0	0	0	217	1484	son	det	1485	DET	PRON	Singular	Ambiguous	3	11
+1497	1500	PER	0.6002771258354187	soldats et des miliciens	4	116	145	0	0	1	2	218	1500	miliciens	ROOT	1500	NOUN	NOM	Plural	Not_Assigned	3	0
+1497	1497	PER	0.7525880336761475	soldats	1	116	145	0	1	0	0	219	1497	soldats	ROOT	1497	NOUN	NOM	Plural	Ambiguous	3	9
+1499	1500	PER	0.8596937954425812	des miliciens	2	116	145	2	1	0	0	220	1500	miliciens	ROOT	1500	NOUN	NOM	Plural	Not_Assigned	3	45
+1502	1502	PER	0.9851191639900208	qui	1	116	145	5	0	0	0	221	1502	qui	nsubj	1503	PRON	PRON	Ambiguous	Ambiguous	4	0
+1530	1530	PER	0.9432240128517151	ils	1	118	147	10	0	0	0	222	1530	ils	nsubj	1531	PRON	PRON	Plural	Ambiguous	3	0
+1536	1537	PER	0.6799667775630951	la vierge	2	119	148	3	0	0	0	223	1537	vierge	nmod	1534	NOUN	NOM	Singular	Female	3	0
+1541	1545	PER	0.7988090991973877	le prêtre et le diacre	5	119	148	8	0	1	2	224	1542	prêtre	nsubj	1546	NOUN	NOM	Plural	Not_Assigned	3	46
+1541	1542	PER	0.9143138229846954	le prêtre	2	119	148	8	1	0	0	225	1542	prêtre	nsubj	1546	NOUN	NOM	Singular	Male	3	4
+1544	1545	PER	0.7277247607707977	le diacre	2	119	148	11	1	0	0	226	1545	diacre	conj	1542	NOUN	NOM	Singular	Not_Assigned	3	1
+1551	1553	PER	0.7855892181396484	très sainte vierge	3	120	149	3	0	0	0	227	1553	vierge	obl:mod	1681	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+1564	1564	PER	0.7206443548202515	tes	1	121	150	3	0	0	0	228	1564	tes	det	1565	DET	PRON	Singular	Ambiguous	2	0
+1580	1580	PER	0.9989097118377686	pierre	1	122	151	6	0	0	0	229	1580	pierre	nsubj	1583	PROPN	PROP	Singular	Male	3	21
+1584	1588	TIME	0.5783278346061707	à la descente de mojaïsk	5	123	152	0	0	1	1	230	1588	mojaïsk	ROOT	1588	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1588	1588	GPE	0.833078145980835	mojaïsk	1	123	152	4	1	0	0	231	1588	mojaïsk	ROOT	1588	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1594	1597	PER	0.4899784326553345	ceux qu' il avait	4	123	152	10	0	1	2	232	1594	ceux	ROOT	1594	PRON	PRON	Plural	Ambiguous	3	0
+1594	1594	PER	0.7582026124000549	ceux	1	123	152	10	1	0	0	233	1594	ceux	ROOT	1594	PRON	PRON	Plural	Ambiguous	3	47
+1596	1596	PER	0.9969274401664734	il	1	123	152	12	1	0	0	234	1596	il	nsubj	1721	PRON	PRON	Singular	Male	3	21
+1628	1629	PER	0.9329676032066345	la foule	2	126	157	3	0	0	0	235	1629	foule	nsubj	1630	NOUN	NOM	Plural	Ambiguous	3	0
+1638	1638	PER	0.9991850256919861	pierre	1	127	158	1	0	0	0	236	1638	pierre	obl:arg	1763	PROPN	PROP	Singular	Male	3	48
+1640	1641	PER	0.914834201335907	un personnage	2	127	159	0	0	0	0	237	1641	personnage	nsubj:pass	1792	NOUN	NOM	Singular	Ambiguous	3	22
+1656	1656	PER	0.7766163945198059	on	1	128	160	4	0	0	0	238	1656	on	nsubj	1658	PRON	PRON	Ambiguous	Ambiguous	3	49
+1660	1660	PER	0.9843055009841919	le	1	128	160	8	0	0	0	239	1660	le	obj	1661	PRON	PRON	Singular	Male	3	22
+1672	1672	PER	0.986644446849823	koutouzow	1	129	161	8	0	0	0	240	1672	koutouzow	conj	1665	PROPN	PROP	Singular	Not_Assigned	3	2
+1674	1674	PER	0.9921984076499939	qui	1	129	161	10	0	0	0	241	1674	qui	nsubj	1675	PRON	PRON	Ambiguous	Ambiguous	4	2
+1677	1677	GPE	0.9149721264839172	tatarinovo	1	129	161	13	0	0	0	242	1677	tatarinovo	obl:arg	1675	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1683	1684	LOC	0.5718030631542206	le terrain	2	130	162	4	0	0	0	243	1684	terrain	obj	1682	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1686	1686	PER	0.9978868365287781	pierre	1	130	163	0	0	0	0	244	1686	pierre	nsubj	1688	PROPN	PROP	Singular	Male	3	50
+1687	1687	PER	0.9916793704032898	le	1	130	163	1	0	0	0	245	1687	le	obj	1688	PRON	PRON	Singular	Male	3	2
+1701	1701	PER	0.9345667958259583	son	1	131	165	9	0	0	0	246	1701	son	det	1702	DET	PRON	Singular	Ambiguous	3	2
+1708	1708	PER	0.9903517365455627	sa	1	132	166	1	0	0	0	247	1708	sa	det	1709	DET	PRON	Singular	Ambiguous	3	2
+1714	1714	PER	0.9994230270385742	il	1	132	166	7	0	0	0	248	1714	il	nsubj	1715	PRON	PRON	Singular	Male	3	2
+1728	1729	PER	0.9741953611373901	le prêtre	2	133	167	5	0	0	0	249	1729	prêtre	obl:arg	1726	NOUN	NOM	Singular	Male	3	4
+1749	1749	PER	0.9915685057640076	sa	1	134	168	13	0	0	0	250	1749	sa	expl:comp	1884	DET	PRON	Singular	Ambiguous	3	2
+1753	1753	PER	0.9990701079368591	il	1	135	170	0	0	0	0	251	1753	il	nsubj:pass	1755	PRON	PRON	Singular	Male	3	2
+1757	1757	PER	0.9934358596801758	bennigsen	1	135	170	4	0	0	0	252	1757	bennigsen	obl:arg	1755	PROPN	PROP	Singular	Not_Assigned	3	51
+1760	1763	PER	0.7868640124797821	son état - major	4	135	170	7	0	1	1	253	1761	état	conj	1757	NOUN	NOM	Singular	Not_Assigned	3	1
+1760	1760	PER	0.9937315583229065	son	1	135	170	7	1	0	0	254	1760	son	det	1761	DET	PRON	Singular	Ambiguous	3	2
+1768	1771	PER	0.923520565032959	du commandant en chef	4	136	172	1	0	0	0	255	1769	commandant	nmod	1767	NOUN	NOM	Singular	Male	3	2
+1773	1773	PER	0.9522754549980164	qui	1	136	172	6	0	0	0	256	1773	qui	nsubj	1775	PRON	PRON	Ambiguous	Ambiguous	4	2
+1779	1779	PER	0.5351263880729675	généraux	1	137	173	0	0	0	0	257	1779	généraux	obj	1915	NOUN	NOM	Not_Assigned	Not_Assigned	3	12
+1781	1785	PER	0.7806114077568054	les soldats et les miliciens	5	137	173	2	0	1	2	258	1782	soldats	nsubj	1786	NOUN	NOM	Plural	Not_Assigned	3	0
+1781	1782	PER	0.9562410414218903	les soldats	2	137	173	2	1	0	0	259	1782	soldats	nsubj	1786	NOUN	NOM	Plural	Ambiguous	3	0
+1784	1785	PER	0.9242613315582275	les miliciens	2	137	173	5	1	0	0	260	1785	miliciens	conj	1782	NOUN	NOM	Plural	Not_Assigned	3	0
+1798	1798	PER	0.9978272318840027	koutouzow	1	138	175	4	0	0	0	261	1798	koutouzow	nsubj	1800	PROPN	PROP	Singular	Not_Assigned	3	5
+1819	1819	PER	0.9978957176208496	son	1	140	177	2	0	0	0	262	1819	son	det	1820	DET	PRON	Singular	Ambiguous	3	5
+1823	1823	PER	0.997169554233551	sa	1	140	177	6	0	0	0	263	1823	sa	det	1824	DET	PRON	Singular	Ambiguous	3	5
+1837	1837	PER	0.9920564293861389	sa	1	141	178	6	0	0	0	264	1837	sa	det	1838	DET	PRON	Singular	Ambiguous	3	5
+1844	1844	PER	0.9982935786247253	il	1	142	179	1	0	0	0	265	1844	il	nsubj	1847	PRON	PRON	Singular	Male	3	5
+1849	1849	PER	0.9995786547660828	il	1	142	179	6	0	0	0	266	1849	il	nsubj	1850	PRON	PRON	Singular	Male	3	5
+1863	1864	PER	0.9673267304897308	les généraux	2	143	181	0	0	0	0	267	1864	généraux	nsubj	1866	NOUN	NOM	Plural	Ambiguous	3	12
+1865	1865	PER	0.9376965761184692	l'	1	143	181	2	0	0	0	268	1865	l'	obj	1866	PRON	PRON	Singular	Ambiguous	3	5
+1869	1870	PER	0.9305780231952667	les officiers	2	143	181	6	0	0	0	269	1870	officiers	conj	1866	NOUN	NOM	Plural	Ambiguous	3	18
+1875	1875	PER	0.9644346237182617	eux	1	144	182	1	0	0	0	270	1875	eux	nmod	1878	PRON	PRON	Plural	Ambiguous	3	12
+1877	1881	PER	0.7497088789939881	les soldats et les miliciens	5	144	182	3	0	1	2	271	1878	soldats	obj	2017	NOUN	NOM	Plural	Not_Assigned	3	0
+1877	1878	PER	0.9080440104007721	les soldats	2	144	182	3	1	0	0	272	1878	soldats	obj	2017	NOUN	NOM	Plural	Ambiguous	3	0
+1880	1881	PER	0.8560300767421722	les miliciens	2	144	182	6	1	0	0	273	1881	miliciens	conj	1878	NOUN	NOM	Plural	Not_Assigned	3	16
+1888	1889	PER	0.8072915375232697	les uns	2	145	183	0	0	0	0	274	1889	uns	obl:mod	2032	ADJ	NOM	Plural	Ambiguous	3	0
+1890	1891	PER	0.8461168706417084	les autres	2	145	183	2	0	0	0	275	1891	autres	dep	1889	NOUN	NOM	Plural	Ambiguous	3	0

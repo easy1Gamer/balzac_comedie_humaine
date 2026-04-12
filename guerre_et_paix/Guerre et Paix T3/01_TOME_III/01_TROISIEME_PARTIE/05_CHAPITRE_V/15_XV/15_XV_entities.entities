@@ -1,0 +1,74 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+1	5	TIME	0.7220284044742584	à partir du 28 octobre	5	1	1	0	0	0	0	0	1	à	nsubj	16	ADP	PRON	Not_Assigned	Not_Assigned	3	
+24	26	PER	0.5402707159519196	des hommes gelés	3	2	3	2	0	0	0	1	25	hommes	nmod	23	NOUN	NOM	Plural	Not_Assigned	3	8
+44	44	GPE	0.8900673389434814	moscou	1	4	5	1	0	0	0	2	44	moscou	obl:mod	50	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+46	46	GPE	0.9507505297660828	viazma	1	4	5	3	0	0	0	3	46	viazma	nmod	44	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+48	48	PER	0.7166589498519897	on	1	4	5	5	0	0	0	4	48	on	nsubj	50	PRON	PRON	Ambiguous	Ambiguous	3	9
+56	58	PER	0.6625636219978333	des 73 000	3	4	5	13	0	0	0	5	58	000	nmod	55	PRON	PRON	Plural	Not_Assigned	3	10
+62	63	PER	0.8121469914913177	la garde	2	5	6	2	0	0	0	6	63	garde	obl:mod	64	NOUN	NOM	Singular	Female	3	7
+65	65	PER	0.9210041761398315	qui	1	5	6	5	0	0	0	7	65	qui	nsubj	72	PRON	PRON	Ambiguous	Ambiguous	4	7
+66	69	TIME	0.6046880856156349	pendant toute la guerre	4	5	6	6	0	0	0	8	69	guerre	obl:mod	72	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+85	87	PER	0.7750070691108704	l' armée française	3	7	9	0	0	0	0	9	86	armée	nsubj	88	NOUN	NOM	Plural	Ambiguous	3	11
+94	94	GPE	0.9056310653686523	viazma	1	7	9	9	0	0	0	10	94	viazma	nmod	92	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+96	96	GPE	0.6506178379058838	smolensk	1	8	10	0	0	0	0	11	96	smolensk	obj	88	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+99	99	GPE	0.8525260090827942	smolensk	1	8	10	3	0	0	0	12	99	smolensk	conj	96	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+101	102	LOC	0.6057446897029877	la bérésina	2	8	10	5	0	0	0	13	102	bérésina	nmod	99	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+105	106	LOC	0.43208394944667816	la bérésina	2	8	10	9	0	0	0	14	106	bérésina	conj	102	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+108	108	GPE	0.9202329516410828	vilna	1	8	10	12	0	0	0	15	108	vilna	nmod	106	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+120	121	PER	0.6645143032073975	des russes	2	9	11	10	0	0	0	16	121	russes	nmod	119	NOUN	NOM	Plural	Ambiguous	3	12
+138	138	GPE	0.8819998502731323	viazma	1	11	14	2	0	0	0	17	138	viazma	obl:mod	144	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+149	149	PER	0.3188433051109314	qui	1	12	15	0	0	0	0	18	149	qui	nsubj	150	PRON	PRON	Ambiguous	Ambiguous	4	13
+157	157	PER	0.8677234649658203	berthier	1	12	15	8	0	0	0	19	157	berthier	nsubj	158	PROPN	PROP	Singular	Male	3	4
+160	161	PER	0.9402526021003723	son souverain	2	12	15	11	0	1	1	20	161	souverain	obl:arg	158	NOUN	NOM	Singular	Male	3	5
+160	160	PER	0.9924720525741577	son	1	12	15	11	1	0	0	21	160	son	det	161	DET	PRON	Singular	Ambiguous	3	4
+193	193	PER	0.999760091304779	je	1	15	18	1	0	0	0	22	193	je	nsubj	194	PRON	PRON	Singular	Ambiguous	1	4
+199	200	PER	0.9828740954399109	votre majesté	2	15	18	7	0	0	0	23	200	majesté	dep	197	NOUN	NOM	Singular	Ambiguous	3	5
+204	204	PER	0.9628573656082153	ses	1	15	18	12	0	0	0	24	204	ses	det	205	DET	PRON	Singular	Ambiguous	3	14
+213	213	PER	0.9978868365287781	j'	1	16	19	7	0	0	0	25	213	j'	nsubj	216	PRON	PRON	Singular	Ambiguous	1	4
+221	224	TIME	0.6896554678678513	deux ou trois jours	4	17	20	0	0	0	0	26	224	jours	obl:mod	237	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+229	229	PER	0.5569477677345276	elles	1	17	21	0	0	0	0	27	229	elles	nsubj:pass	249	PRON	PRON	Plural	Female	3	15
+236	237	PER	0.5330101549625397	des soldats	2	18	23	2	0	0	0	28	237	soldats	nmod	235	NOUN	NOM	Plural	Ambiguous	3	0
+238	238	PER	0.627140462398529	qui	1	18	23	4	0	0	0	29	238	qui	nsubj	239	PRON	PRON	Ambiguous	Ambiguous	4	0
+255	256	PER	0.6812179684638977	les autres	2	19	24	11	0	0	0	30	256	autres	nsubj	276	PRON	PRON	Plural	Ambiguous	3	6
+284	284	PER	0.8544645309448242	ils	1	22	27	4	0	0	0	31	284	ils	nsubj	285	PRON	PRON	Plural	Ambiguous	3	6
+286	286	GPE	0.9126319289207458	smolensk	1	22	27	6	0	0	0	32	286	smolensk	obj	285	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+290	290	LOC	0.5366805195808411	où	1	22	27	10	0	0	0	33	290	où	iobj	314	PRON	PRON	Not_Assigned	Not_Assigned	3	
+291	291	PER	0.804964542388916	ils	1	22	27	11	0	0	0	34	291	ils	nsubj	314	PRON	PRON	Plural	Ambiguous	3	6
+296	298	TIME	0.8131455381711324	ces derniers jours	3	23	29	0	0	0	0	35	298	jours	nsubj	301	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+305	305	PER	0.6061497330665588	soldats	1	24	30	0	0	0	0	36	305	soldats	nsubj	306	NOUN	NOM	Plural	Ambiguous	3	0
+307	307	PER	0.9641108512878418	leurs	1	24	30	2	0	0	0	37	307	leurs	det	308	DET	PRON	Plural	Ambiguous	3	0
+310	310	PER	0.9659904837608337	leurs	1	24	30	5	0	0	0	38	310	leurs	det	311	DET	PRON	Plural	Ambiguous	3	0
+324	325	PER	0.9770689010620117	votre majesté	2	25	32	7	0	0	0	39	325	majesté	nmod	322	NOUN	NOM	Singular	Ambiguous	3	5
+331	331	PER	0.9683541655540466	ses	1	26	33	0	0	0	0	40	331	ses	det	332	DET	PRON	Singular	Ambiguous	3	5
+341	341	GPE	0.9309611320495605	smolensk	1	26	33	10	0	0	0	41	341	smolensk	obl:arg	337	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+365	366	FAC	0.6447093486785889	l' artillerie	2	28	35	6	0	0	0	42	366	artillerie	nmod	363	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+382	385	TIME	0.7528716623783112	deux jours de repos	4	29	37	3	0	0	0	43	383	jours	obl:mod	417	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+391	392	PER	0.7300370037555695	aux soldats	2	30	38	3	0	0	0	44	392	soldats	obl:arg	390	NOUN	NOM	Plural	Ambiguous	3	0
+394	394	PER	0.8772220611572266	qui	1	30	38	6	0	0	0	45	394	qui	nsubj:pass	396	PRON	PRON	Ambiguous	Ambiguous	4	0
+404	404	PER	0.7832006812095642	beaucoup	1	31	39	4	0	0	0	46	404	beaucoup	nsubj	406	PRON	PRON	Plural	Ambiguous	3	0
+407	409	TIME	0.7513572176297506	ces derniers jours	3	31	39	7	0	0	0	47	409	jours	obl:mod	406	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+411	412	FAC	0.5656910091638565	la route	2	31	39	11	0	0	0	48	412	route	obl:mod	406	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+453	456	TIME	0.5591711401939392	un combat.—le 9 novembre	4	34	43	6	0	0	0	49	454	combatle	obl:mod	422	PUNCT	PRON	Not_Assigned	Not_Assigned	3	
+462	462	GPE	0.8047628402709961	smolensk	1	35	44	2	0	0	0	50	462	smolensk	nmod	460	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+470	470	GPE	0.938422679901123	smolensk	1	36	45	3	0	0	0	51	470	smolensk	obl:arg	468	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+472	472	GPE	0.58587247133255	qui	1	36	45	5	0	0	0	52	472	qui	nsubj	477	PRON	PRON	Not_Assigned	Not_Assigned	4	
+475	475	PER	0.9240830540657043	eux	1	36	45	8	0	0	0	53	475	eux	obl:mod	477	PRON	PRON	Plural	Ambiguous	3	2
+491	491	PER	0.8092448711395264	leurs	1	37	46	10	0	0	0	54	491	leurs	expl:comp	530	DET	PRON	Plural	Ambiguous	3	2
+503	503	PER	0.9643346071243286	ils	1	38	47	10	0	0	0	55	503	ils	nsubj	504	PRON	PRON	Plural	Ambiguous	3	2
+505	505	PER	0.8818933367729187	leur	1	38	47	12	0	0	0	56	505	leur	det	544	DET	PRON	Plural	Ambiguous	3	2
+517	517	PER	0.7483328580856323	ils	1	39	48	11	0	0	0	57	517	ils	nsubj	558	PRON	PRON	Plural	Ambiguous	3	2
+521	521	PER	0.5747385621070862	napoléon	1	40	50	0	0	0	0	58	521	napoléon	nsubj	536	PROPN	PROP	Singular	Male	3	1
+523	524	PER	0.8425346910953522	ce génie	2	40	50	2	0	0	0	59	524	génie	appos	521	NOUN	NOM	Singular	Not_Assigned	3	1
+526	526	PER	0.9158034920692444	qui	1	40	50	5	0	0	0	60	526	qui	nsubj	529	PRON	PRON	Ambiguous	Ambiguous	4	1
+543	544	PER	0.7931662797927856	son entourage	2	41	52	3	0	1	1	61	544	entourage	nsubj	588	NOUN	NOM	Plural	Ambiguous	3	16
+543	543	PER	0.9888265132904053	son	1	41	52	3	1	0	0	62	543	son	det	544	DET	PRON	Singular	Ambiguous	3	1
+546	546	PER	0.9899635910987854	lui-même	1	41	52	6	0	0	0	63	546	lui-même	conj	544	PRON	PRON	Singular	Male	3	1
+566	566	PER	0.7300852537155151	on	1	43	55	0	0	0	0	64	566	on	nsubj	568	PRON	PRON	Ambiguous	Ambiguous	3	17
+573	574	PER	0.7271481454372406	mon cousin	2	43	55	7	0	1	1	65	574	cousin	conj	571	NOUN	NOM	Singular	Male	3	18
+573	573	PER	0.9553462862968445	mon	1	43	55	7	1	0	0	66	573	mon	det	574	DET	PRON	Singular	Ambiguous	1	1
+583	583	GPE	0.8546454310417175	naples	1	44	56	6	0	0	0	67	583	naples	nmod	581	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+616	616	PER	0.9742334485054016	ils	1	46	59	9	0	0	0	68	616	ils	nsubj	617	PRON	PRON	Plural	Ambiguous	3	3
+620	622	PER	0.6337337096532186	chacun d' eux	3	47	60	0	0	1	1	69	622	eux	nmod	620	PRON	PRON	Not_Assigned	Not_Assigned	3	3
+622	622	PER	0.8727103471755981	eux	1	47	60	2	1	0	0	70	622	eux	nmod	620	PRON	PRON	Plural	Ambiguous	3	3
+625	625	PER	0.8870418071746826	il	1	47	60	5	0	0	0	71	625	il	nsubj	626	PRON	PRON	Singular	Male	3	3
+648	648	PER	0.9757805466651917	ils	1	48	62	7	0	0	0	72	648	ils	nsubj	697	PRON	PRON	Plural	Ambiguous	3	3

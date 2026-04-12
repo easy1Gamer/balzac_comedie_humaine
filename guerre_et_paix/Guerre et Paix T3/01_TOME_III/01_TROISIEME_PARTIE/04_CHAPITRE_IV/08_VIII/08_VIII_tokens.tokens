@@ -1,0 +1,762 @@
+paragraph_ID	sentence_ID	token_ID_within_sentence	token_ID_within_document	word	lemma	byte_onset	byte_offset	POS_tag	dependency_relation	syntactic_head_ID	morph	is_mention_head	char_att_agent	char_att_patient	char_att_mod	char_att_poss
+0	0	0	0	VIII	viii	0	4	NUM	ROOT	0	NumType=Card	0	-1	-1	-1	-1
+1	1	0	1	Napoléon	napoléon	6	14	PROPN	nsubj	2	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+1	1	1	2	fait	faire	15	19	VERB	ROOT	2	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	1	-1	-1	-1
+1	1	2	3	son	son	20	23	DET	det	4	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+1	1	3	4	entrée	entrée	24	30	NOUN	obj	2	Gender=Fem|Number=Sing	0	-1	-1	-1	3
+1	1	4	5	à	à	31	32	ADP	case	6		0	-1	-1	-1	-1
+1	1	5	6	Moscou	moscou	33	39	PROPN	obl:arg	2	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+1	1	6	7	après	après	40	45	ADP	case	10		0	-1	-1	-1	-1
+1	1	7	8	la	le	46	48	DET	det	10	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+1	1	8	9	brillante	brillant	49	58	ADJ	amod	10	Gender=Fem|Number=Sing	0	-1	-1	10	-1
+1	1	9	10	victoire	victoire	59	67	NOUN	obl:mod	2	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+1	1	10	11	de	de	68	70	ADP	case	14		0	-1	-1	-1	-1
+1	1	11	12	la	le	71	73	DET	det	14	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	-1	-1	-1	-1
+2	2	0	13	Moskowa	moskowa	74	81	PROPN	nmod	10	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+2	2	1	14	,	,	81	82	PUNCT	punct	10		0	-1	-1	-1	-1
+2	2	2	15	victoire	victoire	83	91	NOUN	appos	10	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+2	2	3	16	incontestable	incontestable	92	105	ADJ	amod	15	Number=Sing	0	-1	-1	-1	-1
+2	2	4	17	assurément	assurément	106	116	ADV	advmod	15		0	-1	-1	-1	-1
+2	2	5	18	,	,	116	117	PUNCT	punct	10		0	-1	-1	-1	-1
+2	2	6	19	puisque	puisque	118	125	SCONJ	mark	26		0	-1	-1	-1	-1
+2	2	7	20	le	le	126	128	DET	det	21	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+2	2	8	21	champ	champ	129	134	NOUN	nsubj	26	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+2	2	9	22	de	de	135	137	ADP	case	23		0	-1	-1	-1	-1
+2	2	10	23	bataille	bataille	138	146	NOUN	nmod	21	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+3	3	0	24	était	être	147	152	AUX	aux:tense	25	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+3	3	1	25	resté	rester	153	158	VERB	acl:relcl	10	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+3	3	2	26	à	à	159	160	ADP	case	28		0	-1	-1	-1	-1
+3	3	3	27	ses	son	161	164	DET	det	28	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+3	3	4	28	troupes	troupe	165	172	NOUN	obl:arg	25	Gender=Fem|Number=Plur	0	-1	-1	-1	27
+3	3	5	29	.	.	172	173	PUNCT	punct	2		0	-1	-1	-1	-1
+3	4	0	30	Les	le	174	177	DET	det	31	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+3	4	1	31	Russes	russe	178	184	NOUN	nsubj	33	Number=Plur	1	-1	-1	-1	-1
+3	4	2	32	se	se	185	187	PRON	expl:comp	33	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+3	4	3	33	retirent	retirer	188	196	VERB	ROOT	33	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	31	-1	-1	-1
+3	4	4	34	et	et	197	199	CCONJ	cc	35		0	-1	-1	-1	-1
+3	4	5	35	abandonnent	abandonner	200	211	VERB	conj	33	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	31	36	-1	-1
+3	4	6	36	Moscou	moscou	212	218	PROPN	obj	35	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+4	5	0	37	rempli	remplir	219	225	VERB	acl	40	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+4	5	1	38	de	de	226	228	ADP	case	39		0	-1	-1	-1	-1
+4	5	2	39	vivres	vivre	229	235	NOUN	obl:arg	37	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+4	5	3	40	,	,	235	236	PUNCT	punct	42		0	-1	-1	-1	-1
+4	5	4	41	d'	de	237	239	ADP	case	42		0	-1	-1	-1	-1
+4	5	5	42	armes	arme	239	244	NOUN	conj	39	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+4	5	6	43	,	,	244	245	PUNCT	punct	45		0	-1	-1	-1	-1
+4	5	7	44	de	de	246	248	ADP	case	45		0	-1	-1	-1	-1
+4	5	8	45	munitions	munition	249	258	NOUN	conj	39	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+4	5	9	46	et	et	259	261	CCONJ	cc	48		0	-1	-1	-1	-1
+4	5	10	47	de	de	262	264	ADP	case	48		0	-1	-1	-1	-1
+4	5	11	48	richesses	richesse	265	274	NOUN	conj	39	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+4	5	12	49	incalculables	incalculable	275	288	ADJ	amod	48	Number=Plur	0	-1	-1	-1	-1
+4	5	13	50	;	;	288	289	PUNCT	punct	33		0	-1	-1	-1	-1
+5	6	0	51	un	un	290	292	DET	det	52	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+5	6	1	52	mois	mois	293	297	NOUN	nsubj	54	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+5	6	2	53	se	se	298	300	PRON	expl:comp	54	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+5	6	3	54	passe	passer	301	306	VERB	ROOT	54	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	52	-1	-1	-1
+5	6	4	55	sans	sans	307	311	ADP	mark	58		0	-1	-1	-1	-1
+5	6	5	56	qu'	que	312	315	SCONJ	mark	58		0	-1	-1	-1	-1
+5	6	6	57	ils	il	315	318	PRON	nsubj	58	Gender=Masc|Number=Plur|Person=3	0	-1	-1	-1	-1
+5	6	7	58	reprennent	reprendre	319	329	VERB	advcl	54	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+5	6	8	59	l'	le	330	332	DET	det	60	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+5	6	9	60	offensive	offensive	332	341	NOUN	obj	58	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+5	6	10	61	.	.	341	342	PUNCT	punct	54		0	-1	-1	-1	-1
+5	7	0	62	La	le	343	345	DET	det	63	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+5	7	1	63	position	position	346	354	NOUN	nsubj	73	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+5	7	2	64	de	de	355	357	ADP	case	70		0	-1	-1	-1	-1
+6	8	0	65	Napoléon	napoléon	358	366	PROPN	nmod	63	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+6	8	1	66	est	être	367	370	AUX	cop	73	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+6	8	2	67	,	,	370	371	PUNCT	punct	73		0	-1	-1	-1	-1
+6	8	3	68	par	par	372	375	ADP	case	69		0	-1	-1	-1	-1
+6	8	4	69	conséquent	conséquent	376	386	NOUN	obl:mod	73		0	-1	-1	-1	-1
+6	8	5	70	,	,	386	387	PUNCT	punct	73		0	-1	-1	-1	-1
+6	8	6	71	des	de	388	391	ADP	case	73	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+6	8	7	72	plus	plus	392	396	ADV	advmod	73		0	-1	-1	-1	-1
+6	8	8	73	belles	bel	397	403	ADJ	ROOT	73	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+6	8	9	74	et	et	404	406	CCONJ	cc	77		0	-1	-1	-1	-1
+6	8	10	75	des	de	407	410	ADP	case	77	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+6	8	11	76	plus	plus	411	415	ADV	advmod	77		0	-1	-1	-1	-1
+6	8	12	77	glorieuses	glorieux	416	426	ADJ	conj	73	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+6	8	13	78	.	.	426	427	PUNCT	punct	73		0	-1	-1	-1	-1
+6	9	0	79	Il	il	428	430	PRON	expl:subj	86	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+7	10	0	80	semble	sembler	431	437	VERB	ROOT	80	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+7	10	1	81	donc	donc	438	442	ADV	advmod	80		0	-1	-1	-1	-1
+7	10	2	82	qu'	que	443	446	SCONJ	mark	87		0	-1	-1	-1	-1
+7	10	3	83	il	il	446	448	PRON	expl:subj	87	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+7	10	4	84	n'	ne	449	451	ADV	advmod	87	Polarity=Neg	0	-1	-1	-1	-1
+7	10	5	85	était	être	451	456	AUX	cop	87	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+7	10	6	86	pas	pas	457	460	ADV	advmod	87	Polarity=Neg	0	-1	-1	-1	-1
+7	10	7	87	besoin	besoin	461	467	NOUN	ccomp	80	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+7	10	8	88	d'	de	468	470	ADP	mark	89		0	-1	-1	-1	-1
+7	10	9	89	avoir	avoir	470	475	VERB	xcomp	87	VerbForm=Inf	0	-1	-1	-1	-1
+7	10	10	90	un	un	476	478	DET	det	91	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+7	10	11	91	génie	génie	479	484	NOUN	obj	89	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+7	10	12	92	exceptionnel	exceptionnel	485	497	ADJ	amod	91	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+7	10	13	93	pour	pour	498	502	ADP	mark	101		0	-1	-1	-1	-1
+8	11	0	94	se	se	503	505	PRON	expl:comp	95	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+8	11	1	95	jeter	jeter	506	511	VERB	xcomp	101	VerbForm=Inf	0	-1	-1	-1	-1
+8	11	2	96	avec	avec	512	516	ADP	case	98		0	-1	-1	-1	-1
+8	11	3	97	des	un	517	520	DET	det	98	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+8	11	4	98	forces	force	521	527	NOUN	obl:mod	95	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+8	11	5	99	supérieures	supérieur	528	539	ADJ	amod	98	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+8	11	6	100	sur	sur	540	543	ADP	case	103		0	-1	-1	-1	-1
+8	11	7	101	les	le	544	547	DET	det	103	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+8	11	8	102	derniers	dernier	548	556	ADJ	amod	103	Gender=Masc|NumType=Ord|Number=Plur	0	-1	-1	-1	-1
+8	11	9	103	restes	reste	557	563	NOUN	obl:arg	95	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+8	11	10	104	de	de	564	566	ADP	case	106		0	-1	-1	-1	-1
+8	11	11	105	l'	le	567	569	DET	det	106	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+8	11	12	106	armée	armée	569	574	NOUN	nmod	103	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+9	12	0	107	ennemie	ennemi	575	582	ADJ	amod	115	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+9	12	1	108	,	,	582	583	PUNCT	punct	110		0	-1	-1	-1	-1
+9	12	2	109	les	le	584	587	PRON	obj	110	Number=Plur|Person=3	1	-1	-1	-1	-1
+9	12	3	110	écraser	écraser	588	595	VERB	xcomp	95	VerbForm=Inf	0	-1	109	-1	-1
+9	12	4	111	,	,	595	596	PUNCT	punct	112		0	-1	-1	-1	-1
+9	12	5	112	obtenir	obtenir	597	604	VERB	xcomp	110	VerbForm=Inf	0	-1	-1	-1	-1
+9	12	6	113	une	un	605	608	DET	det	114	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+9	12	7	114	paix	paix	609	613	NOUN	obj	112	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+9	12	8	115	avantageuse	avantageux	614	625	ADJ	amod	114	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+9	12	9	116	,	,	625	626	PUNCT	punct	117		0	-1	-1	-1	-1
+9	12	10	117	marcher	marcher	627	634	VERB	conj	95	VerbForm=Inf	0	-1	-1	-1	-1
+9	12	11	118	sur	sur	635	638	ADP	case	128		0	-1	-1	-1	-1
+10	13	0	119	Pétersbourg	pétersbourg	639	650	PROPN	obj	128	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+10	13	1	120	en	en	651	653	ADP	case	121		0	-1	-1	-1	-1
+10	13	2	121	cas	cas	654	657	NOUN	obl:mod	128	Gender=Masc	0	-1	-1	-1	-1
+10	13	3	122	de	de	658	660	ADP	case	123		0	-1	-1	-1	-1
+10	13	4	123	refus	refus	661	666	NOUN	nmod	121	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+10	13	5	124	,	,	666	667	PUNCT	punct	125		0	-1	-1	-1	-1
+10	13	6	125	retourner	retourner	668	677	VERB	xcomp	117	VerbForm=Inf	0	-1	-1	-1	-1
+10	13	7	126	à	à	678	679	ADP	case	127		0	-1	-1	-1	-1
+10	13	8	127	Smolensk	smolensk	680	688	PROPN	obl:arg	125	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+10	13	9	128	en	en	689	691	ADP	case	129		0	-1	-1	-1	-1
+10	13	10	129	cas	cas	692	695	NOUN	obl:mod	125	Gender=Masc	0	-1	-1	-1	-1
+10	13	11	130	d'	de	696	698	ADP	case	131		0	-1	-1	-1	-1
+10	13	12	131	insuccès	insuccès	698	706	NOUN	nmod	129	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+10	13	13	132	,	,	706	707	PUNCT	punct	117		0	-1	-1	-1	-1
+10	13	14	133	ou	ou	708	710	CCONJ	cc	144		0	-1	-1	-1	-1
+11	14	0	134	rester	rester	711	717	VERB	xcomp	144	VerbForm=Inf	0	-1	-1	-1	-1
+11	14	1	135	à	à	718	719	ADP	case	136		0	-1	-1	-1	-1
+11	14	2	136	Moscou	moscou	720	726	PROPN	obl:arg	134	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+11	14	3	137	,	,	726	727	PUNCT	punct	134		0	-1	-1	-1	-1
+11	14	4	138	en	en	728	730	ADP	mark	140		0	-1	-1	-1	-1
+11	14	5	139	y	y	731	732	PRON	iobj	140	Person=3	1	-1	-1	-1	-1
+11	14	6	140	gardant	garder	733	740	VERB	advcl	134	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+11	14	7	141	la	le	741	743	DET	det	143	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+11	14	8	142	brillante	brillant	744	753	ADJ	amod	143	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	9	143	position	position	754	762	NOUN	obj	140	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+11	14	10	144	acquise	acquérir	763	770	VERB	acl	143	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+11	14	11	145	.	.	770	771	PUNCT	punct	95		0	-1	-1	-1	-1
+11	14	12	146	Rien	rien	772	776	NOUN	conj	80	Number=Sing	0	-1	-1	-1	-1
+11	14	13	147	de	de	777	779	ADP	nmod	146		0	-1	-1	-1	-1
+12	15	0	148	plus	plus	780	784	ADV	advmod	149		0	-1	-1	-1	-1
+12	15	1	149	simple	simple	785	791	ADJ	amod	146	Number=Sing	0	-1	-1	-1	-1
+12	15	2	150	et	et	792	794	CCONJ	cc	153		0	-1	-1	-1	-1
+12	15	3	151	de	de	795	797	ADP	mark	153		0	-1	-1	-1	-1
+12	15	4	152	plus	plus	798	802	ADV	advmod	153		0	-1	-1	-1	-1
+12	15	5	153	facile	facile	803	809	ADJ	conj	149	Number=Sing	0	-1	-1	-1	-1
+12	15	6	154	que	que	810	813	SCONJ	mark	156		0	-1	-1	-1	-1
+12	15	7	155	les	le	814	817	DET	det	156	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+12	15	8	156	mesures	mesure	818	825	NOUN	dep	146	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+12	15	9	157	à	à	826	827	ADP	mark	158		0	-1	-1	-1	-1
+12	15	10	158	prendre	prendre	828	835	VERB	acl	156	VerbForm=Inf	0	-1	-1	-1	-1
+12	15	11	159	pour	pour	836	840	ADP	mark	161		0	-1	-1	-1	-1
+12	15	12	160	en	en	841	843	PRON	expl:comp	161	Person=3	0	-1	-1	-1	-1
+12	15	13	161	arriver	arriver	844	851	VERB	advcl	146	VerbForm=Inf	0	-1	-1	-1	-1
+13	16	0	162	là	là	852	854	ADV	obl:arg	174		0	-1	-1	-1	-1
+13	16	1	163	.	.	854	855	PUNCT	punct	80		0	-1	-1	-1	-1
+13	17	0	164	Il	il	856	858	PRON	expl:subj	165	Gender=Masc|Number=Sing|Person=3	0	-1	-1	-1	-1
+13	17	1	165	fallait	falloir	859	866	VERB	ROOT	165	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+13	17	2	166	empêcher	empêcher	867	875	VERB	xcomp	165	VerbForm=Inf	0	-1	-1	-1	-1
+13	17	3	167	le	le	876	878	DET	det	168	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+13	17	4	168	pillage	pillage	879	886	NOUN	obj	166	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+13	17	5	169	,	,	886	887	PUNCT	punct	170		0	-1	-1	-1	-1
+13	17	6	170	préparer	préparer	888	896	VERB	conj	166	VerbForm=Inf	0	-1	-1	-1	-1
+13	17	7	171	pour	pour	897	901	ADP	case	174		0	-1	-1	-1	-1
+13	17	8	172	toute	tout	902	907	ADJ	amod	174	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+13	17	9	173	l'	le	908	910	DET	det	174	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+13	17	10	174	armée	armée	910	915	NOUN	obl:mod	170	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+13	17	11	175	des	un	916	919	DET	expl:pass	189	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+14	18	0	176	vêtements	vêtement	920	929	NOUN	obj	189	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+14	18	1	177	d'	de	930	932	ADP	case	178		0	-1	-1	-1	-1
+14	18	2	178	hiver	hiver	932	937	NOUN	nmod	176	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+14	18	3	179	qu'	que	938	941	PRON	obj	183	PronType=Rel	0	-1	-1	-1	-1
+14	18	4	180	on	on	941	943	PRON	nsubj	183	Number=Sing|Person=3	0	-1	-1	-1	-1
+14	18	5	181	aurait	avoir	944	950	AUX	aux:tense	183	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+14	18	6	182	facilement	facilement	951	961	ADV	advmod	183		0	-1	-1	-1	-1
+14	18	7	183	trouvés	trouver	962	969	VERB	acl:relcl	176	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+14	18	8	184	à	à	970	971	ADP	case	185		0	-1	-1	-1	-1
+14	18	9	185	Moscou	moscou	972	978	PROPN	obl:mod	183	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+14	18	10	186	,	,	978	979	PUNCT	punct	187		0	-1	-1	-1	-1
+14	18	11	187	régler	régler	980	986	VERB	conj	165	VerbForm=Inf	0	-1	-1	-1	-1
+14	18	12	188	la	le	987	989	DET	det	203	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+15	19	0	189	distribution	distribution	990	1002	NOUN	obj	203	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+15	19	1	190	des	de	1003	1006	ADP	case	191	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+15	19	2	191	subsistances	subsistance	1007	1019	NOUN	nmod	189	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+15	19	3	192	,	,	1019	1020	PUNCT	punct	191		0	-1	-1	-1	-1
+15	19	4	193	qui	qui	1021	1024	PRON	nsubj	203	PronType=Rel	0	-1	-1	-1	-1
+15	19	5	194	,	,	1024	1025	PUNCT	punct	203		0	-1	-1	-1	-1
+15	19	6	195	d'	de	1026	1028	ADP	case	198		0	-1	-1	-1	-1
+15	19	7	196	après	après	1028	1033	ADP	fixed	195		0	-1	-1	-1	-1
+15	19	8	197	les	le	1034	1037	DET	det	198	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+15	19	9	198	historiens	historien	1038	1048	NOUN	nsubj	203	Gender=Masc|Number=Plur	1	-1	-1	-1	-1
+15	19	10	199	français	français	1049	1057	ADJ	amod	198	Gender=Masc	0	-1	-1	198	-1
+16	20	0	200	eux	lui	1058	1061	PRON	nmod	198		1	-1	-1	-1	-1
+16	20	1	201	-	-	1061	1062	PRON	nmod	198		0	-1	-1	-1	-1
+16	20	2	202	mêmes	même	1062	1067	PRON	nmod	198		0	-1	-1	-1	-1
+16	20	3	203	représentaient	représenter	1068	1082	VERB	acl:relcl	191	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	198	-1	-1	-1
+16	20	4	204	un	un	1083	1085	DET	det	205	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+16	20	5	205	approvisionnement	approvisionnement	1086	1103	NOUN	obj	203	Gender=Masc|Number=Sing	0	-1	-1	-1	208
+16	20	6	206	de	de	1104	1106	ADP	case	208		0	-1	-1	-1	-1
+16	20	7	207	six	six	1107	1110	NUM	nummod	208	NumType=Card	0	-1	-1	-1	-1
+16	20	8	208	mois	mois	1111	1115	NOUN	nmod	205	Gender=Masc|Number=Plur	1	-1	-1	-1	-1
+16	20	9	209	.	.	1115	1116	PUNCT	punct	165		0	-1	-1	-1	-1
+16	21	0	210	Cependant	cependant	1117	1126	ADV	advmod	227		0	-1	-1	-1	-1
+17	22	0	211	Napoléon	napoléon	1127	1135	PROPN	nsubj	227	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+17	22	1	212	,	,	1135	1136	PUNCT	punct	211		0	-1	-1	-1	-1
+17	22	2	213	le	le	1137	1139	DET	det	215	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+17	22	3	214	plus	plus	1140	1144	ADV	advmod	215		0	-1	-1	-1	-1
+17	22	4	215	grand	grand	1145	1150	ADJ	appos	211	Gender=Masc|Number=Sing	1	-1	-1	211	-1
+17	22	5	216	des	de	1151	1154	ADP	case	217	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+17	22	6	217	génies	génie	1155	1161	NOUN	nmod	215	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+17	22	7	218	,	,	1161	1162	PUNCT	punct	211		0	-1	-1	-1	-1
+17	22	8	219	qui	qui	1163	1166	PRON	nsubj	242	PronType=Rel	1	-1	-1	-1	-1
+17	22	9	220	,	,	1166	1167	PUNCT	punct	242		0	-1	-1	-1	-1
+17	22	10	221	toujours	toujours	1168	1176	ADV	advmod	242		0	-1	-1	-1	-1
+17	22	11	222	selon	selon	1177	1182	ADP	case	242		0	-1	-1	-1	-1
+17	22	12	223	ces	ce	1183	1186	DET	det	224	Number=Plur|PronType=Dem	0	-1	-1	-1	-1
+17	22	13	224	mêmes	même	1187	1192	ADJ	amod	242	Number=Plur	0	-1	-1	-1	-1
+18	23	0	225	historiens	historien	1193	1203	NOUN	obl:mod	227	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+18	23	1	226	,	,	1203	1204	PUNCT	punct	227		0	-1	-1	-1	-1
+18	23	2	227	pouvait	pouvoir	1205	1212	VERB	ROOT	227	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	211	-1	-1	-1
+18	23	3	228	diriger	diriger	1213	1220	VERB	xcomp	227	VerbForm=Inf	0	-1	-1	-1	-1
+18	23	4	229	l'	le	1221	1223	DET	det	230	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+18	23	5	230	armée	armée	1223	1228	NOUN	obj	228	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+18	23	6	231	à	à	1229	1230	ADP	case	233		0	-1	-1	-1	-1
+18	23	7	232	son	son	1231	1234	DET	det	233	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+18	23	8	233	gré	gré	1235	1238	NOUN	obl:mod	228	Gender=Masc|Number=Sing	0	-1	-1	-1	232
+18	23	9	234	,	,	1238	1239	PUNCT	punct	236		0	-1	-1	-1	-1
+18	23	10	235	ne	ne	1240	1242	ADV	advmod	236	Polarity=Neg	0	-1	-1	-1	-1
+18	23	11	236	prend	prendre	1243	1248	VERB	conj	227	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	211	-1	-1	-1
+18	23	12	237	aucune	aucun	1249	1255	PRON	obj	236	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+18	23	13	238	de	de	1256	1258	ADP	case	258		0	-1	-1	-1	-1
+18	23	14	239	ces	ce	1259	1262	DET	det	258	Number=Plur|PronType=Dem	0	-1	-1	-1	-1
+19	24	0	240	dispositions	disposition	1263	1275	NOUN	obj	236	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+19	24	1	241	,	,	1275	1276	PUNCT	punct	236		0	-1	-1	-1	-1
+19	24	2	242	et	et	1277	1279	CCONJ	cc	243		0	-1	-1	-1	-1
+19	24	3	243	choisit	choisir	1280	1287	VERB	conj	236	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+19	24	4	244	,	,	1287	1288	PUNCT	punct	243		0	-1	-1	-1	-1
+19	24	5	245	au	au	1289	1291	ADP	case	246	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+19	24	6	246	contraire	contraire	1292	1301	NOUN	obl:mod	243	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+19	24	7	247	,	,	1301	1302	PUNCT	punct	243		0	-1	-1	-1	-1
+19	24	8	248	celle	celui	1303	1308	PRON	obj	243	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+19	24	9	249	qui	qui	1309	1312	PRON	nsubj	272	PronType=Rel	0	-1	-1	-1	-1
+19	24	10	250	était	être	1313	1318	AUX	cop	272	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+19	24	11	251	la	le	1319	1321	DET	det	272	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+19	24	12	252	plus	plus	1322	1326	ADV	advmod	272		0	-1	-1	-1	-1
+20	25	0	253	détestable	détestable	1327	1337	ADJ	amod	272	Number=Sing	0	-1	-1	-1	-1
+20	25	1	254	et	et	1338	1340	CCONJ	cc	257		0	-1	-1	-1	-1
+20	25	2	255	la	le	1341	1343	DET	det	257	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+20	25	3	256	plus	plus	1344	1348	ADV	advmod	257		0	-1	-1	-1	-1
+20	25	4	257	absurde	absurde	1349	1356	ADJ	conj	253	Number=Sing	0	-1	-1	-1	-1
+20	25	5	258	.	.	1356	1357	PUNCT	punct	227		0	-1	-1	-1	-1
+20	26	0	259	Rien	rien	1358	1362	PRON	nsubj	261	Number=Sing	0	-1	-1	-1	-1
+20	26	1	260	ne	ne	1363	1365	ADV	advmod	261	Polarity=Neg	0	-1	-1	-1	-1
+20	26	2	261	pouvait	pouvoir	1366	1373	VERB	ROOT	261	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+20	26	3	262	avoir	avoir	1374	1379	VERB	xcomp	261	VerbForm=Inf	0	-1	-1	-1	-1
+20	26	4	263	en	en	1380	1382	ADP	case	264		0	-1	-1	-1	-1
+20	26	5	264	effet	effet	1383	1388	NOUN	obl:mod	262	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+20	26	6	265	des	un	1389	1392	DET	det	266	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+21	27	0	266	conséquences	conséquence	1393	1405	NOUN	obj	262	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+21	27	1	267	plus	plus	1406	1410	ADV	advmod	268		0	-1	-1	-1	-1
+21	27	2	268	désastreuses	désastreux	1411	1423	ADJ	amod	266	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+21	27	3	269	que	que	1424	1427	SCONJ	mark	271		0	-1	-1	-1	-1
+21	27	4	270	de	de	1428	1430	ADP	mark	271		0	-1	-1	-1	-1
+21	27	5	271	rester	rester	1431	1437	VERB	acl	266	VerbForm=Inf	0	-1	-1	-1	-1
+21	27	6	272	à	à	1438	1439	ADP	case	273		0	-1	-1	-1	-1
+21	27	7	273	Moscou	moscou	1440	1446	PROPN	obl:arg	271	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+21	27	8	274	jusqu'	jusque	1447	1453	ADP	case	276		0	-1	-1	-1	-1
+21	27	9	275	en	en	1453	1455	ADP	case	276		0	-1	-1	-1	-1
+21	27	10	276	octobre	octobre	1456	1463	NOUN	obl:mod	271	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+21	27	11	277	,	,	1463	1464	PUNCT	punct	299		0	-1	-1	-1	-1
+22	28	0	278	de	de	1465	1467	ADP	mark	279		0	-1	-1	-1	-1
+22	28	1	279	laisser	laisser	1468	1475	VERB	xcomp	299	VerbForm=Inf	0	-1	-1	-1	-1
+22	28	2	280	faire	faire	1476	1481	VERB	xcomp	279	VerbForm=Inf	0	-1	282	-1	-1
+22	28	3	281	les	le	1482	1485	DET	det	282	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+22	28	4	282	pillards	pillard	1486	1494	NOUN	obj	280	Gender=Masc|Number=Plur	1	-1	-1	-1	-1
+22	28	5	283	,	,	1494	1495	PUNCT	punct	285		0	-1	-1	-1	-1
+22	28	6	284	de	de	1496	1498	ADP	mark	285		0	-1	-1	-1	-1
+22	28	7	285	quitter	quitter	1499	1506	VERB	conj	279	VerbForm=Inf	0	-1	286	-1	-1
+22	28	8	286	Moscou	moscou	1507	1513	PROPN	obj	285	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+22	28	9	287	à	à	1514	1515	ADP	case	289		0	-1	-1	-1	-1
+22	28	10	288	l'	le	1516	1518	DET	det	289	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+22	28	11	289	aventure	aventure	1518	1526	NOUN	obl:mod	285	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+22	28	12	290	,	,	1526	1527	PUNCT	punct	315		0	-1	-1	-1	-1
+22	28	13	291	de	de	1528	1530	ADP	mark	315		0	-1	-1	-1	-1
+22	28	14	292	se	se	1531	1533	PRON	expl:comp	315	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+23	29	0	293	rapprocher	rapprocher	1534	1544	VERB	xcomp	279	VerbForm=Inf	0	-1	-1	-1	-1
+23	29	1	294	de	de	1545	1547	ADP	case	295		0	-1	-1	-1	-1
+23	29	2	295	Koutouzow	koutouzow	1548	1557	PROPN	obl:arg	293		1	-1	-1	-1	-1
+23	29	3	296	pour	pour	1558	1562	ADP	mark	300		0	-1	-1	-1	-1
+23	29	4	297	ne	ne	1563	1565	ADV	advmod	300	Polarity=Neg	0	-1	-1	-1	-1
+23	29	5	298	pas	pas	1566	1569	ADV	advmod	300	Polarity=Neg	0	-1	-1	-1	-1
+23	29	6	299	lui	luire	1570	1573	PRON	iobj	300		1	-1	-1	-1	-1
+23	29	7	300	livrer	livrer	1574	1580	VERB	advcl	293	VerbForm=Inf	0	-1	-1	-1	-1
+23	29	8	301	bataille	bataille	1581	1589	NOUN	obj	300	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+23	29	9	302	,	,	1589	1590	PUNCT	punct	304		0	-1	-1	-1	-1
+23	29	10	303	de	de	1591	1593	ADP	mark	304		0	-1	-1	-1	-1
+23	29	11	304	gagner	gagner	1594	1600	VERB	conj	279	VerbForm=Inf	0	-1	305	-1	-1
+24	30	0	305	Malo	malo	1601	1605	PROPN	obj	304		1	-1	-1	-1	-1
+24	30	1	306	-	-	1605	1606	PROPN	obl:mod	304		0	-1	-1	-1	-1
+24	30	2	307	Yaroslavetz	yaroslavetz	1606	1617	PROPN	obj	304		0	-1	-1	-1	-1
+24	30	3	308	,	,	1617	1618	PUNCT	punct	304		0	-1	-1	-1	-1
+24	30	4	309	en	en	1619	1621	ADP	mark	311		0	-1	-1	-1	-1
+24	30	5	310	le	le	1622	1624	PRON	obj	311	Gender=Masc|Number=Sing|Person=3	1	-1	-1	-1	-1
+24	30	6	311	laissant	laisser	1625	1633	VERB	advcl	304	Tense=Pres|VerbForm=Part	0	-1	310	-1	-1
+24	30	7	312	sur	sur	1634	1637	ADP	case	314		0	-1	-1	-1	-1
+24	30	8	313	sa	son	1638	1640	DET	det	314	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+24	30	9	314	droite	droite	1641	1647	NOUN	obl:arg	311	Gender=Fem|Number=Sing	0	-1	-1	-1	313
+24	30	10	315	,	,	1647	1648	PUNCT	punct	317		0	-1	-1	-1	-1
+24	30	11	316	de	de	1649	1651	ADP	mark	317		0	-1	-1	-1	-1
+24	30	12	317	retourner	retourner	1652	1661	VERB	xcomp	261	VerbForm=Inf	0	-1	-1	-1	-1
+24	30	13	318	sur	sur	1662	1665	ADP	case	319		0	-1	-1	-1	-1
+24	30	14	319	Mojaïsk	mojaïsk	1666	1673	PROPN	obl:arg	317		1	-1	-1	-1	-1
+25	31	0	320	sans	sans	1674	1678	ADP	mark	322		0	-1	-1	-1	-1
+25	31	1	321	avoir	avoir	1679	1684	AUX	aux:tense	322	VerbForm=Inf	0	-1	-1	-1	-1
+25	31	2	322	tenté	tenter	1685	1690	VERB	advcl	327	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+25	31	3	323	la	le	1691	1693	DET	det	324	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+25	31	4	324	fortune	fortune	1694	1701	NOUN	obj	322	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+25	31	5	325	,	,	1701	1702	PUNCT	punct	327		0	-1	-1	-1	-1
+25	31	6	326	de	de	1703	1705	ADP	mark	327		0	-1	-1	-1	-1
+25	31	7	327	reprendre	reprendre	1706	1715	VERB	xcomp	261	VerbForm=Inf	0	-1	-1	-1	-1
+25	31	8	328	enfin	enfin	1716	1721	ADV	advmod	327		0	-1	-1	-1	-1
+25	31	9	329	la	le	1722	1724	DET	det	330	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+25	31	10	330	route	route	1725	1730	NOUN	obj	327	Gender=Fem|Number=Sing	0	-1	-1	-1	332
+25	31	11	331	de	de	1731	1733	ADP	case	332		0	-1	-1	-1	-1
+25	31	12	332	Smolensk	smolensk	1734	1742	PROPN	nmod	330		1	-1	-1	-1	-1
+25	31	13	333	et	et	1743	1745	CCONJ	cc	359		0	-1	-1	-1	-1
+26	32	0	334	de	de	1746	1748	ADP	mark	336		0	-1	-1	-1	-1
+26	32	1	335	s'	se	1749	1751	PRON	expl:comp	336	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+26	32	2	336	engager	engager	1751	1758	VERB	xcomp	359	VerbForm=Inf	0	-1	-1	-1	-1
+26	32	3	337	en	en	1759	1761	ADP	case	338		0	-1	-1	-1	-1
+26	32	4	338	aveugle	aveugle	1762	1769	NOUN	obl:arg	336	Number=Sing	0	-1	-1	-1	-1
+26	32	5	339	dans	dans	1770	1774	ADP	case	341		0	-1	-1	-1	-1
+26	32	6	340	des	un	1775	1778	DET	det	341	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+26	32	7	341	contrées	contrée	1779	1787	NOUN	obl:mod	336	Gender=Fem|Number=Plur	1	-1	-1	-1	-1
+26	32	8	342	dévastées	dévaster	1788	1797	VERB	acl	341	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+26	32	9	343	.	.	1797	1798	PUNCT	punct	261		0	-1	-1	-1	-1
+26	33	0	344	Que	que	1799	1802	SCONJ	mark	347		0	-1	-1	-1	-1
+26	33	1	345	l'	le	1803	1805	PRON	nsubj	347	Number=Sing	0	-1	-1	-1	-1
+26	33	2	346	on	on	1805	1807	PRON	nsubj	347	Number=Sing	0	-1	-1	-1	-1
+26	33	3	347	soumette	soumettre	1808	1816	VERB	ROOT	347	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+27	34	0	348	aux	à	1817	1820	ADP	case	349	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+27	34	1	349	stratégistes	stratégiste	1821	1833	NOUN	obl:arg	374	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+27	34	2	350	les	le	1834	1837	DET	det	352	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+27	34	3	351	plus	plus	1838	1842	ADV	advmod	352		0	-1	-1	-1	-1
+27	34	4	352	habiles	habile	1843	1850	ADJ	amod	349	Number=Plur	0	-1	-1	-1	-1
+27	34	5	353	cette	ce	1851	1856	DET	det	354	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+27	34	6	354	série	série	1857	1862	NOUN	obj	374	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+27	34	7	355	de	de	1863	1865	ADP	case	356		0	-1	-1	-1	-1
+27	34	8	356	faits	fait	1866	1871	NOUN	nmod	354	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+27	34	9	357	,	,	1871	1872	PUNCT	punct	347		0	-1	-1	-1	-1
+27	34	10	358	et	et	1873	1875	CCONJ	cc	388		0	-1	-1	-1	-1
+27	34	11	359	ils	il	1876	1879	PRON	nsubj	388	Gender=Masc|Number=Plur|Person=3	0	-1	-1	-1	-1
+27	34	12	360	ne	ne	1880	1882	ADV	advmod	388	Polarity=Neg	0	-1	-1	-1	-1
+28	35	0	361	sauront	savoir	1883	1890	VERB	xcomp	388	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	-1	-1	-1	-1
+28	35	1	362	en	en	1891	1893	PRON	iobj	363	Person=3	0	-1	-1	-1	-1
+28	35	2	363	tirer	tirer	1894	1899	VERB	xcomp	361	VerbForm=Inf	0	-1	-1	-1	-1
+28	35	3	364	d'	de	1900	1902	DET	det	366	Definite=Ind|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+28	35	4	365	autre	autre	1902	1907	ADJ	amod	366	Number=Sing	0	-1	-1	-1	-1
+28	35	5	366	conséquence	conséquence	1908	1919	NOUN	obj	363	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+28	35	6	367	que	que	1920	1923	SCONJ	mark	369		0	-1	-1	-1	-1
+28	35	7	368	la	le	1924	1926	DET	det	369	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+28	35	8	369	destruction	destruction	1927	1938	NOUN	nmod	366	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+28	35	9	370	fatale	fatal	1939	1945	ADJ	amod	369	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+28	35	10	371	ou	ou	1946	1948	CCONJ	cc	372		0	-1	-1	-1	-1
+28	35	11	372	voulue	vouloir	1949	1955	VERB	conj	370	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+29	36	0	373	de	de	1956	1958	ADP	case	376		0	-1	-1	-1	-1
+29	36	1	374	sa	son	1959	1961	DET	det	376	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+29	36	2	375	propre	propre	1962	1968	ADJ	amod	376	Number=Sing	0	-1	-1	376	-1
+29	36	3	376	armée	armée	1969	1974	NOUN	nmod	401	Gender=Fem|Number=Sing	1	-1	-1	-1	374
+29	36	4	377	.	.	1974	1975	PUNCT	punct	347		0	-1	-1	-1	-1
+29	37	0	378	Mais	mais	1976	1980	CCONJ	cc	379		0	-1	-1	-1	-1
+29	37	1	379	dire	dire	1981	1985	VERB	nsubj	390	VerbForm=Inf	0	-1	-1	-1	-1
+29	37	2	380	que	que	1986	1989	SCONJ	mark	383		0	-1	-1	-1	-1
+29	37	3	381	Napoléon	napoléon	1990	1998	PROPN	nsubj	383	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+29	37	4	382	la	le	1999	2001	PRON	obj	383	Gender=Fem|Number=Sing|Person=3	0	-1	-1	-1	-1
+29	37	5	383	perdit	perdre	2002	2008	VERB	ccomp	379	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	381	-1	-1	-1
+29	37	6	384	volontairement	volontairement	2009	2023	ADV	advmod	383		0	-1	-1	-1	-1
+29	37	7	385	ou	ou	2024	2026	CCONJ	cc	415		0	-1	-1	-1	-1
+30	38	0	386	par	par	2027	2030	ADP	case	387		0	-1	-1	-1	-1
+30	38	1	387	incapacité	incapacité	2031	2041	NOUN	obl:mod	415	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+30	38	2	388	est	être	2042	2045	AUX	cop	390	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+30	38	3	389	aussi	aussi	2046	2051	ADV	advmod	390		0	-1	-1	-1	-1
+30	38	4	390	faux	faux	2052	2056	ADJ	ROOT	390	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+30	38	5	391	que	que	2057	2060	SCONJ	mark	393		0	-1	-1	-1	-1
+30	38	6	392	d'	de	2061	2063	ADP	mark	393		0	-1	-1	-1	-1
+30	38	7	393	assurer	assurer	2063	2070	VERB	dep	390	VerbForm=Inf	0	-1	-1	-1	-1
+30	38	8	394	qu'	que	2071	2074	SCONJ	mark	397		0	-1	-1	-1	-1
+30	38	9	395	il	il	2074	2076	PRON	nsubj	397	Gender=Masc|Number=Sing|Person=3	1	-1	-1	-1	-1
+30	38	10	396	avait	avoir	2077	2082	AUX	aux:tense	397	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+30	38	11	397	amené	amener	2083	2088	VERB	ccomp	393	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	395	-1	-1	-1
+30	38	12	398	ses	son	2089	2092	DET	det	429	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+31	39	0	399	troupes	troupe	2093	2100	NOUN	obj	429	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+31	39	1	400	jusqu'	jusque	2101	2107	ADP	case	402		0	-1	-1	-1	-1
+31	39	2	401	à	à	2107	2108	ADP	case	402		0	-1	-1	-1	-1
+31	39	3	402	Moscou	moscou	2109	2115	PROPN	obl:arg	429	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+31	39	4	403	par	par	2116	2119	ADP	case	405		0	-1	-1	-1	-1
+31	39	5	404	la	le	2120	2122	DET	det	405	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+31	39	6	405	force	force	2123	2128	NOUN	obl:mod	429	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+31	39	7	406	de	de	2129	2131	ADP	case	408		0	-1	-1	-1	-1
+31	39	8	407	sa	son	2132	2134	DET	det	408	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+31	39	9	408	volonté	volonté	2135	2142	NOUN	nmod	405	Gender=Fem|Number=Sing	0	-1	-1	-1	407
+31	39	10	409	ou	ou	2143	2145	CCONJ	cc	443		0	-1	-1	-1	-1
+31	39	11	410	par	par	2146	2149	ADP	case	443		0	-1	-1	-1	-1
+31	39	12	411	les	le	2150	2153	DET	det	443	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+32	40	0	412	combinaisons	combinaison	2154	2166	NOUN	obj	443	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+32	40	1	413	de	de	2167	2169	ADP	case	415		0	-1	-1	-1	-1
+32	40	2	414	son	son	2170	2173	DET	det	415	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+32	40	3	415	génie	génie	2174	2179	NOUN	nmod	412	Gender=Masc|Number=Sing	0	-1	-1	-1	414
+32	40	4	416	.	.	2179	2180	PUNCT	punct	390		0	-1	-1	-1	-1
+32	41	0	417	Dans	dans	2181	2185	ADP	case	419		0	-1	-1	-1	-1
+32	41	1	418	l'	le	2186	2188	DET	det	419	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+32	41	2	419	un	un	2188	2190	PRON	obl:mod	459	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+32	41	3	420	et	et	2191	2193	CCONJ	cc	423		0	-1	-1	-1	-1
+32	41	4	421	l'	le	2194	2196	DET	det	423	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+32	41	5	422	autre	autre	2196	2201	ADJ	amod	423	Number=Sing	0	-1	-1	-1	-1
+32	41	6	423	cas	cas	2202	2205	NOUN	conj	419	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+32	41	7	424	,	,	2205	2206	PUNCT	punct	459		0	-1	-1	-1	-1
+32	41	8	425	son	son	2207	2210	DET	det	426	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+32	41	9	426	action	action	2211	2217	NOUN	nsubj	459	Gender=Fem|Number=Sing	0	-1	-1	-1	425
+33	42	0	427	personnelle	personnel	2218	2229	ADJ	amod	459	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+33	42	1	428	n'	ne	2230	2232	ADV	advmod	429	Polarity=Neg	0	-1	-1	-1	-1
+33	42	2	429	avait	avoir	2232	2237	VERB	ccomp	459	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+33	42	3	430	pas	pas	2238	2241	ADV	advmod	431		0	-1	-1	-1	-1
+33	42	4	431	plus	plus	2242	2246	ADV	obj	429		0	-1	-1	-1	-1
+33	42	5	432	d'	de	2247	2249	ADP	case	433		0	-1	-1	-1	-1
+33	42	6	433	influence	influence	2249	2258	NOUN	obl:arg	431	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+33	42	7	434	que	que	2259	2262	SCONJ	mark	436		0	-1	-1	-1	-1
+33	42	8	435	l'	le	2263	2265	DET	det	436	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+33	42	9	436	action	action	2265	2271	NOUN	dep	431	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+33	42	10	437	personnelle	personnel	2272	2283	ADJ	amod	436	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+33	42	11	438	du	de	2284	2286	ADP	case	472	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+34	43	0	439	dernier	dernier	2287	2294	ADJ	amod	440	Gender=Masc|NumType=Ord|Number=Sing	0	-1	-1	440	-1
+34	43	1	440	soldat	soldat	2295	2301	NOUN	nmod	472	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+34	43	2	441	,	,	2301	2302	PUNCT	punct	429		0	-1	-1	-1	-1
+34	43	3	442	et	et	2303	2305	CCONJ	cc	445		0	-1	-1	-1	-1
+34	43	4	443	elle	lui	2306	2310	PRON	nsubj	445	Gender=Fem|Number=Sing|Person=3	0	-1	-1	-1	-1
+34	43	5	444	se	se	2311	2313	PRON	expl:comp	445	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+34	43	6	445	bornait	borner	2314	2321	VERB	conj	429	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+34	43	7	446	à	à	2322	2323	ADP	mark	448		0	-1	-1	-1	-1
+34	43	8	447	se	se	2324	2326	PRON	expl:comp	448	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+34	43	9	448	conformer	conformer	2327	2336	VERB	xcomp	445	VerbForm=Inf	0	-1	-1	-1	-1
+34	43	10	449	à	à	2337	2338	ADP	case	451		0	-1	-1	-1	-1
+34	43	11	450	des	un	2339	2342	DET	det	451	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+34	43	12	451	lois	loi	2343	2347	NOUN	obl:arg	448	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+34	43	13	452	,	,	2347	2348	PUNCT	punct	451		0	-1	-1	-1	-1
+34	43	14	453	dont	dont	2349	2353	PRON	nmod	489	PronType=Rel	0	-1	-1	-1	-1
+34	43	15	454	le	le	2354	2356	DET	expl:comp	489	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+35	44	0	455	fait	fait	2357	2361	NOUN	nsubj	458	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+35	44	1	456	était	être	2362	2367	AUX	cop	458	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+35	44	2	457	le	le	2368	2370	DET	det	458	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+35	44	3	458	résultat	résultat	2371	2379	NOUN	obl:arg	489	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+35	44	4	459	.	.	2379	2380	PUNCT	punct	429		0	-1	-1	-1	-1
+36	45	0	460	Les	le	2382	2385	DET	det	461	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+36	45	1	461	historiens	historien	2386	2396	NOUN	nsubj	462	Gender=Masc|Number=Plur	1	-1	-1	-1	-1
+36	45	2	462	ont	avoir	2397	2400	VERB	ROOT	462	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	461	-1	-1	-1
+36	45	3	463	tort	tort	2401	2405	NOUN	obj	462	Gender=Masc|Number=Sing	0	-1	-1	-1	461
+36	45	4	464	de	de	2406	2408	ADP	mark	466		0	-1	-1	-1	-1
+36	45	5	465	nous	nous	2409	2413	PRON	iobj	466	Number=Plur|Person=1	1	-1	-1	-1	-1
+36	45	6	466	représenter	représenter	2414	2425	VERB	xcomp	462	VerbForm=Inf	0	-1	-1	-1	-1
+36	45	7	467	les	le	2426	2429	DET	det	468	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+36	45	8	468	forces	force	2430	2436	NOUN	obj	466	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+36	45	9	469	intellectuelles	intellectuel	2437	2452	ADJ	amod	468	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+37	46	0	470	de	de	2453	2455	ADP	case	471		0	-1	-1	-1	-1
+37	46	1	471	Napoléon	napoléon	2456	2464	PROPN	nmod	506	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+37	46	2	472	à	à	2465	2466	ADP	case	473		0	-1	-1	-1	-1
+37	46	3	473	Moscou	moscou	2467	2473	PROPN	nmod	506	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+37	46	4	474	comme	comme	2474	2479	ADP	mark	475		0	-1	-1	-1	-1
+37	46	5	475	affaiblies	affaiblir	2480	2490	VERB	acl	473	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+37	46	6	476	,	,	2490	2491	PUNCT	punct	475		0	-1	-1	-1	-1
+37	46	7	477	pour	pour	2492	2496	ADP	mark	478		0	-1	-1	-1	-1
+37	46	8	478	expliquer	expliquer	2497	2506	VERB	advcl	475	VerbForm=Inf	0	-1	-1	-1	-1
+37	46	9	479	son	son	2507	2510	DET	det	480	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+37	46	10	480	insuccès	insuccès	2511	2519	NOUN	obj	478	Gender=Masc|Number=Sing	0	-1	-1	-1	479
+37	46	11	481	.	.	2519	2520	PUNCT	punct	462		0	-1	-1	-1	-1
+37	47	0	482	Son	son	2521	2524	DET	det	520	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+38	48	0	483	activité	activité	2525	2533	NOUN	nsubj	493	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+38	48	1	484	,	,	2533	2534	PUNCT	punct	493		0	-1	-1	-1	-1
+38	48	2	485	à	à	2535	2536	ADP	case	487		0	-1	-1	-1	-1
+38	48	3	486	cette	ce	2537	2542	DET	det	487	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+38	48	4	487	époque	époque	2543	2549	NOUN	obl:mod	493	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+38	48	5	488	,	,	2549	2550	PUNCT	punct	493		0	-1	-1	-1	-1
+38	48	6	489	ne	ne	2551	2553	ADV	advmod	493	Polarity=Neg	0	-1	-1	-1	-1
+38	48	7	490	fut	être	2554	2557	AUX	cop	493	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	-1	-1	-1	-1
+38	48	8	491	pas	pas	2558	2561	ADV	advmod	492		0	-1	-1	-1	-1
+38	48	9	492	moins	moins	2562	2567	ADV	advmod	493		0	-1	-1	-1	-1
+38	48	10	493	étonnante	étonnant	2568	2577	ADJ	ROOT	493	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+38	48	11	494	que	que	2578	2581	SCONJ	det	495		0	-1	-1	-1	-1
+38	48	12	495	celle	celui	2582	2587	PRON	obj	493	Gender=Fem|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+38	48	13	496	dont	dont	2588	2592	PRON	iobj	536	PronType=Rel	0	-1	-1	-1	-1
+38	48	14	497	il	il	2593	2595	PRON	nsubj	536	Gender=Masc|Number=Sing|Person=3	1	-1	-1	-1	-1
+39	49	0	498	avait	avoir	2596	2601	AUX	aux:tense	499	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+39	49	1	499	fait	faire	2602	2606	VERB	conj	536	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+39	49	2	500	preuve	preuve	2607	2613	NOUN	obj	499	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+39	49	3	501	en	en	2614	2616	ADP	case	502		0	-1	-1	-1	-1
+39	49	4	502	Égypte	égypte	2617	2623	PROPN	obl:mod	499	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+39	49	5	503	,	,	2623	2624	PUNCT	punct	505		0	-1	-1	-1	-1
+39	49	6	504	en	en	2625	2627	ADP	case	505		0	-1	-1	-1	-1
+39	49	7	505	Italie	italie	2628	2634	PROPN	conj	502	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+39	49	8	506	,	,	2634	2635	PUNCT	punct	508		0	-1	-1	-1	-1
+39	49	9	507	en	en	2636	2638	ADP	case	508		0	-1	-1	-1	-1
+39	49	10	508	Autriche	autriche	2639	2647	PROPN	conj	502	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+39	49	11	509	et	et	2648	2650	CCONJ	cc	511		0	-1	-1	-1	-1
+39	49	12	510	en	en	2651	2653	ADP	case	511		0	-1	-1	-1	-1
+39	49	13	511	Prusse	prusse	2654	2660	PROPN	conj	502	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+39	49	14	512	.	.	2660	2661	PUNCT	punct	499		0	-1	-1	-1	-1
+39	49	15	513	Nous	nous	2662	2666	PRON	nsubj	553	Number=Plur|Person=1	1	-1	-1	-1	-1
+40	50	0	514	ne	ne	2667	2669	ADV	advmod	515	Polarity=Neg	0	-1	-1	-1	-1
+40	50	1	515	pouvons	pouvoir	2670	2677	VERB	ccomp	493	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	-1	526	-1	-1
+40	50	2	516	apprécier	apprécier	2678	2687	VERB	xcomp	515	VerbForm=Inf	0	-1	-1	-1	-1
+40	50	3	517	à	à	2688	2689	ADP	case	520		0	-1	-1	-1	-1
+40	50	4	518	sa	son	2690	2692	DET	det	520	Gender=Fem|Number=Sing|Poss=Yes	0	-1	-1	-1	-1
+40	50	5	519	véritable	véritable	2693	2702	ADJ	amod	520	Number=Sing	0	-1	-1	-1	-1
+40	50	6	520	valeur	valeur	2703	2709	NOUN	obl:mod	516	Gender=Fem|Number=Sing	0	-1	-1	-1	482
+40	50	7	521	le	le	2710	2712	DET	det	522	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+40	50	8	522	génie	génie	2713	2718	NOUN	obj	516	Gender=Masc|Number=Sing	0	-1	-1	-1	524
+40	50	9	523	de	de	2719	2721	ADP	case	524		0	-1	-1	-1	-1
+40	50	10	524	Napoléon	napoléon	2722	2730	PROPN	nmod	522	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+40	50	11	525	en	en	2731	2733	ADP	case	566		0	-1	-1	-1	-1
+41	51	0	526	Égypte	égypte	2734	2740	PROPN	obj	515	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+41	51	1	527	,	,	2740	2741	PUNCT	punct	526		0	-1	-1	-1	-1
+41	51	2	528	où	où	2742	2744	PRON	iobj	533	PronType=Rel	1	-1	-1	-1	-1
+41	51	3	529	«	«	2745	2746	PUNCT	punct	533		0	-1	-1	-1	-1
+41	51	4	530	quarante	quarante	2746	2754	NUM	nummod	531	NumType=Card	0	-1	-1	-1	-1
+41	51	5	531	siècles	siècle	2755	2762	NOUN	nsubj	533	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+41	51	6	532	avaient	avoir	2763	2770	AUX	aux:tense	533	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+41	51	7	533	contemplé	contempler	2771	2780	VERB	acl:relcl	526	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+41	51	8	534	sa	son	2781	2783	DET	det	535	Gender=Fem|Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+41	51	9	535	grandeur	grandeur	2784	2792	NOUN	obj	533	Gender=Fem|Number=Sing	0	-1	-1	-1	534
+41	51	10	536	»	»	2792	2793	PUNCT	punct	533		0	-1	-1	-1	-1
+41	51	11	537	,	,	2793	2794	PUNCT	punct	515		0	-1	-1	-1	-1
+41	51	12	538	ni	ni	2795	2797	CCONJ	cc	539		0	-1	-1	-1	-1
+41	51	13	539	celui	celui	2798	2803	PRON	conj	515	Gender=Masc|Number=Plur|PronType=Dem	0	-1	-1	-1	-1
+42	52	0	540	qu'	que	2804	2807	PRON	obj	543	PronType=Rel	0	-1	-1	-1	-1
+42	52	1	541	il	il	2807	2809	PRON	nsubj	543	Gender=Masc|Number=Sing|Person=3	1	-1	-1	-1	-1
+42	52	2	542	avait	avoir	2810	2815	AUX	aux:tense	543	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+42	52	3	543	déployé	déployer	2816	2823	VERB	acl:relcl	581	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	541	-1	-1	-1
+42	52	4	544	en	en	2824	2826	ADP	case	545		0	-1	-1	-1	-1
+42	52	5	545	Autriche	autriche	2827	2835	PROPN	obl:mod	543	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+42	52	6	546	et	et	2836	2838	CCONJ	cc	548		0	-1	-1	-1	-1
+42	52	7	547	en	en	2839	2841	ADP	case	548		0	-1	-1	-1	-1
+42	52	8	548	Prusse	prusse	2842	2848	PROPN	conj	545	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+42	52	9	549	,	,	2848	2849	PUNCT	punct	543		0	-1	-1	-1	-1
+42	52	10	550	car	car	2850	2853	CCONJ	cc	553		0	-1	-1	-1	-1
+42	52	11	551	nous	nous	2854	2858	PRON	nsubj:pass	553	Number=Plur|Person=1	1	-1	-1	-1	-1
+42	52	12	552	somme	sommer	2859	2864	AUX	aux:tense	553	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+42	52	13	553	obligés	obliger	2865	2872	VERB	conj	543	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	513	-1	-1	-1
+42	52	14	554	de	de	2873	2875	ADP	mark	597		0	-1	-1	-1	-1
+43	53	0	555	nous	nous	2876	2880	PRON	expl:comp	557	Number=Plur|Person=1|Reflex=Yes	0	-1	-1	-1	-1
+43	53	1	556	en	en	2881	2883	PRON	iobj	557	Person=3	0	-1	-1	-1	-1
+43	53	2	557	rapporter	rapporter	2884	2893	VERB	xcomp	597	VerbForm=Inf	0	-1	-1	-1	-1
+43	53	3	558	aux	à	2894	2897	ADP	case	559	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+43	53	4	559	versions	version	2898	2906	NOUN	obl:arg	557	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+43	53	5	560	françaises	français	2907	2917	ADJ	amod	559	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+43	53	6	561	et	et	2918	2920	CCONJ	cc	562		0	-1	-1	-1	-1
+43	53	7	562	allemandes	allemand	2921	2931	ADJ	conj	560	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+43	53	8	563	,	,	2931	2932	PUNCT	punct	553		0	-1	-1	-1	-1
+43	53	9	564	et	et	2933	2935	CCONJ	cc	609		0	-1	-1	-1	-1
+43	53	10	565	les	le	2936	2939	DET	det	609	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+44	54	0	566	Allemands	allemand	2940	2949	NOUN	nsubj	623	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+44	54	1	567	eux	lui	2950	2953	PRON	nmod	566		1	-1	-1	-1	-1
+44	54	2	568	-	-	2953	2954	PRON	dep	566		0	-1	-1	-1	-1
+44	54	3	569	mêmes	même	2954	2959	PRON	nmod	566		0	-1	-1	-1	-1
+44	54	4	570	font	faire	2960	2964	AUX	dep	571	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+44	54	5	571	sonner	sonner	2965	2971	VERB	dep	566	VerbForm=Inf	0	-1	-1	-1	-1
+44	54	6	572	bien	bien	2972	2976	ADV	advmod	573		0	-1	-1	-1	-1
+44	54	7	573	haut	haut	2977	2981	ADV	advmod	571		0	-1	-1	-1	-1
+44	54	8	574	son	son	2982	2985	DET	det	575	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+44	54	9	575	génie	génie	2986	2991	NOUN	obj	571	Gender=Masc|Number=Sing	0	-1	-1	-1	574
+44	54	10	576	,	,	2991	2992	PUNCT	punct	571		0	-1	-1	-1	-1
+44	54	11	577	ne	ne	2993	2995	ADV	advmod	578	Polarity=Neg	0	-1	-1	-1	-1
+44	54	12	578	pouvant	pouvoir	2996	3003	VERB	advcl	571	Tense=Pres|VerbForm=Part	0	-1	-1	-1	-1
+45	55	0	579	expliquer	expliquer	3004	3013	VERB	xcomp	623	VerbForm=Inf	0	-1	-1	-1	-1
+45	55	1	580	autrement	autrement	3014	3023	ADV	advmod	579		0	-1	-1	-1	-1
+45	55	2	581	pourquoi	pourquoi	3024	3032	ADV	advmod	587	PronType=Int	0	-1	-1	-1	-1
+45	55	3	582	tant	tant	3033	3037	ADV	punct	587		0	-1	-1	-1	-1
+45	55	4	583	de	de	3038	3040	ADP	case	584		0	-1	-1	-1	-1
+45	55	5	584	forteresses	forteresse	3041	3052	NOUN	nsubj	587	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+45	55	6	585	se	se	3053	3055	PRON	expl:comp	587	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+45	55	7	586	sont	être	3056	3060	AUX	aux:tense	587	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+45	55	8	587	rendues	rendre	3061	3068	VERB	ccomp	579	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+45	55	9	588	sans	sans	3069	3073	ADP	case	634		0	-1	-1	-1	-1
+46	56	0	589	coup	coup	3074	3078	NOUN	mark	590	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+46	56	1	590	férir	férir	3079	3084	VERB	xcomp	587	VerbForm=Inf	0	-1	-1	-1	-1
+46	56	2	591	,	,	3084	3085	PUNCT	punct	599		0	-1	-1	-1	-1
+46	56	3	592	et	et	3086	3088	CCONJ	cc	599		0	-1	-1	-1	-1
+46	56	4	593	pourquoi	pourquoi	3089	3097	ADV	advmod	599	PronType=Int	0	-1	-1	-1	-1
+46	56	5	594	des	un	3098	3101	DET	det	595	Definite=Ind|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+46	56	6	595	corps	corps	3102	3107	NOUN	nsubj:pass	599	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+46	56	7	596	entiers	entier	3108	3115	ADJ	amod	595	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+46	56	8	597	ont	avoir	3116	3119	AUX	aux:tense	599	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+46	56	9	598	été	être	3120	3123	AUX	aux:pass	599	Tense=Past|VerbForm=Part	0	-1	-1	-1	-1
+46	56	10	599	faits	faire	3124	3129	VERB	advcl	587	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	-1	-1	-1	-1
+46	56	11	600	prisonniers	prisonnier	3130	3141	NOUN	xcomp	599	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+46	56	12	601	sans	sans	3142	3146	ADP	mark	648		0	-1	-1	-1	-1
+47	57	0	602	livrer	livrer	3147	3153	VERB	xcomp	599	VerbForm=Inf	0	-1	-1	-1	-1
+47	57	1	603	bataille	bataille	3154	3162	NOUN	obj	602	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+47	57	2	604	.	.	3162	3163	PUNCT	punct	579		0	-1	-1	-1	-1
+47	58	0	605	Quant	quant	3164	3169	ADV	case	607		0	-1	-1	-1	-1
+47	58	1	606	à	à	3170	3171	ADP	fixed	605		0	-1	-1	-1	-1
+47	58	2	607	nous	nous	3172	3176	PRON	obl:mod	611	Number=Plur|Person=1	1	-1	-1	-1	-1
+47	58	3	608	,	,	3176	3177	PUNCT	punct	611		0	-1	-1	-1	-1
+47	58	4	609	nous	nous	3178	3182	PRON	nsubj	611	Number=Plur|Person=1	1	-1	-1	-1	-1
+47	58	5	610	n'	ne	3183	3185	ADV	advmod	611	Polarity=Neg	0	-1	-1	-1	-1
+47	58	6	611	avons	avoir	3185	3190	VERB	ROOT	611	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	609	-1	-1	-1
+47	58	7	612	pas	pas	3191	3194	ADV	advmod	611	Polarity=Neg	0	-1	-1	-1	-1
+47	58	8	613	,	,	3194	3195	PUNCT	punct	611		0	-1	-1	-1	-1
+47	58	9	614	Dieu	dieu	3196	3200	NOUN	dep	611	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+47	58	10	615	merci	merci	3201	3206	NOUN	nmod	614	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+47	58	11	616	,	,	3206	3207	PUNCT	punct	611		0	-1	-1	-1	-1
+47	58	12	617	pour	pour	3208	3212	ADP	mark	618		0	-1	-1	-1	-1
+47	58	13	618	cacher	cacher	3213	3219	VERB	advcl	611	VerbForm=Inf	0	-1	-1	-1	-1
+48	59	0	619	notre	notre	3220	3225	DET	det	620	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+48	59	1	620	honte	honte	3226	3231	NOUN	obj	666	Gender=Fem|Number=Sing	0	-1	-1	-1	619
+48	59	2	621	,	,	3231	3232	PUNCT	punct	611		0	-1	-1	-1	-1
+48	59	3	622	à	à	3233	3234	ADP	mark	624		0	-1	-1	-1	-1
+48	59	4	623	nous	nous	3235	3239	PRON	expl:comp	624	Number=Plur|Person=1|Reflex=Yes	0	-1	-1	-1	-1
+48	59	5	624	incliner	incliner	3240	3248	VERB	xcomp	611	VerbForm=Inf	0	-1	-1	-1	-1
+48	59	6	625	devant	devant	3249	3255	ADP	case	627		0	-1	-1	-1	-1
+48	59	7	626	son	son	3256	3259	DET	det	627	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+48	59	8	627	génie	génie	3260	3265	NOUN	obl:arg	624	Gender=Masc|Number=Sing	0	-1	-1	-1	626
+48	59	9	628	;	;	3265	3266	PUNCT	punct	611		0	-1	-1	-1	-1
+48	59	10	629	nous	nous	3267	3271	PRON	nsubj	631	Number=Plur|Person=1	1	-1	-1	-1	-1
+48	59	11	630	avons	avoir	3272	3277	AUX	aux:tense	631	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+48	59	12	631	payé	payer	3278	3282	VERB	ROOT	631	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	629	-1	-1	-1
+48	59	13	632	cher	cher	3283	3287	ADV	advmod	631		0	-1	-1	-1	-1
+48	59	14	633	le	le	3288	3290	DET	det	682	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+49	60	0	634	droit	droit	3291	3296	NOUN	obj	631	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+49	60	1	635	de	de	3297	3299	ADP	mark	636		0	-1	-1	-1	-1
+49	60	2	636	juger	juger	3300	3305	VERB	acl	634	VerbForm=Inf	0	-1	-1	-1	-1
+49	60	3	637	ses	son	3306	3309	DET	det	638	Number=Plur|Poss=Yes	1	-1	-1	-1	-1
+49	60	4	638	actes	acte	3310	3315	NOUN	obj	636	Gender=Masc|Number=Plur	0	-1	-1	-1	637
+49	60	5	639	,	,	3315	3316	PUNCT	punct	636		0	-1	-1	-1	-1
+49	60	6	640	de	de	3317	3319	ADP	case	642		0	-1	-1	-1	-1
+49	60	7	641	bonne	bon	3320	3325	ADJ	amod	642	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+49	60	8	642	foi	foi	3326	3329	NOUN	obl:mod	636	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+49	60	9	643	et	et	3330	3332	CCONJ	cc	645		0	-1	-1	-1	-1
+49	60	10	644	sans	sans	3333	3337	ADP	case	645		0	-1	-1	-1	-1
+49	60	11	645	déguisement	déguisement	3338	3349	NOUN	conj	642	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+49	60	12	646	,	,	3349	3350	PUNCT	punct	631		0	-1	-1	-1	-1
+49	60	13	647	et	et	3351	3353	CCONJ	cc	699		0	-1	-1	-1	-1
+49	60	14	648	dès	dès	3354	3357	ADP	advmod	699		0	-1	-1	-1	-1
+49	60	15	649	lors	lors	3358	3362	ADV	fixed	648		0	-1	-1	-1	-1
+50	61	0	650	nous	nous	3363	3367	PRON	aux:pass	653	Number=Plur|Person=1	1	-1	-1	-1	-1
+50	61	1	651	ne	ne	3368	3370	ADV	advmod	653	Polarity=Neg	0	-1	-1	-1	-1
+50	61	2	652	sommes	être	3371	3377	AUX	aux:pass	653	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+50	61	3	653	obligés	obliger	3378	3385	VERB	advcl	631	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	-1	-1	-1	-1
+50	61	4	654	à	à	3386	3387	ADP	case	656		0	-1	-1	-1	-1
+50	61	5	655	aucune	aucun	3388	3394	DET	det	656	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+50	61	6	656	concession	concession	3395	3405	NOUN	obl:arg	653	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+50	61	7	657	.	.	3405	3406	PUNCT	punct	631		0	-1	-1	-1	-1
+50	62	0	658	Son	son	3407	3410	DET	det	659	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+50	62	1	659	activité	activité	3411	3419	NOUN	nsubj	713	Gender=Fem|Number=Sing	0	-1	-1	-1	658
+50	62	2	660	à	à	3420	3421	ADP	case	661		0	-1	-1	-1	-1
+50	62	3	661	Moscou	moscou	3422	3428	PROPN	nmod	659	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+50	62	4	662	était	être	3429	3434	AUX	cop	713	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	-1	-1	-1	-1
+51	63	0	663	sans	sans	3435	3439	ADP	case	664		0	-1	-1	-1	-1
+51	63	1	664	contredit	contredit	3440	3449	NOUN	obl:mod	666	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+51	63	2	665	aussi	aussi	3450	3455	ADV	advmod	666		0	-1	-1	-1	-1
+51	63	3	666	merveilleuse	merveilleux	3456	3468	ADJ	xcomp	713	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+51	63	4	667	que	que	3469	3472	SCONJ	mark	669		0	-1	-1	-1	-1
+51	63	5	668	partout	partout	3473	3480	ADV	advmod	669		0	-1	-1	-1	-1
+51	63	6	669	ailleurs	ailleurs	3481	3489	ADV	obj	666		0	-1	-1	-1	-1
+51	63	7	670	:	:	3489	3490	PUNCT	punct	666		0	-1	-1	-1	-1
+51	63	8	671	les	le	3491	3494	DET	det	672	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+51	63	9	672	ordres	ordre	3495	3501	NOUN	nsubj	725	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+51	63	10	673	et	et	3502	3504	CCONJ	cc	725		0	-1	-1	-1	-1
+52	64	0	674	les	le	3505	3508	DET	det	675	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+52	64	1	675	plans	plan	3509	3514	NOUN	dep	725	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+52	64	2	676	se	se	3515	3517	PRON	expl:comp	677	Person=3|Reflex=Yes	0	-1	-1	-1	-1
+52	64	3	677	succèdent	succéder	3518	3527	VERB	xcomp	666	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+52	64	4	678	sans	sans	3528	3532	ADP	case	679		0	-1	-1	-1	-1
+52	64	5	679	interruption	interruption	3533	3545	NOUN	obl:mod	677	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+52	64	6	680	pendant	pendant	3546	3553	ADP	case	683		0	-1	-1	-1	-1
+52	64	7	681	tout	tout	3554	3558	ADJ	amod	683	Gender=Masc|Number=Sing	0	-1	-1	683	-1
+52	64	8	682	son	son	3559	3562	DET	det	683	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+52	64	9	683	séjour	séjour	3563	3569	NOUN	obl:mod	677	Gender=Masc|Number=Sing	1	-1	-1	-1	682
+52	64	10	684	;	;	3569	3570	PUNCT	punct	666		0	-1	-1	-1	-1
+53	65	0	685	l'	le	3571	3573	DET	det	686	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+53	65	1	686	absence	absence	3573	3580	NOUN	nsubj	699	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+53	65	2	687	d'	de	3581	3583	ADP	case	688		0	-1	-1	-1	-1
+53	65	3	688	habitants	habitant	3583	3592	NOUN	nmod	686	Gender=Masc|Number=Plur	0	-1	-1	-1	-1
+53	65	4	689	et	et	3593	3595	CCONJ	cc	691		0	-1	-1	-1	-1
+53	65	5	690	de	de	3596	3598	ADP	case	691		0	-1	-1	-1	-1
+53	65	6	691	députations	députation	3599	3610	NOUN	conj	688	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+53	65	7	692	,	,	3610	3611	PUNCT	punct	694		0	-1	-1	-1	-1
+53	65	8	693	l'	le	3612	3614	DET	det	694	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+53	65	9	694	incendie	incendie	3614	3622	NOUN	conj	686	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+53	65	10	695	même	même	3623	3627	ADV	advmod	694		0	-1	-1	-1	-1
+53	65	11	696	,	,	3627	3628	PUNCT	punct	699		0	-1	-1	-1	-1
+53	65	12	697	ne	ne	3629	3631	ADV	advmod	699	Polarity=Neg	0	-1	-1	-1	-1
+53	65	13	698	l'	le	3632	3634	PRON	obj	699	Number=Sing|Person=3	1	-1	-1	-1	-1
+53	65	14	699	arrêtent	arrêter	3634	3642	VERB	ROOT	699	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	-1	698	-1	-1
+54	66	0	700	pas	pas	3643	3646	ADV	advmod	753	Polarity=Neg	0	-1	-1	-1	-1
+54	66	1	701	un	un	3647	3649	DET	det	702	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+54	66	2	702	moment	moment	3650	3656	NOUN	obl:mod	753	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+54	66	3	703	.	.	3656	3657	PUNCT	punct	699		0	-1	-1	-1	-1
+54	67	0	704	Il	il	3658	3660	PRON	nsubj	706	Gender=Masc|Number=Sing|Person=3	1	-1	-1	-1	-1
+54	67	1	705	ne	ne	3661	3663	ADV	advmod	706	Polarity=Neg	0	-1	-1	-1	-1
+54	67	2	706	perd	perdre	3664	3668	VERB	ROOT	706	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	704	-1	-1	-1
+54	67	3	707	de	de	3669	3671	ADP	case	708		0	-1	-1	-1	-1
+54	67	4	708	vue	vue	3672	3675	NOUN	obl:arg	706	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+54	67	5	709	ni	ni	3676	3678	CCONJ	cc	711		0	-1	-1	-1	-1
+54	67	6	710	les	le	3679	3682	DET	det	711	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+54	67	7	711	mouvements	mouvement	3683	3693	NOUN	conj	706	Gender=Masc|Number=Plur	0	-1	-1	-1	714
+54	67	8	712	de	de	3694	3696	ADP	case	714		0	-1	-1	-1	-1
+54	67	9	713	l'	le	3697	3699	DET	det	714	Definite=Def|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+54	67	10	714	ennemi	ennemi	3699	3705	NOUN	nmod	711	Gender=Masc|Number=Sing	1	-1	-1	-1	-1
+54	67	11	715	,	,	3705	3706	PUNCT	punct	711		0	-1	-1	-1	-1
+54	67	12	716	ni	ni	3707	3709	CCONJ	cc	772		0	-1	-1	-1	-1
+54	67	13	717	le	le	3710	3712	DET	det	772	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+55	68	0	718	bien-être	bien-être	3713	3722	NOUN	dep	772	Gender=Masc|Number=Sing	0	-1	-1	-1	-1
+55	68	1	719	de	de	3723	3725	ADP	case	721		0	-1	-1	-1	-1
+55	68	2	720	son	son	3726	3729	DET	det	721	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+55	68	3	721	armée	armée	3730	3735	NOUN	nmod	718	Gender=Fem|Number=Sing	0	-1	-1	-1	720
+55	68	4	722	,	,	3735	3736	PUNCT	punct	718		0	-1	-1	-1	-1
+55	68	5	723	ni	ni	3737	3739	CCONJ	cc	724		0	-1	-1	-1	-1
+55	68	6	724	celui	celui	3740	3745	PRON	conj	718	Gender=Masc|Number=Sing|PronType=Dem	0	-1	-1	-1	-1
+55	68	7	725	de	de	3746	3748	ADP	case	727		0	-1	-1	-1	-1
+55	68	8	726	la	le	3749	3751	DET	det	727	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+55	68	9	727	population	population	3752	3762	NOUN	nmod	724	Gender=Fem|Number=Sing	1	-1	-1	-1	-1
+55	68	10	728	russe	russe	3763	3768	ADJ	amod	727	Number=Sing	0	-1	-1	727	-1
+55	68	11	729	qui	qui	3769	3772	PRON	nsubj	731	PronType=Rel	0	-1	-1	-1	-1
+55	68	12	730	l'	le	3773	3775	PRON	obj	731	Number=Sing|Person=3	0	-1	-1	-1	-1
+55	68	13	731	entoure	entourer	3775	3782	VERB	acl:relcl	727	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	-1	-1	-1	-1
+55	68	14	732	,	,	3782	3783	PUNCT	punct	724		0	-1	-1	-1	-1
+56	69	0	733	ni	ni	3784	3786	CCONJ	cc	735		0	-1	-1	-1	-1
+56	69	1	734	la	le	3787	3789	DET	det	735	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+56	69	2	735	direction	direction	3790	3799	NOUN	conj	788	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+56	69	3	736	des	de	3800	3803	ADP	case	737	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+56	69	4	737	affaires	affaire	3804	3812	NOUN	nmod	735	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+56	69	5	738	de	de	3813	3815	ADP	case	740		0	-1	-1	-1	-1
+56	69	6	739	son	son	3816	3819	DET	det	740	Number=Sing|Poss=Yes	1	-1	-1	-1	-1
+56	69	7	740	empire	empire	3820	3826	NOUN	nmod	737	Gender=Masc|Number=Sing	0	-1	-1	-1	739
+56	69	8	741	,	,	3826	3827	PUNCT	punct	735		0	-1	-1	-1	-1
+56	69	9	742	ni	ni	3828	3830	CCONJ	cc	744		0	-1	-1	-1	-1
+56	69	10	743	les	le	3831	3834	DET	det	744	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+56	69	11	744	combinaisons	combinaison	3835	3847	NOUN	conj	735	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+57	70	0	745	diplomatiques	diplomatique	3848	3861	ADJ	amod	801	Number=Plur	0	-1	-1	-1	-1
+57	70	1	746	,	,	3861	3862	PUNCT	punct	744		0	-1	-1	-1	-1
+57	70	2	747	ni	ni	3863	3865	CCONJ	cc	750		0	-1	-1	-1	-1
+57	70	3	748	même	même	3866	3870	ADV	advmod	750		0	-1	-1	-1	-1
+57	70	4	749	les	le	3871	3874	DET	det	750	Definite=Def|Number=Plur|PronType=Art	0	-1	-1	-1	-1
+57	70	5	750	conditions	condition	3875	3885	NOUN	conj	744	Gender=Fem|Number=Plur	0	-1	-1	-1	-1
+57	70	6	751	à	à	3886	3887	ADP	mark	752		0	-1	-1	-1	-1
+57	70	7	752	débattre	débattre	3888	3896	VERB	acl	750	VerbForm=Inf	0	-1	-1	-1	-1
+57	70	8	753	pour	pour	3897	3901	ADP	mark	755		0	-1	-1	-1	-1
+57	70	9	754	en	en	3902	3904	PRON	expl:comp	755	Person=3	0	-1	-1	-1	-1
+57	70	10	755	arriver	arriver	3905	3912	VERB	advcl	752	VerbForm=Inf	0	-1	-1	-1	-1
+57	70	11	756	à	à	3913	3914	ADP	case	815		0	-1	-1	-1	-1
+57	70	12	757	une	un	3915	3918	DET	det	815	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	-1	-1	-1	-1
+58	71	0	758	paix	paix	3919	3923	NOUN	obj	815	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+58	71	1	759	prochaine	prochain	3924	3933	ADJ	amod	758	Gender=Fem|Number=Sing	0	-1	-1	-1	-1
+58	71	2	760	.	.	3933	3934	PUNCT	ROOT	760		0	-1	-1	-1	-1

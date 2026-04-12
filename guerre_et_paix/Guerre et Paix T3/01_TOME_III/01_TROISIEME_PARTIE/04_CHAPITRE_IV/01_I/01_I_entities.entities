@@ -1,0 +1,89 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+142	142	PER	0.8184787034988403	nous	1	10	11	10	0	0	0	0	142	nous	iobj	144	PRON	PRON	Plural	Ambiguous	1	2
+148	148	PER	0.9420589208602905	nous	1	11	12	2	0	0	0	1	148	nous	nsubj	149	PRON	PRON	Plural	Ambiguous	1	2
+154	154	PER	0.9826666116714478	nous	1	11	12	8	0	0	0	2	154	nous	nsubj	156	PRON	PRON	Plural	Ambiguous	1	2
+210	214	TIME	0.74140864610672	après la bataille de borodino	5	16	17	0	0	1	1	3	212	bataille	obl:mod	221	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+214	214	GPE	0.283933162689209	borodino	1	16	17	4	1	0	0	4	214	borodino	nmod	212	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+216	222	TIME	0.5591022670269012	après que moscou eût été occupé par	7	16	17	6	0	1	1	5	221	occupé	ROOT	221	VERB	PROP	Not_Assigned	Not_Assigned	3	
+218	218	GPE	0.9035631418228149	moscou	1	16	17	8	1	0	0	6	218	moscou	nsubj:pass	221	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+223	224	PER	0.5181676298379898	l' ennemi	2	17	18	0	0	0	0	7	224	ennemi	obj	239	NOUN	NOM	Singular	Male	3	4
+237	237	TIME	0.7541408538818359	1812	1	17	18	14	0	0	0	8	237	1812	nmod	235	NUM	NOM	Not_Assigned	Not_Assigned	3	
+242	243	PER	0.8076027631759644	des historiens	2	18	19	4	0	0	0	9	243	historiens	nmod	241	NOUN	NOM	Plural	Not_Assigned	3	1
+248	250	PER	0.6863012512524923	l' armée russe	3	18	19	10	0	0	0	10	249	armée	nmod	246	NOUN	NOM	Plural	Ambiguous	3	0
+255	255	GPE	0.7330979108810425	riazan	1	19	20	2	0	0	0	11	255	riazan	nmod	253	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+258	260	FAC	0.43218351403872174	celle de kalouga	3	19	20	5	0	1	1	12	260	kalouga	nmod	258	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+260	260	GPE	0.7837032675743103	kalouga	1	19	20	7	1	0	0	13	260	kalouga	nmod	258	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+267	267	GPE	0.7143574953079224	taroutino	1	20	21	1	0	0	0	14	267	taroutino	nmod	285	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+269	269	PER	0.9548755288124084	ils	1	20	22	0	0	0	0	15	269	ils	nsubj	270	PRON	PRON	Plural	Ambiguous	3	1
+278	279	PER	0.6315443515777588	différentes personnes	2	21	23	0	0	0	0	16	279	personnes	obj	298	NOUN	NOM	Plural	Ambiguous	3	9
+282	286	PER	0.6995418488979339	les français eux - mêmes	5	21	23	4	0	0	0	17	283	français	nsubj	287	NOUN	NOM	Plural	Not_Assigned	3	10
+301	303	PER	0.7141263484954834	les généraux russes	3	22	24	9	0	0	0	18	302	généraux	nsubj	327	NOUN	NOM	Plural	Ambiguous	3	11
+320	321	PER	0.8377578556537628	les historiens	2	24	27	1	0	0	0	19	321	historiens	obl:mod	342	NOUN	NOM	Plural	Not_Assigned	3	1
+333	334	GPE	0.8551546037197113	la russie	2	25	28	3	0	0	0	20	334	russie	obj	332	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+337	337	GPE	0.8717585206031799	napoléon	1	25	28	7	0	0	0	21	337	napoléon	obj	336	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+386	390	PER	0.5585222482681275	l' enfant le moins intelligent	5	29	34	0	0	0	0	22	387	enfant	nsubj	392	NOUN	NOM	Not_Assigned	Not_Assigned	3	12
+395	395	TIME	0.5594600439071655	1812	1	30	35	0	0	0	0	23	395	1812	obl:mod	392	NUM	NOM	Not_Assigned	Not_Assigned	3	
+401	401	GPE	0.6022841930389404	kalouga	1	30	35	6	0	0	0	24	401	kalouga	nmod	399	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+422	423	PER	0.6686039566993713	les historiens	2	32	38	0	0	0	0	25	423	historiens	nsubj	424	NOUN	NOM	Plural	Not_Assigned	3	1
+447	447	GPE	0.4128854274749756	russie	1	34	41	0	0	0	0	26	447	russie	nmod	444	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+452	453	PER	0.7031883001327515	l' ennemi	2	34	41	5	0	0	0	27	453	ennemi	nmod	450	NOUN	NOM	Singular	Male	3	4
+492	493	PER	0.7980693578720093	des russes	2	37	45	3	0	0	0	28	493	russes	nmod	491	NOUN	NOM	Plural	Ambiguous	3	5
+497	498	PER	0.7884855568408966	des français	2	37	45	8	0	0	0	29	498	français	nmod	496	NOUN	NOM	Plural	Ambiguous	3	13
+546	546	GPE	0.9235008358955383	moscou	1	41	51	1	0	0	0	30	546	moscou	nsubj	550	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+553	553	PER	0.7984837293624878	murat	1	41	51	8	0	0	0	31	553	murat	nsubj	557	PROPN	PROP	Singular	Male	3	14
+561	561	GPE	0.2788819968700409	russes	1	42	52	0	0	0	0	32	561	russes	obj	602	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+564	564	GPE	0.49160119891166687	napoléon	1	42	52	3	0	0	0	33	564	napoléon	nsubj	568	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+572	574	PER	0.5291376610596975	l' armée russe	3	42	52	11	0	0	0	34	573	armée	nsubj	618	NOUN	NOM	Plural	Ambiguous	3	0
+580	580	GPE	0.931850016117096	moscou	1	43	53	4	0	0	0	35	580	moscou	obj	579	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+586	586	PER	0.8131380081176758	bennigsen	1	43	53	10	0	0	0	36	586	bennigsen	nmod	584	PROPN	PROP	Singular	Not_Assigned	3	15
+589	589	PER	0.2919318675994873	barclay	1	44	54	0	0	0	0	37	589	barclay	nmod	632	PROPN	PROP	Singular	Not_Assigned	3	16
+592	592	PER	0.7857843041419983	napoléon	1	44	54	3	0	0	0	38	592	napoléon	nsubj	601	PROPN	PROP	Singular	Male	3	6
+599	599	GPE	0.9138163924217224	taroutino	1	44	54	10	0	0	0	39	599	taroutino	obl:arg	597	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+611	611	PER	0.8735247850418091	il	1	45	55	8	0	0	0	40	611	il	nsubj	613	PRON	PRON	Singular	Male	3	6
+615	615	GPE	0.929902970790863	smolensk	1	45	55	12	0	0	0	41	615	smolensk	obl:mod	613	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+618	619	PER	0.910394549369812	les français	2	46	56	0	0	0	0	42	619	français	nsubj	621	NOUN	NOM	Plural	Ambiguous	3	17
+623	623	GPE	0.9233823418617249	pétersbourg	1	46	56	5	0	0	0	43	623	pétersbourg	obl:arg	621	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+688	689	TIME	0.3249158263206482	l' heure	2	51	62	0	0	0	0	44	689	heure	nsubj	701	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+690	690	TIME	0.6358894109725952	où	1	51	62	2	0	0	0	45	690	où	iobj	694	PRON	PRON	Not_Assigned	Not_Assigned	3	
+732	739	TIME	0.6235117465257645	lors du conseil qui se tint à fili	8	55	66	0	0	1	2	46	737	tint	acl:relcl	734	VERB	PROP	Not_Assigned	Not_Assigned	3	
+732	734	TIME	0.44699453314145404	lors du conseil	3	55	66	0	1	0	0	47	734	conseil	obl:arg	732	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+739	739	GPE	0.938478946685791	fili	1	55	66	7	1	0	0	48	739	fili	obl:arg	737	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+743	745	PER	0.7769455909729004	des chefs militaires	3	55	66	11	0	0	0	49	744	chefs	nmod	742	NOUN	NOM	Plural	Ambiguous	3	3
+757	759	FAC	0.5160794059435526	le chemin de	3	56	67	11	0	0	0	50	758	chemin	nmod	752	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+760	761	GPE	0.6477945446968079	nijni -	2	57	68	0	0	0	0	51	760	nijni	nmod	816	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+762	762	GPE	0.6429202556610107	novgorod	1	57	68	2	0	0	0	52	762	novgorod	nmod	758	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+791	793	TIME	0.585203597942988	après le conseil	3	59	71	4	0	0	0	53	793	conseil	obl:mod	788	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+796	799	PER	0.7887281626462936	le commandant en chef	4	59	71	9	0	0	0	54	797	commandant	obl:arg	788	NOUN	NOM	Singular	Male	3	18
+801	801	PER	0.9461919665336609	lanskoï	1	59	71	14	0	0	0	55	801	lanskoï	conj	797	PROPN	PROP	Singular	Not_Assigned	3	19
+808	808	PER	0.9774283766746521	lanskoï	1	60	73	0	0	0	0	56	808	lanskoï	nsubj	809	PROPN	PROP	Singular	Not_Assigned	3	7
+812	812	PER	0.9885693192481995	son	1	60	73	4	0	0	0	57	812	son	det	813	DET	PRON	Singular	Ambiguous	3	7
+819	820	PER	0.43581221997737885	l' armée	2	61	74	1	0	0	0	58	820	armée	nmod	878	NOUN	NOM	Plural	Ambiguous	3	0
+827	828	LOC	0.5494207590818405	l' oka	2	61	74	9	0	0	0	59	828	oka	nmod	825	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+834	834	GPE	0.8714524507522583	toula	1	62	75	2	0	0	0	60	834	toula	nmod	832	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+837	837	GPE	0.9186672568321228	kazan	1	62	75	5	0	0	0	61	837	kazan	conj	834	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+846	846	GPE	0.9533219933509827	nijni	1	62	75	14	0	0	0	62	846	nijni	nmod	844	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+858	859	LOC	0.9018056392669678	la rivière	2	64	77	0	0	0	0	63	859	rivière	obj	921	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+864	864	PER	0.9022300839424133	leur	1	64	77	6	0	0	0	64	864	leur	obj	866	PRON	PRON	Plural	Ambiguous	3	0
+867	872	TIME	0.650959516565005	à l' entrée de l' hiver	6	64	77	9	0	0	0	65	869	entrée	obl:mod	866	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+892	893	PER	0.6906623542308807	l' armée	2	66	80	0	0	0	0	66	893	armée	nsubj	895	NOUN	NOM	Plural	Ambiguous	3	0
+905	906	PER	0.87464240193367	des français	2	67	82	2	0	0	0	67	906	français	nmod	904	NOUN	NOM	Plural	Ambiguous	3	8
+908	908	PER	0.9708446860313416	qui	1	67	82	5	0	0	0	68	908	qui	nsubj	910	PRON	PRON	Ambiguous	Ambiguous	4	8
+913	914	PER	0.7903992533683777	des russes	2	67	82	10	0	0	0	69	914	russes	nmod	912	NOUN	NOM	Plural	Ambiguous	3	5
+923	926	FAC	0.8566597402095795	les manufactures d' armes	4	68	83	6	0	0	0	70	924	manufactures	obj	919	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+940	941	PER	0.6744112074375153	l' armée	2	69	84	10	0	0	0	71	941	armée	obj	939	NOUN	NOM	Plural	Ambiguous	3	0
+956	956	GPE	0.7184086441993713	toula	1	70	86	7	0	0	0	72	956	toula	nmod	954	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+962	966	PER	0.5764560878276825	les chefs de l' armée	5	71	87	3	0	0	0	73	963	chefs	nsubj	967	NOUN	NOM	Plural	Not_Assigned	3	3
+971	971	GPE	0.8854005336761475	podolsk	1	71	87	12	0	0	0	74	971	podolsk	obl:arg	969	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+976	978	PER	0.8361971775690714	des troupes françaises	3	72	88	3	0	0	0	75	977	troupes	nmod	975	NOUN	NOM	Plural	Ambiguous	3	20
+992	992	GPE	0.9073790907859802	kalouga	1	73	89	7	0	0	0	76	992	kalouga	nmod	990	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+995	996	PER	0.6120710968971252	l' armée	2	73	89	10	0	0	0	77	996	armée	obj	994	NOUN	NOM	Plural	Ambiguous	3	0
+999	999	PER	0.8337886929512024	sa	1	74	90	2	0	0	0	78	999	sa	det	1000	DET	PRON	Singular	Ambiguous	3	0
+1002	1003	LOC	0.5374618768692017	le sud	2	74	90	5	0	0	0	79	1003	sud	nmod	1000	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1012	1012	GPE	0.572409987449646	toula	1	74	90	15	0	0	0	80	1012	toula	nmod	1010	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1014	1016	FAC	0.4356500208377838	celle de kalouga	3	75	91	0	0	1	1	81	1016	kalouga	nmod	1014	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1016	1016	GPE	0.7251866459846497	kalouga	1	75	91	2	1	0	0	82	1016	kalouga	nmod	1014	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1022	1022	GPE	0.8749249577522278	taroutino	1	75	91	8	0	0	0	83	1022	taroutino	obl:arg	1020	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1042	1042	GPE	0.7283313274383545	moscou	1	77	93	0	0	0	0	84	1042	moscou	conj	1118	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1065	1065	GPE	0.9332510232925415	taroutino	1	78	94	10	0	0	0	85	1065	taroutino	nmod	1063	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1069	1069	PER	0.6205236315727234	chacun	1	79	95	1	0	0	0	86	1069	chacun	nsubj	1070	PRON	PRON	Ambiguous	Ambiguous	3	21
+1084	1085	PER	0.7597362399101257	des chefs	2	80	96	1	0	0	0	87	1085	chefs	nmod	1083	NOUN	NOM	Plural	Ambiguous	3	3

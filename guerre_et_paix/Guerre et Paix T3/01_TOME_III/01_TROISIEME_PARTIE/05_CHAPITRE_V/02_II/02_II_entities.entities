@@ -1,0 +1,179 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+108	108	GPE	0.775098443031311	espagne	1	9	10	5	0	0	0	0	108	espagne	nmod	106	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+112	113	LOC	0.4086441695690155	au caucase	2	9	10	9	0	0	0	1	113	caucase	nmod	111	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+117	118	TIME	0.43935202062129974	en 1812	2	10	11	1	0	0	0	2	118	1812	dep	106	NUM	NOM	Not_Assigned	Not_Assigned	3	
+421	422	PER	0.5425691604614258	du soldat	2	34	38	10	0	0	0	3	422	soldat	nmod	420	NOUN	NOM	Singular	Male	3	0
+433	434	PER	0.5954993367195129	des généraux	2	35	39	6	0	0	0	4	434	généraux	nmod	432	NOUN	NOM	Plural	Ambiguous	3	17
+460	462	PER	0.6096624334653219	cet x inconnu	3	37	42	8	0	0	0	5	461	x	obj	459	NOUN	NOM	Singular	Not_Assigned	3	0
+495	497	PER	0.759627898534139	les commandants supérieurs	3	40	45	1	0	0	0	6	496	commandants	obl:agent	533	NOUN	NOM	Plural	Not_Assigned	3	18
+567	568	PER	0.6066320836544037	les hommes	2	45	50	1	0	0	0	7	568	hommes	nsubj:pass	570	NOUN	NOM	Plural	Ambiguous	3	19
+638	640	TIME	0.446642945210139	le jour seulement	3	50	58	1	0	0	0	8	639	jour	obl:mod	625	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+641	641	TIME	0.5610616207122803	où	1	50	58	4	0	0	0	9	641	où	iobj	643	PRON	PRON	Not_Assigned	Not_Assigned	3	
+642	642	PER	0.9944477081298828	nous	1	50	58	5	0	0	0	10	642	nous	nsubj	643	PRON	PRON	Plural	Ambiguous	1	6
+657	659	PER	0.3740394314130147	commandant en chef	3	52	60	0	0	0	0	11	659	chef	nmod	657	NOUN	NOM	Not_Assigned	Not_Assigned	3	20
+663	664	PER	0.6653677821159363	du soldat	2	52	60	6	0	0	0	12	664	soldat	nmod	662	NOUN	NOM	Singular	Male	3	0
+698	699	PER	0.6939261853694916	dix hommes	2	55	63	0	0	0	0	13	699	hommes	nsubj	718	NOUN	NOM	Plural	Not_Assigned	3	21
+712	716	PER	0.4915848672389984	quinze bataillons ou quinze divisions	5	56	64	2	0	0	0	14	716	divisions	conj	710	NOUN	NOM	Not_Assigned	Not_Assigned	3	22
+744	744	PER	0.8942055702209473	leur	1	58	66	4	0	0	0	15	744	leur	det	745	DET	PRON	Plural	Ambiguous	3	0
+826	827	TIME	0.4863012507557869	des guerres	2	63	72	6	0	0	0	16	827	guerres	nmod	825	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+987	988	PER	0.8477579057216644	les français	2	76	86	0	0	0	0	17	988	français	nsubj	1076	NOUN	NOM	Plural	Ambiguous	3	3
+997	997	PER	0.8153392672538757	leur	1	76	86	10	0	0	0	18	997	leur	det	998	DET	PRON	Plural	Ambiguous	3	3
+1027	1028	PER	0.7796901762485504	les russes	2	78	89	0	0	0	0	19	1028	russes	nsubj	1048	NOUN	NOM	Plural	Ambiguous	3	23
+1067	1068	PER	0.8468475937843323	les français	2	81	92	3	0	0	0	20	1068	français	obj	1066	NOUN	NOM	Plural	Ambiguous	3	3
+1099	1105	TIME	0.7244988807610103	l' entrée de l' ennemi à smolensk	7	84	95	6	0	1	2	21	1100	entrée	obl:mod	1097	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1102	1103	PER	0.687199741601944	l' ennemi	2	84	95	9	1	0	0	22	1103	ennemi	nmod	1100	NOUN	NOM	Singular	Male	3	0
+1105	1105	GPE	0.8757342100143433	smolensk	1	84	95	12	1	0	0	23	1105	smolensk	obl:mod	1097	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1115	1115	PER	0.9466586112976074	notre	1	85	96	8	0	0	0	24	1115	notre	det	1116	DET	PRON	Plural	Ambiguous	1	6
+1118	1125	PER	0.5958058945834637	des milliers d' hommes de l' armée ennemie	8	86	97	0	0	0	0	25	1124	armée	nmod	1121	NOUN	NOM	Plural	Not_Assigned	3	0
+1130	1131	PER	0.5505496561527252	des maraudeurs	2	86	97	12	0	0	0	26	1131	maraudeurs	conj	1128	NOUN	NOM	Plural	Not_Assigned	3	24
+1133	1134	PER	0.6579464375972748	des fourrageurs	2	87	98	0	0	0	0	27	1134	fourrageurs	obj	1219	NOUN	NOM	Plural	Not_Assigned	3	25
+1140	1141	PER	0.5658093690872192	nos cosaques	2	87	98	7	0	1	1	28	1141	cosaques	obl:agent	1138	NOUN	NOM	Plural	Not_Assigned	3	0
+1140	1140	PER	0.989054799079895	nos	1	87	98	7	1	0	0	29	1140	nos	det	1141	DET	PRON	Plural	Ambiguous	1	6
+1144	1145	PER	0.6984408497810364	nos paysans	2	87	98	11	0	1	1	30	1145	paysans	conj	1141	NOUN	NOM	Plural	Ambiguous	3	26
+1144	1144	PER	0.9831667542457581	nos	1	87	98	11	1	0	0	31	1144	nos	det	1145	DET	PRON	Plural	Ambiguous	1	6
+1163	1163	PER	0.8806911706924438	davidow	1	89	101	0	0	0	0	32	1163	davidow	flat:name	1251	PROPN	PROP	Singular	Not_Assigned	3	0
+1165	1166	PER	0.6420665383338928	le premier	2	89	101	2	0	0	0	33	1166	premier	advmod	1168	ADJ	NOM	Singular	Male	3	0
+1171	1171	PER	0.9941285848617554	son	1	89	101	8	0	0	0	34	1171	son	det	1172	DET	PRON	Singular	Ambiguous	3	0
+1181	1183	PER	0.5229093730449677	cette terrible massue	3	90	102	5	0	0	0	35	1183	massue	obl:arg	1179	NOUN	NOM	Singular	Not_Assigned	3	0
+1194	1195	PER	0.8002101182937622	les français	2	91	103	5	0	0	0	36	1195	français	obj	1193	NOUN	NOM	Plural	Ambiguous	3	0
+1201	1201	PER	0.9484161138534546	lui	1	91	103	12	0	0	0	37	1201	lui	obl:mod	1293	PRON	PRON	Singular	Ambiguous	3	0
+1212	1217	TIME	0.8412475685278574	le 24 du mois d' août	6	92	105	0	0	0	0	38	1213	24	obl:mod	1312	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1223	1225	PER	0.6279868682225546	partisans de davidow	3	93	106	3	0	1	1	39	1225	davidow	nmod	1223	PROPN	PROP	Singular	Not_Assigned	3	4
+1225	1225	PER	0.9934903383255005	davidow	1	93	106	5	1	0	0	40	1225	davidow	nmod	1223	PROPN	PROP	Singular	Not_Assigned	3	27
+1234	1234	PER	0.9824531078338623	son	1	94	107	3	0	0	0	41	1234	son	det	1235	DET	PRON	Singular	Ambiguous	3	0
+1249	1250	PER	0.8674043715000153	les partisans	2	96	109	0	0	0	0	42	1250	partisans	nsubj	1251	NOUN	NOM	Plural	Ambiguous	3	4
+1261	1261	PER	0.6427339315414429	eux	1	97	110	1	0	0	0	43	1261	eux	obl:mod	1356	PRON	PRON	Plural	Ambiguous	3	4
+1276	1279	TIME	0.8556435853242874	au mois d' octobre	4	98	112	0	0	0	0	44	1277	mois	obl:mod	1289	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1282	1283	PER	0.9425904154777527	les français	2	98	112	6	0	0	0	45	1283	français	nsubj	1284	NOUN	NOM	Plural	Ambiguous	3	0
+1286	1286	GPE	0.6523478627204895	smolensk	1	99	113	0	0	0	0	46	1286	smolensk	nmod	1384	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1305	1306	PER	0.5267381072044373	les uns	2	100	115	0	0	0	0	47	1306	uns	nsubj	1308	PRON	PRON	Plural	Ambiguous	3	0
+1364	1364	PER	0.7081310749053955	paysans	1	105	121	3	0	0	0	48	1364	paysans	obl:arg	1361	NOUN	NOM	Plural	Ambiguous	3	0
+1369	1369	PER	0.9550953507423401	qui	1	105	121	8	0	0	0	49	1369	qui	nsubj	1370	PRON	PRON	Ambiguous	Ambiguous	4	0
+1373	1373	PER	0.7162463068962097	on	1	106	123	0	0	0	0	50	1373	on	nsubj	1374	PRON	PRON	Ambiguous	Ambiguous	3	28
+1375	1376	PER	0.7323716878890991	un sacristain	2	106	123	2	0	0	0	51	1376	sacristain	obj	1374	NOUN	NOM	Singular	Male	3	0
+1377	1377	PER	0.9494830965995789	qui	1	106	123	4	0	0	0	52	1377	qui	nsubj	1494	PRON	PRON	Ambiguous	Ambiguous	4	0
+1390	1393	PER	0.7836256325244904	quelques centaines de prisonniers	4	107	124	2	0	0	0	53	1391	centaines	obj	1389	NOUN	NOM	Plural	Not_Assigned	3	29
+1396	1398	PER	0.7833037972450256	une certaine starostine	3	107	124	8	0	0	0	54	1398	starostine	conj	1389	NOUN	NOM	Singular	Not_Assigned	3	0
+1399	1399	PER	0.38992008566856384	vassillissa	1	108	125	0	0	0	0	55	1399	vassillissa	nmod	1398	PROPN	PROP	Singular	Not_Assigned	3	0
+1400	1400	PER	0.9734400510787964	qui	1	108	125	1	0	0	0	56	1400	qui	nsubj	1402	PRON	PRON	Ambiguous	Ambiguous	4	0
+1412	1421	TIME	0.6309406638145447	tout son développement à la fin du mois d' octobre	10	109	126	1	0	1	1	57	1417	fin	obl:mod	1411	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1416	1421	TIME	0.7754396796226501	la fin du mois d' octobre	6	109	126	5	1	0	0	58	1417	fin	obl:mod	1411	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1424	1424	PER	0.4899173676967621	les	1	109	126	13	0	0	0	59	1424	les	det	1534	DET	PRON	Plural	Ambiguous	3	4
+1425	1425	PER	0.4946213662624359	partisans	1	110	127	0	0	0	0	60	1425	partisans	nsubj	1448	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+1429	1429	PER	0.9749575853347778	leur	1	110	127	4	0	0	0	61	1429	leur	det	1431	DET	PRON	Plural	Ambiguous	3	4
+1444	1445	PER	0.7198994159698486	l' ennemi	2	111	128	5	0	0	0	62	1445	ennemi	obl:agent	1442	NOUN	NOM	Singular	Male	3	0
+1450	1451	LOC	0.8958795070648193	les forêts	2	111	128	11	0	0	0	63	1451	forêts	obl:mod	1448	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1456	1457	VEH	0.8913945257663727	leurs chevaux	2	112	129	2	0	1	1	64	1457	chevaux	obj	1454	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1456	1456	PER	0.9341554045677185	leurs	1	112	129	2	1	0	0	65	1456	leurs	det	1457	DET	PRON	Plural	Ambiguous	3	0
+1470	1470	PER	0.8925666213035583	il	1	113	131	3	0	0	0	66	1470	il	nsubj	1471	PRON	PRON	Singular	Male	3	0
+1474	1476	PER	0.5890864829222361	les petits détachements	3	113	132	0	0	0	0	67	1476	détachements	nsubj	1482	NOUN	NOM	Plural	Not_Assigned	3	0
+1477	1477	PER	0.6054285168647766	qui	1	113	132	3	0	0	0	68	1477	qui	nsubj	1593	PRON	PRON	Ambiguous	Ambiguous	4	0
+1487	1488	PER	0.9277511239051819	les français	2	114	133	7	0	0	0	69	1488	français	obl:mod	1484	NOUN	NOM	Plural	Ambiguous	3	0
+1511	1515	PER	0.49750648736953734	aux cosaques et aux paysans	5	116	136	1	0	1	1	70	1512	cosaques	obl:mod	1646	NOUN	NOM	Plural	Not_Assigned	3	0
+1514	1515	PER	0.44200706481933594	aux paysans	2	116	136	4	1	0	0	71	1515	paysans	conj	1512	NOUN	NOM	Plural	Ambiguous	3	0
+1516	1516	PER	0.8725953102111816	qui	1	116	136	6	0	0	0	72	1516	qui	nsubj	1633	PRON	PRON	Ambiguous	Ambiguous	4	0
+1524	1526	PER	0.5137011508146921	des troupes ennemies	3	117	137	7	0	0	0	73	1525	troupes	nmod	1523	NOUN	NOM	Plural	Ambiguous	3	0
+1528	1528	PER	0.9514147639274597	ils	1	117	137	11	0	0	0	74	1528	ils	nsubj	1646	PRON	PRON	Plural	Ambiguous	3	0
+1533	1535	TIME	0.9322751561800638	le 23 octobre	3	119	139	0	0	0	0	75	1534	23	obl:mod	1540	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1537	1537	PER	0.9846224188804626	denissow	1	119	139	4	0	0	0	76	1537	denissow	nsubj:pass	1540	PROPN	PROP	Singular	Not_Assigned	3	0
+1542	1542	PER	0.9976993203163147	sa	1	119	139	9	0	0	0	77	1542	sa	det	1543	DET	PRON	Singular	Ambiguous	3	0
+1555	1555	PER	0.9911667704582214	son	1	120	140	7	0	0	0	78	1555	son	det	1556	DET	PRON	Singular	Ambiguous	3	0
+1558	1558	PER	0.9992693066596985	il	1	120	141	0	0	0	0	79	1558	il	nsubj	1559	PRON	PRON	Singular	Male	3	0
+1561	1562	TIME	0.5669161081314087	la veille	2	121	142	0	0	0	0	80	1562	veille	obl:mod	1681	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1568	1569	LOC	0.9373542964458466	la forêt	2	121	142	7	0	0	0	81	1569	forêt	obl:arg	1566	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1570	1570	LOC	0.7978761196136475	qui	1	121	142	9	0	0	0	82	1570	qui	nsubj	1571	PRON	PRON	Not_Assigned	Not_Assigned	4	
+1572	1573	FAC	0.6429266929626465	la grand'route	2	121	142	11	0	0	0	83	1573	grand'route	obj	1571	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1592	1592	GPE	0.9012056589126587	smolensk	1	123	144	5	0	0	0	84	1592	smolensk	obl:arg	1587	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1596	1596	PER	0.9935728311538696	lui	1	123	144	9	0	0	0	85	1596	lui	dep	1721	PRON	PRON	Singular	Ambiguous	3	0
+1599	1600	PER	0.8774231374263763	les espions	2	124	145	1	0	0	0	86	1600	espions	nsubj	1598	NOUN	NOM	Plural	Not_Assigned	3	30
+1605	1605	PER	0.9939821362495422	denissow	1	124	146	3	0	0	0	87	1605	denissow	dep	1602	PROPN	PROP	Singular	Not_Assigned	3	7
+1607	1607	PER	0.9898025393486023	qui	1	124	146	5	0	0	0	88	1607	qui	nsubj	1608	PRON	PRON	Ambiguous	Ambiguous	4	7
+1610	1610	PER	0.9923811554908752	sa	1	124	146	8	0	0	0	89	1610	sa	det	1735	DET	PRON	Singular	Ambiguous	3	7
+1620	1621	VEH	0.759473592042923	ce convoi	2	125	147	9	0	0	0	90	1621	convoi	nmod	1618	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1625	1635	PER	0.7093879174102437	des chefs des grands détachements et de l' état - major	11	126	148	1	0	1	1	91	1629	détachements	nmod	1626	NOUN	NOM	Plural	Not_Assigned	3	5
+1627	1629	PER	0.5028619468212128	des grands détachements	3	126	148	3	1	0	0	92	1629	détachements	nmod	1626	NOUN	NOM	Plural	Not_Assigned	3	31
+1637	1639	PER	0.5210466782251993	deux d' entre	3	126	149	0	0	0	0	93	1638	d'	case	1766	ADP	PRON	Plural	Not_Assigned	3	5
+1640	1640	PER	0.9053204655647278	eux	1	127	150	0	0	0	0	94	1640	eux	nmod	1637	PRON	PRON	Plural	Ambiguous	3	5
+1642	1646	PER	0.5752716958522797	un polonais et un allemand	5	127	150	2	0	1	2	95	1643	polonais	appos	1637	NOUN	NOM	Plural	Not_Assigned	3	5
+1642	1643	PER	0.8872044384479523	un polonais	2	127	150	2	1	0	0	96	1643	polonais	appos	1637	NOUN	NOM	Singular	Not_Assigned	3	32
+1645	1646	PER	0.9328810274600983	un allemand	2	127	150	5	1	0	0	97	1646	allemand	conj	1643	NOUN	NOM	Singular	Male	3	33
+1651	1651	PER	0.992631196975708	denissow	1	127	150	11	0	0	0	98	1651	denissow	obl:arg	1649	PROPN	PROP	Singular	Not_Assigned	3	1
+1653	1653	PER	0.9027702808380127	chacun	1	127	150	13	0	0	0	99	1653	chacun	case	1781	PRON	PRON	Ambiguous	Ambiguous	3	5
+1655	1655	PER	0.9724264740943909	son	1	128	151	1	0	0	0	100	1655	son	det	1656	DET	PRON	Singular	Ambiguous	3	1
+1659	1659	PER	0.9984349608421326	il	1	128	151	5	0	0	0	101	1659	il	nsubj	1661	PRON	PRON	Singular	Male	3	1
+1666	1666	PER	0.9715161919593811	eux	1	128	151	12	0	0	0	102	1666	eux	obl:arg	1664	PRON	PRON	Plural	Ambiguous	3	1
+1677	1677	PER	0.8123738169670105	tous	1	129	152	6	0	0	0	103	1677	tous	nsubj	1678	PRON	PRON	Plural	Ambiguous	3	1
+1683	1684	PER	0.9774060547351837	mon ami	2	129	152	12	0	1	1	104	1684	ami	obl:mod	1687	NOUN	NOM	Singular	Male	3	1
+1683	1683	PER	0.9928334951400757	mon	1	129	152	12	1	0	0	105	1683	mon	det	1684	DET	PRON	Singular	Ambiguous	1	1
+1686	1686	PER	0.9827625751495361	j'	1	129	152	15	0	0	0	106	1686	j'	nsubj	1687	PRON	PRON	Singular	Ambiguous	1	1
+1688	1690	PER	0.9308850566546122	moi - même	3	130	153	0	0	0	0	107	1688	moi	nsubj	1817	PRON	PRON	Singular	Ambiguous	1	1
+1698	1698	PER	0.9896194338798523	denissow	1	130	153	10	0	0	0	108	1698	denissow	nsubj	1697	PROPN	PROP	Singular	Not_Assigned	3	8
+1701	1701	PER	0.9967558979988098	leurs	1	130	153	13	0	0	0	109	1701	leurs	det	1702	DET	PRON	Plural	Ambiguous	3	1
+1705	1705	PER	0.9972143769264221	il	1	130	153	17	0	0	0	110	1705	il	nsubj	1836	PRON	PRON	Singular	Male	3	8
+1708	1709	PER	0.9478306174278259	l' allemand	2	131	154	2	0	0	0	111	1709	allemand	obl:arg	1706	NOUN	NOM	Singular	Male	3	0
+1721	1727	PER	0.517382800579071	un chef aussi célèbre et aussi brave	7	132	155	1	0	0	0	112	1722	chef	obl:agent	1851	NOUN	NOM	Not_Assigned	Not_Assigned	3	1
+1729	1729	PER	0.9975837469100952	il	1	132	155	9	0	0	0	113	1729	il	nsubj	1731	PRON	PRON	Singular	Male	3	1
+1739	1739	PER	0.9986715316772461	il	1	133	156	4	0	0	0	114	1739	il	nsubj	1743	PRON	PRON	Singular	Male	3	1
+1747	1748	PER	0.6825723946094513	au général	2	133	156	12	0	0	0	115	1748	général	obl:arg	1746	NOUN	NOM	Singular	Male	3	2
+1749	1749	PER	0.28681695461273193	polonais	1	134	157	0	0	0	0	116	1749	polonais	amod	1882	ADJ	NOM	Not_Assigned	Not_Assigned	3	2
+1753	1754	PER	0.9352681040763855	ce dernier	2	134	157	4	0	0	0	117	1754	dernier	ROOT	1754	ADJ	NOM	Singular	Male	3	2
+1757	1757	PER	0.9986987113952637	il	1	134	157	8	0	0	0	118	1757	il	nsubj	1759	PRON	PRON	Singular	Male	3	2
+1760	1760	PER	0.9941322207450867	son	1	134	157	11	0	0	0	119	1760	son	det	1761	DET	PRON	Singular	Ambiguous	3	2
+1762	1763	PER	0.5796616673469543	au général	2	134	157	13	0	0	0	120	1763	général	obl:arg	1759	NOUN	NOM	Singular	Male	3	2
+1766	1766	PER	0.910337507724762	denissow	1	135	159	0	0	0	0	121	1766	denissow	nsubj:pass	1769	PROPN	PROP	Singular	Not_Assigned	3	9
+1773	1774	VEH	0.72678542137146	du convoi	2	135	159	7	0	0	0	122	1774	convoi	obl:arg	1772	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1779	1779	PER	0.9925731420516968	dologhow	1	136	160	1	0	0	0	123	1779	dologhow	nmod	1913	PROPN	PROP	Singular	Not_Assigned	3	0
+1783	1783	PER	0.9896923899650574	son	1	136	160	5	0	0	0	124	1783	son	det	1784	DET	PRON	Singular	Ambiguous	3	9
+1789	1790	VEH	0.5998979061841965	ce convoi	2	136	161	0	0	0	0	125	1790	convoi	nsubj	1927	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1794	1796	TIME	0.8678767283757528	le 22 octobre	3	137	162	3	0	0	0	126	1795	22	obl:mod	1792	NUM	NOM	Not_Assigned	Not_Assigned	3	
+1798	1801	GPE	0.39886387437582016	du village de mikouline	4	137	162	7	0	0	0	127	1799	village	obl:arg	1792	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+1805	1805	PER	0.18869245052337646	schamschew	1	138	163	0	0	0	0	128	1805	schamschew	nmod	1942	PROPN	PROP	Singular	Not_Assigned	3	0
+1811	1813	LOC	0.8429996768633524	une profonde forêt	3	138	163	6	0	0	0	129	1813	forêt	nsubj	1815	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1821	1822	FAC	0.8532345294952393	la route	2	139	164	4	0	0	0	130	1822	route	nmod	1819	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1838	1839	LOC	0.9537327587604523	cette forêt	2	140	165	3	0	0	0	131	1839	forêt	ROOT	1839	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1841	1841	PER	0.9409593939781189	denissow	1	140	165	6	0	0	0	132	1841	denissow	nsubj	1846	PROPN	PROP	Singular	Not_Assigned	3	10
+1843	1844	PER	0.5944554060697556	les siens	2	140	165	8	0	1	1	133	1844	siens	conj	1841	NOUN	PRON	Plural	Ambiguous	3	34
+1844	1844	PER	0.8683756589889526	siens	1	140	165	9	1	0	0	134	1844	siens	conj	1841	NOUN	PRON	Not_Assigned	Ambiguous	3	10
+1849	1849	FAC	0.6780008673667908	en	1	141	166	0	0	0	0	135	1849	en	iobj	1850	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1861	1862	PER	0.9127253890037537	des français	2	141	166	12	0	0	0	136	1862	français	nmod	1860	NOUN	NOM	Plural	Ambiguous	3	0
+1865	1865	PER	0.3571426570415497	cosaques	1	142	168	0	0	0	0	137	1865	cosaques	nsubj	1867	NOUN	NOM	Not_Assigned	Not_Assigned	3	1
+1875	1876	TIME	0.6591488569974899	la matinée	2	142	168	10	0	0	0	138	1876	matinée	obl:mod	1873	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1878	1880	VEH	0.6723440885543823	deux fourgons ennemis	3	143	169	0	0	0	0	139	1879	fourgons	obj	1873	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1889	1889	VEH	0.8592124581336975	qui	1	143	169	11	0	0	0	140	1889	qui	nsubj	2035	PRON	PRON	Not_Assigned	Not_Assigned	4	
+1898	1898	PER	0.9989481568336487	ils	1	144	171	4	0	0	0	141	1898	ils	nsubj	1900	PRON	PRON	Plural	Ambiguous	3	1
+1902	1902	PER	0.9438944458961487	leur	1	144	171	8	0	0	0	142	1902	leur	det	1903	DET	PRON	Plural	Ambiguous	3	1
+1913	1914	VEH	0.6108549535274506	le tout	2	145	172	8	0	0	0	143	1914	tout	obj	1912	PRON	PRON	Not_Assigned	Not_Assigned	3	
+1919	1919	GPE	0.23117195069789886	schamschew	1	146	173	0	0	0	0	144	1919	schamschew	obj	2064	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+1929	1929	PER	0.9971543550491333	dologhow	1	146	173	10	0	0	0	145	1929	dologhow	obl:arg	1927	PROPN	PROP	Singular	Not_Assigned	3	11
+1931	1931	PER	0.9862475991249084	qui	1	146	173	12	0	0	0	146	1931	qui	nsubj	1932	PRON	PRON	Ambiguous	Ambiguous	4	11
+1938	1940	LOC	0.8168518543243408	un bois avoisinant	3	147	174	3	0	0	0	147	1939	bois	obl:mod	1933	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1945	1945	PER	0.9965176582336426	eux	1	147	174	10	0	0	0	148	1945	eux	obl:arg	1943	PRON	PRON	Plural	Ambiguous	3	1
+1960	1961	PER	0.9575689435005188	les français	2	148	175	10	0	0	0	149	1961	français	nmod	1958	NOUN	NOM	Plural	Ambiguous	3	3
+1964	1964	PER	0.9036986231803894	les	1	148	175	14	0	0	0	150	1964	les	obj	1965	PRON	PRON	Plural	Ambiguous	3	3
+1969	1971	VEH	0.6054522395133972	tout le convoi	3	149	176	2	0	0	0	151	1971	convoi	obj	1968	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+1973	1974	PER	0.8134182989597321	six cosaques	2	149	177	0	0	0	0	152	1974	cosaques	nsubj:pass	1976	NOUN	NOM	Plural	Not_Assigned	3	35
+1996	1996	PER	0.9593008160591125	denissow	1	151	180	0	0	0	0	153	1996	denissow	nsubj	2000	PROPN	PROP	Singular	Not_Assigned	3	36
+2005	2005	PER	0.987379789352417	dologhow	1	151	180	9	0	0	0	154	2005	dologhow	nsubj	2006	PROPN	PROP	Singular	Not_Assigned	3	12
+2011	2011	PER	0.9679885506629944	ses	1	152	181	3	0	0	0	155	2011	ses	det	2012	DET	PRON	Singular	Ambiguous	3	12
+2029	2030	VEH	0.7588112950325012	le transport	2	153	182	4	0	0	0	156	2030	transport	obl:mod	2025	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+2041	2041	PER	0.9643465876579285	denissow	1	154	183	3	0	0	0	157	2041	denissow	obj	2039	PROPN	PROP	Singular	Not_Assigned	3	13
+2046	2046	PER	0.9985347986221313	lui	1	154	184	3	0	0	0	158	2046	lui	iobj	2048	PRON	PRON	Singular	Ambiguous	3	13
+2076	2081	PER	0.595668782790502	des hommes de la colonne ennemie	6	156	187	13	0	1	1	159	2080	colonne	nmod	2077	NOUN	NOM	Not_Assigned	Not_Assigned	3	0
+2079	2081	PER	0.5667324264844259	la colonne ennemie	3	156	187	16	1	0	0	160	2080	colonne	nmod	2077	NOUN	NOM	Singular	Not_Assigned	3	0
+2083	2083	PER	0.9639106392860413	ils	1	157	188	0	0	0	0	161	2083	ils	ROOT	2083	PRON	PRON	Plural	Ambiguous	3	0
+2087	2089	TIME	0.6294234395027161	dans la matinée	3	157	188	4	0	0	0	162	2089	matinée	obl:mod	2085	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+2097	2098	VEH	0.5904254764318466	deux fourgons	2	158	189	0	0	0	0	163	2098	fourgons	obj	2085	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+2101	2102	PER	0.8601873517036438	les soldats	2	158	189	4	0	0	0	164	2102	soldats	nsubj:pass	2267	NOUN	NOM	Plural	Ambiguous	3	14
+2103	2103	PER	0.7487077713012695	qui	1	158	189	6	0	0	0	165	2103	qui	nsubj	2105	PRON	PRON	Ambiguous	Ambiguous	4	14
+2104	2104	VEH	0.754887044429779	les	1	158	189	7	0	0	0	166	2104	les	obj	2105	PRON	PRON	Not_Assigned	Not_Assigned	3	
+2119	2121	PER	0.842884878317515	un petit tambour	3	159	190	10	0	0	0	167	2121	tambour	obj	2116	NOUN	NOM	Singular	Not_Assigned	3	0
+2122	2122	PER	0.9573698043823242	qui	1	159	190	13	0	0	0	168	2122	qui	nsubj	2124	PRON	PRON	Ambiguous	Ambiguous	4	0
+2126	2127	PER	0.38048607110977173	les traînards	2	160	191	1	0	0	0	169	2127	traînards	obl:arg	2284	NOUN	NOM	Plural	Not_Assigned	3	0
+2130	2130	PER	0.9021484851837158	qui	1	160	191	5	0	0	0	170	2130	qui	nsubj	2133	PRON	PRON	Ambiguous	Ambiguous	4	0
+2134	2134	PER	0.9877836108207703	les	1	160	191	9	0	0	0	171	2134	les	obj	2135	PRON	PRON	Plural	Ambiguous	3	0
+2153	2153	PER	0.983734130859375	denissow	1	162	194	0	0	0	0	172	2153	denissow	nsubj	2154	PROPN	PROP	Singular	Not_Assigned	3	15
+2156	2156	PER	0.9983763694763184	-il	1	162	194	3	0	0	0	173	2156	il	dep	2154	PRON	PRON	Singular	Male	3	15
+2160	2160	GPE	0.8050490021705627	schamschew	1	162	194	7	0	0	0	174	2160	schamschew	obl:arg	2157	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+2161	2163	PER	0.6689743101596832	le paysan tikhone	3	162	194	8	0	0	0	175	2162	paysan	obj	2157	NOUN	PROP	Singular	Male	3	16
+2164	2164	PER	0.5297362804412842	stcherbatow	1	163	195	0	0	0	0	176	2164	stcherbatow	flat:name	2326	PROPN	PROP	Singular	Not_Assigned	3	16
+2177	2177	PER	0.2424943745136261	fourriers	1	164	196	0	0	0	0	177	2177	fourriers	obj	2167	NOUN	NOM	Not_Assigned	Not_Assigned	3	37

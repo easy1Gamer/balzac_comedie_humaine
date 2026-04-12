@@ -1,0 +1,63 @@
+start_token	end_token	cat	confidence	text	mention_len	paragraph_ID	sentence_ID	start_token_ID_within_sentence	out_to_in_nested_level	in_to_out_nested_level	nested_entities_count	temp_index	head_id	head_word	head_dependency_relation	head_syntactic_head_ID	POS_tag	prop	number	gender	grammatical_person	COREF
+2	7	TIME	0.4584497461716334	l' entrée des français en russie	6	1	1	1	0	1	2	0	3	entrée	obl:mod	14	NOUN	PROP	Not_Assigned	Not_Assigned	3	
+4	5	PER	0.8045720756053925	des français	2	1	1	3	1	0	0	1	5	français	nmod	3	NOUN	NOM	Plural	Ambiguous	3	0
+7	7	GPE	0.7703223824501038	russie	1	1	1	6	1	0	0	2	7	russie	nmod	3	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+9	9	GPE	0.9068942666053772	moscou	1	1	1	8	0	0	0	3	9	moscou	nsubj	14	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+12	12	PER	0.9780642986297607	eux	1	1	1	11	0	0	0	4	12	eux	obl:mod	14	PRON	PRON	Plural	Ambiguous	3	0
+18	18	PER	0.9391748905181885	leur	1	2	2	3	0	0	0	5	18	leur	det	19	DET	PRON	Plural	Ambiguous	3	0
+64	66	TIME	0.7232589920361837	dans sa journée	3	5	6	2	0	1	1	6	66	journée	obl:mod	62	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+65	65	PER	0.7353265285491943	sa	1	5	6	3	1	0	0	7	65	sa	det	66	DET	PRON	Singular	Ambiguous	3	2
+70	71	TIME	0.912701815366745	le soir	2	5	6	8	0	0	0	8	71	soir	obl:mod	69	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+73	76	TIME	0.7956242561340332	le repos du soir	4	5	6	11	0	1	1	9	74	repos	nsubj	82	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+75	76	TIME	0.5273938179016113	du soir	2	5	6	13	1	0	0	10	76	soir	nmod	74	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+79	79	PER	0.7816992998123169	sa	1	6	7	2	0	0	0	11	79	sa	det	80	DET	PRON	Singular	Ambiguous	3	2
+92	92	PER	0.9523140788078308	ses	1	7	8	1	0	0	0	12	92	ses	det	93	DET	PRON	Singular	Ambiguous	3	2
+96	96	PER	0.9434533715248108	ses	1	7	8	5	0	0	0	13	96	ses	det	97	DET	PRON	Singular	Ambiguous	3	2
+99	99	GPE	0.7262380123138428	smolensk	1	7	9	0	0	0	0	14	99	smolensk	nsubj	103	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+106	107	PER	0.9704245924949646	les français	2	8	10	2	0	0	0	15	107	français	ROOT	107	NOUN	NOM	Plural	Ambiguous	3	0
+109	110	FAC	0.5899981409311295	le chemin	2	8	10	5	0	0	0	16	110	chemin	ROOT	110	NOUN	NOM	Not_Assigned	Not_Assigned	3	
+112	112	PER	0.9837644696235657	ils	1	8	10	8	0	0	0	17	112	ils	nsubj	115	PRON	PRON	Plural	Ambiguous	3	0
+119	119	PER	0.993794322013855	ils	1	9	11	1	0	0	0	18	119	ils	nsubj	122	PRON	PRON	Plural	Ambiguous	3	0
+125	125	GPE	0.4046406149864197	y	1	9	11	7	0	0	0	19	125	y	iobj	126	PRON	PRON	Not_Assigned	Not_Assigned	3	
+138	138	GPE	0.34494033455848694	y	1	10	12	6	0	0	0	20	138	y	iobj	139	PRON	PRON	Not_Assigned	Not_Assigned	3	
+143	143	PER	0.9889196753501892	leur	1	10	12	11	0	0	0	21	143	leur	iobj	144	PRON	PRON	Plural	Ambiguous	3	0
+153	153	PER	0.9807182550430298	leurs	1	11	13	6	0	0	0	22	153	leurs	det	154	DET	PRON	Plural	Ambiguous	3	0
+177	177	PER	0.8546250462532043	leur	1	13	16	3	0	0	0	23	177	leur	iobj	178	PRON	PRON	Plural	Ambiguous	3	0
+194	196	PER	0.759637455145518	cette masse énorme	3	14	18	0	0	0	0	24	195	masse	nsubj	207	NOUN	NOM	Plural	Ambiguous	3	0
+216	216	PER	0.548338770866394	ses	1	15	20	2	0	0	0	25	216	ses	det	232	DET	PRON	Singular	Ambiguous	3	0
+217	217	PER	0.5066770911216736	soldats	1	16	21	0	0	0	0	26	217	soldats	ROOT	217	NOUN	NOM	Plural	Ambiguous	3	0
+232	232	PER	0.9277967810630798	il	1	17	22	2	0	0	0	27	232	il	nsubj	233	PRON	PRON	Singular	Male	3	0
+238	238	PER	0.9553807377815247	tous	1	17	22	8	0	0	0	28	238	tous	nsubj	239	PRON	PRON	Plural	Ambiguous	3	0
+264	265	PER	0.44769684970378876	des troupes	2	19	24	9	0	0	0	29	265	troupes	nmod	263	NOUN	NOM	Plural	Ambiguous	3	0
+293	295	PER	0.7968147794405619	des généraux russes	3	23	28	1	0	0	0	30	294	généraux	nmod	292	NOUN	NOM	Plural	Ambiguous	3	0
+301	301	PER	0.99359530210495	koutouzow	1	23	28	9	0	0	0	31	301	koutouzow	nmod	299	PROPN	PROP	Singular	Not_Assigned	3	6
+309	314	PER	0.5135365625222524	les officiers supérieurs de l' armée	6	24	29	3	0	0	0	32	310	officiers	nsubj	315	NOUN	NOM	Plural	Not_Assigned	3	7
+322	323	PER	0.843428373336792	aux français	2	25	30	3	0	0	0	33	323	français	nmod	321	NOUN	NOM	Plural	Ambiguous	3	0
+326	326	PER	0.9267297983169556	leur	1	25	30	7	0	0	0	34	326	leur	iobj	327	PRON	PRON	Plural	Ambiguous	3	0
+332	332	PER	0.7808303236961365	les	1	25	30	13	0	0	0	35	332	les	obj	358	PRON	PRON	Plural	Ambiguous	3	0
+335	335	PER	0.9794817566871643	tous	1	26	31	2	0	0	0	36	335	tous	nsubj	336	PRON	PRON	Plural	Ambiguous	3	0
+338	338	PER	0.9369494915008545	les	1	26	31	5	0	0	0	37	338	les	obj	339	PRON	PRON	Plural	Ambiguous	3	0
+341	341	PER	0.6483049392700195	koutouzow	1	26	32	0	0	0	0	38	341	koutouzow	nsubj	343	PROPN	PROP	Singular	Not_Assigned	3	1
+345	345	PER	0.9915697574615479	ses	1	27	33	1	0	0	0	39	345	ses	det	346	DET	PRON	Singular	Ambiguous	3	1
+369	369	PER	0.8966723084449768	son	1	28	34	11	0	0	0	40	369	son	det	398	DET	PRON	Singular	Ambiguous	3	1
+371	371	PER	0.9915367364883423	le	1	29	35	1	0	0	0	41	371	le	obj	372	PRON	PRON	Singular	Male	3	1
+374	374	PER	0.9944506883621216	le	1	29	35	4	0	0	0	42	374	le	obj	375	PRON	PRON	Singular	Male	3	1
+381	381	GPE	0.8892313241958618	viazma	1	29	36	1	0	0	0	43	381	viazma	obl:mod	413	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+384	391	PER	0.6449245363473892	yermolow , miloradovitch , platow et d' autres	8	30	37	0	0	1	4	44	384	yermolow	nsubj	402	PROPN	PROP	Plural	Not_Assigned	3	3
+384	384	PER	0.9349696040153503	yermolow	1	30	37	0	1	0	0	45	384	yermolow	nsubj	402	PROPN	PROP	Singular	Not_Assigned	3	8
+386	386	PER	0.9826929569244385	miloradovitch	1	30	37	2	1	0	0	46	386	miloradovitch	conj	384	PROPN	PROP	Singular	Not_Assigned	3	9
+388	388	PER	0.9808663129806519	platow	1	30	37	4	1	0	0	47	388	platow	conj	384	PROPN	PROP	Singular	Not_Assigned	3	10
+390	391	PER	0.5348461717367172	d' autres	2	30	37	6	1	0	0	48	391	autres	conj	384	ADJ	NOM	Plural	Ambiguous	3	11
+398	399	PER	0.8911819756031036	des français	2	31	38	1	0	0	0	49	399	français	nmod	397	NOUN	NOM	Plural	Ambiguous	3	0
+413	413	PER	0.9955329895019531	koutouzow	1	32	40	2	0	0	0	50	413	koutouzow	obj	412	PROPN	PROP	Singular	Not_Assigned	3	4
+415	415	PER	0.9858851432800293	leurs	1	32	40	4	0	0	0	51	415	leurs	det	416	DET	PRON	Plural	Ambiguous	3	3
+418	418	PER	0.9981864094734192	ils	1	32	40	7	0	0	0	52	418	ils	nsubj	420	PRON	PRON	Plural	Ambiguous	3	3
+419	419	PER	0.9956867098808289	lui	1	32	40	8	0	0	0	53	419	lui	iobj	420	PRON	PRON	Singular	Ambiguous	3	4
+440	440	PER	0.9949761629104614	eux	1	34	42	0	0	0	0	54	440	eux	nmod	434	PRON	PRON	Plural	Ambiguous	3	3
+451	451	GPE	0.7105847001075745	napoléon	1	34	42	11	0	0	0	55	451	napoléon	obl:arg	447	PROPN	PROP	Not_Assigned	Not_Assigned	3	
+460	463	PER	0.9007661044597626	du commandant en chef	4	35	43	4	0	0	0	56	461	commandant	nmod	459	NOUN	NOM	Singular	Male	3	1
+469	471	PER	0.4305178125699361	régiments d' infanterie	3	36	45	0	0	0	0	57	471	infanterie	nmod	469	NOUN	NOM	Not_Assigned	Not_Assigned	3	5
+484	487	PER	0.7487552911043167	quelques milliers d' hommes	4	37	46	2	0	0	0	58	485	milliers	obj	483	NOUN	NOM	Plural	Not_Assigned	3	12
+498	498	PER	0.9850953221321106	ils	1	38	47	2	0	0	0	59	498	ils	nsubj	500	PRON	PRON	Plural	Ambiguous	3	5
+503	505	PER	0.8841286500295004	l' armée française	3	38	47	7	0	0	0	60	504	armée	nsubj	506	NOUN	NOM	Plural	Ambiguous	3	0
+523	523	GPE	0.938742458820343	smolensk	1	39	48	12	0	0	0	61	523	smolensk	nmod	520	PROPN	PROP	Not_Assigned	Not_Assigned	3	
